@@ -7618,7 +7618,7 @@
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
-	(label "SIG_IGNITION"
+	(label "SIG_INJECTOR"
 		(at 121.92 86.36 0)
 		(effects
 			(font
@@ -7647,6 +7647,16 @@
 			(justify left bottom)
 		)
 		(uuid "99f84b2d-689e-45d7-8243-dcf376299535")
+	)
+	(label "SIG_INJECTOR"
+		(at 121.92 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a865672-2155-4ce2-8b47-1e48cd390b93")
 	)
 	(label "SIG_THROTTLE_POSITION"
 		(at 121.92 68.58 0)
@@ -7677,6 +7687,16 @@
 			(justify left bottom)
 		)
 		(uuid "db4cf175-cfa0-4028-aab5-46f01ea1f5fb")
+	)
+	(label "SIG_INJECTOR"
+		(at 121.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edb45cd5-b1a8-468b-8333-aa1d3c58e0f0")
 	)
 	(symbol
 		(lib_id "power:GND")
