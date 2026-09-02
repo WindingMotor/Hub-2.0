@@ -616,7 +616,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 106.68 91.44 0)
+		(at 96.52 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -624,10 +624,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45144048-3b29-4d89-8177-a2e777dff3f4")
 		(property "Reference" "#PWR02"
-			(at 106.68 95.25 0)
+			(at 92.71 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -638,7 +637,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 106.68 86.36 0)
+			(at 101.092 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -648,7 +647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 91.44 0)
+			(at 96.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -659,7 +658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 91.44 0)
+			(at 96.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -670,7 +669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 91.44 0)
+			(at 96.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
