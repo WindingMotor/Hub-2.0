@@ -7598,7 +7598,7 @@
 		)
 		(uuid "27f5ee4d-f115-421e-84f1-494aad55f52c")
 	)
-	(label "PWR_3V"
+	(label "PWR_3V3"
 		(at 121.92 96.52 0)
 		(effects
 			(font
