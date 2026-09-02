@@ -7618,6 +7618,16 @@
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
+	(label "SIG_IGNITION"
+		(at 121.92 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d8c6420-c286-400a-8b4b-30eadbc14441")
+	)
 	(label "SIG_CAN_LOW"
 		(at 121.92 78.74 0)
 		(effects
@@ -7648,7 +7658,7 @@
 		)
 		(uuid "cdee9811-64d9-4b5a-b510-018bb4a3ba4e")
 	)
-	(label "SIG_CAN_LOW"
+	(label "SIG_IGNITION"
 		(at 121.92 83.82 0)
 		(effects
 			(font
