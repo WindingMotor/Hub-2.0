@@ -7588,6 +7588,16 @@
 			"p47le17Wz6nNr36T/w/g/z4U/XnuwwAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "SIG_MAP"
+		(at 121.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27f5ee4d-f115-421e-84f1-494aad55f52c")
+	)
 	(label "SIG_INTAKE_TEMP"
 		(at 121.92 66.04 0)
 		(effects
@@ -7608,7 +7618,7 @@
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
-	(label "SIG_THROTTLE_POSITION"
+	(label "SIG_MAP"
 		(at 121.92 71.12 0)
 		(effects
 			(font
