@@ -1065,6 +1065,17 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 106.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d87903ae-9c69-43e0-bff3-672c80e46f66")
 		)
