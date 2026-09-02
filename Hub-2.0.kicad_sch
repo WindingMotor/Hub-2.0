@@ -7648,6 +7648,16 @@
 		)
 		(uuid "cdee9811-64d9-4b5a-b510-018bb4a3ba4e")
 	)
+	(label "SIG_CAN_LOW"
+		(at 121.92 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf65b28d-b2b7-47cf-bd78-8ddbdbc42310")
+	)
 	(label "SIG_RPM"
 		(at 121.92 60.96 0)
 		(effects
