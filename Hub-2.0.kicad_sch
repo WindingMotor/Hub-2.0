@@ -7588,7 +7588,7 @@
 			"p47le17Wz6nNr36T/w/g/z4U/XnuwwAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "SIG_MAP"
+	(label "SIG_CAN_HIGH"
 		(at 121.92 76.2 0)
 		(effects
 			(font
@@ -7617,6 +7617,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
+	)
+	(label "SIG_CAN_LOW"
+		(at 121.92 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ff39c21-ab1e-4fac-926b-a248f93ae2a1")
 	)
 	(label "SIG_MAP"
 		(at 121.92 71.12 0)
