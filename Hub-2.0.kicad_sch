@@ -7588,7 +7588,17 @@
 			"p47le17Wz6nNr36T/w/g/z4U/XnuwwAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "SIG_RPM"
+	(label "SIG_COOLANT"
+		(at 121.92 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63d1b31d-6e1e-4eb8-95cf-58f2d5222f7b")
+	)
+	(label "SIG_COOLANT"
 		(at 121.92 63.5 0)
 		(effects
 			(font
