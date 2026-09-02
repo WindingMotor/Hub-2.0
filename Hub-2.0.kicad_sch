@@ -7608,7 +7608,17 @@
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
-	(label "SIG_INTAKE_TEMP"
+	(label "SIG_THROTTLE_POSITION"
+		(at 121.92 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99f84b2d-689e-45d7-8243-dcf376299535")
+	)
+	(label "SIG_THROTTLE_POSITION"
 		(at 121.92 68.58 0)
 		(effects
 			(font
