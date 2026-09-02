@@ -7588,7 +7588,7 @@
 			"p47le17Wz6nNr36T/w/g/z4U/XnuwwAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "SIG_COOLANT"
+	(label "SIG_INTAKE_TEMP"
 		(at 121.92 66.04 0)
 		(effects
 			(font
@@ -7598,7 +7598,7 @@
 		)
 		(uuid "63d1b31d-6e1e-4eb8-95cf-58f2d5222f7b")
 	)
-	(label "SIG_COOLANT"
+	(label "SIG_COOLANT_TEMP"
 		(at 121.92 63.5 0)
 		(effects
 			(font
@@ -7607,6 +7607,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
+	)
+	(label "SIG_INTAKE_TEMP"
+		(at 121.92 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdee9811-64d9-4b5a-b510-018bb4a3ba4e")
 	)
 	(label "SIG_RPM"
 		(at 121.92 60.96 0)
