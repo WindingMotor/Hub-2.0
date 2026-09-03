@@ -7618,7 +7618,7 @@
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
-	(label "PWR_LIGHTS"
+	(label "PWR_FRONT_LIGHTS"
 		(at 121.92 104.14 0)
 		(effects
 			(font
