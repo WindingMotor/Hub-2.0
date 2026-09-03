@@ -7688,7 +7688,7 @@
 		)
 		(uuid "a1b0c453-e1a0-41ad-8383-638a38311698")
 	)
-	(label "PWR_COOLING_FAN"
+	(label "PWR_REAR_BREAK"
 		(at 121.92 106.68 0)
 		(effects
 			(font
