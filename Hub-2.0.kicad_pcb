@@ -94,7 +94,7 @@
 		(property "Reference" "CN2"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
-			(uuid "dbcbea6a-df71-4b68-b139-b600394639f3")
+			(uuid "e7bac53e-252a-4c07-987a-6316c7dace99")
 			(effects
 				(font
 					(size 1 1)
@@ -105,7 +105,7 @@
 		(property "Value" "DT15-12PA"
 			(at 0 15.11 0)
 			(layer "F.Fab")
-			(uuid "c168e66e-6576-408d-9837-f6961eddad78")
+			(uuid "20eb37b5-4b0e-43dc-9150-5513a8d86691")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e3c9456-e0ea-4942-8937-f8c8374737e9")
+			(uuid "755baef5-d9b5-4a98-9442-33e85d8604fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,7 +128,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "290feb73-0fe6-4b8f-81a8-cdf63674d93a")
+			(uuid "634c8406-59db-4dc0-997c-79ac96a0f0f5")
 			(effects
 				(font
 					(size 1.27 1.27)
