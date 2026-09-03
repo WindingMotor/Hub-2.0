@@ -810,7 +810,7 @@
 		(uuid "d19198ff-c510-4f65-8488-d1d31cd67605")
 	)
 	(image
-		(at 99.695 49.53)
+		(at 86.36 33.02)
 		(scale 0.203293)
 		(uuid "40af2673-c745-49a3-a397-1e0daa6a0d46")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB2wAAANJCAIAAABPtlsBAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -7617,6 +7617,16 @@
 			(justify left bottom)
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
+	)
+	(label "PWR_12V"
+		(at 121.92 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
 	(label "SIG_INTAKE_TEMP"
 		(at 121.92 66.04 0)
