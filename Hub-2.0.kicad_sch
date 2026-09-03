@@ -7748,6 +7748,16 @@
 		)
 		(uuid "edb45cd5-b1a8-468b-8333-aa1d3c58e0f0")
 	)
+	(label "PWR_COOLING_FAN"
+		(at 121.92 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb824698-1a9c-460e-a9a9-3185d8a324fe")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 93.98 138.43 0)
