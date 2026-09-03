@@ -90,11 +90,11 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "befaf66c-d8eb-4bca-8c6a-c95a80dd5180")
-		(at 170.825 88.125)
+		(at 181.56 79.78)
 		(property "Reference" "CN2"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
-			(uuid "e7bac53e-252a-4c07-987a-6316c7dace99")
+			(uuid "485771b8-1dd3-4468-a071-a3e977be3917")
 			(effects
 				(font
 					(size 1 1)
@@ -105,7 +105,7 @@
 		(property "Value" "DT15-12PA"
 			(at 0 15.11 0)
 			(layer "F.Fab")
-			(uuid "20eb37b5-4b0e-43dc-9150-5513a8d86691")
+			(uuid "bbe061f8-d4ba-458c-9917-a017b1735c84")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "755baef5-d9b5-4a98-9442-33e85d8604fd")
+			(uuid "ca4ada51-1af6-4e63-af11-d512b2f0d7ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,7 +128,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "634c8406-59db-4dc0-997c-79ac96a0f0f5")
+			(uuid "cee81a14-0666-4a19-8df8-4ac304f31e87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "c5ac0507-429c-4a11-b28f-008c95f44109")
-		(at 134.375 88.125)
+		(at 143.44 79.67)
 		(property "Reference" "CN1"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
