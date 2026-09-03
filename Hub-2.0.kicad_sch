@@ -7618,7 +7618,7 @@
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
-	(label "PWR_12V"
+	(label "PWR_LIGHTS"
 		(at 121.92 104.14 0)
 		(effects
 			(font
@@ -7677,6 +7677,16 @@
 			(justify left bottom)
 		)
 		(uuid "99f84b2d-689e-45d7-8243-dcf376299535")
+	)
+	(label "PWR_LIGHTS"
+		(at 121.92 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b418d260-c5de-43ee-8766-05e97f2d606c")
 	)
 	(label "SIG_THROTTLE_POSITION"
 		(at 121.92 68.58 0)
