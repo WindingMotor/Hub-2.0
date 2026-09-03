@@ -7588,6 +7588,16 @@
 			"p47le17Wz6nNr36T/w/g/z4U/XnuwwAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "GND"
+		(at 121.92 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "035bd2d1-5925-48f9-8251-380a35dbdcdb")
+	)
 	(label "SIG_CAN_HIGH"
 		(at 121.92 76.2 0)
 		(effects
