@@ -596,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 92.71 92.71)
+			(xy 74.93 86.36) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 93.98 90.17)
+			(xy 73.66 83.82) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 93.98 92.71)
+			(xy 74.93 87.63) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 93.98 134.62)
+			(xy 73.66 128.27) (xy 74.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -636,7 +636,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 93.98 137.16)
+			(xy 74.93 132.08) (xy 74.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -646,7 +646,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 137.16) (xy 92.71 137.16)
+			(xy 74.93 130.81) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7605,7 +7605,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 138.43 0)
+		(at 74.93 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7615,7 +7615,7 @@
 		(dnp no)
 		(uuid "1a6f24d3-66d7-4247-8ae6-cf70417841a0")
 		(property "Reference" "#PWR04"
-			(at 93.98 144.78 0)
+			(at 74.93 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +7626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 141.986 0)
+			(at 74.93 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7636,7 +7636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 138.43 0)
+			(at 74.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 138.43 0)
+			(at 74.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 138.43 0)
+			(at 74.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +7682,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 93.98 90.17 270)
+		(at 74.93 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7692,7 +7692,7 @@
 		(dnp no)
 		(uuid "45144048-3b29-4d89-8177-a2e777dff3f4")
 		(property "Reference" "#PWR02"
-			(at 90.17 90.17 0)
+			(at 71.12 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7703,7 +7703,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 98.298 90.17 90)
+			(at 79.248 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7713,7 +7713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 90.17 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 90.17 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7735,7 +7735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 90.17 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7759,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:DT15-12PA")
-		(at 88.9 123.19 180)
+		(at 69.85 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7769,7 +7769,7 @@
 		(dnp no)
 		(uuid "8efe26cd-63da-4c01-8d74-33009beb95cc")
 		(property "Reference" "CN2"
-			(at 82.55 122.428 0)
+			(at 63.5 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7779,7 +7779,7 @@
 			)
 		)
 		(property "Value" "DT15-12PA"
-			(at 79.756 124.968 0)
+			(at 60.706 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7789,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CONN-TH_DT15-12PA"
-			(at 88.9 101.6 0)
+			(at 69.85 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +7800,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5341788.pdf"
-			(at 88.9 99.06 0)
+			(at 69.85 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7811,7 +7811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 123.19 0)
+			(at 69.85 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7822,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity(泰科电子)"
-			(at 88.9 96.52 0)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,7 +7833,7 @@
 			)
 		)
 		(property "MPN" "DT15-12PA"
-			(at 88.9 93.98 0)
+			(at 69.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,7 +7844,7 @@
 			)
 		)
 		(property "LCSC Part" "C5341788"
-			(at 88.9 91.44 0)
+			(at 69.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7901,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 93.98 134.62 270)
+		(at 74.93 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7911,7 +7911,7 @@
 		(dnp no)
 		(uuid "9b1ffb08-4194-4aa2-abe7-24744cbe24b0")
 		(property "Reference" "#PWR03"
-			(at 90.17 134.62 0)
+			(at 71.12 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7922,7 +7922,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 98.298 134.62 90)
+			(at 79.248 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7932,7 +7932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +7943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +7954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 134.62 0)
+			(at 74.93 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7978,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:DT15-12PA")
-		(at 88.9 78.74 180)
+		(at 69.85 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7988,7 +7988,7 @@
 		(dnp no)
 		(uuid "aabee14f-feee-40a8-a19d-953705088d9b")
 		(property "Reference" "CN1"
-			(at 82.55 77.978 0)
+			(at 63.5 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7998,7 +7998,7 @@
 			)
 		)
 		(property "Value" "DT15-12PA"
-			(at 79.756 80.518 0)
+			(at 60.706 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8008,7 +8008,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CONN-TH_DT15-12PA"
-			(at 88.9 57.15 0)
+			(at 69.85 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8019,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5341788.pdf"
-			(at 88.9 54.61 0)
+			(at 69.85 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +8030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 78.74 0)
+			(at 69.85 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,7 +8041,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity(泰科电子)"
-			(at 88.9 52.07 0)
+			(at 69.85 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8052,7 @@
 			)
 		)
 		(property "MPN" "DT15-12PA"
-			(at 88.9 49.53 0)
+			(at 69.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +8063,7 @@
 			)
 		)
 		(property "LCSC Part" "C5341788"
-			(at 88.9 46.99 0)
+			(at 69.85 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +8120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 93.98 0)
+		(at 74.93 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8130,7 +8130,7 @@
 		(dnp no)
 		(uuid "d26ce371-c7f4-4197-b4a0-495c8a4ee75c")
 		(property "Reference" "#PWR01"
-			(at 93.98 100.33 0)
+			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8141,7 +8141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 97.536 0)
+			(at 74.93 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8151,7 +8151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 93.98 0)
+			(at 74.93 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 93.98 0)
+			(at 74.93 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8173,7 +8173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 93.98 0)
+			(at 74.93 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
