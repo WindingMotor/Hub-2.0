@@ -7483,7 +7483,7 @@
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
-	(label "EXT_IN_SIG_DASH_BTN"
+	(label "EXT_IN_SIG_DASH_BTN_TWO"
 		(at 121.92 128.27 0)
 		(effects
 			(font
@@ -7643,7 +7643,7 @@
 		)
 		(uuid "edb45cd5-b1a8-468b-8333-aa1d3c58e0f0")
 	)
-	(label "EXT_IN_SIG_DASH_BTN"
+	(label "EXT_IN_SIG_DASH_BTN_ONE"
 		(at 121.92 125.73 0)
 		(effects
 			(font
