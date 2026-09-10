@@ -350,6 +350,16 @@
 		)
 		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
 	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 163.6016 85.344 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "3eb8775c-5c9e-46d1-ac34-f78e783cee4a")
+	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
 		(at 56.896 94.488 0)
@@ -453,6 +463,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694c0ee2-b63c-4122-a39c-2318f4968849")
+	)
+	(wire
+		(pts
 			(xy 53.34 90.17) (xy 60.96 90.17)
 		)
 		(stroke
@@ -460,6 +480,16 @@
 			(type default)
 		)
 		(uuid "9221cdb8-5bcf-4ced-9293-ca150a0694b2")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1c5480-de0c-4940-88db-4afcb60fdee7")
 	)
 	(wire
 		(pts
@@ -480,6 +510,16 @@
 			(justify left bottom)
 		)
 		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
+	)
+	(label "EXT_BI_SIG_CAN_HIGH"
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a5f7d11-b2f7-4771-8cd0-310d34716d05")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 83.82 134.62 0)
@@ -770,6 +810,16 @@
 			(justify left bottom)
 		)
 		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
+	)
+	(label "EXT_BI_SIG_CAN_LOW"
+		(at 167.64 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f663b1a9-d0cd-425e-bc35-b2b335589ef6")
 	)
 	(symbol
 		(lib_id "EasyEDA:DT15-12PA")
