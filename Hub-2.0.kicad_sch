@@ -9113,7 +9113,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 78.74)
+		(at 208.28 80.01)
 		(size 24.765 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9129,7 +9129,7 @@
 		)
 		(uuid "aea3bb0d-f9cd-46ce-9a77-d662b5a61299")
 		(property "Sheetname" "LOW_POWER_RELAYS"
-			(at 209.55 78.0284 0)
+			(at 208.28 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9140,7 +9140,7 @@
 			)
 		)
 		(property "Sheetfile" "LOW_POWER_RELAYS.kicad_sch"
-			(at 209.55 93.2946 0)
+			(at 208.28 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9159,7 +9159,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 56.515)
+		(at 213.36 55.88)
 		(size 25.4 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9175,7 +9175,7 @@
 		)
 		(uuid "c1ceb228-2603-433a-a8a0-0403049da226")
 		(property "Sheetname" "STATUS_INDICATORS"
-			(at 213.36 55.8034 0)
+			(at 213.36 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9186,7 +9186,7 @@
 			)
 		)
 		(property "Sheetfile" "STATUS_INDICATORS.kicad_sch"
-			(at 213.36 71.7046 0)
+			(at 213.36 71.0696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
