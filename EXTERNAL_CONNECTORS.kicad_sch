@@ -923,16 +923,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 60.96 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e767f33b-91f2-4566-a389-dde0b10f423c")
-	)
-	(wire
-		(pts
 			(xy 152.4 69.85) (xy 158.75 69.85)
 		)
 		(stroke
@@ -1140,16 +1130,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
-	)
-	(label "GND"
-		(at 60.96 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8765f791-6769-44a2-81db-558c0b39308e")
 	)
 	(label "EXT_IN_SIG_MAP"
 		(at 110.49 69.85 0)
