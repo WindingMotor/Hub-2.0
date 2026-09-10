@@ -7493,7 +7493,7 @@
 		)
 		(uuid "63d1b31d-6e1e-4eb8-95cf-58f2d5222f7b")
 	)
-	(label "SIG_COOLANT_TEMP"
+	(label "EXT_IN_SIG_COOLANT_TEMP"
 		(at 121.92 63.5 0)
 		(effects
 			(font
@@ -7583,7 +7583,7 @@
 		)
 		(uuid "cf65b28d-b2b7-47cf-bd78-8ddbdbc42310")
 	)
-	(label "SIG_RPM"
+	(label "EXT_IN_SIG_RPM"
 		(at 121.92 60.96 0)
 		(effects
 			(font
