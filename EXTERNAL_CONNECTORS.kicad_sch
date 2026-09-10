@@ -543,6 +543,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bf0826-2286-4c0e-a873-0ae12fd4a93c")
+	)
+	(wire
+		(pts
 			(xy 106.68 85.09) (xy 114.3 85.09)
 		)
 		(stroke
@@ -703,6 +713,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b927eff0-44bd-4c79-a299-cc86ee7854b1")
+	)
+	(wire
+		(pts
 			(xy 158.75 87.63) (xy 166.37 87.63)
 		)
 		(stroke
@@ -832,7 +852,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 118.11 80.01 0)
+		(at 114.3 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +1012,7 @@
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 118.11 77.47 0)
+		(at 114.3 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
