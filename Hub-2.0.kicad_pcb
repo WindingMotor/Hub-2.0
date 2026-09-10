@@ -8406,8 +8406,8 @@
 		(uuid "96463e17-9aa9-4076-a3fb-11232df48ead")
 	)
 	(gr_rect
-		(start 101.81 59.07)
-		(end 221.81 139.07)
+		(start 101.81 49.07)
+		(end 221.81 149.07)
 		(stroke
 			(width 0.2)
 			(type solid)
