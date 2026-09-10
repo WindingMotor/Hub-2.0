@@ -781,6 +781,16 @@
 		)
 		(uuid "2938a08f-6a81-4964-a9d9-0a2f1f3d9292")
 	)
+	(label "PWR_REAR_LIGHTS"
+		(at 60.96 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "299d10d4-044d-470e-831d-877da51a6583")
+	)
 	(label "EXT_IN_SIG_RPM"
 		(at 113.03 64.77 0)
 		(effects
@@ -790,6 +800,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
+	)
+	(label "PWR_FRONT_LIGHTS"
+		(at 60.96 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b601adc-7051-403f-8813-0583659ca8a7")
 	)
 	(label "PWR_BRAKE_LIGHT"
 		(at 60.96 82.55 0)
@@ -970,16 +990,6 @@
 			(justify left bottom)
 		)
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
-	)
-	(label "PWR_FRONT_LIGHTS"
-		(at 60.96 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a72c12f2-a129-435f-8e4e-eb04c5776738")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
 		(at 125.73 123.19 0)
