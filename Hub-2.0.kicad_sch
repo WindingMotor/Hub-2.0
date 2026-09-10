@@ -8495,7 +8495,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 262.89 40.64 0)
+		(at 265.43 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8506,7 +8506,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49a9858-5431-48c4-924c-a7596a9011bf")
 		(property "Reference" "NT1"
-			(at 262.89 35.56 0)
+			(at 265.43 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8516,7 +8516,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 262.89 38.1 0)
+			(at 265.43 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8526,7 +8526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 40.64 0)
+			(at 265.43 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 40.64 0)
+			(at 265.43 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8548,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 262.89 40.64 0)
+			(at 265.43 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
