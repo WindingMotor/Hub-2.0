@@ -7523,7 +7523,7 @@
 		)
 		(uuid "99f84b2d-689e-45d7-8243-dcf376299535")
 	)
-	(label "PWR_COOLING_FAN"
+	(label "PWR_FUEL_PUMP"
 		(at 121.92 109.22 0)
 		(effects
 			(font
