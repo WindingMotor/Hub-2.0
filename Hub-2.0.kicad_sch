@@ -7443,7 +7443,7 @@
 		)
 		(uuid "035bd2d1-5925-48f9-8251-380a35dbdcdb")
 	)
-	(label "SIG_BRAKE_PRESSURE_FRONT"
+	(label "SIG_BRAKE_PRESSURE_REAR"
 		(at 121.92 78.74 0)
 		(effects
 			(font
