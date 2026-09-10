@@ -90,7 +90,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 155.89 88.67)
+		(at 155.56 88.67)
 		(property "Reference" "CN5"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
@@ -1186,7 +1186,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 192.34 88.67)
+		(at 191.56 88.67)
 		(property "Reference" "CN6"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
