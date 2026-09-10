@@ -5,7 +5,7 @@
 	(uuid "f1dfaa3b-271c-4c45-983d-ed62a2ebcb30")
 	(paper "A4")
 	(lib_symbols)
-	(text "We need:\n3x THT LEDs, various colors, with THT resistors\n1x THT Buzzer, 5V rated"
+	(text "We need:\n3x 12P DT Connectors\n- ENGINE\n- DASH\n- POWER"
 		(exclude_from_sim no)
 		(at 29.718 40.132 0)
 		(effects
