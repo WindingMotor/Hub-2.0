@@ -352,7 +352,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 110.236 66.04 0)
+		(at 110.236 66.294 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -432,7 +432,7 @@
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
-		(at 110.236 68.58 0)
+		(at 110.236 68.834 0)
 		(effects
 			(font
 				(size 1.143 1.143)
