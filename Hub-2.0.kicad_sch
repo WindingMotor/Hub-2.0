@@ -7533,7 +7533,7 @@
 		)
 		(uuid "a1b0c453-e1a0-41ad-8383-638a38311698")
 	)
-	(label "PWR_BREAK_LIGHT"
+	(label "PWR_BRAKE_LIGHT"
 		(at 121.92 106.68 0)
 		(effects
 			(font
