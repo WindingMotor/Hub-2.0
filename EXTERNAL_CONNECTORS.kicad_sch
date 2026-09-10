@@ -765,16 +765,6 @@
 		)
 		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
 	)
-	(label "PWR_12V"
-		(at 54.61 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ed61462-7df4-4cdb-9785-3f1c7732efcc")
-	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
 		(at 83.82 125.73 0)
 		(effects
@@ -834,6 +824,16 @@
 			(justify left bottom)
 		)
 		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
+	)
+	(label "PWR_12V"
+		(at 63.4961 93.6245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953ba4fd-223a-468a-9c81-0b2201d6f094")
 	)
 	(label "PWR_12V"
 		(at 83.82 147.32 0)
