@@ -692,7 +692,7 @@
 		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
 	)
 	(label "EXT_OUT_SIG_BRAKE_LIGHT"
-		(at 64.77 66.04 0)
+		(at 64.77 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
