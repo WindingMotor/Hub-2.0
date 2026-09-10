@@ -342,7 +342,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 163.068 62.484 0)
+		(at 163.576 62.484 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -362,7 +362,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 163.3476 85.344 0)
+		(at 163.8556 85.344 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -392,7 +392,7 @@
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
-		(at 163.322 90.678 0)
+		(at 163.83 90.678 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -402,7 +402,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 163.322 88.138 0)
+		(at 163.83 88.138 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -423,7 +423,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 163.322 82.804 0)
+		(at 163.83 82.804 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -493,7 +493,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 160.02 60.96)
+			(xy 166.37 60.96) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
 	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
-		(at 167.64 60.96 0)
+		(at 166.37 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
