@@ -676,7 +676,7 @@
 		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
 	)
 	(label "GND"
-		(at 59.69 95.25 0)
+		(at 53.34 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -886,7 +886,7 @@
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
 	(label "PWR_12V"
-		(at 59.69 92.71 0)
+		(at 53.34 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
