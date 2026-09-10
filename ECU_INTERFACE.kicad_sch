@@ -572,7 +572,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Top_Bottom")
-		(at 74.93 59.69 0)
+		(at 66.04 54.61 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -581,9 +581,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "521e5c85-44aa-4c0d-8d71-37b19fb5baab")
+		(uuid "55f3cbbd-b5b5-480c-8883-7bc15135f865")
 		(property "Reference" "J10"
-			(at 76.2 46.99 0)
+			(at 67.31 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -593,7 +593,7 @@
 			)
 		)
 		(property "Value" "5569-16A2"
-			(at 76.2 69.85 0)
+			(at 67.31 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -603,7 +603,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal"
-			(at 74.93 59.69 0)
+			(at 66.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -614,7 +614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 59.69 0)
+			(at 66.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 59.69 0)
+			(at 66.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -636,7 +636,7 @@
 			)
 		)
 		(property "LCSC" "C485577"
-			(at 74.93 59.69 0)
+			(at 66.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -647,52 +647,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "912f2fa1-33be-4b31-b3b3-6bfc255e118d")
+			(uuid "7cddc5c8-bcb8-4d64-9387-d1303752c832")
 		)
 		(pin "10"
-			(uuid "eedd43d6-145c-4b1f-a243-4dd1e48a6041")
+			(uuid "cdd5ed82-86eb-4a6b-9a39-0f2f04c34d49")
 		)
 		(pin "11"
-			(uuid "dc5127ed-c808-4b4c-9757-5bdb3f66c7fe")
+			(uuid "61f83c0f-0478-4c73-bcd9-04b6444ac4f7")
 		)
 		(pin "12"
-			(uuid "5c7c213d-2b99-470f-891f-2f8085a908df")
+			(uuid "bc03fe74-1699-4c83-b3f4-dbe2c70c45ac")
 		)
 		(pin "13"
-			(uuid "4ead3926-a930-4439-8f86-2354c569337e")
+			(uuid "8f425112-b342-49b3-8bd9-726ec01ab989")
 		)
 		(pin "14"
-			(uuid "f8af6ec6-1d92-467f-888f-dff4eb123b65")
+			(uuid "e8a2682a-1c49-4d27-b3ce-734ad28cb0b1")
 		)
 		(pin "15"
-			(uuid "8f188a18-9433-4730-8e3b-ba4c33189119")
+			(uuid "f6f0102b-b31c-4719-b2e4-6a3788c32905")
 		)
 		(pin "16"
-			(uuid "9895bec3-3a49-48a8-b154-cd36a9ab951d")
+			(uuid "7fae93e7-3a6c-462e-a85f-e2d752782798")
 		)
 		(pin "2"
-			(uuid "2e634cbb-373a-4986-aff4-b8a624aa022a")
+			(uuid "601f2356-99fe-42d9-a783-6cac7936757a")
 		)
 		(pin "3"
-			(uuid "a413a78d-9f80-46d4-8d90-5bc5bacf8631")
+			(uuid "b9caa3de-dec5-49e0-bf44-ad024fbebf6c")
 		)
 		(pin "4"
-			(uuid "84e67c16-98fe-414d-a1e6-d86cf84b3316")
+			(uuid "2b360d71-15c8-44df-8c7b-3837e615cdc3")
 		)
 		(pin "5"
-			(uuid "6d4f9538-5a5e-4d10-9f0b-a22e8dd45b2f")
+			(uuid "04d8ff9c-e1ef-44b1-af7e-64758c593bbc")
 		)
 		(pin "6"
-			(uuid "145d20c5-50ec-4c95-aa70-5455a1375291")
+			(uuid "a9aac4da-4bb5-4d7b-add2-d897b3f2f2da")
 		)
 		(pin "7"
-			(uuid "1a5529ef-c638-41c0-9434-fe47a9692ce1")
+			(uuid "6487aabf-a258-4aa7-a9c0-9527b9034efa")
 		)
 		(pin "8"
-			(uuid "213535bd-b5fe-4d7f-a14a-39d17fdc10fc")
+			(uuid "85c5db97-7429-4693-b82e-7fdd737f1a8c")
 		)
 		(pin "9"
-			(uuid "2180df6b-6b29-4418-af80-ec055ccae6fc")
+			(uuid "dbac1d23-5fc9-4745-9636-c1e800d86aa2")
 		)
 		(instances
 			(project "Hub-2.0"
