@@ -795,6 +795,22 @@
 		)
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
 	)
+	(junction
+		(at 93.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dab6046-7d5c-42ab-b3bd-00d3864c5f3b")
+	)
+	(wire
+		(pts
+			(xy 85.09 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02207de1-dca9-4821-b79b-50b2f6c1fa59")
+	)
 	(wire
 		(pts
 			(xy 142.24 85.09) (xy 134.62 85.09)
@@ -1007,6 +1023,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 116.84) (xy 93.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c570374-7d12-4151-9efb-b0cd3741d6aa")
+	)
+	(wire
+		(pts
 			(xy 85.09 107.95) (xy 92.71 107.95)
 		)
 		(stroke
@@ -1024,6 +1050,16 @@
 			(type default)
 		)
 		(uuid "ae1636ff-2b1d-469f-94ae-e50f7f2c0da0")
+	)
+	(wire
+		(pts
+			(xy 95.25 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45084b4-9ee5-40c0-8ac3-0102a7eb6437")
 	)
 	(wire
 		(pts
@@ -1064,6 +1100,16 @@
 			(type default)
 		)
 		(uuid "e3d274d8-4ea2-432c-963d-a58ee58082d9")
+	)
+	(wire
+		(pts
+			(xy 85.09 118.11) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e526d2ea-11fd-4c31-94b7-78f9dbef4fc5")
 	)
 	(wire
 		(pts
@@ -1244,6 +1290,16 @@
 			(justify left bottom)
 		)
 		(uuid "7aa10c41-a887-4a16-a35d-cccf87403d83")
+	)
+	(label "PWR_12V"
+		(at 95.25 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f5e9fdc-a9dd-46dc-98a6-6b9734cd6ed2")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
 		(at 190.5 92.71 0)
