@@ -8692,6 +8692,16 @@
 				)
 			)
 		)
+		(property "Name" "ENGINE"
+			(at 61.976 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "5f0cd810-35ad-4833-8d17-436d680cbd58")
 		)
