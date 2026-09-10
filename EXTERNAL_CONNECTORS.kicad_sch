@@ -370,6 +370,26 @@
 		)
 		(uuid "4a3c54a8-4432-47ab-9e47-67e6b87fca24")
 	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 163.322 90.678 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "662cfd18-6e38-4338-b5d4-e030f9ad01ac")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 163.322 88.138 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "6d5425a9-1e71-40ec-bdb2-51089fd079cc")
+	)
 	(text "We need:\n3x 12P DT Connectors\n- ENGINE\n- DASH\n- POWER"
 		(exclude_from_sim no)
 		(at 29.718 40.132 0)
@@ -390,6 +410,16 @@
 			)
 		)
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20820b19-ca43-404a-acae-436ecdb176a5")
 	)
 	(wire
 		(pts
@@ -430,6 +460,16 @@
 			(type default)
 		)
 		(uuid "9221cdb8-5bcf-4ced-9293-ca150a0694b2")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d274d8-4ea2-432c-963d-a58ee58082d9")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
 		(at 83.82 113.03 0)
@@ -511,6 +551,16 @@
 		)
 		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
 	)
+	(label "PWR_12V"
+		(at 167.64 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
+	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
 		(at 83.82 125.73 0)
 		(effects
@@ -550,6 +600,16 @@
 			(justify left bottom)
 		)
 		(uuid "756b125f-5a6c-4066-b71d-4ff69624942e")
+	)
+	(label "GND"
+		(at 167.64 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa10c41-a887-4a16-a35d-cccf87403d83")
 	)
 	(label "PWR_3V3"
 		(at 83.82 152.4 0)
