@@ -627,13 +627,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 109.22 88.9)
+			(xy 109.22 86.36) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e85c0db-0dd4-4fdc-8a60-ca1d734fe81e")
+		(uuid "39dd6521-a7de-42b2-b2ee-cfe0ea0ad0b0")
 	)
 	(wire
 		(pts
@@ -644,16 +644,6 @@
 			(type default)
 		)
 		(uuid "9221cdb8-5bcf-4ced-9293-ca150a0694b2")
-	)
-	(wire
-		(pts
-			(xy 107.95 88.9) (xy 109.22 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2807ecf-f097-475f-bbfb-9ba554501945")
 	)
 	(wire
 		(pts
@@ -824,6 +814,16 @@
 			(justify left bottom)
 		)
 		(uuid "953ba4fd-223a-468a-9c81-0b2201d6f094")
+	)
+	(label "GND"
+		(at 109.22 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b4115f-a547-4ce4-8baa-40558e7e5efe")
 	)
 	(label "PWR_12V"
 		(at 83.82 147.32 0)
@@ -1473,83 +1473,6 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
 					(reference "CN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aac7112a-3ab6-4b81-9e94-7c143a5f17db")
-		(property "Reference" "#PWR09"
-			(at 109.22 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a248fbd4-5a61-4d23-965d-c9cfd49d9abd")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
