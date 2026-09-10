@@ -733,6 +733,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 74.93) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540f1415-d90f-4bee-8aeb-38a10592832e")
+	)
+	(wire
+		(pts
 			(xy 106.68 77.47) (xy 114.3 77.47)
 		)
 		(stroke
@@ -1021,16 +1031,6 @@
 		)
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
-	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 53.34 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
-	)
 	(label "PWR_FRONT_LIGHTS"
 		(at 60.96 77.47 0)
 		(effects
@@ -1090,6 +1090,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
+	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
+		(at 165.1 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
 	)
 	(label "GND"
 		(at 60.96 74.93 0)
