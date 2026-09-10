@@ -596,6 +596,16 @@
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
+		(at 111.252 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
+	)
+	(text "16AWG\n"
+		(exclude_from_sim no)
 		(at 56.896 94.488 0)
 		(effects
 			(font
@@ -606,7 +616,7 @@
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
-		(at 57.15 91.948 0)
+		(at 56.896 91.948 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -624,6 +634,16 @@
 			(justify left)
 		)
 		(uuid "727754a7-a2d1-4e7b-b738-aec6bae48c28")
+	)
+	(text "16AWG\n"
+		(exclude_from_sim no)
+		(at 111.252 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
 	)
 	(wire
 		(pts
