@@ -633,7 +633,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e5d36ab-5b85-4bea-80a2-9cfc38eb0700")
+		(uuid "34e2c449-a924-4b55-9dac-08a5e8d5293b")
 	)
 	(wire
 		(pts
@@ -905,6 +905,16 @@
 		)
 		(uuid "be3e8a1d-d455-48c1-b8e5-8050c3ca9e7e")
 	)
+	(label "PWR_12V"
+		(at 109.22 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7203558-cbab-4d37-ae40-5f42219861e3")
+	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
 		(at 83.82 177.8 0)
 		(effects
@@ -944,83 +954,6 @@
 			(justify left bottom)
 		)
 		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 109.22 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22445589-ae26-401b-99bd-0736e5c3d011")
-		(property "Reference" "#PWR05"
-			(at 105.41 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN"
-			(at 113.538 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d01613b6-5fe9-4a2a-8a13-d40b6ccfcd54")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
