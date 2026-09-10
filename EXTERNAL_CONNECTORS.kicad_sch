@@ -892,7 +892,7 @@
 		(uuid "b846541e-dd14-4c4f-9246-747fd44a0ac6")
 	)
 	(label "PWR_FUEL_PUMP"
-		(at 66.04 82.55 0)
+		(at 64.77 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
