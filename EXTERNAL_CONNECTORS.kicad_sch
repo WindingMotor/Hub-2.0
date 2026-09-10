@@ -443,6 +443,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b7a397-3a9c-4131-bbbd-748979e268bd")
+	)
+	(wire
+		(pts
 			(xy 160.02 88.9) (xy 167.64 88.9)
 		)
 		(stroke
@@ -470,6 +480,16 @@
 			(type default)
 		)
 		(uuid "39dd6521-a7de-42b2-b2ee-cfe0ea0ad0b0")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aabae94-68cb-43b3-b120-3603b703eaf1")
 	)
 	(wire
 		(pts
@@ -530,6 +550,16 @@
 			(type default)
 		)
 		(uuid "e3d274d8-4ea2-432c-963d-a58ee58082d9")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e5938a-86de-42dd-b547-1ad1fa964579")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
 		(at 83.82 113.03 0)
@@ -642,7 +672,7 @@
 		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
-		(at 172.72 68.58 0)
+		(at 166.37 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,7 +832,7 @@
 		(uuid "d7203558-cbab-4d37-ae40-5f42219861e3")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
-		(at 172.72 71.12 0)
+		(at 166.37 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
