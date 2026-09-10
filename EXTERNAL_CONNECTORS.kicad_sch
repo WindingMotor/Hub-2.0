@@ -493,7 +493,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 60.96) (xy 160.02 60.96)
+			(xy 167.64 60.96) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
 	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
-		(at 166.37 60.96 0)
+		(at 167.64 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
