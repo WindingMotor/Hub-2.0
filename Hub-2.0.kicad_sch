@@ -7453,7 +7453,7 @@
 		)
 		(uuid "0b4f9128-81b9-44eb-9395-d4e1bf94e8fa")
 	)
-	(label "SIG_CAN_HIGH"
+	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 121.92 82.55 0)
 		(effects
 			(font
