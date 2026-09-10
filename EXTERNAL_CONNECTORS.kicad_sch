@@ -594,12 +594,12 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "16AWG\n"
+	(text "22AWG"
 		(exclude_from_sim no)
 		(at 111.252 90.678 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.143 1.143)
 			)
 		)
 		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
@@ -635,7 +635,7 @@
 		)
 		(uuid "727754a7-a2d1-4e7b-b738-aec6bae48c28")
 	)
-	(text "16AWG\n"
+	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 111.252 88.138 0)
 		(effects
