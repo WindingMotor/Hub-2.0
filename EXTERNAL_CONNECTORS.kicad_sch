@@ -605,6 +605,12 @@
 		)
 		(uuid "727754a7-a2d1-4e7b-b738-aec6bae48c28")
 	)
+	(junction
+		(at 54.61 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1b7b60-75dd-4d7b-a6fc-128920596b1c")
+	)
 	(wire
 		(pts
 			(xy 64.77 90.17) (xy 53.34 90.17)
@@ -644,6 +650,16 @@
 			(type default)
 		)
 		(uuid "4e85c0db-0dd4-4fdc-8a60-ca1d734fe81e")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fba313d-4a6d-4923-aeb7-70eabbcfdbbc")
 	)
 	(wire
 		(pts
@@ -948,7 +964,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 58.42 93.98 180)
+		(at 57.15 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -958,7 +974,7 @@
 		)
 		(uuid "ed48e569-75ac-458d-aef7-43edb2af9ece")
 		(property "Netclass" "GND"
-			(at 59.1185 96.52 0)
+			(at 57.8485 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -969,7 +985,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 1.27 -1.27 0)
+			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
