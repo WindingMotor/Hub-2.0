@@ -350,6 +350,26 @@
 		)
 		(uuid "0da71c66-3e6b-4a7f-ae66-64fd042932d2")
 	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 110.236 66.04 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "10d1565b-c2ca-4d32-b68e-0a47854b2163")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 110.236 84.328 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "26c0e18c-2f36-4015-a846-9b5e05ffc662")
+	)
 	(text "22AWG"
 		(exclude_from_sim no)
 		(at 109.982 94.488 0)
@@ -390,6 +410,16 @@
 		)
 		(uuid "4323aef4-d298-4036-b3ae-ebd20f0fcb39")
 	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 110.236 78.994 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "43281235-e778-4a64-80c6-b6373a20373e")
+	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
 		(at 56.896 91.948 0)
@@ -399,6 +429,26 @@
 			)
 		)
 		(uuid "4a3c54a8-4432-47ab-9e47-67e6b87fca24")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 110.236 68.58 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "4b2252cc-4536-494a-823b-6bfe5055224b")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 110.236 73.914 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "520831b1-21ca-42ac-98ba-3fe9747b118d")
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
@@ -483,6 +533,16 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
+		(at 110.236 81.788 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "85d59043-812a-4f7f-a5c2-8044ee80837e")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
 		(at 161.8848 73.914 0)
 		(effects
 			(font
@@ -513,6 +573,16 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
+		(at 110.236 76.454 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "b351358d-5037-4f64-9e39-6b75fa2e8a97")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
 		(at 162.052 86.614 0)
 		(effects
 			(font
@@ -530,6 +600,16 @@
 			)
 		)
 		(uuid "ea139634-b4a1-4f99-97b6-bf584fcf6cb9")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 110.236 71.374 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "ee011455-5630-41e2-89f7-14206e64be70")
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
