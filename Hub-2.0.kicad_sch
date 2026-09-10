@@ -973,6 +973,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 30.48) (xy 269.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9211da04-001e-42a1-82cb-83f55622cf99")
+	)
+	(wire
+		(pts
 			(xy 234.95 30.48) (xy 262.89 30.48)
 		)
 		(stroke
@@ -7870,6 +7880,16 @@
 		)
 		(uuid "663d2128-e05b-40e7-b7b5-8094a6c3866f")
 	)
+	(label "EXT_IN_ESTOP_SIG_RETURN"
+		(at 269.24 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728408d7-c355-4ae1-b03c-2109bf3d5310")
+	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
 		(at 121.92 63.5 0)
 		(effects
@@ -7890,7 +7910,7 @@
 		)
 		(uuid "7d8c6420-c286-400a-8b4b-30eadbc14441")
 	)
-	(label "EXT_IN_ESTOP_SIG_RETURN_FROM_DASH"
+	(label "EXT_IN_ESTOP_SIG_RETURN"
 		(at 121.92 132.08 0)
 		(effects
 			(font
