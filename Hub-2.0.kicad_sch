@@ -9113,6 +9113,52 @@
 		)
 	)
 	(sheet
+		(at 209.55 78.74)
+		(size 24.765 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aea3bb0d-f9cd-46ce-9a77-d662b5a61299")
+		(property "Sheetname" "LOW_POWER_RELAYS"
+			(at 209.55 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOW_POWER_RELAYS.kicad_sch"
+			(at 209.55 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 213.36 56.515)
 		(size 25.4 14.605)
 		(exclude_from_sim no)
