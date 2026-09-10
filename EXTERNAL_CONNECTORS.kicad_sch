@@ -653,6 +653,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5dab48-6e90-464f-8042-2e11d66a7940")
+	)
+	(wire
+		(pts
 			(xy 53.34 85.09) (xy 60.96 85.09)
 		)
 		(stroke
@@ -742,7 +752,7 @@
 		(uuid "e7e5938a-86de-42dd-b547-1ad1fa964579")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 113.03 67.31 0)
+		(at 114.3 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,7 +802,7 @@
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
 	)
 	(label "EXT_IN_SIG_RPM"
-		(at 113.03 64.77 0)
+		(at 114.3 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,7 +842,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 106.68 80.01 0)
+		(at 119.38 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -922,7 +932,7 @@
 		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 113.03 74.93 0)
+		(at 114.3 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +1002,7 @@
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 106.68 77.47 0)
+		(at 119.38 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1042,7 +1052,7 @@
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 113.03 72.39 0)
+		(at 114.3 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,7 +1072,7 @@
 		(uuid "e32f2842-6f6d-46dc-bcf9-114c14b65971")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 113.03 69.85 0)
+		(at 114.3 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
