@@ -7483,6 +7483,16 @@
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
+	(label "ESTOP_SIG_DRIVER_COCKPIT"
+		(at 121.92 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "386742cf-5acd-4722-941d-16042a654f52")
+	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
 		(at 121.92 128.27 0)
 		(effects
@@ -7503,7 +7513,7 @@
 		)
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
-	(label "ESTOP_SIG_VEHICLE_SIDE"
+	(label "ESTOP_SIG_DRIVER_COCKPIT"
 		(at 121.92 135.89 0)
 		(effects
 			(font
