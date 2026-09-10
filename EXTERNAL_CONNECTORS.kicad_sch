@@ -692,7 +692,7 @@
 		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 62.23 73.66 0)
+		(at 60.96 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -751,8 +751,8 @@
 		)
 		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
 	)
-	(label "PWR_BRAKE_LIGHT"
-		(at 69.85 69.85 0)
+	(label "PWR_REAR_LIGHTS"
+		(at 60.96 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -872,7 +872,7 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "PWR_FRONT_LIGHTS"
-		(at 62.23 76.2 0)
+		(at 60.96 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
