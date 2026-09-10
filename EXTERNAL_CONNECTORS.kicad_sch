@@ -647,13 +647,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 53.34 92.71)
+			(xy 53.34 92.71) (xy 54.61 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f5040a7-7e93-43c6-8cf2-30afabaeea1c")
+		(uuid "82d4732e-f784-4bfa-b635-2a3515bbd292")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ecefd7-a57b-4481-ae74-e17ef2c289b0")
 	)
 	(wire
 		(pts
@@ -684,16 +694,6 @@
 			(justify left bottom)
 		)
 		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
-	)
-	(label "GND"
-		(at 64.77 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a1987f2-77fe-4728-9235-1b2e0d94dfe0")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 83.82 134.62 0)
@@ -1627,6 +1627,83 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb76b763-c183-471d-9ec5-1c26300b8c54")
+		(property "Reference" "#PWR06"
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19335aa9-c303-4b84-be36-9466d6dd36e0")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
