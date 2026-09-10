@@ -625,26 +625,6 @@
 		)
 		(uuid "727754a7-a2d1-4e7b-b738-aec6bae48c28")
 	)
-	(text "16AWG\n"
-		(exclude_from_sim no)
-		(at 71.374 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7462bad8-13f7-496b-a2d2-1e9a08faf711")
-	)
-	(text "16AWG\n"
-		(exclude_from_sim no)
-		(at 71.628 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b0af8dba-f05b-4f39-ad52-0d873a814fe4")
-	)
 	(wire
 		(pts
 			(xy 205.74 102.87) (xy 204.47 102.87)
