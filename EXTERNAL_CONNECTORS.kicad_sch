@@ -380,7 +380,7 @@
 		)
 		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
 	)
-	(text "16AWG\n"
+	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 57.404 68.834 0)
 		(effects
