@@ -665,6 +665,246 @@
 		)
 		(uuid "ef05af44-129a-44c3-a9ad-7c720d7d1fca")
 	)
+	(label "EXT_IN_SIG_COOLANT_TEMP"
+		(at 83.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
+	)
+	(label "EXT_BI_SIG_CAN_LOW"
+		(at 83.82 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
+	)
+	(label "EXT_IN_ESTOP_SIG_RETURN"
+		(at 83.82 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2938a08f-6a81-4964-a9d9-0a2f1f3d9292")
+	)
+	(label "EXT_IN_SIG_RPM"
+		(at 83.82 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
+	)
+	(label "PWR_BRAKE_LIGHT"
+		(at 83.82 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3072e143-2d77-401a-8dc9-18fb0e95841e")
+	)
+	(label "EXT_IN_SIG_STARTER"
+		(at 83.82 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36be9bc7-1427-4627-8114-a04af3ffeb06")
+	)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 83.82 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
+	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
+		(at 83.82 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
+	)
+	(label "EXT_IN_SIG_DASH_BTN_ONE"
+		(at 83.82 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72b62e0c-9d57-493d-b8e7-6f5e5a8903d1")
+	)
+	(label "PWR_5V"
+		(at 83.82 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73cfe407-2366-46a2-b6b7-594ba594011a")
+	)
+	(label "PWR_COOLING_FAN"
+		(at 83.82 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "756b125f-5a6c-4066-b71d-4ff69624942e")
+	)
+	(label "PWR_3V3"
+		(at 83.82 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
+	)
+	(label "EXT_IN_SIG_MAP"
+		(at 83.82 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
+	)
+	(label "PWR_12V"
+		(at 83.82 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aad16e5-9560-4b8e-937a-e2e8988aee0e")
+	)
+	(label "EXT_BI_SIG_CAN_HIGH"
+		(at 83.82 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
+	)
+	(label "PWR_FRONT_LIGHTS"
+		(at 83.82 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a72c12f2-a129-435f-8e4e-eb04c5776738")
+	)
+	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
+		(at 83.82 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9569298-2752-412e-9ffa-deba10814054")
+	)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 83.82 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b846541e-dd14-4c4f-9246-747fd44a0ac6")
+	)
+	(label "PWR_FUEL_PUMP"
+		(at 83.82 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
+	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
+		(at 83.82 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be3e8a1d-d455-48c1-b8e5-8050c3ca9e7e")
+	)
+	(label "EXT_IN_SIG_DASH_BTN_TWO"
+		(at 83.82 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
+	)
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
+		(at 83.82 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c070d2-f379-45ac-bdba-f05eb221cf90")
+	)
+	(label "GND"
+		(at 83.82 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e32f2842-6f6d-46dc-bcf9-114c14b65971")
+	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 83.82 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 86.36 270)
