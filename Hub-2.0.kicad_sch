@@ -7623,6 +7623,16 @@
 		)
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
+	(label "EXT_IN_SIG_DASH_BTN_TWO"
+		(at 121.92 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7c2af7a-33a1-4df3-a970-d686ec853604")
+	)
 	(label "PWR_5V"
 		(at 121.92 100.33 0)
 		(effects
