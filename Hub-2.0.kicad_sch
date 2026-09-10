@@ -8527,6 +8527,7 @@
 		(uuid "a49a9858-5431-48c4-924c-a7596a9011bf")
 		(property "Reference" "NT1"
 			(at 265.43 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8537,6 +8538,7 @@
 		)
 		(property "Value" "NetTie_2"
 			(at 265.43 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
