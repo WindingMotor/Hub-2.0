@@ -594,6 +594,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "16AWG\n"
+		(exclude_from_sim no)
+		(at 56.896 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4323aef4-d298-4036-b3ae-ebd20f0fcb39")
+	)
+	(text "16AWG\n"
+		(exclude_from_sim no)
+		(at 57.0187 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a3c54a8-4432-47ab-9e47-67e6b87fca24")
+	)
 	(text "We need:\n3x 12P DT Connectors\n- ENGINE\n- DASH\n- POWER"
 		(exclude_from_sim no)
 		(at 29.718 40.132 0)
