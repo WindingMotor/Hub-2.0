@@ -781,6 +781,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3800f291-f34a-44c2-a71b-cb1ecb37561a")
+	)
+	(wire
+		(pts
 			(xy 73.66 83.82) (xy 74.93 83.82)
 		)
 		(stroke
@@ -7829,12 +7839,12 @@
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
 	(label "ESTOP_SIG_VEHICLE_SIDE"
-		(at 210.82 59.69 0)
+		(at 231.14 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e7c2af7a-33a1-4df3-a970-d686ec853604")
 	)
