@@ -7573,7 +7573,7 @@
 		)
 		(uuid "cdee9811-64d9-4b5a-b510-018bb4a3ba4e")
 	)
-	(label "EXT_OUR_SIG_IGNITION"
+	(label "EXT_OUT_SIG_IGNITION"
 		(at 121.92 90.17 0)
 		(effects
 			(font
