@@ -7623,7 +7623,7 @@
 		)
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
-	(label "EXT_IN_SIG_DASH_BTN_TWO"
+	(label "ESTOP_SIG_VEHICLE_SIDE"
 		(at 121.92 133.35 0)
 		(effects
 			(font
