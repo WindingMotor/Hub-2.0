@@ -392,6 +392,26 @@
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
+		(at 111.252 85.344 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "5444551c-443a-4a34-a971-edd063a8e825")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 111.252 82.804 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "636c486d-7683-4d6d-8a8a-094d218d7f83")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
 		(at 163.322 90.678 0)
 		(effects
 			(font
@@ -470,6 +490,16 @@
 			)
 		)
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f441cb-8cbe-4c0a-9dbd-3ee94939f804")
 	)
 	(wire
 		(pts
@@ -553,6 +583,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 83.82) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf36a2d-572c-4382-882a-27309b09fe53")
+	)
+	(wire
+		(pts
 			(xy 53.34 90.17) (xy 60.96 90.17)
 		)
 		(stroke
@@ -612,7 +652,7 @@
 		(uuid "1a5f7d11-b2f7-4771-8cd0-310d34716d05")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
-		(at 116.84 78.74 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,7 +832,7 @@
 		(uuid "9aad16e5-9560-4b8e-937a-e2e8988aee0e")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
-		(at 116.84 76.2 0)
+		(at 115.57 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
