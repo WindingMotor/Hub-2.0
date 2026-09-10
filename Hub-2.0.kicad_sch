@@ -781,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 38.1) (xy 231.14 38.1)
+			(xy 208.28 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -828,6 +828,16 @@
 			(type default)
 		)
 		(uuid "91171dff-3c5e-42e5-852b-d2fe34198a6d")
+	)
+	(wire
+		(pts
+			(xy 242.57 38.1) (xy 262.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1b8f47-dde2-435e-87bf-6b9006b8e148")
 	)
 	(wire
 		(pts
@@ -7699,7 +7709,7 @@
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
 	(label "ESTOP_SIG_DRIVER_COCKPIT"
-		(at 210.82 62.23 0)
+		(at 243.84 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8256,6 +8266,86 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 237.49 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d8a00d-94df-479c-a90f-11e949da24e8")
+		(property "Reference" "SW2"
+			(at 237.49 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 237.49 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 237.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a25dc56f-e5e8-41e9-add1-d7712734c634")
+		)
+		(pin "1"
+			(uuid "1e96141f-7065-403f-b999-585655d630b7")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
