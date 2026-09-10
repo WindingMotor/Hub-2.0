@@ -9067,6 +9067,52 @@
 		)
 	)
 	(sheet
+		(at 213.36 56.515)
+		(size 25.4 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c1ceb228-2603-433a-a8a0-0403049da226")
+		(property "Sheetname" "STATUS_INDICATORS"
+			(at 213.36 55.8034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STATUS_INDICATORS.kicad_sch"
+			(at 213.36 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 173.99 57.785)
 		(size 24.765 13.335)
 		(exclude_from_sim no)
