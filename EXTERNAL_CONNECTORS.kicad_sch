@@ -520,17 +520,6 @@
 		)
 		(uuid "6d5425a9-1e71-40ec-bdb2-51089fd079cc")
 	)
-	(text "We need:\n3x 12P DT Connectors\n- ENGINE\n- DASH\n- POWER"
-		(exclude_from_sim no)
-		(at 29.718 40.132 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-			(justify left)
-		)
-		(uuid "727754a7-a2d1-4e7b-b738-aec6bae48c28")
-	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 155.448 68.834 0)
