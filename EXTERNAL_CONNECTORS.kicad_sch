@@ -1407,7 +1407,7 @@
 		(dnp no)
 		(uuid "53987196-4eb8-455f-babe-6713d4682d7c")
 		(property "Reference" "C1"
-			(at 87.884 120.65 0)
+			(at 85.598 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1418,7 +1418,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 87.884 123.19 0)
+			(at 85.598 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1462,7 +1462,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 89.662 125.476 0)
+			(at 82.804 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
