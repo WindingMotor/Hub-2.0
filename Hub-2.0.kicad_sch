@@ -7443,7 +7443,7 @@
 		)
 		(uuid "035bd2d1-5925-48f9-8251-380a35dbdcdb")
 	)
-	(label "SIG_BRAKE_PRESSURE_REAR"
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
 		(at 121.92 78.74 0)
 		(effects
 			(font
@@ -7523,7 +7523,7 @@
 		)
 		(uuid "7ff39c21-ab1e-4fac-926b-a248f93ae2a1")
 	)
-	(label "SIG_BRAKE_PRESSURE_FRONT"
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
 		(at 121.92 76.2 0)
 		(effects
 			(font
@@ -7593,7 +7593,7 @@
 		)
 		(uuid "db4cf175-cfa0-4028-aab5-46f01ea1f5fb")
 	)
-	(label "SIG_NEUTRAL_SAFETY"
+	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
 		(at 121.92 73.66 0)
 		(effects
 			(font
