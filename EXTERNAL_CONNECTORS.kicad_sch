@@ -613,6 +613,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc67fd04-a12c-482b-9d44-6ee69aecd9f9")
+	)
+	(wire
+		(pts
 			(xy 167.64 86.36) (xy 160.02 86.36)
 		)
 		(stroke
@@ -800,6 +810,16 @@
 			(justify left bottom)
 		)
 		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
+	)
+	(label "PWR_5V"
+		(at 115.57 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "911cec00-4802-4f1b-8696-b5546146aa71")
 	)
 	(label "PWR_12V"
 		(at 60.96 90.17 0)
