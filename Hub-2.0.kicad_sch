@@ -7503,6 +7503,16 @@
 		)
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
+	(label "ESTOP_SIG_VEHICLE_SIDE"
+		(at 121.92 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55ef270c-2dfd-469a-ad1c-ca69707df0df")
+	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
 		(at 121.92 66.04 0)
 		(effects
