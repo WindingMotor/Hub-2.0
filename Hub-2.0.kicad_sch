@@ -973,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 30.48) (xy 269.24 30.48)
+			(xy 266.7 30.48) (xy 267.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 30.48) (xy 262.89 30.48)
+			(xy 234.95 30.48) (xy 261.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7881,7 +7881,7 @@
 		(uuid "663d2128-e05b-40e7-b7b5-8094a6c3866f")
 	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
-		(at 269.24 30.48 0)
+		(at 267.97 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8515,7 +8515,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 265.43 30.48 0)
+		(at 264.16 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8526,7 +8526,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49a9858-5431-48c4-924c-a7596a9011bf")
 		(property "Reference" "NT1"
-			(at 265.43 25.4 0)
+			(at 264.16 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8537,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 265.43 27.94 0)
+			(at 264.16 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 30.48 0)
+			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 30.48 0)
+			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +8570,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 265.43 30.48 0)
+			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
