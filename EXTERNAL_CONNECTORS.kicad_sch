@@ -1944,7 +1944,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 121.92 0)
+		(at 93.98 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(uuid "d8e3ab3c-bc8c-4d17-aec8-3f3c1191ad13")
 		(property "Reference" "C2"
-			(at 93.218 119.634 0)
+			(at 94.488 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 93.218 124.206 0)
+			(at 94.488 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.6752 125.73 0)
+			(at 94.9452 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 121.92 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 121.92 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 90.424 124.206 0)
+			(at 91.694 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
