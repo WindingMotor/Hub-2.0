@@ -832,7 +832,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 83.82 142.24 0)
+		(at 118.11 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -852,7 +852,7 @@
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 125.73 125.73 0)
+		(at 116.84 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -982,7 +982,7 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 125.73 123.19 0)
+		(at 116.84 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +992,7 @@
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 83.82 139.7 0)
+		(at 118.11 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 125.73 128.27 0)
+		(at 116.84 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
