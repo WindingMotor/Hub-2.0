@@ -617,16 +617,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d23059-a2c1-443c-a95d-f6091ee38bce")
-	)
-	(wire
-		(pts
 			(xy 53.34 92.71) (xy 54.61 92.71)
 		)
 		(stroke
@@ -634,16 +624,6 @@
 			(type default)
 		)
 		(uuid "28b355c0-d598-42ad-bd50-6911408ff9cc")
-	)
-	(wire
-		(pts
-			(xy 55.88 87.63) (xy 55.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a910c4b-83b1-4db4-9b40-8d2660724260")
 	)
 	(wire
 		(pts
@@ -664,16 +644,6 @@
 			(type default)
 		)
 		(uuid "4e85c0db-0dd4-4fdc-8a60-ca1d734fe81e")
-	)
-	(wire
-		(pts
-			(xy 54.61 88.9) (xy 54.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705171ea-296a-408c-acbb-aff13b9337b9")
 	)
 	(wire
 		(pts
@@ -704,16 +674,6 @@
 			(type default)
 		)
 		(uuid "e3d3e47b-ca0f-466c-896d-2e606884a923")
-	)
-	(wire
-		(pts
-			(xy 55.88 88.9) (xy 54.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf7a306-62a3-4dae-b7a3-8af3746a5b92")
 	)
 	(wire
 		(pts
@@ -796,7 +756,7 @@
 		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
 	)
 	(label "PWR_12V"
-		(at 57.15 87.63 0)
+		(at 54.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
