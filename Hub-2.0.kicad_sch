@@ -7503,7 +7503,7 @@
 		)
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
-	(label "SIG_INJECTOR"
+	(label "EXT_OUT_SIG_INJECTOR"
 		(at 121.92 92.71 0)
 		(effects
 			(font
