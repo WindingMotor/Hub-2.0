@@ -613,16 +613,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 90.17) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02427ed3-ff90-481f-a7c8-22f0ad27f911")
-	)
-	(wire
-		(pts
 			(xy 205.74 102.87) (xy 204.47 102.87)
 		)
 		(stroke
@@ -921,16 +911,6 @@
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
-	(label "PWR_12V"
-		(at 64.77 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de364327-7188-481a-bcf3-96ad2c22e8aa")
-	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
 		(at 83.82 118.11 0)
 		(effects
@@ -1018,7 +998,7 @@
 				)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "PWR_12V"
 			(at 67.31 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
