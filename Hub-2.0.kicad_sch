@@ -7573,7 +7573,7 @@
 		)
 		(uuid "db4cf175-cfa0-4028-aab5-46f01ea1f5fb")
 	)
-	(label "PWR_FRONT_LIGHTS"
+	(label "SIG_NEUTRAL_SAFETY"
 		(at 121.92 73.66 0)
 		(effects
 			(font
