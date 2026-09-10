@@ -745,6 +745,16 @@
 		)
 		(uuid "36be9bc7-1427-4627-8114-a04af3ffeb06")
 	)
+	(label "GND"
+		(at 54.61 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
+	)
 	(label "EXT_OUT_SIG_INJECTOR"
 		(at 83.82 142.24 0)
 		(effects
