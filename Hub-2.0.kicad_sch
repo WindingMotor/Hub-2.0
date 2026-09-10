@@ -7484,7 +7484,7 @@
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
 	(label "ESTOP_SIG_RETURN"
-		(at 199.39 71.12 0)
+		(at 210.82 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7514,7 +7514,7 @@
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
 	(label "ESTOP_SIG_DRIVER_COCKPIT"
-		(at 199.39 68.58 0)
+		(at 210.82 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7532,6 +7532,16 @@
 			(justify left bottom)
 		)
 		(uuid "63d1b31d-6e1e-4eb8-95cf-58f2d5222f7b")
+	)
+	(label "PWR_12V"
+		(at 196.85 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "663d2128-e05b-40e7-b7b5-8094a6c3866f")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
 		(at 121.92 63.5 0)
@@ -7644,7 +7654,7 @@
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
 	(label "ESTOP_SIG_VEHICLE_SIDE"
-		(at 199.39 66.04 0)
+		(at 210.82 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
