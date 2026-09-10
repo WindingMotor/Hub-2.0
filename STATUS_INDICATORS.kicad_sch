@@ -5,4 +5,14 @@
 	(uuid "579f9d2b-4a6e-414d-b134-16942a71c882")
 	(paper "A4")
 	(lib_symbols)
+	(text "We need:\n3x THT LEDs, various colors, with THT resistors\n1x THT Buzzer, 5V rated"
+		(exclude_from_sim no)
+		(at 74.168 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f733812b-20d2-439d-8cce-0ca88099b067")
+	)
 )
