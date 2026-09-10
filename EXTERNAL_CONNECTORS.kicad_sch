@@ -1081,16 +1081,6 @@
 		)
 		(uuid "72b62e0c-9d57-493d-b8e7-6f5e5a8903d1")
 	)
-	(label "PWR_5V"
-		(at 83.82 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73cfe407-2366-46a2-b6b7-594ba594011a")
-	)
 	(label "PWR_RADIATOR_FAN"
 		(at 60.96 85.09 0)
 		(effects
@@ -1110,16 +1100,6 @@
 			(justify left bottom)
 		)
 		(uuid "7aa10c41-a887-4a16-a35d-cccf87403d83")
-	)
-	(label "PWR_3V3"
-		(at 83.82 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
 		(at 158.75 74.93 0)
@@ -1170,16 +1150,6 @@
 			(justify left bottom)
 		)
 		(uuid "96b4115f-a547-4ce4-8baa-40558e7e5efe")
-	)
-	(label "PWR_12V"
-		(at 83.82 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9aad16e5-9560-4b8e-937a-e2e8988aee0e")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 110.49 85.09 0)
@@ -1260,16 +1230,6 @@
 			(justify left bottom)
 		)
 		(uuid "e1c070d2-f379-45ac-bdba-f05eb221cf90")
-	)
-	(label "GND"
-		(at 83.82 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e32f2842-6f6d-46dc-bcf9-114c14b65971")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
 		(at 110.49 72.39 0)
