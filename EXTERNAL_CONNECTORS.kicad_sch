@@ -360,6 +360,16 @@
 		)
 		(uuid "10d1565b-c2ca-4d32-b68e-0a47854b2163")
 	)
+	(text "16AWG\n"
+		(exclude_from_sim no)
+		(at 57.15 76.708 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "19563967-36dd-4e6e-b212-3287f4a68db6")
+	)
 	(text "22AWG"
 		(exclude_from_sim no)
 		(at 110.236 84.328 0)
@@ -873,6 +883,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 74.93) (xy 60.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e767f33b-91f2-4566-a389-dde0b10f423c")
+	)
+	(wire
+		(pts
 			(xy 158.75 69.85) (xy 165.1 69.85)
 		)
 		(stroke
@@ -1002,7 +1022,7 @@
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 55.88 69.85 0)
+		(at 53.34 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1071,6 +1091,16 @@
 		)
 		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
 	)
+	(label "GND"
+		(at 60.96 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8765f791-6769-44a2-81db-558c0b39308e")
+	)
 	(label "EXT_IN_SIG_MAP"
 		(at 114.3 69.85 0)
 		(effects
@@ -1132,7 +1162,7 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 55.88 67.31 0)
+		(at 53.34 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1162,7 +1192,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 55.88 72.39 0)
+		(at 53.34 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
