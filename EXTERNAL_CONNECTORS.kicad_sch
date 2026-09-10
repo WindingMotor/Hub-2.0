@@ -607,6 +607,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 90.17) (xy 53.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02427ed3-ff90-481f-a7c8-22f0ad27f911")
+	)
+	(wire
+		(pts
 			(xy 205.74 102.87) (xy 204.47 102.87)
 		)
 		(stroke
@@ -634,6 +644,16 @@
 			(type default)
 		)
 		(uuid "6bb58015-c8c2-44c1-8a60-cb124d283007")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5040a7-7e93-43c6-8cf2-30afabaeea1c")
 	)
 	(wire
 		(pts
@@ -676,7 +696,7 @@
 		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
 	)
 	(label "GND"
-		(at 53.34 92.71 0)
+		(at 64.77 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -886,7 +906,7 @@
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
 	(label "PWR_12V"
-		(at 53.34 90.17 0)
+		(at 64.77 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
