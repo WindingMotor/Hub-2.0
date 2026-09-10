@@ -691,8 +691,8 @@
 		)
 		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
 	)
-	(label "EXT_OUT_SIG_BRAKE_LIGHT"
-		(at 64.77 71.12 0)
+	(label "PWR_BRAKE_LIGHT"
+		(at 62.23 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -750,6 +750,16 @@
 			(justify left bottom)
 		)
 		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
+	)
+	(label "PWR_BRAKE_LIGHT"
+		(at 69.85 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9cc935-34da-4831-b28b-289a04f2b80a")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
 		(at 165.1 69.85 0)
