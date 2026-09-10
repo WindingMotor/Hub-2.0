@@ -423,6 +423,16 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
+		(at 163.068 65.024 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "7424e176-5e22-4995-b6a5-006644f60d45")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
 		(at 163.322 82.804 0)
 		(effects
 			(font
@@ -430,6 +440,16 @@
 			)
 		)
 		(uuid "c18d551d-d4a6-4a86-bce9-4b7b0639fe6f")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 163.068 67.564 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "ea139634-b4a1-4f99-97b6-bf584fcf6cb9")
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
