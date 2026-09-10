@@ -945,6 +945,41 @@
 		)
 		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 60.96 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed48e569-75ac-458d-aef7-43edb2af9ece")
+		(property "Netclass" "GND"
+			(at 63.5 93.2815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 3.81 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 86.36 270)
