@@ -913,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 30.48) (xy 190.5 30.48)
+			(xy 170.18 26.67) (xy 171.45 26.67)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 30.48) (xy 224.79 30.48)
+			(xy 181.61 26.67) (xy 205.74 26.67)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 30.48) (xy 267.97 30.48)
+			(xy 247.65 26.67) (xy 248.92 26.67)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 30.48) (xy 261.62 30.48)
+			(xy 215.9 26.67) (xy 242.57 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7851,7 +7851,7 @@
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
 	(label "ESTOP_SIG_DRIVER_COCKPIT"
-		(at 236.22 30.48 0)
+		(at 217.17 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7871,7 +7871,7 @@
 		(uuid "63d1b31d-6e1e-4eb8-95cf-58f2d5222f7b")
 	)
 	(label "PWR_12V"
-		(at 189.23 30.48 180)
+		(at 170.18 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7881,7 +7881,7 @@
 		(uuid "663d2128-e05b-40e7-b7b5-8094a6c3866f")
 	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
-		(at 267.97 30.48 0)
+		(at 248.92 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8011,7 +8011,7 @@
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
 	(label "ESTOP_SIG_VEHICLE_SIDE"
-		(at 223.52 30.48 180)
+		(at 204.47 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8435,7 +8435,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
-		(at 229.87 30.48 0)
+		(at 210.82 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8446,7 +8446,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2d8a00d-94df-479c-a90f-11e949da24e8")
 		(property "Reference" "SW2"
-			(at 229.87 24.13 0)
+			(at 210.82 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8456,7 +8456,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 229.87 26.67 0)
+			(at 210.82 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8466,7 +8466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 25.4 0)
+			(at 210.82 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 25.4 0)
+			(at 210.82 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,7 +8488,7 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 229.87 30.48 0)
+			(at 210.82 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8515,7 +8515,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 264.16 30.48 0)
+		(at 245.11 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8526,7 +8526,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49a9858-5431-48c4-924c-a7596a9011bf")
 		(property "Reference" "NT1"
-			(at 264.16 25.4 0)
+			(at 245.11 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8537,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 264.16 27.94 0)
+			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 30.48 0)
+			(at 245.11 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 30.48 0)
+			(at 245.11 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +8570,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 264.16 30.48 0)
+			(at 245.11 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,7 +8739,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
-		(at 195.58 30.48 0)
+		(at 176.53 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8750,7 +8750,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf59a854-669d-4843-93f6-607b82aa7a9a")
 		(property "Reference" "SW1"
-			(at 195.58 24.13 0)
+			(at 176.53 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8760,7 +8760,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 195.58 26.67 0)
+			(at 176.53 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8770,7 +8770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 25.4 0)
+			(at 176.53 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 25.4 0)
+			(at 176.53 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8792,7 +8792,7 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 195.58 30.48 0)
+			(at 176.53 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
