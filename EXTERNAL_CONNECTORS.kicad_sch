@@ -592,7 +592,7 @@
 		(uuid "3072e143-2d77-401a-8dc9-18fb0e95841e")
 	)
 	(label "EXT_IN_SIG_STARTER"
-		(at 184.15 53.34 0)
+		(at 166.37 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,7 +642,7 @@
 		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
-		(at 184.15 55.88 0)
+		(at 172.72 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,7 +802,7 @@
 		(uuid "d7203558-cbab-4d37-ae40-5f42219861e3")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
-		(at 184.15 58.42 0)
+		(at 172.72 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
