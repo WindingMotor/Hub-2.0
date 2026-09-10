@@ -1202,7 +1202,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 53.34 69.85 0)
+		(at 53.34 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
