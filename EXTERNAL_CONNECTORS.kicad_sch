@@ -362,16 +362,6 @@
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
-		(at 57.15 76.2 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "3ba19bb5-74ac-48fd-90d1-419938012b48")
-	)
-	(text "16AWG\n"
-		(exclude_from_sim no)
 		(at 57.0759 89.154 0)
 		(effects
 			(font
@@ -503,7 +493,7 @@
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
-		(at 57.15 78.74 0)
+		(at 57.15 78.994 0)
 		(effects
 			(font
 				(size 1.143 1.143)
