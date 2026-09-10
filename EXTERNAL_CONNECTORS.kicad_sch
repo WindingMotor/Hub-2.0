@@ -609,7 +609,7 @@
 		(at 56.896 94.488 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.143 1.143)
 			)
 		)
 		(uuid "4323aef4-d298-4036-b3ae-ebd20f0fcb39")
@@ -619,7 +619,7 @@
 		(at 56.896 91.948 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.143 1.143)
 			)
 		)
 		(uuid "4a3c54a8-4432-47ab-9e47-67e6b87fca24")
@@ -640,7 +640,7 @@
 		(at 111.252 88.138 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.143 1.143)
 			)
 		)
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
