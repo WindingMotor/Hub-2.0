@@ -617,6 +617,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b355c0-d598-42ad-bd50-6911408ff9cc")
+	)
+	(wire
+		(pts
 			(xy 107.95 86.36) (xy 109.22 86.36)
 		)
 		(stroke
@@ -634,6 +644,16 @@
 			(type default)
 		)
 		(uuid "4e85c0db-0dd4-4fdc-8a60-ca1d734fe81e")
+	)
+	(wire
+		(pts
+			(xy 53.34 90.17) (xy 54.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9221cdb8-5bcf-4ced-9293-ca150a0694b2")
 	)
 	(wire
 		(pts
@@ -907,7 +927,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 64.77 91.44 270)
+		(at 54.61 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -917,7 +937,7 @@
 		(dnp no)
 		(uuid "0cecfd2c-3519-484f-bb2d-cc9be1446556")
 		(property "Reference" "#PWR010"
-			(at 60.96 91.44 0)
+			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -928,7 +948,7 @@
 			)
 		)
 		(property "Value" "PWR_12V"
-			(at 71.882 91.44 90)
+			(at 61.722 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -938,7 +958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 91.44 0)
+			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 91.44 0)
+			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -960,7 +980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 64.77 91.44 0)
+			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,7 +1081,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 93.98 90)
+		(at 54.61 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1071,7 +1091,7 @@
 		(dnp no)
 		(uuid "2a40d9ff-e6c4-4897-84e5-225756b9a165")
 		(property "Reference" "#PWR011"
-			(at 72.39 93.98 0)
+			(at 60.96 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,7 +1102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.866 93.98 90)
+			(at 59.436 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1092,7 +1112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 93.98 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1103,7 +1123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 93.98 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1114,7 +1134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 93.98 0)
+			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
