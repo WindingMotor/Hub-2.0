@@ -692,7 +692,7 @@
 		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 64.77 78.74 0)
+		(at 62.23 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -772,7 +772,7 @@
 		(uuid "73cfe407-2366-46a2-b6b7-594ba594011a")
 	)
 	(label "PWR_COOLING_FAN"
-		(at 64.77 83.82 0)
+		(at 60.96 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,7 +862,7 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "PWR_FRONT_LIGHTS"
-		(at 64.77 76.2 0)
+		(at 62.23 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -892,7 +892,7 @@
 		(uuid "b846541e-dd14-4c4f-9246-747fd44a0ac6")
 	)
 	(label "PWR_FUEL_PUMP"
-		(at 64.77 81.28 0)
+		(at 60.96 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
