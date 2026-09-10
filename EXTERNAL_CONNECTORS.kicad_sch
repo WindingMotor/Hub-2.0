@@ -826,7 +826,7 @@
 		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
 	)
 	(label "PWR_12V"
-		(at 63.4961 93.6245 0)
+		(at 54.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
