@@ -7483,7 +7483,7 @@
 		)
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
-	(label "ESTOP_SIG_DRIVER_COCKPIT"
+	(label "ESTOP_SIG_RETURN"
 		(at 121.92 138.43 0)
 		(effects
 			(font
