@@ -612,7 +612,7 @@
 		(uuid "1a5f7d11-b2f7-4771-8cd0-310d34716d05")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
-		(at 83.82 134.62 0)
+		(at 116.84 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -692,7 +692,7 @@
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 83.82 125.73 0)
+		(at 125.73 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,7 +792,7 @@
 		(uuid "9aad16e5-9560-4b8e-937a-e2e8988aee0e")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
-		(at 83.82 132.08 0)
+		(at 116.84 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -812,7 +812,7 @@
 		(uuid "a72c12f2-a129-435f-8e4e-eb04c5776738")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 83.82 123.19 0)
+		(at 125.73 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -842,7 +842,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 83.82 128.27 0)
+		(at 125.73 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
