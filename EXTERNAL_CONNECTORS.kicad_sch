@@ -543,6 +543,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061c4a65-e210-4101-8916-9bd0f4b1f4bc")
+	)
+	(wire
+		(pts
 			(xy 106.68 85.09) (xy 114.3 85.09)
 		)
 		(stroke
@@ -693,6 +703,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 64.77) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee702ea-2600-463d-931d-112a2125d361")
+	)
+	(wire
+		(pts
 			(xy 53.34 80.01) (xy 60.96 80.01)
 		)
 		(stroke
@@ -723,6 +743,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1636ff-2b1d-469f-94ae-e50f7f2c0da0")
+	)
+	(wire
+		(pts
 			(xy 158.75 87.63) (xy 166.37 87.63)
 		)
 		(stroke
@@ -730,6 +760,16 @@
 			(type default)
 		)
 		(uuid "bc1c5480-de0c-4940-88db-4afcb60fdee7")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b4a819-ad27-45d3-ab79-65ee8b0d9548")
 	)
 	(wire
 		(pts
@@ -761,8 +801,18 @@
 		)
 		(uuid "e7e5938a-86de-42dd-b547-1ad1fa964579")
 	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
+	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 95.25 54.61 0)
+		(at 114.3 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -852,7 +902,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 121.92 67.31 0)
+		(at 114.3 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -942,7 +992,7 @@
 		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 92.71 48.26 0)
+		(at 114.3 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1012,7 +1062,7 @@
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 121.92 64.77 0)
+		(at 114.3 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1082,7 +1132,7 @@
 		(uuid "e32f2842-6f6d-46dc-bcf9-114c14b65971")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 92.71 50.8 0)
+		(at 114.3 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
