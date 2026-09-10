@@ -591,6 +591,16 @@
 		)
 		(uuid "9e83458b-cab2-48b9-a2da-46cd3808845b")
 	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 161.798 76.454 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "a5407db4-45a6-429d-b228-54cf629b518d")
+	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
 		(at 57.0759 86.614 0)
