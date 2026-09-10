@@ -796,6 +796,12 @@
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
 	)
 	(junction
+		(at 93.98 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15f8c589-40bd-4428-b6ba-ef27e4d1be14")
+	)
+	(junction
 		(at 93.98 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -943,6 +949,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 128.27) (xy 85.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64284475-1922-4804-92de-8b47b13398da")
+	)
+	(wire
+		(pts
 			(xy 184.15 102.87) (xy 191.77 102.87)
 		)
 		(stroke
@@ -960,6 +976,16 @@
 			(type default)
 		)
 		(uuid "6af93b9a-0f42-49ef-b373-3d49f99b1a30")
+	)
+	(wire
+		(pts
+			(xy 85.09 128.27) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4e2e55-d613-488a-a437-7684c3ebf983")
 	)
 	(wire
 		(pts
@@ -1093,6 +1119,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 125.73) (xy 93.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14646f5-73e8-415f-9c31-6d3b7f913172")
+	)
+	(wire
+		(pts
 			(xy 191.77 107.95) (xy 184.15 107.95)
 		)
 		(stroke
@@ -1120,6 +1156,16 @@
 			(type default)
 		)
 		(uuid "e7e5938a-86de-42dd-b547-1ad1fa964579")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 93.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec499a26-4ff7-4ecc-abbd-9ac23594d3f6")
 	)
 	(wire
 		(pts
@@ -1310,6 +1356,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
+	)
+	(label "GND"
+		(at 95.25 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "857e1b14-a2fd-4d07-8b6c-93b714679fd0")
 	)
 	(label "EXT_IN_SIG_MAP"
 		(at 142.24 87.63 0)
