@@ -7434,7 +7434,7 @@
 		)
 	)
 	(label "GND"
-		(at 121.92 100.33 0)
+		(at 121.92 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7444,7 +7444,7 @@
 		(uuid "035bd2d1-5925-48f9-8251-380a35dbdcdb")
 	)
 	(label "SIG_CAN_HIGH"
-		(at 121.92 77.47 0)
+		(at 121.92 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7454,7 +7454,7 @@
 		(uuid "27f5ee4d-f115-421e-84f1-494aad55f52c")
 	)
 	(label "PWR_3V3"
-		(at 121.92 97.79 0)
+		(at 121.92 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7464,7 +7464,7 @@
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
 	(label "PWR_FRONT_LIGHTS"
-		(at 121.92 105.41 0)
+		(at 121.92 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7494,7 +7494,7 @@
 		(uuid "7a4b7fc1-64da-47fb-8ce6-e8f6bcc8dbb3")
 	)
 	(label "SIG_INJECTOR"
-		(at 121.92 87.63 0)
+		(at 121.92 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7504,7 +7504,7 @@
 		(uuid "7d8c6420-c286-400a-8b4b-30eadbc14441")
 	)
 	(label "SIG_CAN_LOW"
-		(at 121.92 80.01 0)
+		(at 121.92 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7512,6 +7512,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ff39c21-ab1e-4fac-926b-a248f93ae2a1")
+	)
+	(label "SIG_NEUTRAL_SAFETY"
+		(at 121.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9913fd4c-1d83-48c5-a092-d1755a4b6bfa")
 	)
 	(label "SIG_MAP"
 		(at 121.92 71.12 0)
@@ -7524,7 +7534,7 @@
 		(uuid "99f84b2d-689e-45d7-8243-dcf376299535")
 	)
 	(label "PWR_FUEL_PUMP"
-		(at 121.92 110.49 0)
+		(at 121.92 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7534,7 +7544,7 @@
 		(uuid "a1b0c453-e1a0-41ad-8383-638a38311698")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 121.92 107.95 0)
+		(at 121.92 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7554,7 +7564,7 @@
 		(uuid "cdee9811-64d9-4b5a-b510-018bb4a3ba4e")
 	)
 	(label "SIG_IGNITION"
-		(at 121.92 85.09 0)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7584,7 +7594,7 @@
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
 	(label "PWR_5V"
-		(at 121.92 95.25 0)
+		(at 121.92 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7594,7 +7604,7 @@
 		(uuid "eda77ea1-3f0d-467f-86e5-af6b54c42a56")
 	)
 	(label "PWR_12V"
-		(at 121.92 92.71 0)
+		(at 121.92 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,7 +7614,7 @@
 		(uuid "edb45cd5-b1a8-468b-8333-aa1d3c58e0f0")
 	)
 	(label "PWR_COOLING_FAN"
-		(at 121.92 113.03 0)
+		(at 121.92 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
