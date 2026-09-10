@@ -7,11 +7,12 @@
 	(lib_symbols)
 	(text "We need:\n3x THT LEDs, various colors, with THT resistors\n1x THT Buzzer, 5V rated"
 		(exclude_from_sim no)
-		(at 74.168 65.786 0)
+		(at 23.622 27.432 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
+			(justify left)
 		)
 		(uuid "f733812b-20d2-439d-8cce-0ca88099b067")
 	)
