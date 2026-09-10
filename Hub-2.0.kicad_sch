@@ -7891,7 +7891,7 @@
 		(uuid "7d8c6420-c286-400a-8b4b-30eadbc14441")
 	)
 	(label "ESTOP_SIG_RETURN"
-		(at 275.59 22.86 0)
+		(at 121.92 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
