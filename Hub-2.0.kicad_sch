@@ -7484,7 +7484,7 @@
 		(uuid "300a51f7-f04b-4d5e-b65b-046f4427d79d")
 	)
 	(label "ESTOP_SIG_RETURN"
-		(at 121.92 138.43 0)
+		(at 199.39 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7514,7 +7514,7 @@
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
 	(label "ESTOP_SIG_DRIVER_COCKPIT"
-		(at 121.92 135.89 0)
+		(at 199.39 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7644,7 +7644,7 @@
 		(uuid "e1f37c7a-b794-4694-ab67-87a3073ef50c")
 	)
 	(label "ESTOP_SIG_VEHICLE_SIDE"
-		(at 121.92 133.35 0)
+		(at 199.39 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
