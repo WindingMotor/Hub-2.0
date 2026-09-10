@@ -932,7 +932,7 @@
 		(uuid "7b3f98da-d66b-4355-8931-afc77c029ec7")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 124.46 72.39 0)
+		(at 92.71 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1052,7 +1052,7 @@
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 114.3 59.69 0)
+		(at 119.38 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,7 +1072,7 @@
 		(uuid "e32f2842-6f6d-46dc-bcf9-114c14b65971")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 124.46 74.93 0)
+		(at 92.71 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
