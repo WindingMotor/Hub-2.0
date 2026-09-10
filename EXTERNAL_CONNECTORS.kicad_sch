@@ -1417,7 +1417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100b"
+		(property "Value" "10y"
 			(at 85.598 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
