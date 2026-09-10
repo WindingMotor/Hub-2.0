@@ -1461,8 +1461,8 @@
 				)
 			)
 		)
-		(property "Voltage" ""
-			(at 85.09 121.92 0)
+		(property "Voltage" "25V"
+			(at 89.662 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
