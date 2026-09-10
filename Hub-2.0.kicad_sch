@@ -7483,7 +7483,7 @@
 		)
 		(uuid "4315e750-a21e-4723-99f5-94ceab8e0114")
 	)
-	(label "SIG_INTAKE_TEMP"
+	(label "EXT_IN_SIG_INTAKE_TEMP"
 		(at 121.92 66.04 0)
 		(effects
 			(font
@@ -7533,7 +7533,7 @@
 		)
 		(uuid "9913fd4c-1d83-48c5-a092-d1755a4b6bfa")
 	)
-	(label "SIG_MAP"
+	(label "EXT_IN_SIG_MAP"
 		(at 121.92 71.12 0)
 		(effects
 			(font
@@ -7563,7 +7563,7 @@
 		)
 		(uuid "b418d260-c5de-43ee-8766-05e97f2d606c")
 	)
-	(label "SIG_THROTTLE_POSITION"
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
 		(at 121.92 68.58 0)
 		(effects
 			(font
