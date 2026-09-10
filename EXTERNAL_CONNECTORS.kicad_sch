@@ -483,6 +483,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af93b9a-0f42-49ef-b373-3d49f99b1a30")
+	)
+	(wire
+		(pts
 			(xy 53.34 90.17) (xy 60.96 90.17)
 		)
 		(stroke
@@ -542,7 +552,7 @@
 		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
 	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
-		(at 171.45 73.66 0)
+		(at 161.29 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -572,7 +582,7 @@
 		(uuid "3072e143-2d77-401a-8dc9-18fb0e95841e")
 	)
 	(label "EXT_IN_SIG_STARTER"
-		(at 171.45 64.77 0)
+		(at 184.15 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -622,7 +632,7 @@
 		(uuid "666f4229-c165-4536-a17b-10faac5748dc")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
-		(at 171.45 67.31 0)
+		(at 184.15 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -782,7 +792,7 @@
 		(uuid "d7203558-cbab-4d37-ae40-5f42219861e3")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
-		(at 171.45 69.85 0)
+		(at 184.15 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
