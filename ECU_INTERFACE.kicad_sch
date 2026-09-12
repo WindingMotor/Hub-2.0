@@ -3160,6 +3160,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 133.35) (xy 109.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c6430b-f821-471d-9a63-67a04eed710f")
+	)
+	(wire
+		(pts
 			(xy 113.03 95.25) (xy 113.03 97.79)
 		)
 		(stroke
@@ -3280,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 128.27) (xy 96.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f5708c-5fb0-4b45-ae2c-1c8e4bd9b54e")
+	)
+	(wire
+		(pts
 			(xy 59.69 100.33) (xy 60.96 100.33)
 		)
 		(stroke
@@ -3307,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "4aff66ac-ebd3-4d07-ba9d-c8238b39593e")
+	)
+	(wire
+		(pts
+			(xy 110.49 130.81) (xy 109.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b69dbe3-5450-4808-90de-5fc59320d1fa")
 	)
 	(wire
 		(pts
@@ -3357,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "5fac6a97-d2d3-4784-bea2-83878443de43")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ea4cba-99b1-428e-bbe7-5401ed020649")
 	)
 	(wire
 		(pts
@@ -3447,6 +3487,16 @@
 			(type default)
 		)
 		(uuid "94acc5a8-cef6-442b-9fad-432fd251dd65")
+	)
+	(wire
+		(pts
+			(xy 110.49 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962b79ef-e636-45ab-8207-8e93d9395a05")
 	)
 	(wire
 		(pts
@@ -3769,7 +3819,7 @@
 		(uuid "fc7f04c0-6583-4ef4-9d66-40b36abd17a5")
 	)
 	(label "ECU_2_WBO_Vm"
-		(at 109.22 128.27 0)
+		(at 110.49 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3879,7 +3929,7 @@
 		(uuid "320fce5d-ff5c-4f96-9949-17a06ecb5431")
 	)
 	(label "ECU_6_WBO_Un"
-		(at 109.22 133.35 0)
+		(at 110.49 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3889,7 +3939,7 @@
 		(uuid "34e3f71e-75c7-4898-9afe-b80f7fc2ff84")
 	)
 	(label "ECU_5_WBO_Rtrim"
-		(at 96.52 130.81 180)
+		(at 95.25 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4119,7 +4169,7 @@
 		(uuid "9836b3ea-75b1-4595-b470-d6a131a3152a")
 	)
 	(label "ECU_1_WBO_Ip"
-		(at 109.22 130.81 0)
+		(at 110.49 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4249,7 +4299,7 @@
 		(uuid "da114835-60bb-4a0c-8bec-043bcf450792")
 	)
 	(label "ECU_3_WBO_Heater"
-		(at 96.52 128.27 180)
+		(at 95.25 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
