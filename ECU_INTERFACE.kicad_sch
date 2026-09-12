@@ -3659,7 +3659,7 @@
 		)
 		(uuid "1454e1b9-e600-4138-aff0-77d6e537136d")
 	)
-	(label "OUT_IGN2"
+	(label "ECU_OUT_IGN2"
 		(at 73.66 100.33 0)
 		(effects
 			(font
@@ -3939,7 +3939,7 @@
 		)
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
-	(label "OUT_IGN5"
+	(label "ECU_OUT_IGN5"
 		(at 73.66 102.87 0)
 		(effects
 			(font
@@ -4129,7 +4129,7 @@
 		)
 		(uuid "e9bc55c2-df7e-4190-b450-76323b7abdad")
 	)
-	(label "OUT_IGN1"
+	(label "ECU_OUT_IGN1"
 		(at 73.66 97.79 0)
 		(effects
 			(font
