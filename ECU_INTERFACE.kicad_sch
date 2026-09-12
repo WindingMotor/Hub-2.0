@@ -3678,7 +3678,7 @@
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
 	(label "ECU_IN_CLT"
-		(at 78.74 45.72 0)
+		(at 72.39 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,12 +3788,12 @@
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
 	(label "ECU_IN_IAT"
-		(at 83.82 48.26 180)
+		(at 72.39 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
