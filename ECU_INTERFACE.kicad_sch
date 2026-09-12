@@ -3063,15 +3063,6 @@
 		(uuid "9c9828ef-094a-4684-bf7d-42425bc8cbc4")
 	)
 	(bus_entry
-		(at 137.16 102.87)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e7b508-50d5-43ef-9bcb-8e248a54cf72")
-	)
-	(bus_entry
 		(at 137.16 100.33)
 		(size 2.54 2.54)
 		(stroke
@@ -3149,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "69fd89d7-513e-4c75-85b5-5298fdfd8925")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75339283-0e99-4f2c-abd4-47eaf2bd0975")
 	)
 	(wire
 		(pts
@@ -3411,7 +3412,7 @@
 		(uuid "3afaca3a-e76a-4e9f-93a8-55c910b78132")
 	)
 	(label "ECU_OUT_DC1+"
-		(at 127 102.87 0)
+		(at 139.7 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
