@@ -3074,56 +3074,6 @@
 		)
 		(uuid "b9fa5310-06a6-46e0-9966-928ca2627b66")
 	)
-	(wire
-		(pts
-			(xy 109.22 128.27) (xy 120.65 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e206c8-b78f-4df8-a14e-384eb4f3c114")
-	)
-	(wire
-		(pts
-			(xy 109.22 133.35) (xy 120.65 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be169ef-2f3b-4c7f-a9bf-e3bbe125e5ac")
-	)
-	(wire
-		(pts
-			(xy 96.52 130.81) (xy 85.09 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbde1acb-40db-4e33-b547-431b07fdffb7")
-	)
-	(wire
-		(pts
-			(xy 109.22 130.81) (xy 120.65 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24ea1c1-a404-45e5-9cae-56b76355b2cc")
-	)
-	(wire
-		(pts
-			(xy 96.52 128.27) (xy 85.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74fdd88-594d-4a4f-a637-83ad03d7003d")
-	)
 	(label "ECU_2_WBO_Vm"
 		(at 109.22 128.27 0)
 		(effects
