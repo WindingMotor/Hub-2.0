@@ -3029,7 +3029,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 66.675 102.235 0)
+		(at 66.548 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3785,7 +3785,7 @@
 		(dnp no)
 		(uuid "0c39ac4a-5592-4900-b449-d28b6fedbe2b")
 		(property "Reference" "J5"
-			(at 67.31 87.63 0)
+			(at 67.056 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Value" "5569-18A2"
-			(at 68.58 83.058 0)
+			(at 67.31 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
