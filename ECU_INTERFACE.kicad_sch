@@ -3819,7 +3819,7 @@
 		)
 		(uuid "4d9e728a-e019-4cad-9bc4-ff1c3df2ccc4")
 	)
-	(label "CAN+"
+	(label "ECU_CAN_HIGH"
 		(at 59.69 48.26 180)
 		(effects
 			(font
@@ -3829,7 +3829,7 @@
 		)
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
-	(label "CAN-"
+	(label "ECU_CAN_LOW"
 		(at 59.69 45.72 180)
 		(effects
 			(font
