@@ -4768,7 +4768,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 80.01 55.88 90)
+			(at 80.772 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
