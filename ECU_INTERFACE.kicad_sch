@@ -3520,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 133.35) (xy 96.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2e853f-a128-4779-b2a0-ff3f0b47f03f")
+	)
+	(wire
+		(pts
 			(xy 58.42 60.96) (xy 59.69 60.96)
 		)
 		(stroke
@@ -5453,7 +5463,7 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:+12V_RAW")
-		(at 96.52 133.35 90)
+		(at 95.25 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5463,7 +5473,7 @@
 		(dnp no)
 		(uuid "e91c9e1f-fbe4-4e41-8af2-77dccde2c908")
 		(property "Reference" "#PWR04"
-			(at 100.33 133.35 0)
+			(at 99.06 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,7 +5484,7 @@
 			)
 		)
 		(property "Value" "+12V_RAW"
-			(at 93.472 133.35 90)
+			(at 92.202 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5485,7 +5495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 133.35 0)
+			(at 95.25 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 133.35 0)
+			(at 95.25 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 133.35 0)
+			(at 95.25 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
