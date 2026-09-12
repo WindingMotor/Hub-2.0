@@ -3749,7 +3749,7 @@
 		)
 		(uuid "34e3f71e-75c7-4898-9afe-b80f7fc2ff84")
 	)
-	(label "5_WBO_Rtrim"
+	(label "ECU_5_WBO_Rtrim"
 		(at 96.52 130.81 180)
 		(effects
 			(font
@@ -4109,7 +4109,7 @@
 		)
 		(uuid "da114835-60bb-4a0c-8bec-043bcf450792")
 	)
-	(label "3_WBO_Heater"
+	(label "ECU_3_WBO_Heater"
 		(at 96.52 128.27 180)
 		(effects
 			(font
