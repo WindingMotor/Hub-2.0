@@ -3869,7 +3869,7 @@
 		)
 		(uuid "6a3a7e8d-d971-4a8e-b56c-11b8b7ed59e8")
 	)
-	(label "IN_AUX1"
+	(label "ECU_IN_AUX1"
 		(at 59.69 63.5 180)
 		(effects
 			(font
@@ -4099,7 +4099,7 @@
 		)
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
-	(label "IN_BUTTON1"
+	(label "ECU_IN_BUTTON1"
 		(at 59.69 60.96 180)
 		(effects
 			(font
