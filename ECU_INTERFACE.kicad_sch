@@ -3250,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 45.72) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5645a20b-89c8-4829-9762-2fc88415bf61")
+	)
+	(wire
+		(pts
 			(xy 74.93 55.88) (xy 73.66 55.88)
 		)
 		(stroke
@@ -3420,6 +3430,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadeed07-03a4-4cd6-b2be-d49ad355c639")
+	)
+	(wire
+		(pts
 			(xy 58.42 55.88) (xy 59.69 55.88)
 		)
 		(stroke
@@ -3527,6 +3547,26 @@
 			(type default)
 		)
 		(uuid "f55f365c-b276-4b8c-bf6b-adea4582e032")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e72bfb-4aab-4a91-ab3b-69436d0a8703")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f858b0e6-caa5-4d2c-b0af-eab97a1b4afa")
 	)
 	(wire
 		(pts
@@ -3679,7 +3719,7 @@
 		(uuid "37660129-ff12-4cb6-bc55-fd78326344f1")
 	)
 	(label "ECU_IN_PPS1"
-		(at 59.69 50.8 180)
+		(at 58.42 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3709,7 +3749,7 @@
 		(uuid "4d9e728a-e019-4cad-9bc4-ff1c3df2ccc4")
 	)
 	(label "ECU_CAN_HIGH"
-		(at 59.69 48.26 180)
+		(at 58.42 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3719,7 +3759,7 @@
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
 	(label "ECU_CAN_LOW"
-		(at 59.69 45.72 180)
+		(at 58.42 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4049,7 +4089,7 @@
 		(uuid "ec56e39c-463e-4a08-8d84-f24176957b05")
 	)
 	(label "ECU_IN_FLEX"
-		(at 59.69 53.34 180)
+		(at 58.42 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
