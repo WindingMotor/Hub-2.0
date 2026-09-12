@@ -4888,7 +4888,7 @@
 			)
 		)
 		(property "Value" "+12V_RAW"
-			(at 93.98 133.985 90)
+			(at 93.472 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
