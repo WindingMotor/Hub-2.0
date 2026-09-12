@@ -3120,16 +3120,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 85.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094e3696-51e6-45ac-8eb4-611bbb8509f4")
-	)
-	(wire
-		(pts
 			(xy 73.66 90.17) (xy 86.36 90.17)
 		)
 		(stroke
@@ -3468,6 +3458,16 @@
 			(color 255 0 255 1)
 		)
 		(uuid "9fab21fa-ac8a-4d12-a15e-c4f269895ddb")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1908b54-dd3d-4868-bd52-4f64c867e077")
 	)
 	(wire
 		(pts
@@ -3910,12 +3910,12 @@
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
 	(label "ECU_IN_CLT"
-		(at 78.74 45.72 180)
+		(at 78.74 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8253f203-0b45-4d31-b393-2528f77e8caf")
 	)
@@ -4020,12 +4020,12 @@
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
 	(label "ECU_IN_IAT"
-		(at 72.39 48.26 0)
+		(at 83.82 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
