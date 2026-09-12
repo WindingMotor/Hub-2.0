@@ -3859,7 +3859,7 @@
 		)
 		(uuid "728dbf6e-dcb7-47dd-81a8-6c815a29c1bc")
 	)
-	(label "OUT_LS_HOT2"
+	(label "ECU_OUT_LS_HOT2"
 		(at 60.96 92.71 180)
 		(effects
 			(font
@@ -3899,7 +3899,7 @@
 		)
 		(uuid "8253f203-0b45-4d31-b393-2528f77e8caf")
 	)
-	(label "OUT_LS_HOT1"
+	(label "ECU_OUT_LS_HOT1"
 		(at 60.96 90.17 180)
 		(effects
 			(font
@@ -3959,7 +3959,7 @@
 		)
 		(uuid "8f6ae83d-649e-4c73-8aef-5617dad5e96f")
 	)
-	(label "OUT_LS1"
+	(label "ECU_OUT_LS1"
 		(at 60.96 95.25 180)
 		(effects
 			(font
