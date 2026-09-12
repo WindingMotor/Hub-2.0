@@ -4049,7 +4049,7 @@
 		)
 		(uuid "bf8c21f9-1bfa-4d33-ba82-ca5fc05e409d")
 	)
-	(label "IN_MAP"
+	(label "ECU_IN_MAP"
 		(at 72.39 63.5 0)
 		(effects
 			(font
@@ -4169,7 +4169,7 @@
 		)
 		(uuid "eea12cb0-03ab-47c5-b4f2-29263266eaea")
 	)
-	(label "IN_BUTTON2"
+	(label "ECU_IN_BUTTON2"
 		(at 72.39 60.96 0)
 		(effects
 			(font
