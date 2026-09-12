@@ -3729,7 +3729,7 @@
 		)
 		(uuid "2eb5e27a-4d02-4627-9e3e-af8272799dc8")
 	)
-	(label "OUT_LS4"
+	(label "ECU_OUT_LS4"
 		(at 73.66 95.25 0)
 		(effects
 			(font
@@ -3909,7 +3909,7 @@
 		)
 		(uuid "8369c3dc-7527-4f69-a85b-08ac6e2854be")
 	)
-	(label "OUT_LS3"
+	(label "ECU_OUT_LS3"
 		(at 73.66 92.71 0)
 		(effects
 			(font
