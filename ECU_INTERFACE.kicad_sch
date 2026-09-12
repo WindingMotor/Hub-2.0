@@ -3455,7 +3455,7 @@
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
 	(label "ECU_IN_KNOCK_RAW"
-		(at 72.39 50.8 270)
+		(at 72.39 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
