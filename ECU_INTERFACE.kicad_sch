@@ -2985,7 +2985,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 120.142 88.646 0)
+		(at 181.102 26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3029,7 +3029,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 66.548 83.82 0)
+		(at 239.268 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3057,7 +3057,7 @@
 		(uuid "6345cd4e-246f-4834-95f7-ba0cc88f2d48")
 	)
 	(junction
-		(at 113.03 95.25)
+		(at 173.99 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c21ad4-c163-428f-bba9-04b36b7922c6")
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 60.96 92.71)
+			(xy 232.41 26.67) (xy 233.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 73.66 97.79)
+			(xy 247.65 31.75) (xy 246.38 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 127 100.33)
+			(xy 189.23 38.1) (xy 187.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 110.49) (xy 60.96 110.49)
+			(xy 232.41 44.45) (xy 233.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 113.03 97.79)
+			(xy 173.99 33.02) (xy 173.99 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 114.3 97.79)
+			(xy 173.99 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 113.03 95.25)
+			(xy 172.72 33.02) (xy 173.99 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 60.96 95.25)
+			(xy 232.41 29.21) (xy 233.68 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 73.66 107.95)
+			(xy 247.65 41.91) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 60.96 90.17)
+			(xy 232.41 24.13) (xy 233.68 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 97.79) (xy 127 97.79)
+			(xy 189.23 35.56) (xy 187.96 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 60.96 100.33)
+			(xy 232.41 34.29) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 107.95) (xy 60.96 107.95)
+			(xy 232.41 41.91) (xy 233.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 73.66 102.87)
+			(xy 247.65 36.83) (xy 246.38 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 73.66 92.71)
+			(xy 247.65 26.67) (xy 246.38 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 127 102.87)
+			(xy 189.23 40.64) (xy 187.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 102.87) (xy 60.96 102.87)
+			(xy 232.41 36.83) (xy 233.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3510,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 73.66 90.17)
+			(xy 247.65 24.13) (xy 246.38 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 95.25) (xy 73.66 95.25)
+			(xy 247.65 29.21) (xy 246.38 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3580,7 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 102.87) (xy 114.3 102.87)
+			(xy 173.99 40.64) (xy 175.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 114.3 100.33)
+			(xy 173.99 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3680,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 105.41) (xy 60.96 105.41)
+			(xy 232.41 39.37) (xy 233.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3700,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 73.66 105.41)
+			(xy 247.65 39.37) (xy 246.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3720,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 100.33) (xy 73.66 100.33)
+			(xy 247.65 34.29) (xy 246.38 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3730,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 97.79) (xy 60.96 97.79)
+			(xy 232.41 31.75) (xy 233.68 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3740,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 114.3 95.25)
+			(xy 173.99 33.02) (xy 175.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3820,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 73.66 110.49)
+			(xy 247.65 44.45) (xy 246.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3839,7 +3839,7 @@
 		(uuid "06c6ab24-043d-49c6-a3f8-315fc0ef65b3")
 	)
 	(label "ECU_OUT_INJ3"
-		(at 59.69 102.87 180)
+		(at 232.41 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3859,7 +3859,7 @@
 		(uuid "1454e1b9-e600-4138-aff0-77d6e537136d")
 	)
 	(label "ECU_OUT_IGN2"
-		(at 74.93 100.33 0)
+		(at 247.65 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3869,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "ECU_12V_KEY"
-		(at 128.27 97.79 0)
+		(at 189.23 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 		(uuid "180d2871-9bf8-4331-8f41-9d7fba0b4dfc")
 	)
 	(label "ECU_OUT_INJ2"
-		(at 59.69 100.33 180)
+		(at 232.41 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,7 +3899,7 @@
 		(uuid "21d3ce06-b49d-4e25-988d-805b21f8731d")
 	)
 	(label "ECU_OUT_INJ4"
-		(at 59.69 105.41 180)
+		(at 232.41 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3929,7 +3929,7 @@
 		(uuid "2eb5e27a-4d02-4627-9e3e-af8272799dc8")
 	)
 	(label "ECU_OUT_LS4"
-		(at 74.93 95.25 0)
+		(at 247.65 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3959,7 +3959,7 @@
 		(uuid "368a5118-a530-425e-9cce-b18d8b4d33dc")
 	)
 	(label "ECU_OUT_INJ5"
-		(at 59.69 107.95 180)
+		(at 232.41 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 		(uuid "38b57708-08a1-4605-9597-af28cd575f7d")
 	)
 	(label "ECU_OUT_INJ6"
-		(at 59.69 110.49 180)
+		(at 232.41 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3989,7 +3989,7 @@
 		(uuid "3afaca3a-e76a-4e9f-93a8-55c910b78132")
 	)
 	(label "ECU_OUT_DC1+"
-		(at 128.27 102.87 0)
+		(at 189.23 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4059,7 +4059,7 @@
 		(uuid "728dbf6e-dcb7-47dd-81a8-6c815a29c1bc")
 	)
 	(label "ECU_OUT_LS_HOT2"
-		(at 59.69 92.71 180)
+		(at 232.41 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 		(uuid "783bea35-2a41-4ce4-b58c-c7f3de7dbb03")
 	)
 	(label "ECU_OUT_IGN6"
-		(at 74.93 110.49 0)
+		(at 247.65 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4079,7 +4079,7 @@
 		(uuid "7906c269-aceb-41cb-ab9f-00892786c348")
 	)
 	(label "ECU_OUT_IGN3"
-		(at 74.93 105.41 0)
+		(at 247.65 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4099,7 +4099,7 @@
 		(uuid "8253f203-0b45-4d31-b393-2528f77e8caf")
 	)
 	(label "ECU_OUT_LS_HOT1"
-		(at 59.69 90.17 180)
+		(at 232.41 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4109,7 +4109,7 @@
 		(uuid "8369c3dc-7527-4f69-a85b-08ac6e2854be")
 	)
 	(label "ECU_OUT_LS3"
-		(at 74.93 92.71 0)
+		(at 247.65 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4119,7 +4119,7 @@
 		(uuid "85bb4b96-33bc-4b32-a5f9-5feac1540b32")
 	)
 	(label "ECU_OUT_LS2"
-		(at 74.93 90.17 0)
+		(at 247.65 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "ECU_OUT_IGN5"
-		(at 74.93 102.87 0)
+		(at 247.65 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 		(uuid "8f6ae83d-649e-4c73-8aef-5617dad5e96f")
 	)
 	(label "ECU_OUT_LS1"
-		(at 59.69 95.25 180)
+		(at 232.41 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,7 +4219,7 @@
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
 	)
 	(label "ECU_OUT_DC2+"
-		(at 128.27 100.33 0)
+		(at 189.23 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4239,7 +4239,7 @@
 		(uuid "c043dbf3-802e-4c09-939b-d2bb64a0941b")
 	)
 	(label "ECU_OUT_IGN4"
-		(at 74.93 107.95 0)
+		(at 247.65 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4249,7 +4249,7 @@
 		(uuid "c887eb0f-39c0-4697-8fe0-d8217f160c56")
 	)
 	(label "ECU_OUT_DC2-"
-		(at 113.03 100.33 180)
+		(at 173.99 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4319,7 +4319,7 @@
 		(uuid "e6c1c820-e45d-4e04-8e24-1ce4d6c39102")
 	)
 	(label "ECU_OUT_DC1-"
-		(at 113.03 102.87 180)
+		(at 173.99 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 		(uuid "e9bc55c2-df7e-4190-b450-76323b7abdad")
 	)
 	(label "ECU_OUT_IGN1"
-		(at 74.93 97.79 0)
+		(at 247.65 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4359,7 +4359,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_OUT_INJ1"
-		(at 59.69 97.79 180)
+		(at 232.41 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4370,7 +4370,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x09_Top_Bottom")
-		(at 66.04 100.33 0)
+		(at 238.76 34.29 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4381,7 +4381,7 @@
 		(dnp no)
 		(uuid "0c39ac4a-5592-4900-b449-d28b6fedbe2b")
 		(property "Reference" "J5"
-			(at 67.056 84.582 0)
+			(at 239.776 18.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4391,7 +4391,7 @@
 			)
 		)
 		(property "Value" "5569-18A2"
-			(at 67.31 86.614 0)
+			(at 240.03 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4401,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal"
-			(at 66.04 100.33 0)
+			(at 238.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4412,7 +4412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 100.33 0)
+			(at 238.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 100.33 0)
+			(at 238.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4434,7 @@
 			)
 		)
 		(property "LCSC" "C240834"
-			(at 66.04 100.33 0)
+			(at 238.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 95.25 270)
+		(at 172.72 33.02 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4598,7 +4598,7 @@
 		(dnp no)
 		(uuid "38d046ae-16a6-4eb1-b1d9-c3611a212c15")
 		(property "Reference" "#PWR05"
-			(at 105.41 95.25 0)
+			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 95.25 90)
+			(at 167.64 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4619,7 +4619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 95.25 0)
+			(at 172.72 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 95.25 0)
+			(at 172.72 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 95.25 0)
+			(at 172.72 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +4665,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
-		(at 119.38 100.33 0)
+		(at 180.34 38.1 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4676,7 +4676,7 @@
 		(dnp no)
 		(uuid "3cea2cc4-767d-4861-a968-b0998f36ddac")
 		(property "Reference" "J4"
-			(at 120.65 89.662 0)
+			(at 181.61 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Value" "5569-08A2"
-			(at 120.65 91.948 0)
+			(at 181.61 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
-			(at 119.38 100.33 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 100.33 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 100.33 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 			)
 		)
 		(property "LCSC" "C490533"
-			(at 119.38 100.33 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
