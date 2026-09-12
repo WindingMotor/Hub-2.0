@@ -3445,22 +3445,22 @@
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
 	(label "ECU_IN_IAT"
-		(at 83.82 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
-	)
-	(label "ECU_IN_KNOCK_RAW"
-		(at 72.39 50.8 0)
+		(at 83.82 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
+	)
+	(label "ECU_IN_KNOCK_RAW"
+		(at 72.39 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
 	)
