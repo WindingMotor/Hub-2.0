@@ -2996,7 +2996,7 @@
 	)
 	(text "C"
 		(exclude_from_sim no)
-		(at 118.745 57.15 0)
+		(at 118.618 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
