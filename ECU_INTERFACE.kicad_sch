@@ -4080,7 +4080,7 @@
 		(dnp no)
 		(uuid "3cea2cc4-767d-4861-a968-b0998f36ddac")
 		(property "Reference" "J4"
-			(at 120.65 92.71 0)
+			(at 120.65 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "Value" "5569-08A2"
-			(at 120.65 105.41 0)
+			(at 120.65 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
