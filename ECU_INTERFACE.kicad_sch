@@ -3739,7 +3739,7 @@
 		)
 		(uuid "2512c476-276f-430e-8b12-3cf93b630576")
 	)
-	(label "IN_BUTTON3"
+	(label "ECU_IN_BUTTON3"
 		(at 113.03 46.99 180)
 		(effects
 			(font
@@ -4119,7 +4119,7 @@
 		)
 		(uuid "d74bef4a-c2f5-427a-b494-84f4a719647b")
 	)
-	(label "EGT+"
+	(label "ECU_EGT+"
 		(at 113.03 44.45 180)
 		(effects
 			(font
