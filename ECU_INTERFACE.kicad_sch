@@ -3669,7 +3669,7 @@
 		)
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
-	(label "12V_KEY"
+	(label "ECU_12V_KEY"
 		(at 127 97.79 0)
 		(effects
 			(font
@@ -3789,7 +3789,7 @@
 		)
 		(uuid "3afaca3a-e76a-4e9f-93a8-55c910b78132")
 	)
-	(label "OUT_DC1+"
+	(label "ECU_OUT_DC1+"
 		(at 127 102.87 0)
 		(effects
 			(font
@@ -4019,7 +4019,7 @@
 		)
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
 	)
-	(label "OUT_DC2+"
+	(label "ECU_OUT_DC2+"
 		(at 127 100.33 0)
 		(effects
 			(font
