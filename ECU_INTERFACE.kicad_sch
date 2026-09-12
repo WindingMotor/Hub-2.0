@@ -3969,7 +3969,7 @@
 		)
 		(uuid "8f0f19dc-a98f-4ce8-8388-c8046ac69aae")
 	)
-	(label "IN_HALL3"
+	(label "ECU_IN_HALL3"
 		(at 113.03 52.07 180)
 		(effects
 			(font
@@ -3989,7 +3989,7 @@
 		)
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
-	(label "IN_HALL2"
+	(label "ECU_IN_HALL2"
 		(at 113.03 54.61 180)
 		(effects
 			(font
@@ -4109,7 +4109,7 @@
 		)
 		(uuid "d6ea61fe-3193-4e1f-8d0b-bae8b12e698e")
 	)
-	(label "IN_HALL1"
+	(label "ECU_IN_HALL1"
 		(at 113.03 57.15 180)
 		(effects
 			(font
