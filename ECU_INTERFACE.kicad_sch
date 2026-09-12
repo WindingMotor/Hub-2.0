@@ -3072,15 +3072,6 @@
 		(uuid "10e7b508-50d5-43ef-9bcb-8e248a54cf72")
 	)
 	(bus_entry
-		(at 104.14 59.69)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f568b67-ac0e-4442-8920-8a37d3c4b138")
-	)
-	(bus_entry
 		(at 137.16 100.33)
 		(size 2.54 2.54)
 		(stroke
