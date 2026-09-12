@@ -3759,7 +3759,7 @@
 		)
 		(uuid "368a5118-a530-425e-9cce-b18d8b4d33dc")
 	)
-	(label "OUT_INJ5"
+	(label "ECU_OUT_INJ5"
 		(at 60.96 107.95 180)
 		(effects
 			(font
