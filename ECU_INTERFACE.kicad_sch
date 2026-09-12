@@ -3018,7 +3018,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 65.405 55.88 0)
+		(at 65.786 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 		(dnp no)
 		(uuid "add6454d-1a63-4b04-854e-272fccaec153")
 		(property "Reference" "J10"
-			(at 66.04 43.18 0)
+			(at 66.294 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Value" "5569-16A2"
-			(at 66.04 66.04 0)
+			(at 66.548 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
