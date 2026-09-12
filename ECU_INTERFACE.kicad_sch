@@ -3140,6 +3140,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2139f5a2-582b-4c07-bba4-9e6084800934")
+	)
+	(wire
+		(pts
 			(xy 59.69 110.49) (xy 60.96 110.49)
 		)
 		(stroke
@@ -3247,6 +3257,16 @@
 			(type default)
 		)
 		(uuid "3dec5f59-9a1a-40be-876f-df855bead239")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451deab6-af3e-40a9-8e81-9ea3f303f234")
 	)
 	(wire
 		(pts
@@ -3370,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cfb9e5-3481-4d1a-b173-1e779eb15ea5")
+	)
+	(wire
+		(pts
 			(xy 73.66 48.26) (xy 72.39 48.26)
 		)
 		(stroke
@@ -3487,6 +3517,26 @@
 			(type default)
 		)
 		(uuid "ac9033a0-1dd4-4fc5-8064-0f18d4082882")
+	)
+	(wire
+		(pts
+			(xy 113.03 102.87) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3111adb-56c8-42ac-804d-60ce396dba3d")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fa9450-5e8e-4468-9ea8-842142588d09")
 	)
 	(wire
 		(pts
@@ -3759,7 +3809,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "ECU_12V_KEY"
-		(at 127 97.79 0)
+		(at 128.27 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3879,7 +3929,7 @@
 		(uuid "3afaca3a-e76a-4e9f-93a8-55c910b78132")
 	)
 	(label "ECU_OUT_DC1+"
-		(at 127 102.87 0)
+		(at 128.27 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4109,7 +4159,7 @@
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
 	)
 	(label "ECU_OUT_DC2+"
-		(at 127 100.33 0)
+		(at 128.27 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4139,7 +4189,7 @@
 		(uuid "c887eb0f-39c0-4697-8fe0-d8217f160c56")
 	)
 	(label "ECU_OUT_DC2-"
-		(at 114.3 100.33 180)
+		(at 113.03 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4209,7 +4259,7 @@
 		(uuid "e6c1c820-e45d-4e04-8e24-1ce4d6c39102")
 	)
 	(label "ECU_OUT_DC1-"
-		(at 114.3 102.87 180)
+		(at 113.03 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
