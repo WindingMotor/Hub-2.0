@@ -3679,7 +3679,7 @@
 		)
 		(uuid "180d2871-9bf8-4331-8f41-9d7fba0b4dfc")
 	)
-	(label "OUT_INJ2"
+	(label "ECU_OUT_INJ2"
 		(at 60.96 100.33 180)
 		(effects
 			(font
@@ -4159,7 +4159,7 @@
 		)
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
-	(label "OUT_INJ1"
+	(label "ECU_OUT_INJ1"
 		(at 60.96 97.79 180)
 		(effects
 			(font
