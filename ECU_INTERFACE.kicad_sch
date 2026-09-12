@@ -3789,7 +3789,7 @@
 		)
 		(uuid "37660129-ff12-4cb6-bc55-fd78326344f1")
 	)
-	(label "IN_PPS1"
+	(label "ECU_IN_PPS1"
 		(at 59.69 50.8 180)
 		(effects
 			(font
@@ -4159,7 +4159,7 @@
 		)
 		(uuid "ec56e39c-463e-4a08-8d84-f24176957b05")
 	)
-	(label "IN_FLEX"
+	(label "ECU_IN_FLEX"
 		(at 59.69 53.34 180)
 		(effects
 			(font
