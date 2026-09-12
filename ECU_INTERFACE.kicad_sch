@@ -4049,7 +4049,7 @@
 		)
 		(uuid "c887eb0f-39c0-4697-8fe0-d8217f160c56")
 	)
-	(label "OUT_DC2-"
+	(label "ECU_OUT_DC2-"
 		(at 114.3 100.33 180)
 		(effects
 			(font
@@ -4119,7 +4119,7 @@
 		)
 		(uuid "e6c1c820-e45d-4e04-8e24-1ce4d6c39102")
 	)
-	(label "OUT_DC1-"
+	(label "ECU_OUT_DC1-"
 		(at 114.3 102.87 180)
 		(effects
 			(font
