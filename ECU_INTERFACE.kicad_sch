@@ -3869,7 +3869,7 @@
 		)
 		(uuid "783bea35-2a41-4ce4-b58c-c7f3de7dbb03")
 	)
-	(label "OUT_IGN6"
+	(label "ECU_OUT_IGN6"
 		(at 73.66 110.49 0)
 		(effects
 			(font
