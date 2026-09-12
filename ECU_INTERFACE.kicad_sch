@@ -3007,7 +3007,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 102.235 131.445 0)
+		(at 102.616 121.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4862,7 +4862,7 @@
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
 		(property "Reference" "J3"
-			(at 104.14 120.142 0)
+			(at 103.124 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4872,7 +4872,7 @@
 			)
 		)
 		(property "Value" "5569-06A2"
-			(at 103.886 122.174 0)
+			(at 102.87 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
