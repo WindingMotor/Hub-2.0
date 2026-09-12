@@ -3629,7 +3629,7 @@
 		)
 		(uuid "ff9de81c-864e-4515-8860-3277566f4554")
 	)
-	(label "2_WBO_Vm"
+	(label "ECU_2_WBO_Vm"
 		(at 109.22 128.27 0)
 		(effects
 			(font
@@ -3739,7 +3739,7 @@
 		)
 		(uuid "320fce5d-ff5c-4f96-9949-17a06ecb5431")
 	)
-	(label "6_WBO_Un"
+	(label "ECU_6_WBO_Un"
 		(at 109.22 133.35 0)
 		(effects
 			(font
@@ -3979,7 +3979,7 @@
 		)
 		(uuid "9836b3ea-75b1-4595-b470-d6a131a3152a")
 	)
-	(label "1_WBO_Ip"
+	(label "ECU_1_WBO_Ip"
 		(at 109.22 130.81 0)
 		(effects
 			(font
