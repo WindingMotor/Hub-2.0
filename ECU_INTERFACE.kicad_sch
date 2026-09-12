@@ -3070,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 92.71) (xy 60.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a52f7bc-760c-4391-a848-e945badad392")
+	)
+	(wire
+		(pts
 			(xy 110.49 64.77) (xy 111.76 64.77)
 		)
 		(stroke
@@ -3077,6 +3087,26 @@
 			(type default)
 		)
 		(uuid "12703bef-bc0a-4462-81d5-8e21ec242f5f")
+	)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e3ac22-0f72-46f3-bd73-03684e5e16c6")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 60.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2712d3a4-90ea-4f14-a743-61ef87ccfa03")
 	)
 	(wire
 		(pts
@@ -3110,6 +3140,36 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 95.25) (xy 60.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3070c263-3e5a-4c53-9373-83e775146cb8")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0fe8a7-218c-4d91-86be-58b65ce58579")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 60.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0ed924-f0e5-4047-8227-f0678294d93c")
+	)
+	(wire
+		(pts
 			(xy 111.76 64.77) (xy 113.03 64.77)
 		)
 		(stroke
@@ -3117,6 +3177,16 @@
 			(type default)
 		)
 		(uuid "45424dd9-289c-480c-a804-b4bdce2fa5ac")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 60.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4965ca0f-8141-43b7-a954-4ff600ec7450")
 	)
 	(wire
 		(pts
@@ -3130,6 +3200,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f999b78-a7e8-482e-8e3e-85b23e040616")
+	)
+	(wire
+		(pts
 			(xy 58.42 55.88) (xy 58.42 58.42)
 		)
 		(stroke
@@ -3137,6 +3217,16 @@
 			(type default)
 		)
 		(uuid "54026386-4f4a-4f6e-b3af-f40b36c0d25e")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 73.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557d09cd-2904-4071-88d6-855543a3549c")
 	)
 	(wire
 		(pts
@@ -3170,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc64560-c274-4c8a-93b7-16b6d08a7e83")
+	)
+	(wire
+		(pts
 			(xy 111.76 67.31) (xy 113.03 67.31)
 		)
 		(stroke
@@ -3197,6 +3297,36 @@
 			(type default)
 		)
 		(uuid "94acc5a8-cef6-442b-9fad-432fd251dd65")
+	)
+	(wire
+		(pts
+			(xy 59.69 102.87) (xy 60.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9886eaab-2cb5-45ee-ab37-5e8d8bec19a6")
+	)
+	(wire
+		(pts
+			(xy 74.93 90.17) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a79ed56-15b2-4af8-94e1-30442f5bea4b")
+	)
+	(wire
+		(pts
+			(xy 74.93 95.25) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a169f9bd-4df7-4eed-b463-553d1f91cbf4")
 	)
 	(wire
 		(pts
@@ -3240,6 +3370,46 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 105.41) (xy 60.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d828a179-8744-41c5-b093-766b2d942698")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 73.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4b5a5f-1973-46d9-9508-e817d9c5d2fc")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda48de7-9629-4227-acbd-656c7f1916ed")
+	)
+	(wire
+		(pts
+			(xy 59.69 97.79) (xy 60.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21ba129-7e21-4e88-ade4-480c1c1e8a33")
+	)
+	(wire
+		(pts
 			(xy 113.03 95.25) (xy 114.3 95.25)
 		)
 		(stroke
@@ -3278,6 +3448,16 @@
 		)
 		(uuid "f55f365c-b276-4b8c-bf6b-adea4582e032")
 	)
+	(wire
+		(pts
+			(xy 74.93 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7f04c0-6583-4ef4-9d66-40b36abd17a5")
+	)
 	(label "ECU_2_WBO_Vm"
 		(at 109.22 128.27 0)
 		(effects
@@ -3289,7 +3469,7 @@
 		(uuid "06c6ab24-043d-49c6-a3f8-315fc0ef65b3")
 	)
 	(label "ECU_OUT_INJ3"
-		(at 60.96 102.87 180)
+		(at 59.69 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3309,7 +3489,7 @@
 		(uuid "1454e1b9-e600-4138-aff0-77d6e537136d")
 	)
 	(label "ECU_OUT_IGN2"
-		(at 73.66 100.33 0)
+		(at 74.93 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3329,7 +3509,7 @@
 		(uuid "180d2871-9bf8-4331-8f41-9d7fba0b4dfc")
 	)
 	(label "ECU_OUT_INJ2"
-		(at 60.96 100.33 180)
+		(at 59.69 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3349,7 +3529,7 @@
 		(uuid "21d3ce06-b49d-4e25-988d-805b21f8731d")
 	)
 	(label "ECU_OUT_INJ4"
-		(at 60.96 105.41 180)
+		(at 59.69 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3559,7 @@
 		(uuid "2eb5e27a-4d02-4627-9e3e-af8272799dc8")
 	)
 	(label "ECU_OUT_LS4"
-		(at 73.66 95.25 0)
+		(at 74.93 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3409,7 +3589,7 @@
 		(uuid "368a5118-a530-425e-9cce-b18d8b4d33dc")
 	)
 	(label "ECU_OUT_INJ5"
-		(at 60.96 107.95 180)
+		(at 59.69 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3429,7 +3609,7 @@
 		(uuid "38b57708-08a1-4605-9597-af28cd575f7d")
 	)
 	(label "ECU_OUT_INJ6"
-		(at 60.96 110.49 180)
+		(at 59.69 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3509,7 +3689,7 @@
 		(uuid "728dbf6e-dcb7-47dd-81a8-6c815a29c1bc")
 	)
 	(label "ECU_OUT_LS_HOT2"
-		(at 60.96 92.71 180)
+		(at 59.69 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3519,7 +3699,7 @@
 		(uuid "783bea35-2a41-4ce4-b58c-c7f3de7dbb03")
 	)
 	(label "ECU_OUT_IGN6"
-		(at 73.66 110.49 0)
+		(at 74.93 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3529,7 +3709,7 @@
 		(uuid "7906c269-aceb-41cb-ab9f-00892786c348")
 	)
 	(label "ECU_OUT_IGN3"
-		(at 73.66 105.41 0)
+		(at 74.93 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3549,7 +3729,7 @@
 		(uuid "8253f203-0b45-4d31-b393-2528f77e8caf")
 	)
 	(label "ECU_OUT_LS_HOT1"
-		(at 60.96 90.17 180)
+		(at 59.69 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3739,7 @@
 		(uuid "8369c3dc-7527-4f69-a85b-08ac6e2854be")
 	)
 	(label "ECU_OUT_LS3"
-		(at 73.66 92.71 0)
+		(at 74.93 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3569,7 +3749,7 @@
 		(uuid "85bb4b96-33bc-4b32-a5f9-5feac1540b32")
 	)
 	(label "ECU_OUT_LS2"
-		(at 73.66 90.17 0)
+		(at 74.93 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3769,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "ECU_OUT_IGN5"
-		(at 73.66 102.87 0)
+		(at 74.93 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3789,7 @@
 		(uuid "8f6ae83d-649e-4c73-8aef-5617dad5e96f")
 	)
 	(label "ECU_OUT_LS1"
-		(at 60.96 95.25 180)
+		(at 59.69 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3689,7 +3869,7 @@
 		(uuid "c043dbf3-802e-4c09-939b-d2bb64a0941b")
 	)
 	(label "ECU_OUT_IGN4"
-		(at 73.66 107.95 0)
+		(at 74.93 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3779,7 +3959,7 @@
 		(uuid "e9bc55c2-df7e-4190-b450-76323b7abdad")
 	)
 	(label "ECU_OUT_IGN1"
-		(at 73.66 97.79 0)
+		(at 74.93 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3989,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_OUT_INJ1"
-		(at 60.96 97.79 180)
+		(at 59.69 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
