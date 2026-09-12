@@ -3090,6 +3090,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a29352-a07f-4705-8b3a-94b0c78b1118")
+	)
+	(wire
+		(pts
 			(xy 74.93 97.79) (xy 73.66 97.79)
 		)
 		(stroke
@@ -3147,6 +3157,16 @@
 			(type default)
 		)
 		(uuid "3070c263-3e5a-4c53-9373-83e775146cb8")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351e40db-6e72-4c0b-bf5c-2a4efa77759a")
 	)
 	(wire
 		(pts
@@ -3270,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 48.26) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765d8108-5691-4380-ab2e-61b3009c77d6")
+	)
+	(wire
+		(pts
 			(xy 111.76 67.31) (xy 113.03 67.31)
 		)
 		(stroke
@@ -3320,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3b2973-b8dc-41bd-8de1-d96e405a5c0f")
+	)
+	(wire
+		(pts
 			(xy 74.93 95.25) (xy 73.66 95.25)
 		)
 		(stroke
@@ -3327,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "a169f9bd-4df7-4eed-b463-553d1f91cbf4")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2484aaf-25b0-4fb6-b083-8042cc977687")
 	)
 	(wire
 		(pts
@@ -3347,6 +3397,16 @@
 			(type default)
 		)
 		(uuid "bdf51061-b9de-48af-a115-5def2cc4b95f")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bb55b0-628e-4dac-96df-ec7fdab98553")
 	)
 	(wire
 		(pts
@@ -3380,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 53.34) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8cbbbd-08a9-49f4-a8e6-bf85d23f5861")
+	)
+	(wire
+		(pts
 			(xy 74.93 105.41) (xy 73.66 105.41)
 		)
 		(stroke
@@ -3387,6 +3457,16 @@
 			(type default)
 		)
 		(uuid "db4b5a5f-1973-46d9-9508-e817d9c5d2fc")
+	)
+	(wire
+		(pts
+			(xy 73.66 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7cd462-0cd4-464b-89f1-7380f32f38bc")
 	)
 	(wire
 		(pts
@@ -3659,7 +3739,7 @@
 		(uuid "61a71e51-6af8-41db-8997-113676f478ef")
 	)
 	(label "ECU_IN_TPS1"
-		(at 72.39 53.34 0)
+		(at 73.66 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3679,7 +3759,7 @@
 		(uuid "6a3a7e8d-d971-4a8e-b56c-11b8b7ed59e8")
 	)
 	(label "ECU_IN_AUX1"
-		(at 59.69 63.5 180)
+		(at 58.42 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3719,7 +3799,7 @@
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
 	(label "ECU_IN_CLT"
-		(at 72.39 45.72 0)
+		(at 73.66 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3909,7 @@
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
 	(label "ECU_IN_IAT"
-		(at 72.39 48.26 0)
+		(at 73.66 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3839,7 +3919,7 @@
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
 	(label "ECU_IN_KNOCK_RAW"
-		(at 72.39 50.8 0)
+		(at 73.66 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3859,7 +3939,7 @@
 		(uuid "bf8c21f9-1bfa-4d33-ba82-ca5fc05e409d")
 	)
 	(label "ECU_IN_MAP"
-		(at 72.39 63.5 0)
+		(at 73.66 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3909,7 +3989,7 @@
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
 	(label "ECU_IN_BUTTON1"
-		(at 59.69 60.96 180)
+		(at 58.42 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3979,7 +4059,7 @@
 		(uuid "eea12cb0-03ab-47c5-b4f2-29263266eaea")
 	)
 	(label "ECU_IN_BUTTON2"
-		(at 72.39 60.96 0)
+		(at 73.66 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
