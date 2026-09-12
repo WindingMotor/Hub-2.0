@@ -3140,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 132.08 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f7b96a-6bad-468e-be2e-2e6499a107f8")
-	)
-	(wire
-		(pts
 			(xy 113.03 54.61) (xy 101.6 54.61)
 		)
 		(stroke
@@ -3437,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "9815e57e-a118-47b1-8777-1ba5b4155de2")
-	)
-	(wire
-		(pts
-			(xy 101.6 40.64) (xy 132.08 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad829db-56f0-4d7a-ac15-a6d4eb771330")
 	)
 	(bus
 		(pts
@@ -4009,7 +3989,7 @@
 		)
 		(uuid "9e6b3442-376f-4321-abca-7262948c0ee4")
 	)
-	(label "EGT-"
+	(label "ECU_EGT-"
 		(at 125.73 44.45 0)
 		(effects
 			(font
