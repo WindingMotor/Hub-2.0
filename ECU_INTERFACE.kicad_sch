@@ -3669,7 +3669,7 @@
 		)
 		(uuid "111be148-1f4f-4b13-8d2a-bf85d7fb8df8")
 	)
-	(label "IN_PPS2"
+	(label "ECU_IN_PPS2"
 		(at 113.03 59.69 180)
 		(effects
 			(font
@@ -3859,7 +3859,7 @@
 		)
 		(uuid "64173da4-ff88-4306-8e8b-188a731cdfe5")
 	)
-	(label "IN_AUX2"
+	(label "ECU_IN_AUX2"
 		(at 113.03 62.23 180)
 		(effects
 			(font
