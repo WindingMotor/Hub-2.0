@@ -3018,7 +3018,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 65.786 36.576 0)
+		(at 65.278 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4446,7 +4446,7 @@
 		(dnp no)
 		(uuid "804152f9-8e74-4d30-8fce-4bed4418d948")
 		(property "Reference" "J2"
-			(at 119.38 41.91 0)
+			(at 120.142 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4456,7 +4456,7 @@
 			)
 		)
 		(property "Value" "5569-20A2"
-			(at 119.38 69.85 0)
+			(at 119.888 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4668,7 +4668,7 @@
 		(dnp no)
 		(uuid "add6454d-1a63-4b04-854e-272fccaec153")
 		(property "Reference" "J10"
-			(at 66.294 37.338 0)
+			(at 65.786 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Value" "5569-16A2"
-			(at 66.548 39.624 0)
+			(at 66.04 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
