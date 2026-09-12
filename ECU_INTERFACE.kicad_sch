@@ -3909,7 +3909,7 @@
 		)
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
-	(label "IN_CLT"
+	(label "ECU_IN_CLT"
 		(at 78.74 45.72 180)
 		(effects
 			(font
@@ -4019,7 +4019,7 @@
 		)
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
-	(label "IN_IAT"
+	(label "ECU_IN_IAT"
 		(at 72.39 48.26 0)
 		(effects
 			(font
