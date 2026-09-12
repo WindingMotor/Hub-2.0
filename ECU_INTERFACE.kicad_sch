@@ -3849,7 +3849,7 @@
 		)
 		(uuid "61a71e51-6af8-41db-8997-113676f478ef")
 	)
-	(label "IN_TPS1"
+	(label "ECU_IN_TPS1"
 		(at 72.39 53.34 0)
 		(effects
 			(font
@@ -4029,7 +4029,7 @@
 		)
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
-	(label "IN_KNOCK_RAW"
+	(label "ECU_IN_KNOCK_RAW"
 		(at 72.39 50.8 0)
 		(effects
 			(font
