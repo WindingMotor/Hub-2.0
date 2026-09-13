@@ -5021,7 +5021,7 @@
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
 	(label "SIG_RELAY_FUEL"
-		(at 106.68 62.23 180)
+		(at 118.11 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
