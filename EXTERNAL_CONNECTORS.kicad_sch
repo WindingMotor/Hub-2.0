@@ -2412,7 +2412,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C2761740"
 			(at 82.55 114.3 0)
 			(hide yes)
 			(show_name no)
