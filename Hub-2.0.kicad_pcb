@@ -6932,7 +6932,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "e233633b-d061-4bd5-a162-1acf5a72deb3")
-		(at 128.1 92.2)
+		(at 128.1 92.2 180)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT12"
@@ -6960,7 +6960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6973,7 +6973,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7011,7 +7011,7 @@
 			(uuid "3f5b4d62-6dff-43c4-a045-8401f754f41a")
 		)
 		(pad "1" smd circle
-			(at -0.5 0)
+			(at -0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "EXT_IN_SIG_COOLANT_TEMP")
@@ -7020,7 +7020,7 @@
 			(uuid "f7a9f44c-a1b7-490f-93d3-dd8477666ce2")
 		)
 		(pad "2" smd circle
-			(at 0.5 0)
+			(at 0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "/ECU_INTERFACE/ECU_IN_CLT")
