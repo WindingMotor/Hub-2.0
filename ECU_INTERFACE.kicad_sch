@@ -3248,6 +3248,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfd10e4-b4d4-4521-ad2b-6c9a5c603db1")
+	)
+	(wire
+		(pts
 			(xy 245.11 60.96) (xy 245.11 67.31)
 		)
 		(stroke
@@ -4128,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 63.5) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b2597a-ec29-4a3f-829b-bde907439ab3")
+	)
+	(wire
+		(pts
 			(xy 102.87 111.76) (xy 104.14 111.76)
 		)
 		(stroke
@@ -4475,6 +4495,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
+	)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 124.46 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "804d8b28-444c-4672-a72e-14a4b0ed26f1")
 	)
 	(label "ECU_IN_CLT"
 		(at 118.11 104.14 0)
