@@ -5082,7 +5082,7 @@
 		(dnp no)
 		(uuid "42713050-f520-47cc-a4f2-debc166cd441")
 		(property "Reference" "JP2"
-			(at 212.598 52.07 0)
+			(at 216.662 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5487,7 +5487,7 @@
 		(dnp no)
 		(uuid "8070581b-cd29-428a-b9c6-4a9522527b29")
 		(property "Reference" "JP1"
-			(at 210.058 52.07 0)
+			(at 209.042 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
