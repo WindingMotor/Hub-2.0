@@ -2132,7 +2132,7 @@
 			)
 		)
 		(property "Name" "DASH"
-			(at 172.466 100.584 0)
+			(at 173.228 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
