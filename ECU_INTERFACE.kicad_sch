@@ -4396,6 +4396,16 @@
 		)
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
 	)
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
+		(at 143.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ccdf1ca-5a2f-457b-8890-c6f7ba9a801c")
+	)
 	(label "ECU_OUT_DC1+"
 		(at 64.77 78.74 0)
 		(effects
