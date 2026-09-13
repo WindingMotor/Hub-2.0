@@ -4256,6 +4256,16 @@
 		)
 		(uuid "0daf921f-a4c8-4745-b0ec-63b0f30cb6e8")
 	)
+	(label "EXT_IN_SIG_COOLANT_TEMP"
+		(at 104.14 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f1124f4-a978-415f-9504-db313d28a8cf")
+	)
 	(label "ECU_OUT_INJ3"
 		(at 144.78 76.2 180)
 		(effects
