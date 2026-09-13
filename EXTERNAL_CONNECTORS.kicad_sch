@@ -2273,8 +2273,8 @@
 				)
 			)
 		)
-		(property "Name" "POWER"
-			(at 73.406 100.584 0)
+		(property "Name" "POWER/ENGINE2"
+			(at 69.342 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
