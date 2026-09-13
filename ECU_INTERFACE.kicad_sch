@@ -5193,7 +5193,7 @@
 	)
 	(global_label "EXT_IN_SIG_RPM-"
 		(shape input)
-		(at 113.03 73.66 0)
+		(at 116.84 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5203,7 +5203,7 @@
 		)
 		(uuid "8dc39a67-bbfa-4810-b10b-0c94b54a2538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5726 73.66 0)
+			(at 134.3826 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
