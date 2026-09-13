@@ -2813,7 +2813,7 @@
 	)
 	(rectangle
 		(start 187.325 115.57)
-		(end 205.359 121.285)
+		(end 203.2 121.285)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2990,7 +2990,7 @@
 		)
 		(uuid "e5d08dc9-0cad-4ab4-b124-c4eae426273c")
 	)
-	(text "Always on whenever\n12V is applied"
+	(text "Not used we have\nexternal WBO"
 		(exclude_from_sim no)
 		(at 188.341 119.126 0)
 		(effects
