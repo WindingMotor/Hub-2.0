@@ -17,7 +17,7 @@
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 151.13 57.15 180)
+		(at 83.82 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
