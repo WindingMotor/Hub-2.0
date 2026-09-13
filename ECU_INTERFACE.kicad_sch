@@ -5219,6 +5219,30 @@
 			)
 		)
 	)
+	(global_label "EXT_IN_SIG_THROTTLE_POSITION"
+		(shape input)
+		(at 146.05 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ca3d8ff-bd5c-40fe-94eb-a890f409a98c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.1081 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXT_IN_SIG_RPM-"
 		(shape input)
 		(at 111.76 83.82 0)
@@ -5232,6 +5256,54 @@
 		(uuid "8dc39a67-bbfa-4810-b10b-0c94b54a2538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.3026 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EXT_IN_SIG_COOLANT_TEMP"
+		(shape input)
+		(at 146.05 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be15b066-58fc-421f-93ab-d76cf05305b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.2419 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EXT_IN_SIG_INTAKE_TEMP"
+		(shape input)
+		(at 146.05 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd4c087e-e3b0-4eca-a2f3-71cf3c03a1aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.8969 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
