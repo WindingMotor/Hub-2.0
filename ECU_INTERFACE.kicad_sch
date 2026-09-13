@@ -2812,8 +2812,8 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 187.325 115.57)
-		(end 203.2 121.285)
+		(start 188.214 115.189)
+		(end 204.089 120.904)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2861,6 +2861,18 @@
 			(color 0 0 0 0)
 		)
 		(uuid "46b09326-409c-42a8-84b0-d918c2ca1c82")
+	)
+	(rectangle
+		(start 127 53.975)
+		(end 145.034 59.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "50c3d565-7533-4a71-abc2-9b58a07be465")
 	)
 	(rectangle
 		(start 235.585 62.23)
@@ -2992,7 +3004,7 @@
 	)
 	(text "Not used we have\nexternal WBO"
 		(exclude_from_sim no)
-		(at 188.341 119.126 0)
+		(at 189.23 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3066,6 +3078,17 @@
 			(justify left bottom)
 		)
 		(uuid "c461460d-1e99-4e6d-82e9-1f5f34ad21f9")
+	)
+	(text "Always on whenever\n12V is applied"
+		(exclude_from_sim no)
+		(at 128.016 57.531 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5ecbd30-eeda-41f8-b528-b55706cf1322")
 	)
 	(text "B"
 		(exclude_from_sim no)
