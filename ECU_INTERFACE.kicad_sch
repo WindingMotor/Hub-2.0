@@ -2967,22 +2967,16 @@
 		(uuid "1eb10f4a-7c24-4911-93dc-badf21dbd33e")
 	)
 	(junction
-		(at 219.71 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24c5d89e-1f7e-4b13-bafb-037bd301997e")
-	)
-	(junction
-		(at 214.63 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eaedb3a-2ab4-4822-acf7-1c3a68e8a428")
-	)
-	(junction
 		(at 102.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2feaa1c5-3c65-4c58-8e02-406a2e9869d8")
+	)
+	(junction
+		(at 215.9 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e66ed09-30fe-45fa-ad86-62ca99b3cfc6")
 	)
 	(junction
 		(at 187.96 85.09)
@@ -2991,22 +2985,16 @@
 		(uuid "43b5452e-099a-486d-bd5d-de5262032ed2")
 	)
 	(junction
-		(at 217.17 72.39)
+		(at 218.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bf9ce5b-bad1-45cd-a08b-00e86e7f9613")
+		(uuid "4cec6c10-cb1e-4194-b70e-9a8054551fa1")
 	)
 	(junction
 		(at 118.11 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6345cd4e-246f-4834-95f7-ba0cc88f2d48")
-	)
-	(junction
-		(at 222.25 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63b97024-c6b8-4756-bcd3-ad2288d2990f")
 	)
 	(junction
 		(at 60.96 71.12)
@@ -3020,6 +3008,18 @@
 		(color 0 0 0 0)
 		(uuid "9c9828ef-094a-4684-bf7d-42425bc8cbc4")
 	)
+	(junction
+		(at 222.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa0601c1-0676-4fb4-b654-1b97726a1eaf")
+	)
+	(junction
+		(at 224.79 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faa67197-bfd2-4875-99ee-98812728fd4f")
+	)
 	(wire
 		(pts
 			(xy 187.96 67.31) (xy 189.23 67.31)
@@ -3032,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 74.93) (xy 214.63 74.93)
+			(xy 226.06 74.93) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 201.93 72.39)
+			(xy 201.93 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 63.5) (xy 219.71 69.85)
+			(xy 222.25 63.5) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3182,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 69.85) (xy 224.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f956ba0-cc83-46f5-9598-be65beeb4681")
+	)
+	(wire
+		(pts
 			(xy 137.16 71.12) (xy 138.43 71.12)
 		)
 		(stroke
@@ -3202,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 69.85) (xy 222.25 69.85)
+			(xy 226.06 69.85) (xy 224.79 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3442,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 63.5) (xy 222.25 69.85)
+			(xy 224.79 63.5) (xy 224.79 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 69.85) (xy 201.93 69.85)
+			(xy 201.93 69.85) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3492,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 74.93) (xy 201.93 74.93)
+			(xy 201.93 74.93) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 63.5) (xy 217.17 72.39)
+			(xy 218.44 63.5) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3662,16 +3672,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 219.71 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c115b93e-ce3b-41cc-9fe4-8db7fbcafaf2")
-	)
-	(wire
-		(pts
 			(xy 102.87 121.92) (xy 104.14 121.92)
 		)
 		(stroke
@@ -3732,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 214.63 74.93)
+			(xy 215.9 63.5) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3842,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 72.39) (xy 217.17 72.39)
+			(xy 226.06 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4661,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 222.25 60.96 90)
+		(at 224.79 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4672,7 +4672,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e94c128-19d1-482b-8164-9d713d6f9e54")
 		(property "Reference" "NT6"
-			(at 223.52 59.69 90)
+			(at 226.06 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,7 +4684,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 223.52 62.23 90)
+			(at 226.06 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 60.96 0)
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 60.96 0)
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 222.25 60.96 0)
+			(at 224.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5263,7 +5263,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 219.71 60.96 90)
+		(at 222.25 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5274,7 +5274,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ad8b0b1-2c4a-4bfa-9e99-972017656187")
 		(property "Reference" "NT5"
-			(at 220.98 59.69 90)
+			(at 223.52 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5286,7 +5286,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 220.98 62.23 90)
+			(at 223.52 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5298,7 +5298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,7 +5320,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 219.71 60.96 0)
+			(at 222.25 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5347,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 214.63 60.96 90)
+		(at 215.9 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5358,7 +5358,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4e9ecb7-ed86-478a-ab83-8f28cbf48bbb")
 		(property "Reference" "NT3"
-			(at 215.9 59.69 90)
+			(at 217.17 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5370,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 215.9 62.23 90)
+			(at 217.17 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5382,7 +5382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 60.96 0)
+			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +5393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 60.96 0)
+			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5404,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 214.63 60.96 0)
+			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 217.17 60.96 90)
+		(at 218.44 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5652,7 +5652,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc9c3819-1392-4733-864f-f94cf2157253")
 		(property "Reference" "NT4"
-			(at 218.44 59.69 90)
+			(at 219.71 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,7 +5664,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 218.44 62.23 90)
+			(at 219.71 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 60.96 0)
+			(at 218.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 60.96 0)
+			(at 218.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5698,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 217.17 60.96 0)
+			(at 218.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
