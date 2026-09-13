@@ -1501,7 +1501,7 @@
 		)
 		(uuid "36aa9acd-4387-4727-ad96-eae2aa1e2119")
 	)
-	(label "EXT_IN_SIG_STARTER"
+	(label "EXT_OUT_SIG_RELAY_STARTER"
 		(at 190.5 85.09 0)
 		(effects
 			(font
