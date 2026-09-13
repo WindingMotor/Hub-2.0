@@ -5102,7 +5102,7 @@
 		(dnp no)
 		(uuid "420beee0-0ea0-4f96-95b4-21e818aba069")
 		(property "Reference" "JP3"
-			(at 216.662 54.356 90)
+			(at 217.424 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5182,7 +5182,7 @@
 		(dnp no)
 		(uuid "42713050-f520-47cc-a4f2-debc166cd441")
 		(property "Reference" "JP2"
-			(at 216.408 49.784 90)
+			(at 213.614 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5587,7 +5587,7 @@
 		(dnp no)
 		(uuid "8070581b-cd29-428a-b9c6-4a9522527b29")
 		(property "Reference" "JP1"
-			(at 210.312 49.784 90)
+			(at 211.074 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6291,7 +6291,7 @@
 		(dnp no)
 		(uuid "f90ac4ec-00c9-4f27-b170-112edc7f4e1c")
 		(property "Reference" "JP4"
-			(at 222.758 54.356 90)
+			(at 221.996 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
