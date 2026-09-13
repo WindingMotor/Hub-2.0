@@ -3718,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 105.41 119.38)
+			(xy 104.14 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4267,7 @@
 		(uuid "09732dd1-9033-4cf5-8c69-1faad6c8ae4b")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 105.41 119.38 0)
+		(at 111.76 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
