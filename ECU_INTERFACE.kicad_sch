@@ -3012,6 +3012,19 @@
 		(uuid "6b982eb5-77be-4825-b1b0-c64a0f81bd4a")
 	)
 	(rectangle
+		(start 228.6 73.025)
+		(end 241.935 78.105)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "95312c3d-3f7b-4187-82a3-9fee22ef9cde")
+	)
+	(rectangle
 		(start 250.571 44.704)
 		(end 265.176 50.419)
 		(stroke
