@@ -1391,16 +1391,6 @@
 		)
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
-	(label "EXT_IN_SIG_MAP"
-		(at 142.24 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17ebd840-d054-48f4-bd70-6a02f8e1ccad")
-	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 191.77 102.87 0)
 		(effects
@@ -1462,7 +1452,7 @@
 		(uuid "2938a08f-6a81-4964-a9d9-0a2f1f3d9292")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 138.43 60.96 0)
+		(at 142.24 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,7 +1742,7 @@
 		(uuid "dadc506f-fe15-4d29-9c59-4edd1351ec12")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 138.43 63.5 0)
+		(at 142.24 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
