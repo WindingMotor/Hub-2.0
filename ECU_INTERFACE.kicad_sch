@@ -2888,7 +2888,7 @@
 		(uuid "50c3d565-7533-4a71-abc2-9b58a07be465")
 	)
 	(rectangle
-		(start 235.585 62.23)
+		(start 242.57 62.23)
 		(end 251.46 64.77)
 		(stroke
 			(width 0.127)
@@ -3015,7 +3015,7 @@
 		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
 	)
 	(rectangle
-		(start 238.125 69.85)
+		(start 238.76 69.85)
 		(end 251.46 81.915)
 		(stroke
 			(width 0.127)
