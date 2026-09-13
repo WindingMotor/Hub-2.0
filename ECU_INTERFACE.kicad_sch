@@ -3010,6 +3010,19 @@
 		)
 		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
 	)
+	(rectangle
+		(start 199.39 92.075)
+		(end 211.455 99.695)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "d46e6522-5ef9-4714-b329-c99887041309")
+	)
 	(text "A"
 		(exclude_from_sim no)
 		(at 56.642 64.516 0)
