@@ -16,16 +16,6 @@
 		)
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
-	(label "PWR_BRAKE_LIGHT"
-		(at 83.82 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "077bcec9-ce48-4bfc-a0b3-b12ccb240fb4")
-	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 83.82 101.6 180)
 		(effects
