@@ -2948,8 +2948,8 @@
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
 	)
 	(rectangle
-		(start 136.525 88.9)
-		(end 149.225 100.965)
+		(start 128.27 60.96)
+		(end 144.78 68.58)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2983,6 +2983,19 @@
 			(type none)
 		)
 		(uuid "acb64f7a-d8f5-47b4-905c-2a945cc10937")
+	)
+	(rectangle
+		(start 126.365 50.165)
+		(end 142.875 57.785)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
 	)
 	(text "A"
 		(exclude_from_sim no)
