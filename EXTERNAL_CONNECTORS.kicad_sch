@@ -507,13 +507,13 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 89.154 91.694 0)
+		(at 138.176 84.074 0)
 		(effects
 			(font
 				(size 1.143 1.143)
 			)
 		)
-		(uuid "154db24e-2886-41b5-b61b-854d1a2c35b9")
+		(uuid "10d1565b-c2ca-4d32-b68e-0a47854b2163")
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
@@ -535,15 +535,15 @@
 		)
 		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
 	)
-	(text "22AWG"
+	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 88.646 86.614 0)
+		(at 89.154 86.614 0)
 		(effects
 			(font
 				(size 1.143 1.143)
 			)
 		)
-		(uuid "3acc1d37-0a07-4723-b57d-e86710c189fd")
+		(uuid "3aad162f-6835-4940-b3c4-c13c7bc6bc46")
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
@@ -594,6 +594,16 @@
 			)
 		)
 		(uuid "4a3c54a8-4432-47ab-9e47-67e6b87fca24")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 138.176 86.614 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "4b2252cc-4536-494a-823b-6bfe5055224b")
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
@@ -677,13 +687,13 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 138.176 84.074 0)
+		(at 89.154 84.074 0)
 		(effects
 			(font
 				(size 1.143 1.143)
 			)
 		)
-		(uuid "75f83c9d-58b1-479f-bb94-12209b2ab779")
+		(uuid "83620466-6285-4266-a646-2b31c02cc890")
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
@@ -704,16 +714,6 @@
 			)
 		)
 		(uuid "8a90c699-ea62-47a2-bc46-928c4e7691df")
-	)
-	(text "22AWG"
-		(exclude_from_sim no)
-		(at 138.176 86.614 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "9df885b6-ab32-4635-9b82-1da331b325eb")
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
@@ -797,16 +797,6 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 89.154 89.154 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "ee5b2086-cb69-449d-a22d-2b5babcde7f5")
-	)
-	(text "22AWG\n"
-		(exclude_from_sim no)
 		(at 137.922 109.728 0)
 		(effects
 			(font
@@ -860,6 +850,16 @@
 			(type default)
 		)
 		(uuid "02207de1-dca9-4821-b79b-50b2f6c1fa59")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061c4a65-e210-4101-8916-9bd0f4b1f4bc")
 	)
 	(wire
 		(pts
@@ -1013,6 +1013,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcbb4d1-f4ff-456a-9eba-6b030fa76ea1")
+	)
+	(wire
+		(pts
 			(xy 127 116.84) (xy 127 115.57)
 		)
 		(stroke
@@ -1020,16 +1030,6 @@
 			(type default)
 		)
 		(uuid "5dcc5112-bdfe-4d3c-ac06-a67b48930de0")
-	)
-	(wire
-		(pts
-			(xy 142.24 82.55) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6115676e-5d1b-4934-80d0-a758db491289")
 	)
 	(wire
 		(pts
@@ -1093,16 +1093,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ec59f6-b271-461a-9f31-c1984a4e6ed5")
-	)
-	(wire
-		(pts
 			(xy 85.09 102.87) (xy 92.71 102.87)
 		)
 		(stroke
@@ -1120,6 +1110,16 @@
 			(type default)
 		)
 		(uuid "78d7a001-90dc-4bb5-8f3d-2fd65e3cdfaf")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee702ea-2600-463d-931d-112a2125d361")
 	)
 	(wire
 		(pts
@@ -1223,16 +1223,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 85.09 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefa8062-8f3c-4388-b000-ebe82b375d7d")
-	)
-	(wire
-		(pts
 			(xy 87.63 115.57) (xy 86.36 115.57)
 		)
 		(stroke
@@ -1240,16 +1230,6 @@
 			(type default)
 		)
 		(uuid "b45084b4-9ee5-40c0-8ac3-0102a7eb6437")
-	)
-	(wire
-		(pts
-			(xy 92.71 87.63) (xy 85.09 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c70135-d032-4253-8d63-36b0ec909611")
 	)
 	(wire
 		(pts
@@ -1383,6 +1363,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03530ef-7e1c-4fbf-8635-699a2b76831b")
+	)
+	(wire
+		(pts
 			(xy 142.24 90.17) (xy 134.62 90.17)
 		)
 		(stroke
@@ -1391,15 +1381,15 @@
 		)
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
-	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 142.24 87.63 0)
+	(label "EXT_IN_SIG_COOLANT_TEMP"
+		(at 142.24 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "16e2f6a7-36f8-41ff-b72d-2d32fd28afd8")
+		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 191.77 102.87 0)
@@ -1431,16 +1421,6 @@
 		)
 		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
 	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 142.24 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26513318-a94d-4c9b-8673-5f7e9d9eb39c")
-	)
 	(label "PWR_12V"
 		(at 186.69 115.57 0)
 		(effects
@@ -1470,6 +1450,16 @@
 			(justify left bottom)
 		)
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
+	)
+	(label "EXT_IN_SIG_RPM+"
+		(at 142.24 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
 	)
 	(label "PWR_BRAKE_LIGHT"
 		(at 92.71 100.33 0)
@@ -1502,7 +1492,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_IN_SIG_RPM-"
-		(at 142.24 95.25 0)
+		(at 134.62 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1510,6 +1500,16 @@
 			(justify left bottom)
 		)
 		(uuid "49ae2103-56b8-4b1a-927d-499d10f1e553")
+	)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 142.24 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
 	)
 	(label "GND"
 		(at 137.16 127 0)
@@ -1531,26 +1531,6 @@
 		)
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
-	(label "EXT_IN_SIG_RPM+"
-		(at 142.24 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c7ebd9b-72a7-4311-9933-0dd9ba774bbc")
-	)
-	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 92.71 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f04a546-8784-4304-bf1f-ed10242e3283")
-	)
 	(label "PWR_FRONT_LIGHTS"
 		(at 92.71 95.25 0)
 		(effects
@@ -1560,16 +1540,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e9cc935-34da-4831-b28b-289a04f2b80a")
-	)
-	(label "EXT_OUT_SIG_IGNITION"
-		(at 142.24 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "711bbab9-1953-405a-8e21-be9dc83cd044")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
 		(at 190.5 87.63 0)
@@ -1621,16 +1591,6 @@
 		)
 		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
 	)
-	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 92.71 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "810fd96f-58d7-4a6c-bfa2-de11b727ffbd")
-	)
 	(label "GND"
 		(at 87.63 127 0)
 		(effects
@@ -1640,6 +1600,16 @@
 			(justify left bottom)
 		)
 		(uuid "857e1b14-a2fd-4d07-8b6c-93b714679fd0")
+	)
+	(label "EXT_IN_SIG_MAP"
+		(at 142.24 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
 	)
 	(label "GND"
 		(at 186.69 127 0)
@@ -1691,25 +1661,25 @@
 		)
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
-	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 142.24 90.17 0)
+	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
+		(at 92.71 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a6a4b9e7-f335-43b9-91c9-206ceec5742b")
+		(uuid "a9569298-2752-412e-9ffa-deba10814054")
 	)
-	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 142.24 92.71 0)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 142.24 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b5c6105b-46f1-4c0c-9089-af5632d23885")
+		(uuid "b846541e-dd14-4c4f-9246-747fd44a0ac6")
 	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
@@ -1720,6 +1690,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
+	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
+		(at 92.71 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be3e8a1d-d455-48c1-b8e5-8050c3ca9e7e")
 	)
 	(label "PWR_12V"
 		(at 142.24 107.95 0)
@@ -1740,6 +1720,26 @@
 			(justify left bottom)
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
+	)
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
+		(at 142.24 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c070d2-f379-45ac-bdba-f05eb221cf90")
+	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 142.24 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 191.77 105.41 0)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Name" "POWER/ENGINE2"
-			(at 69.342 100.584 0)
+			(at 73.406 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
