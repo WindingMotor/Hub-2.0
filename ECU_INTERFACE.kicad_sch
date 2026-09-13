@@ -2977,19 +2977,6 @@
 		(uuid "acb64f7a-d8f5-47b4-905c-2a945cc10937")
 	)
 	(rectangle
-		(start 160.02 60.96)
-		(end 172.085 68.58)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type cross_hatch)
-			(color 0 0 0 0)
-		)
-		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
-	)
-	(rectangle
 		(start 238.76 69.85)
 		(end 251.46 81.915)
 		(stroke
@@ -3702,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 158.75 66.04)
+			(xy 158.75 66.04) (xy 166.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 158.75 63.5)
+			(xy 158.75 63.5) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3912,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 68.58) (xy 158.75 68.58)
+			(xy 158.75 68.58) (xy 166.37 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +4348,7 @@
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 110.49 59.69 180)
+		(at 151.13 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4618,7 @@
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
 	(label "SIG_RELAY_REAR_LIGHTS"
-		(at 110.49 57.15 180)
+		(at 151.13 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4831,7 +4818,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 113.03 54.61 180)
+		(at 153.67 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4871,7 +4858,7 @@
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 113.03 49.53 180)
+		(at 153.67 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5051,7 +5038,7 @@
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
 	(label "SIG_RELAY_FUEL"
-		(at 113.03 52.07 180)
+		(at 153.67 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5861,6 +5848,174 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
+		(at 168.91 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "494c724c-94bd-41ac-965c-1f49c70beab9")
+		(property "Reference" "NT24"
+			(at 167.64 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.18 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 168.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3f8d225-1b69-489a-94ae-66e6e782365b")
+		)
+		(pin "1"
+			(uuid "1105d56a-be1e-43ac-9d84-f4bd28f589ac")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 168.91 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc9361f-9092-4cb7-9519-9e0561e53523")
+		(property "Reference" "NT23"
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.18 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b92ca388-e436-4e48-8a09-f4bc38e14e3c")
+		)
+		(pin "1"
+			(uuid "54af81f5-614d-4ef3-ac6a-1c48bdbaa9da")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
 		(at 101.6 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -6331,6 +6486,90 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
 					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 168.91 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba13c90-dee9-48ab-baf2-6a34f554b587")
+		(property "Reference" "NT25"
+			(at 167.64 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.18 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 168.91 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ccd27e0-100e-4f23-bd15-195fad57bc9f")
+		)
+		(pin "1"
+			(uuid "06617bf8-ab92-43f6-980d-cc895b51d345")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT25")
 					(unit 1)
 				)
 			)
