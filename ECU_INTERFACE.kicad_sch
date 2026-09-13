@@ -2812,8 +2812,8 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 147.955 107.95)
-		(end 165.1 115.57)
+		(start 170.815 105.41)
+		(end 187.96 113.03)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -3005,8 +3005,8 @@
 		(uuid "d46e6522-5ef9-4714-b329-c99887041309")
 	)
 	(rectangle
-		(start 180.34 107.95)
-		(end 194.945 115.57)
+		(start 203.2 105.41)
+		(end 217.805 113.03)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -3052,7 +3052,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 172.466 103.886 0)
+		(at 195.326 101.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 115.57) (xy 179.07 115.57)
+			(xy 203.2 113.03) (xy 201.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 166.37 110.49)
+			(xy 187.96 107.95) (xy 189.23 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3552,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 179.07 113.03)
+			(xy 203.2 110.49) (xy 201.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3622,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 113.03) (xy 166.37 113.03)
+			(xy 187.96 110.49) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3782,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 110.49) (xy 179.07 110.49)
+			(xy 203.2 107.95) (xy 201.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 115.57) (xy 166.37 115.57)
+			(xy 187.96 113.03) (xy 189.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4261,7 +4261,7 @@
 		(uuid "01645e39-2600-402e-b986-f04d0c7883c0")
 	)
 	(label "ECU_2_WBO_Vm"
-		(at 180.34 110.49 0)
+		(at 203.2 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4411,7 +4411,7 @@
 		(uuid "320fce5d-ff5c-4f96-9949-17a06ecb5431")
 	)
 	(label "ECU_6_WBO_Un"
-		(at 180.34 115.57 0)
+		(at 203.2 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4421,7 +4421,7 @@
 		(uuid "34e3f71e-75c7-4898-9afe-b80f7fc2ff84")
 	)
 	(label "ECU_5_WBO_Rtrim"
-		(at 165.1 113.03 180)
+		(at 187.96 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4469,6 +4469,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
+	)
+	(label "EXT_IN_SIG_DASH_BTN_ONE"
+		(at 133.35 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41678563-eca1-403b-aba9-3d00309c20bf")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
 		(at 110.49 109.22 0)
@@ -4731,7 +4741,7 @@
 		(uuid "9836b3ea-75b1-4595-b470-d6a131a3152a")
 	)
 	(label "ECU_1_WBO_Ip"
-		(at 180.34 113.03 0)
+		(at 203.2 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4901,7 +4911,7 @@
 		(uuid "da114835-60bb-4a0c-8bec-043bcf450792")
 	)
 	(label "ECU_3_WBO_Heater"
-		(at 165.1 110.49 180)
+		(at 187.96 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4961,7 +4971,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_12V_RAW"
-		(at 165.1 115.57 180)
+		(at 187.96 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4969,6 +4979,16 @@
 			(justify right bottom)
 		)
 		(uuid "efaea295-0da8-4a2f-84a7-f08087c5c20f")
+	)
+	(label "EXT_IN_SIG_DASH_BTN_TWO"
+		(at 133.35 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f256cb0b-a58b-4f0f-838f-567d7e2214fa")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x09_Top_Bottom")
@@ -5548,7 +5568,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 171.45 113.03 0)
+		(at 194.31 110.49 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5559,7 +5579,7 @@
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
 		(property "Reference" "J3"
-			(at 172.974 104.648 0)
+			(at 195.834 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5569,7 +5589,7 @@
 			)
 		)
 		(property "Value" "5569-06A2"
-			(at 172.72 106.68 0)
+			(at 195.58 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5579,7 +5599,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
-			(at 171.45 113.03 0)
+			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 113.03 0)
+			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5601,7 +5621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 113.03 0)
+			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5612,7 +5632,7 @@
 			)
 		)
 		(property "LCSC" "C293509"
-			(at 171.45 113.03 0)
+			(at 194.31 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
