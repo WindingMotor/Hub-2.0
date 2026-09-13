@@ -2952,6 +2952,18 @@
 		(uuid "7dd14d27-febb-4fd5-96ab-5c4f30096a35")
 	)
 	(rectangle
+		(start 237.49 94.615)
+		(end 255.524 100.33)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "93cc63a1-9631-4b84-a1f1-e36034ef45ff")
+	)
+	(rectangle
 		(start 90.17 104.775)
 		(end 108.585 106.68)
 		(stroke
@@ -2988,6 +3000,19 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
+	)
+	(rectangle
+		(start 238.125 70.485)
+		(end 251.46 82.55)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "b7c9e777-3f08-4d8e-a58c-db20073168d8")
 	)
 	(rectangle
 		(start 203.2 105.41)
@@ -3089,6 +3114,17 @@
 			(justify left)
 		)
 		(uuid "c5ecbd30-eeda-41f8-b528-b55706cf1322")
+	)
+	(text "Quite simple since\nwe only have 1CYL\n"
+		(exclude_from_sim no)
+		(at 239.014 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d922f6de-9f17-437e-8de0-ae30cc745510")
 	)
 	(text "B"
 		(exclude_from_sim no)
