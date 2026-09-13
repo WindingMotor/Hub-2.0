@@ -757,7 +757,7 @@
 	)
 	(text "EXT_IN_SIG_RPM"
 		(exclude_from_sim no)
-		(at 156.972 74.93 0)
+		(at 168.402 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,8 +1491,8 @@
 		)
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
-	(label "EXT_IN_SIG_RPM0"
-		(at 139.7 74.93 0)
+	(label "EXT_IN_SIG_RPM-"
+		(at 134.62 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
