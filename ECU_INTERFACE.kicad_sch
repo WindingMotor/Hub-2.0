@@ -2961,6 +2961,12 @@
 		(uuid "e9fae4d5-3bc2-4615-a4b0-b55caaeddd42")
 	)
 	(junction
+		(at 87.63 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb10f4a-7c24-4911-93dc-badf21dbd33e")
+	)
+	(junction
 		(at 102.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2989,12 +2995,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c9828ef-094a-4684-bf7d-42425bc8cbc4")
-	)
-	(junction
-		(at 87.63 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ce1293-606d-4d81-a153-09a37cf59864")
 	)
 	(wire
 		(pts
@@ -3025,6 +3025,16 @@
 			(type default)
 		)
 		(uuid "0a52f7bc-760c-4391-a848-e945badad392")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af9b606-99be-4c84-b615-312475deef87")
 	)
 	(wire
 		(pts
@@ -3205,16 +3215,6 @@
 			(type default)
 		)
 		(uuid "3dec5f59-9a1a-40be-876f-df855bead239")
-	)
-	(wire
-		(pts
-			(xy 92.71 73.66) (xy 87.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451deab6-af3e-40a9-8e81-9ea3f303f234")
 	)
 	(wire
 		(pts
@@ -3518,13 +3518,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 74.93 73.66)
+			(xy 87.63 67.31) (xy 87.63 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab886cf3-eb00-4418-99df-dcd2b835a2e3")
+		(uuid "ac770540-dcf0-4200-8c49-f6b72e10c747")
 	)
 	(wire
 		(pts
@@ -3555,6 +3555,16 @@
 			(type default)
 		)
 		(uuid "b5fa9450-5e8e-4468-9ea8-842142588d09")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1b645f-2da6-4f5d-b6a5-7eb269d24885")
 	)
 	(wire
 		(pts
@@ -3778,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 67.31) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7397262-4c1d-4591-96e4-a0180df77e72")
+	)
+	(wire
+		(pts
 			(xy 102.87 109.22) (xy 104.14 109.22)
 		)
 		(stroke
@@ -3837,7 +3857,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "ECU_12V_KEY"
-		(at 92.71 73.66 0)
+		(at 88.9 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4315,6 +4335,16 @@
 			(justify right bottom)
 		)
 		(uuid "d74bef4a-c2f5-427a-b494-84f4a719647b")
+	)
+	(label "PWR_12V"
+		(at 88.9 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7be91bc-e270-47bf-a744-76b241001133")
 	)
 	(label "ECU_EGT+"
 		(at 187.96 64.77 180)
