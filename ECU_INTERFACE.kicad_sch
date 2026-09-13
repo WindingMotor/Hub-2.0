@@ -3988,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ed7942-e2ca-4132-ae39-6f113521eaa5")
+	)
+	(wire
+		(pts
 			(xy 214.63 77.47) (xy 215.9 77.47)
 		)
 		(stroke
@@ -4387,7 +4397,7 @@
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 143.51 97.79 0)
+		(at 106.68 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
