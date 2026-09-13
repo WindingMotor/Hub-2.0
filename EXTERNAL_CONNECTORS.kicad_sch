@@ -1794,7 +1794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 			(at 141.9352 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1885,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 			(at 191.4652 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2705,7 +2705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 			(at 92.4052 118.11 0)
 			(hide yes)
 			(show_name no)
