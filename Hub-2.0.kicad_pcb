@@ -5456,7 +5456,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 156.56 89.65 180)
+		(at 168.76 95.38 180)
 		(property "Reference" "CN5"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
@@ -6014,7 +6014,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "1990c02e-6f2a-415c-bc01-ff8da71384b5")
-		(at 192.68 89.65 180)
+		(at 204.88 95.38 180)
 		(property "Reference" "CN4"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
@@ -6572,7 +6572,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 120.56 89.65 180)
+		(at 132.76 95.38 180)
 		(property "Reference" "CN6"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
