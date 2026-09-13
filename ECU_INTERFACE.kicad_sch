@@ -3513,6 +3513,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 77.47) (xy 283.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5153398f-2877-4611-84b5-0dfbfb8e0a56")
+	)
+	(wire
+		(pts
 			(xy 74.93 111.76) (xy 74.93 114.3)
 		)
 		(stroke
@@ -3963,6 +3973,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 82.55) (xy 240.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca51608c-7a85-4e22-b62e-b6f0c030f0a0")
+	)
+	(wire
+		(pts
 			(xy 241.3 67.31) (xy 252.73 67.31)
 		)
 		(stroke
@@ -4352,7 +4372,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 256.54 99.06 0)
+		(at 283.21 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4572,12 +4592,12 @@
 		(uuid "64173da4-ff88-4306-8e8b-188a731cdfe5")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 275.59 88.9 0)
+		(at 238.76 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "65576519-f922-47f9-9599-50d05ab14890")
 	)
