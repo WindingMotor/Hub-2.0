@@ -4840,8 +4840,8 @@
 		)
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
-	(label "SIG_RELAY_FUEL"
-		(at 118.11 55.88 180)
+	(label "SIG_RELAY_RADIATOR_FAN"
+		(at 118.11 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
