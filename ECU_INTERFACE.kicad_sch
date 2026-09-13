@@ -2935,6 +2935,19 @@
 		)
 	)
 	(rectangle
+		(start 173.99 86.36)
+		(end 184.15 86.995)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
+	)
+	(rectangle
 		(start 223.901 47.244)
 		(end 238.506 52.959)
 		(stroke
