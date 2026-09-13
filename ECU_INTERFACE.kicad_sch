@@ -2948,8 +2948,8 @@
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
 	)
 	(rectangle
-		(start 83.566 65.024)
-		(end 101.6 70.739)
+		(start 84.074 65.024)
+		(end 102.108 70.739)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3017,7 +3017,7 @@
 	)
 	(text "Always on whenever\n12V is applied"
 		(exclude_from_sim no)
-		(at 84.582 68.58 0)
+		(at 85.09 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
