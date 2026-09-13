@@ -2812,6 +2812,18 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
+		(start 187.325 115.57)
+		(end 205.359 121.285)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1c5be3cc-4216-4204-ab59-2af5b0903005")
+	)
+	(rectangle
 		(start 170.815 105.41)
 		(end 187.96 113.03)
 		(stroke
@@ -2977,6 +2989,17 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e5d08dc9-0cad-4ab4-b124-c4eae426273c")
+	)
+	(text "Always on whenever\n12V is applied"
+		(exclude_from_sim no)
+		(at 188.341 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12023529-1b89-4b22-bd36-bbc751039626")
 	)
 	(text "A"
 		(exclude_from_sim no)
