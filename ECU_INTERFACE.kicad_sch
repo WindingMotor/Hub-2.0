@@ -3013,7 +3013,7 @@
 	)
 	(rectangle
 		(start 228.6 73.025)
-		(end 241.935 78.105)
+		(end 241.935 77.47)
 		(stroke
 			(width 0.127)
 			(type dash)
