@@ -6932,7 +6932,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "e233633b-d061-4bd5-a162-1acf5a72deb3")
-		(at 119.45 57.75)
+		(at 128.1 92.2)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT12"
