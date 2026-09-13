@@ -3011,8 +3011,8 @@
 		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
 	)
 	(rectangle
-		(start 199.39 92.075)
-		(end 211.455 99.695)
+		(start 201.93 67.945)
+		(end 214.63 75.565)
 		(stroke
 			(width 0.127)
 			(type dash)
