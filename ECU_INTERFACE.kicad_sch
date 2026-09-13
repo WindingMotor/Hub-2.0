@@ -5237,7 +5237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c39ac4a-5592-4900-b449-d28b6fedbe2b")
-		(property "Reference" "J5"
+		(property "Reference" "J5-PCB"
 			(at 205.486 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5358,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J5")
+					(reference "J5-PCB")
 					(unit 1)
 				)
 			)
@@ -5544,7 +5544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cea2cc4-767d-4861-a968-b0998f36ddac")
-		(property "Reference" "J4"
+		(property "Reference" "J4-PCB"
 			(at 83.82 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J4")
+					(reference "J4-PCB")
 					(unit 1)
 				)
 			)
