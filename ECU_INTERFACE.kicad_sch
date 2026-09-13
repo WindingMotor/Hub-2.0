@@ -3698,6 +3698,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 119.38) (xy 105.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ef6b00-7d01-439b-892c-0f0af77d8d87")
+	)
+	(wire
+		(pts
 			(xy 231.14 82.55) (xy 229.87 82.55)
 		)
 		(stroke
@@ -4235,6 +4245,16 @@
 			(justify right bottom)
 		)
 		(uuid "09732dd1-9033-4cf5-8c69-1faad6c8ae4b")
+	)
+	(label "EXT_IN_SIG_MAP"
+		(at 105.41 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0daf921f-a4c8-4745-b0ec-63b0f30cb6e8")
 	)
 	(label "ECU_OUT_INJ3"
 		(at 144.78 76.2 180)
