@@ -4371,6 +4371,16 @@
 		)
 		(uuid "0f1124f4-a978-415f-9504-db313d28a8cf")
 	)
+	(label "EXT_IN_SIG_MAP"
+		(at 113.03 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1006b2c9-8be4-49fb-b21b-cca259ce14c8")
+	)
 	(label "ECU_OUT_INJ3"
 		(at 144.78 76.2 180)
 		(effects
