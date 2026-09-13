@@ -3029,7 +3029,7 @@
 	)
 	(text "(GNDA)"
 		(exclude_from_sim no)
-		(at 130.048 114.554 0)
+		(at 128.524 114.808 0)
 		(effects
 			(font
 				(size 0.889 0.889)
