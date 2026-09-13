@@ -3080,7 +3080,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 109.728 97.282 0)
+		(at 81.788 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3091,7 +3091,7 @@
 	)
 	(text "(GNDA)"
 		(exclude_from_sim no)
-		(at 128.524 114.808 0)
+		(at 100.584 112.268 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3123,7 +3123,7 @@
 		(uuid "2a26b7fe-8bf7-4fc5-a650-b3da5731f4ef")
 	)
 	(junction
-		(at 102.87 114.3)
+		(at 74.93 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2feaa1c5-3c65-4c58-8e02-406a2e9869d8")
@@ -3141,7 +3141,7 @@
 		(uuid "43b5452e-099a-486d-bd5d-de5262032ed2")
 	)
 	(junction
-		(at 118.11 114.3)
+		(at 90.17 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6345cd4e-246f-4834-95f7-ba0cc88f2d48")
@@ -3248,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 121.92) (xy 116.84 121.92)
+			(xy 90.17 119.38) (xy 88.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 116.84 119.38)
+			(xy 90.17 116.84) (xy 88.9 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 116.84 114.3)
+			(xy 90.17 111.76) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 102.87 116.84)
+			(xy 74.93 111.76) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3588,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 104.14 104.14)
+			(xy 74.93 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3608,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 114.3) (xy 118.11 114.3)
+			(xy 91.44 111.76) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 118.11 116.84)
+			(xy 88.9 114.3) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 106.68) (xy 116.84 106.68)
+			(xy 90.17 104.14) (xy 88.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 119.38) (xy 104.14 119.38)
+			(xy 74.93 116.84) (xy 76.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 116.84 104.14)
+			(xy 90.17 101.6) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 104.14 121.92)
+			(xy 74.93 119.38) (xy 76.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 102.87 116.84)
+			(xy 76.2 114.3) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 104.14 106.68)
+			(xy 74.93 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 104.14 114.3)
+			(xy 74.93 111.76) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 111.76) (xy 116.84 111.76)
+			(xy 90.17 109.22) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4048,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 109.22) (xy 116.84 109.22)
+			(xy 90.17 106.68) (xy 88.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4118,7 +4118,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 118.11 116.84)
+			(xy 90.17 111.76) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4148,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 102.87 114.3)
+			(xy 73.66 111.76) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 111.76) (xy 104.14 111.76)
+			(xy 74.93 109.22) (xy 76.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 104.14 109.22)
+			(xy 74.93 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4307,7 @@
 		(uuid "2512c476-276f-430e-8b12-3cf93b630576")
 	)
 	(label "PWR_5V"
-		(at 101.6 114.3 180)
+		(at 73.66 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 		(uuid "37660129-ff12-4cb6-bc55-fd78326344f1")
 	)
 	(label "ECU_IN_PPS1"
-		(at 102.87 109.22 180)
+		(at 74.93 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4387,7 +4387,7 @@
 		(uuid "3afaca3a-e76a-4e9f-93a8-55c910b78132")
 	)
 	(label "GND"
-		(at 119.38 114.3 0)
+		(at 91.44 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,7 +4417,7 @@
 		(uuid "4d9e728a-e019-4cad-9bc4-ff1c3df2ccc4")
 	)
 	(label "ECU_CAN_HIGH"
-		(at 102.87 106.68 180)
+		(at 74.93 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4427,7 @@
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
 	(label "ECU_CAN_LOW"
-		(at 102.87 104.14 180)
+		(at 74.93 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4457,7 +4457,7 @@
 		(uuid "625a3cae-ffd6-4f92-a698-ce43d1b2a63e")
 	)
 	(label "ECU_IN_TPS1"
-		(at 118.11 111.76 0)
+		(at 90.17 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4487,7 +4487,7 @@
 		(uuid "6cb7094a-19fd-49ee-afdf-2e26cfb359ac")
 	)
 	(label "ECU_IN_AUX1"
-		(at 102.87 121.92 180)
+		(at 74.93 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4537,7 +4537,7 @@
 		(uuid "804d8b28-444c-4672-a72e-14a4b0ed26f1")
 	)
 	(label "ECU_IN_CLT"
-		(at 118.11 104.14 0)
+		(at 90.17 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4677,7 +4677,7 @@
 		(uuid "abf179cc-0e7a-4fda-9a50-ecb1e6315a42")
 	)
 	(label "ECU_IN_IAT"
-		(at 118.11 106.68 0)
+		(at 90.17 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4707,7 +4707,7 @@
 		(uuid "ba2a01c9-2357-486e-96a7-5d5e51dba85d")
 	)
 	(label "ECU_IN_KNOCK_RAW"
-		(at 118.11 109.22 0)
+		(at 90.17 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4727,7 +4727,7 @@
 		(uuid "bf8c21f9-1bfa-4d33-ba82-ca5fc05e409d")
 	)
 	(label "ECU_IN_MAP"
-		(at 118.11 121.92 0)
+		(at 90.17 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4777,7 +4777,7 @@
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
 	(label "ECU_IN_BUTTON1"
-		(at 102.87 119.38 180)
+		(at 74.93 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,7 +4847,7 @@
 		(uuid "ee5133f8-e07c-40bf-8ac2-f6e1953dbf26")
 	)
 	(label "ECU_IN_FLEX"
-		(at 102.87 111.76 180)
+		(at 74.93 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4857,7 +4857,7 @@
 		(uuid "eea12cb0-03ab-47c5-b4f2-29263266eaea")
 	)
 	(label "ECU_IN_BUTTON2"
-		(at 118.11 119.38 0)
+		(at 90.17 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,7 +5940,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Top_Bottom")
-		(at 109.22 114.3 0)
+		(at 81.28 111.76 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5951,7 +5951,7 @@
 		(dnp no)
 		(uuid "add6454d-1a63-4b04-854e-272fccaec153")
 		(property "Reference" "J10"
-			(at 110.236 98.044 0)
+			(at 82.296 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5961,7 +5961,7 @@
 			)
 		)
 		(property "Value" "5569-16A2"
-			(at 110.49 100.33 0)
+			(at 82.55 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,7 +5971,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal"
-			(at 109.22 114.3 0)
+			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +5982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 114.3 0)
+			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,7 +5993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 114.3 0)
+			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +6004,7 @@
 			)
 		)
 		(property "LCSC" "C485577"
-			(at 109.22 114.3 0)
+			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6073,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 97.79 59.69 180)
+		(at 102.87 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6084,7 +6084,7 @@
 		(fields_autoplaced yes)
 		(uuid "c181a50f-510e-4d2a-9592-28cc218e5706")
 		(property "Reference" "NT9"
-			(at 96.52 58.42 90)
+			(at 101.6 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,7 +6096,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 99.06 58.42 90)
+			(at 104.14 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +6108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 59.69 0)
+			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 59.69 0)
+			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 97.79 59.69 0)
+			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
