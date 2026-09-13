@@ -3469,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d1c5f6-f4ef-4bdb-8f16-d7b3da472588")
+	)
+	(wire
+		(pts
 			(xy 251.46 85.09) (xy 252.73 85.09)
 		)
 		(stroke
@@ -4858,12 +4868,12 @@
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 153.67 44.45 180)
+		(at 172.72 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "91e28bfa-9631-48dc-b5a7-c11310855b0d")
 	)
