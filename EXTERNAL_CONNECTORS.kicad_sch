@@ -1471,16 +1471,6 @@
 		)
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
 	)
-	(label "EXT_IN_SIG_RPM+"
-		(at 129.54 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
-	)
 	(label "PWR_BRAKE_LIGHT"
 		(at 80.01 87.63 0)
 		(effects
@@ -1760,6 +1750,30 @@
 			(justify left bottom)
 		)
 		(uuid "f663b1a9-d0cd-425e-bc35-b2b335589ef6")
+	)
+	(global_label "EXT_IN_SIG_RPM+"
+		(shape input)
+		(at 129.54 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a4bc87d-bbf2-4876-9770-4eb4f1df5f49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4536 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
