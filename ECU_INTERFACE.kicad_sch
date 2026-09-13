@@ -5237,7 +5237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c39ac4a-5592-4900-b449-d28b6fedbe2b")
-		(property "Reference" "J5-PCB"
+		(property "Reference" "J5-PCB1"
 			(at 205.486 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5358,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J5-PCB")
+					(reference "J5-PCB1")
 					(unit 1)
 				)
 			)
@@ -5544,7 +5544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cea2cc4-767d-4861-a968-b0998f36ddac")
-		(property "Reference" "J4-PCB"
+		(property "Reference" "J4-PCB1"
 			(at 83.82 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J4-PCB")
+					(reference "J4-PCB1")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
-		(property "Reference" "J3-PCB"
+		(property "Reference" "J3-PCB1"
 			(at 84.074 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +5898,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J3-PCB")
+					(reference "J3-PCB1")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "804152f9-8e74-4d30-8fce-4bed4418d948")
-		(property "Reference" "J2-PCB"
+		(property "Reference" "J2-PCB1"
 			(at 83.566 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6379,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J2-PCB")
+					(reference "J2-PCB1")
 					(unit 1)
 				)
 			)
@@ -6897,7 +6897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "add6454d-1a63-4b04-854e-272fccaec153")
-		(property "Reference" "J10-PCB"
+		(property "Reference" "J10-PCB1"
 			(at 205.486 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7012,7 +7012,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J10-PCB")
+					(reference "J10-PCB1")
 					(unit 1)
 				)
 			)
