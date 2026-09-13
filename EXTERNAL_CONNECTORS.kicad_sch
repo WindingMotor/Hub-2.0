@@ -1451,16 +1451,6 @@
 		)
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
 	)
-	(label "EXT_IN_SIG_RPM+"
-		(at 142.24 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b139cf7-d6cc-440d-a32c-b898e2b444e6")
-	)
 	(label "PWR_BRAKE_LIGHT"
 		(at 92.71 100.33 0)
 		(effects
@@ -1502,7 +1492,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_IN_SIG_RPM-"
-		(at 134.62 77.47 0)
+		(at 147.32 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,6 +1520,16 @@
 			(justify left bottom)
 		)
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
+	)
+	(label "EXT_IN_SIG_RPM+"
+		(at 147.32 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c7ebd9b-72a7-4311-9933-0dd9ba774bbc")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
 		(at 92.71 87.63 0)
@@ -1671,6 +1671,26 @@
 		)
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
+	(label "EXT_IN_SIG_COOLANT_TEMP"
+		(at 129.54 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab6eec92-926b-4dd9-900d-f3c9438c6241")
+	)
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
+		(at 129.54 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d253f3-12ad-4b9f-8272-fb62e28bdd1c")
+	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
 		(effects
@@ -1680,6 +1700,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
+	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 129.54 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c99416e5-12ca-4bcf-83f1-5f7b2900bc97")
 	)
 	(label "PWR_12V"
 		(at 142.24 107.95 0)
