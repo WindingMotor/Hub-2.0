@@ -2948,8 +2948,8 @@
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
 	)
 	(rectangle
-		(start 84.074 65.024)
-		(end 102.108 70.739)
+		(start 92.964 61.214)
+		(end 110.998 66.929)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3017,7 +3017,7 @@
 	)
 	(text "Always on whenever\n12V is applied"
 		(exclude_from_sim no)
-		(at 85.09 68.58 0)
+		(at 93.98 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4160,6 +4160,16 @@
 		)
 		(uuid "fc7f04c0-6583-4ef4-9d66-40b36abd17a5")
 	)
+	(label "ECU_12V_KEY"
+		(at 64.77 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00cb1ee0-4c3f-4d29-8fb2-218cd5a4676e")
+	)
 	(label "ECU_2_WBO_Vm"
 		(at 180.34 110.49 0)
 		(effects
@@ -4209,16 +4219,6 @@
 			(justify left bottom)
 		)
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
-	)
-	(label "ECU_12V_KEY"
-		(at 74.93 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "180d2871-9bf8-4331-8f41-9d7fba0b4dfc")
 	)
 	(label "ECU_OUT_INJ2"
 		(at 144.78 73.66 180)
