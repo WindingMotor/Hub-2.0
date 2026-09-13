@@ -2865,7 +2865,7 @@
 	)
 	(rectangle
 		(start 198.755 59.69)
-		(end 214.63 64.77)
+		(end 214.63 62.23)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -5009,6 +5009,16 @@
 			(justify left bottom)
 		)
 		(uuid "f256cb0b-a58b-4f0f-838f-567d7e2214fa")
+	)
+	(label "EXT_IN_SIG_DASH_BTN_STARTER"
+		(at 208.28 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f540e106-09d6-425f-8190-603c73bd5d59")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x09_Top_Bottom")
