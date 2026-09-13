@@ -4539,7 +4539,7 @@
 		(uuid "9e6b3442-376f-4321-abca-7262948c0ee4")
 	)
 	(label "EXT_IN_SIG_RPM+"
-		(at 238.76 49.53 0)
+		(at 223.52 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4579,7 +4579,7 @@
 		(uuid "b770c6b6-b446-4b20-9224-01b07b76f209")
 	)
 	(label "EXT_IN_SIG_RPM-"
-		(at 238.76 46.99 0)
+		(at 223.52 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
