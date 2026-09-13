@@ -2977,6 +2977,19 @@
 		(uuid "acb64f7a-d8f5-47b4-905c-2a945cc10937")
 	)
 	(rectangle
+		(start 128.27 64.135)
+		(end 144.78 76.2)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "b375f682-0dcb-4f5e-b32a-2c1a4dfe347c")
+	)
+	(rectangle
 		(start 238.76 69.85)
 		(end 251.46 81.915)
 		(stroke
