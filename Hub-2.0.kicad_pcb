@@ -5072,9 +5072,9 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 110.04 99.49 180)
+		(at 134.44 94.49 180)
 		(property "Reference" "CN5"
-			(at 0 15.11 0)
+			(at 0 15.109999 0)
 			(layer "B.SilkS")
 			(uuid "61c92477-5051-4e28-bd76-d906c8ad386f")
 			(effects
@@ -5086,7 +5086,7 @@
 			)
 		)
 		(property "Value" "DT15-12PA"
-			(at 0 -15.11 0)
+			(at 0 -15.109999 0)
 			(layer "B.Fab")
 			(uuid "14d25d56-99e1-4e31-a88a-0fd5921b1f86")
 			(effects
@@ -5228,7 +5228,7 @@
 			(uuid "aa4471b1-2699-4898-bb47-06259444d2c9")
 		)
 		(fp_circle
-			(center -7 -12.7)
+			(center -7 -12.700001)
 			(end -6.6 -12.7)
 			(stroke
 				(width 0.8)
@@ -5346,7 +5346,7 @@
 		)
 		(fp_circle
 			(center 4.56 2.22)
-			(end 4.95 2.22)
+			(end 4.950001 2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
@@ -5357,7 +5357,7 @@
 		)
 		(fp_circle
 			(center 4.56 -2.22)
-			(end 4.95 -2.22)
+			(end 4.950001 -2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
@@ -5630,9 +5630,9 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "1990c02e-6f2a-415c-bc01-ff8da71384b5")
-		(at 146.16 99.49 180)
+		(at 170.56 94.49 180)
 		(property "Reference" "CN4"
-			(at 0 15.11 0)
+			(at 0 15.109999 0)
 			(layer "B.SilkS")
 			(uuid "57fa46fb-06b0-47cd-8ff3-c76ea4113083")
 			(effects
@@ -5644,7 +5644,7 @@
 			)
 		)
 		(property "Value" "DT15-12PA"
-			(at 0 -15.11 0)
+			(at 0 -15.109999 0)
 			(layer "B.Fab")
 			(uuid "62491539-9255-4029-b708-babbe594a39e")
 			(effects
@@ -5786,7 +5786,7 @@
 			(uuid "a4a76bb9-a669-42cd-ad0e-5324effff3d0")
 		)
 		(fp_circle
-			(center -7 -12.7)
+			(center -7 -12.700001)
 			(end -6.6 -12.7)
 			(stroke
 				(width 0.8)
@@ -5904,7 +5904,7 @@
 		)
 		(fp_circle
 			(center 4.56 2.22)
-			(end 4.95 2.22)
+			(end 4.950001 2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
@@ -5915,7 +5915,7 @@
 		)
 		(fp_circle
 			(center 4.56 -2.22)
-			(end 4.95 -2.22)
+			(end 4.950001 -2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
@@ -6188,9 +6188,9 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 74.04 99.49 180)
+		(at 98.44 94.49 180)
 		(property "Reference" "CN6"
-			(at 0 15.11 0)
+			(at 0 15.109999 0)
 			(layer "B.SilkS")
 			(uuid "52cc53e6-9cc2-4079-a075-6122a268065e")
 			(effects
@@ -6202,7 +6202,7 @@
 			)
 		)
 		(property "Value" "DT15-12PA"
-			(at 0 -15.11 0)
+			(at 0 -15.109999 0)
 			(layer "B.Fab")
 			(uuid "8338467f-195d-4eab-8dc7-9df9ba53d0bf")
 			(effects
@@ -6344,7 +6344,7 @@
 			(uuid "e182c2b8-9259-4445-94db-839107cec4d8")
 		)
 		(fp_circle
-			(center -7 -12.7)
+			(center -7 -12.700001)
 			(end -6.6 -12.7)
 			(stroke
 				(width 0.8)
@@ -6462,7 +6462,7 @@
 		)
 		(fp_circle
 			(center 4.56 2.22)
-			(end 4.95 2.22)
+			(end 4.950001 2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
@@ -6473,7 +6473,7 @@
 		)
 		(fp_circle
 			(center 4.56 -2.22)
-			(end 4.95 -2.22)
+			(end 4.950001 -2.22)
 			(stroke
 				(width 0.78)
 				(type solid)
