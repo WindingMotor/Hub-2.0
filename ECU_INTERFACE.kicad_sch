@@ -2812,8 +2812,8 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 80.264 159.639)
-		(end 96.139 165.354)
+		(start 81.534 159.639)
+		(end 97.409 165.354)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2824,8 +2824,8 @@
 		(uuid "1c5be3cc-4216-4204-ab59-2af5b0903005")
 	)
 	(rectangle
-		(start 62.865 149.86)
-		(end 80.01 157.48)
+		(start 64.135 149.86)
+		(end 81.28 157.48)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2991,8 +2991,8 @@
 		(uuid "b7c9e777-3f08-4d8e-a58c-db20073168d8")
 	)
 	(rectangle
-		(start 95.25 149.86)
-		(end 109.855 157.48)
+		(start 96.52 149.86)
+		(end 111.125 157.48)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -3005,7 +3005,7 @@
 	)
 	(text "Not used we have\nexternal WBO"
 		(exclude_from_sim no)
-		(at 81.28 163.195 0)
+		(at 82.55 163.195 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 87.376 145.796 0)
+		(at 88.646 145.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 157.48) (xy 93.98 157.48)
+			(xy 96.52 157.48) (xy 95.25 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 152.4) (xy 81.28 152.4)
+			(xy 81.28 152.4) (xy 82.55 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 154.94) (xy 93.98 154.94)
+			(xy 96.52 154.94) (xy 95.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 154.94) (xy 81.28 154.94)
+			(xy 81.28 154.94) (xy 82.55 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 152.4) (xy 93.98 152.4)
+			(xy 96.52 152.4) (xy 95.25 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 157.48) (xy 81.28 157.48)
+			(xy 81.28 157.48) (xy 82.55 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4388,7 @@
 		(uuid "051e8893-bbe6-4f35-9fd0-248aede76f15")
 	)
 	(label "ECU_2_WBO_Vm"
-		(at 95.25 152.4 0)
+		(at 96.52 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4548,7 @@
 		(uuid "320fce5d-ff5c-4f96-9949-17a06ecb5431")
 	)
 	(label "ECU_6_WBO_Un"
-		(at 95.25 157.48 0)
+		(at 96.52 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4558,7 +4558,7 @@
 		(uuid "34e3f71e-75c7-4898-9afe-b80f7fc2ff84")
 	)
 	(label "ECU_5_WBO_Rtrim"
-		(at 80.01 154.94 180)
+		(at 81.28 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4918,7 +4918,7 @@
 		(uuid "9836b3ea-75b1-4595-b470-d6a131a3152a")
 	)
 	(label "ECU_1_WBO_Ip"
-		(at 95.25 154.94 0)
+		(at 96.52 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5098,7 +5098,7 @@
 		(uuid "da114835-60bb-4a0c-8bec-043bcf450792")
 	)
 	(label "ECU_3_WBO_Heater"
-		(at 80.01 152.4 180)
+		(at 81.28 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5158,7 +5158,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_12V_RAW"
-		(at 80.01 157.48 180)
+		(at 81.28 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 86.36 154.94 0)
+		(at 87.63 154.94 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5776,7 +5776,7 @@
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
 		(property "Reference" "J3"
-			(at 87.884 146.558 0)
+			(at 89.154 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5786,7 +5786,7 @@
 			)
 		)
 		(property "Value" "5569-06A2"
-			(at 87.63 148.59 0)
+			(at 88.9 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5796,7 +5796,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
-			(at 86.36 154.94 0)
+			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +5807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 154.94 0)
+			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 154.94 0)
+			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5829,7 @@
 			)
 		)
 		(property "LCSC" "C293509"
-			(at 86.36 154.94 0)
+			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
