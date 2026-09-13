@@ -3458,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 105.41 101.6)
+			(xy 104.14 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3545,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "4aff66ac-ebd3-4d07-ba9d-c8238b39593e")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b39dc91-3b46-40e9-9a48-375ba9d81d48")
 	)
 	(wire
 		(pts
@@ -4008,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 106.68 109.22)
+			(xy 105.41 109.22) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4277,7 @@
 		(uuid "0daf921f-a4c8-4745-b0ec-63b0f30cb6e8")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 105.41 101.6 0)
+		(at 111.76 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4447,7 @@
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 106.68 109.22 0)
+		(at 111.76 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4667,7 +4677,7 @@
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 102.87 104.14 0)
+		(at 111.76 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
