@@ -3259,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 173.99 71.12)
+			(xy 175.26 71.12) (xy 173.99 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 177.8 66.04)
+			(xy 171.45 66.04) (xy 175.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 177.8 63.5)
+			(xy 171.45 63.5) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 177.8 68.58)
+			(xy 171.45 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4388,7 @@
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 177.8 68.58 0)
+		(at 175.26 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,7 +4858,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 177.8 66.04 0)
+		(at 175.26 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 177.8 63.5 0)
+		(at 175.26 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5138,7 +5138,7 @@
 		(uuid "ec56e39c-463e-4a08-8d84-f24176957b05")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
-		(at 177.8 71.12 0)
+		(at 175.26 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
