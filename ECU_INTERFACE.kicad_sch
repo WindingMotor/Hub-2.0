@@ -3393,16 +3393,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 82.55) (xy 252.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dec5f59-9a1a-40be-876f-df855bead239")
-	)
-	(wire
-		(pts
 			(xy 104.14 101.6) (xy 110.49 101.6)
 		)
 		(stroke
@@ -3540,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "557d09cd-2904-4071-88d6-855543a3549c")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 252.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ba32f7-b187-4781-8afa-aaff072e7ac3")
 	)
 	(wire
 		(pts
@@ -3713,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 77.47) (xy 265.43 77.47)
+			(xy 265.43 77.47) (xy 276.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5775,6 +5775,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 279.4 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "705bfeb8-0ef2-4a68-87db-70bd18218bef")
+		(property "Reference" "NT21"
+			(at 280.67 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 278.13 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 279.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05e747f0-f1df-4b50-aafa-6f708678777e")
+		)
+		(pin "1"
+			(uuid "b0a3dcf3-f71c-4d08-ba4e-e210031c36c0")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 257.81 77.47 0)
 		(mirror x)
@@ -7051,6 +7135,90 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
 					(reference "NT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 242.57 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8632af7-f3c5-4243-b98c-be356c360419")
+		(property "Reference" "NT20"
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 241.3 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 242.57 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e55ab256-7dce-44f2-a056-2c66c1494977")
+		)
+		(pin "1"
+			(uuid "b8b00f87-7201-41c9-84f7-8f1dad44dcfb")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT20")
 					(unit 1)
 				)
 			)
