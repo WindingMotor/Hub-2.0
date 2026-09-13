@@ -4360,6 +4360,16 @@
 		)
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
+	(label "PWR_FRONT_LIGHTS"
+		(at 110.49 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "051e8893-bbe6-4f35-9fd0-248aede76f15")
+	)
 	(label "ECU_2_WBO_Vm"
 		(at 203.2 107.95 0)
 		(effects
@@ -4620,6 +4630,16 @@
 		)
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
+	(label "PWR_REAR_LIGHTS"
+		(at 110.49 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55ecd5f0-a934-46df-8899-09bc8d7bd9cd")
+	)
 	(label "ECU_CAN_LOW"
 		(at 74.93 101.6 180)
 		(effects
@@ -4811,7 +4831,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 114.3 62.23 180)
+		(at 113.03 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,7 +4871,7 @@
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 114.3 57.15 180)
+		(at 113.03 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5031,7 +5051,7 @@
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
 	)
 	(label "SIG_RELAY_FUEL"
-		(at 114.3 59.69 180)
+		(at 113.03 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
