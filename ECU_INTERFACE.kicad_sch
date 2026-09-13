@@ -2935,10 +2935,10 @@
 		)
 	)
 	(rectangle
-		(start 173.99 86.36)
-		(end 184.15 90.805)
+		(start 175.26 69.85)
+		(end 185.42 74.295)
 		(stroke
-			(width 0.0508)
+			(width 0.127)
 			(type solid)
 		)
 		(fill
