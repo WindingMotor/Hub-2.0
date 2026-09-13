@@ -3659,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 116.84) (xy 59.69 116.84)
+			(xy 58.42 116.84) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 59.69 119.38)
+			(xy 58.42 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 104.14) (xy 62.23 104.14)
+			(xy 59.69 104.14) (xy 62.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4249,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 62.23 101.6)
+			(xy 59.69 101.6) (xy 62.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4288,7 +4288,7 @@
 		(uuid "01645e39-2600-402e-b986-f04d0c7883c0")
 	)
 	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 54.61 119.38 180)
+		(at 58.42 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4348,7 +4348,7 @@
 		(uuid "111be148-1f4f-4b13-8d2a-bf85d7fb8df8")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
-		(at 54.61 104.14 180)
+		(at 59.69 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4508,7 +4508,7 @@
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
-		(at 54.61 116.84 180)
+		(at 58.42 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 		(uuid "64173da4-ff88-4306-8e8b-188a731cdfe5")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
-		(at 54.61 101.6 180)
+		(at 59.69 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
