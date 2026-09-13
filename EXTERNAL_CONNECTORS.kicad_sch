@@ -585,16 +585,6 @@
 		)
 		(uuid "43281235-e778-4a64-80c6-b6373a20373e")
 	)
-	(text "22AWG\n"
-		(exclude_from_sim no)
-		(at 88.646 84.074 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "462b3cb4-f38b-4c5a-a64f-bf1bd0851f1c")
-	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
 		(at 88.646 109.728 0)
@@ -687,6 +677,16 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
+		(at 138.176 84.074 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "75f83c9d-58b1-479f-bb94-12209b2ab779")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
 		(at 138.176 99.314 0)
 		(effects
 			(font
@@ -704,6 +704,16 @@
 			)
 		)
 		(uuid "8a90c699-ea62-47a2-bc46-928c4e7691df")
+	)
+	(text "22AWG"
+		(exclude_from_sim no)
+		(at 138.176 86.614 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "9df885b6-ab32-4635-9b82-1da331b325eb")
 	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
@@ -903,16 +913,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 85.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d11e59c-dfd3-4f32-bf25-2302dd61e612")
-	)
-	(wire
-		(pts
 			(xy 184.15 110.49) (xy 191.77 110.49)
 		)
 		(stroke
@@ -1023,6 +1023,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 82.55) (xy 134.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6115676e-5d1b-4934-80d0-a758db491289")
+	)
+	(wire
+		(pts
 			(xy 134.62 95.25) (xy 142.24 95.25)
 		)
 		(stroke
@@ -1080,6 +1090,16 @@
 			(type default)
 		)
 		(uuid "6d5dab48-6e90-464f-8042-2e11d66a7940")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ec59f6-b271-461a-9f31-c1984a4e6ed5")
 	)
 	(wire
 		(pts
@@ -1190,16 +1210,6 @@
 			(type default)
 		)
 		(uuid "9ba6f8c0-2ec1-4fa0-86e0-0eedd629245c")
-	)
-	(wire
-		(pts
-			(xy 92.71 82.55) (xy 85.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcaf65f-00b7-43e3-a6e0-9a012698dd0c")
 	)
 	(wire
 		(pts
@@ -1421,6 +1431,16 @@
 		)
 		(uuid "2328b79c-8268-4f19-b8ef-ab4335c3810b")
 	)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 142.24 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26513318-a94d-4c9b-8673-5f7e9d9eb39c")
+	)
 	(label "PWR_12V"
 		(at 186.69 115.57 0)
 		(effects
@@ -1470,16 +1490,6 @@
 			(justify left bottom)
 		)
 		(uuid "36be9bc7-1427-4627-8114-a04af3ffeb06")
-	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 92.71 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ebb9c19-35fd-4d1e-b457-36b62efab681")
 	)
 	(label "GND"
 		(at 92.71 110.49 0)
@@ -1551,6 +1561,16 @@
 		)
 		(uuid "6e9cc935-34da-4831-b28b-289a04f2b80a")
 	)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 142.24 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "711bbab9-1953-405a-8e21-be9dc83cd044")
+	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
 		(at 190.5 87.63 0)
 		(effects
@@ -1600,16 +1620,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
-	)
-	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 92.71 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "810fd96f-58d7-4a6c-bfa2-de11b727ffbd")
 	)
 	(label "GND"
 		(at 87.63 127 0)
@@ -1720,16 +1730,6 @@
 			(justify left bottom)
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
-	)
-	(label "EXT_OUT_SIG_IGNITION"
-		(at 92.71 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea01fad8-c8d8-4193-9b11-4ebe7087ff15")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 191.77 105.41 0)
