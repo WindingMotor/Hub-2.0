@@ -3025,8 +3025,8 @@
 		(uuid "95312c3d-3f7b-4187-82a3-9fee22ef9cde")
 	)
 	(rectangle
-		(start 98.425 91.44)
-		(end 111.76 95.885)
+		(start 90.17 104.775)
+		(end 108.585 106.68)
 		(stroke
 			(width 0.127)
 			(type dash)
