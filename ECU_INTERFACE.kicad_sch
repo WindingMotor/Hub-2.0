@@ -3017,7 +3017,7 @@
 	)
 	(text "Always on whenever\n12V is applied"
 		(exclude_from_sim no)
-		(at 84.455 68.58 0)
+		(at 84.582 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
