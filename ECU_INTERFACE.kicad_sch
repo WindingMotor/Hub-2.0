@@ -2953,8 +2953,8 @@
 		(uuid "9dce087f-8bea-49b7-a30a-4c3ddec311f1")
 	)
 	(rectangle
-		(start 112.141 85.344)
-		(end 126.746 91.059)
+		(start 112.141 86.614)
+		(end 126.746 92.329)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3038,7 +3038,7 @@
 	)
 	(text "To choose which\nVR to activate"
 		(exclude_from_sim no)
-		(at 113.03 88.9 0)
+		(at 113.03 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
