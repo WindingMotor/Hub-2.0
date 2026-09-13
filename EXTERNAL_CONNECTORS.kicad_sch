@@ -515,16 +515,6 @@
 		)
 		(uuid "10d1565b-c2ca-4d32-b68e-0a47854b2163")
 	)
-	(text "22AWG\n"
-		(exclude_from_sim no)
-		(at 87.884 70.104 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "1ad5bc72-51d2-4a63-a17b-9a746403fdaa")
-	)
 	(text "22AWG"
 		(exclude_from_sim no)
 		(at 138.176 102.108 0)
@@ -757,7 +747,7 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 87.884 67.564 0)
+		(at 89.154 84.074 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -993,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 83.82 66.04)
+			(xy 92.71 82.55) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1250,16 +1240,6 @@
 			(type default)
 		)
 		(uuid "b45084b4-9ee5-40c0-8ac3-0102a7eb6437")
-	)
-	(wire
-		(pts
-			(xy 91.44 68.58) (xy 83.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5fe35f8-3fba-4c36-821c-50fcfc9a59a3")
 	)
 	(wire
 		(pts
@@ -1571,16 +1551,6 @@
 		)
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
-	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 91.44 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c932f53-037a-48d1-8851-43ae2a17526f")
-	)
 	(label "PWR_FRONT_LIGHTS"
 		(at 92.71 95.25 0)
 		(effects
@@ -1701,16 +1671,6 @@
 		)
 		(uuid "a0e4b442-4909-4041-b085-0ad06eaa55cd")
 	)
-	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 91.44 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a233c9ce-2552-4f10-842d-6210acd03526")
-	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 142.24 102.87 0)
 		(effects
@@ -1752,7 +1712,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 107.95 78.74 0)
+		(at 92.71 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
