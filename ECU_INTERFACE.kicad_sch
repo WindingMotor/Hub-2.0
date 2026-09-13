@@ -2935,6 +2935,19 @@
 		)
 	)
 	(rectangle
+		(start 160.02 71.755)
+		(end 172.085 79.375)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "3c87b457-95fd-4455-bc3d-fdff0dae5f5b")
+	)
+	(rectangle
 		(start 132.08 71.755)
 		(end 144.78 83.82)
 		(stroke
@@ -2985,8 +2998,8 @@
 		(uuid "acb64f7a-d8f5-47b4-905c-2a945cc10937")
 	)
 	(rectangle
-		(start 126.365 50.165)
-		(end 142.875 57.785)
+		(start 160.02 60.96)
+		(end 172.085 68.58)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -3249,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "1a4f2482-2c75-470c-be99-bfaa7c97c99d")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c33c526-61db-4022-924f-133b452137a5")
 	)
 	(wire
 		(pts
@@ -4789,6 +4812,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec56e39c-463e-4a08-8d84-f24176957b05")
+	)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 177.8 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee5133f8-e07c-40bf-8ac2-f6e1953dbf26")
 	)
 	(label "ECU_IN_FLEX"
 		(at 102.87 111.76 180)
