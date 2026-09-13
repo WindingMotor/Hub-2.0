@@ -755,16 +755,6 @@
 		)
 		(uuid "b351358d-5037-4f64-9e39-6b75fa2e8a97")
 	)
-	(text "EXT_IN_SIG_RPM"
-		(exclude_from_sim no)
-		(at 156.972 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7cdc522-ffae-4d47-9677-5eb4de3ca187")
-	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 187.452 104.394 0)
@@ -1381,15 +1371,15 @@
 		)
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
-	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 142.24 92.71 0)
+	(label "EXT_IN_SIG_MAP"
+		(at 138.43 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
+		(uuid "17ebd840-d054-48f4-bd70-6a02f8e1ccad")
 	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 191.77 102.87 0)
@@ -1431,6 +1421,16 @@
 		)
 		(uuid "28175f58-e812-4dfb-982b-bc9e4a1c7da9")
 	)
+	(label "EXT_IN_SIG_THROTTLE_POSITION"
+		(at 138.43 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f74fac-ab7f-4a3f-8e66-ace680677b0a")
+	)
 	(label "EXT_IN_ESTOP_SIG_RETURN"
 		(at 190.5 82.55 0)
 		(effects
@@ -1440,6 +1440,16 @@
 			(justify left bottom)
 		)
 		(uuid "2938a08f-6a81-4964-a9d9-0a2f1f3d9292")
+	)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 138.43 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295a0363-a18b-47d7-8ef8-06eae57cdb1d")
 	)
 	(label "PWR_REAR_LIGHTS"
 		(at 92.71 97.79 0)
@@ -1490,16 +1500,6 @@
 			(justify left bottom)
 		)
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
-	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 142.24 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ef67a8c-47f6-4224-9578-95f9b4b5d170")
 	)
 	(label "GND"
 		(at 137.16 127 0)
@@ -1591,16 +1591,6 @@
 		)
 		(uuid "857e1b14-a2fd-4d07-8b6c-93b714679fd0")
 	)
-	(label "EXT_IN_SIG_MAP"
-		(at 142.24 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "886f6199-f623-46ff-88ff-2856c6da05eb")
-	)
 	(label "GND"
 		(at 186.69 127 0)
 		(effects
@@ -1641,6 +1631,16 @@
 		)
 		(uuid "96b4115f-a547-4ce4-8baa-40558e7e5efe")
 	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 138.43 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e4b442-4909-4041-b085-0ad06eaa55cd")
+	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 142.24 102.87 0)
 		(effects
@@ -1660,16 +1660,6 @@
 			(justify left bottom)
 		)
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
-	)
-	(label "EXT_OUT_SIG_IGNITION"
-		(at 142.24 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b846541e-dd14-4c4f-9246-747fd44a0ac6")
 	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
@@ -1711,25 +1701,25 @@
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
-	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 142.24 95.25 0)
+	(label "EXT_IN_SIG_COOLANT_TEMP"
+		(at 138.43 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e1c070d2-f379-45ac-bdba-f05eb221cf90")
+		(uuid "dadc506f-fe15-4d29-9c59-4edd1351ec12")
 	)
-	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 142.24 90.17 0)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 138.43 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
+		(uuid "df544eea-50fe-4fcf-a694-212789a032d7")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 191.77 105.41 0)
