@@ -4320,6 +4320,16 @@
 		)
 		(uuid "9e6b3442-376f-4321-abca-7262948c0ee4")
 	)
+	(label "EXT_IN_SIG_RPM+"
+		(at 228.6 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f4054b-0d9e-4dbf-9db5-7adead82b8cf")
+	)
 	(label "ECU_EGT-"
 		(at 203.2 64.77 0)
 		(effects
@@ -4349,6 +4359,16 @@
 			(justify right bottom)
 		)
 		(uuid "b770c6b6-b446-4b20-9224-01b07b76f209")
+	)
+	(label "EXT_IN_SIG_RPM-"
+		(at 228.6 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba2a01c9-2357-486e-96a7-5d5e51dba85d")
 	)
 	(label "ECU_IN_KNOCK_RAW"
 		(at 118.11 109.22 0)
