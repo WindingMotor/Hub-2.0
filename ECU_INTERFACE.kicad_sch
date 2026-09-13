@@ -4016,6 +4016,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 73.66) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f23c1a-7036-41ef-b0b2-9a3176597d95")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 229.87 80.01)
 		)
 		(stroke
@@ -4133,6 +4143,16 @@
 			(justify left bottom)
 		)
 		(uuid "00cb1ee0-4c3f-4d29-8fb2-218cd5a4676e")
+	)
+	(label "PWR_12V"
+		(at 81.28 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01645e39-2600-402e-b986-f04d0c7883c0")
 	)
 	(label "ECU_2_WBO_Vm"
 		(at 180.34 110.49 0)
