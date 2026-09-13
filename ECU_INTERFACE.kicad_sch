@@ -4400,16 +4400,6 @@
 		)
 		(uuid "0f1124f4-a978-415f-9504-db313d28a8cf")
 	)
-	(label "SIG_RELAY_FUEL"
-		(at 114.3 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fc9ebc6-d472-4c91-8b30-d7e3cdc40293")
-	)
 	(label "ECU_OUT_INJ3"
 		(at 144.78 76.2 180)
 		(effects
@@ -4820,6 +4810,16 @@
 		)
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
+	(label "PWR_BRAKE_LIGHT"
+		(at 114.3 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87f12a24-9c44-4df2-aedd-a2a42ee1b2c6")
+	)
 	(label "ECU_OUT_IGN5"
 		(at 160.02 76.2 0)
 		(effects
@@ -4969,16 +4969,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
-	)
-	(label "PWR_BRAKE_LIGHT"
-		(at 113.03 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd5ea4e8-6afc-4053-9d6b-04f38124d5af")
 	)
 	(label "ECU_OUT_DC2+"
 		(at 54.61 39.37 0)
