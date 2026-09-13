@@ -3095,12 +3095,6 @@
 		(uuid "43b5452e-099a-486d-bd5d-de5262032ed2")
 	)
 	(junction
-		(at 125.73 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52dc0ea4-1df5-4955-acff-3adf8cdcc032")
-	)
-	(junction
 		(at 118.11 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3135,6 +3129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd67c21b-fcb8-4703-a9f2-c4379ff7f872")
+	)
+	(junction
+		(at 125.73 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f013c7eb-448c-45f7-816d-aee440460d04")
 	)
 	(wire
 		(pts
@@ -4038,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 125.73 71.12)
+			(xy 124.46 71.12) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +4807,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_OUT_INJ1"
-		(at 121.92 71.12 180)
+		(at 124.46 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
