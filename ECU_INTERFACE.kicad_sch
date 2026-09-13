@@ -2928,19 +2928,6 @@
 		(uuid "7dd14d27-febb-4fd5-96ab-5c4f30096a35")
 	)
 	(rectangle
-		(start 266.7 75.565)
-		(end 278.765 80.01)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type cross_hatch)
-			(color 0 0 0 0)
-		)
-		(uuid "95312c3d-3f7b-4187-82a3-9fee22ef9cde")
-	)
-	(rectangle
 		(start 90.17 104.775)
 		(end 108.585 106.68)
 		(stroke
@@ -2977,19 +2964,6 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ad1f4ca3-0ee5-45ac-aa55-cc1718a7164f")
-	)
-	(rectangle
-		(start 238.76 70.485)
-		(end 251.46 82.55)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type cross_hatch)
-			(color 0 0 0 0)
-		)
-		(uuid "d46e6522-5ef9-4714-b329-c99887041309")
 	)
 	(rectangle
 		(start 203.2 105.41)
