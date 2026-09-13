@@ -3220,6 +3220,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 57.15) (xy 220.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d5ceb6-f82d-4cbc-a731-0aee29329870")
+	)
+	(wire
+		(pts
 			(xy 137.16 68.58) (xy 138.43 68.58)
 		)
 		(stroke
@@ -3677,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "8d49cae9-92ed-471e-9e70-4e57d240407e")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 218.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917aa126-e20c-4dd5-91a4-d95436d34cd3")
 	)
 	(wire
 		(pts
@@ -5072,7 +5092,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 218.44 53.34 90)
+		(at 218.44 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5082,7 +5102,7 @@
 		(dnp no)
 		(uuid "420beee0-0ea0-4f96-95b4-21e818aba069")
 		(property "Reference" "JP3"
-			(at 216.662 55.626 90)
+			(at 216.662 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5092,7 +5112,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 215.9 53.34 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,7 +5123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 53.34 0)
+			(at 218.44 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 53.34 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +5145,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 223.52 53.34 0)
+			(at 223.52 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5182,7 @@
 		(dnp no)
 		(uuid "42713050-f520-47cc-a4f2-debc166cd441")
 		(property "Reference" "JP2"
-			(at 216.662 49.53 90)
+			(at 216.408 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +5587,7 @@
 		(dnp no)
 		(uuid "8070581b-cd29-428a-b9c6-4a9522527b29")
 		(property "Reference" "JP1"
-			(at 210.058 49.53 90)
+			(at 210.312 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6261,7 +6281,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 220.98 53.34 90)
+		(at 220.98 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6271,7 +6291,7 @@
 		(dnp no)
 		(uuid "f90ac4ec-00c9-4f27-b170-112edc7f4e1c")
 		(property "Reference" "JP4"
-			(at 222.758 55.626 90)
+			(at 222.758 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6281,7 +6301,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 218.44 53.34 0)
+			(at 218.44 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6292,7 +6312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 53.34 0)
+			(at 220.98 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 53.34 0)
+			(at 228.6 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6334,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 226.06 53.34 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
