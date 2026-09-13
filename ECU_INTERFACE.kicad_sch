@@ -4887,16 +4887,6 @@
 		)
 		(uuid "91e28bfa-9631-48dc-b5a7-c11310855b0d")
 	)
-	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 233.68 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92d9b714-7432-4bc2-b2f1-4892e166c1b7")
-	)
 	(label "ECU_IN_HALL2"
 		(at 76.2 113.03 180)
 		(effects
@@ -5293,7 +5283,7 @@
 	)
 	(global_label "EXT_IN_SIG_INTAKE_TEMP"
 		(shape input)
-		(at 146.05 77.47 0)
+		(at 233.68 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5303,7 +5293,7 @@
 		)
 		(uuid "fd4c087e-e3b0-4eca-a2f3-71cf3c03a1aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8969 77.47 0)
+			(at 258.5269 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
