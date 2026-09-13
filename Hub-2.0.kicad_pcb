@@ -9363,13 +9363,5 @@
 		(layer "User.4")
 		(uuid "96463e17-9aa9-4076-a3fb-11232df48ead")
 	)
-	(segment
-		(start 90.345001 54.415)
-		(end 90.305001 54.375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/EXTERNAL_CONNECTORS/EXT_IN_SIG_RPM-")
-		(uuid "ab400cd6-9a11-47c4-981f-d9bcf3914b28")
-	)
 	(embedded_fonts no)
 )
