@@ -3688,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 88.9 104.14)
+			(xy 88.9 104.14) (xy 97.79 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4665,6 +4665,16 @@
 			(justify right bottom)
 		)
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
+	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 102.87 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92d9b714-7432-4bc2-b2f1-4892e166c1b7")
 	)
 	(label "ECU_IN_HALL2"
 		(at 214.63 72.39 180)
@@ -6604,6 +6614,90 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 100.33 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edcb3341-2d20-4a34-8c79-850db6fe069c")
+		(property "Reference" "NT13"
+			(at 99.06 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 101.6 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f30022cc-6189-4da2-b351-c56f6361408b")
+		)
+		(pin "1"
+			(uuid "6ebf0a73-9ba8-4bee-af58-44ee89250bd9")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT13")
 					(unit 1)
 				)
 			)
