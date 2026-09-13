@@ -2825,19 +2825,6 @@
 		(uuid "236f54a4-a9f1-47fe-9e46-ac1a7c01cda0")
 	)
 	(rectangle
-		(start 63.5 117.475)
-		(end 74.93 119.38)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type cross_hatch)
-			(color 0 0 0 0)
-		)
-		(uuid "29d0e16e-2893-40ca-99f6-8c2551d70e28")
-	)
-	(rectangle
 		(start 160.02 71.755)
 		(end 173.355 83.82)
 		(stroke
@@ -3082,6 +3069,16 @@
 			(justify left bottom)
 		)
 		(uuid "c461460d-1e99-4e6d-82e9-1f5f34ad21f9")
+	)
+	(text "EXT_IN_SIG_NEUTRAL_SAFETY"
+		(exclude_from_sim no)
+		(at 50.546 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcbcba9f-8567-4cb7-b5af-bd27cb930626")
 	)
 	(text "B"
 		(exclude_from_sim no)
