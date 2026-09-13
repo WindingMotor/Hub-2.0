@@ -3075,7 +3075,7 @@
 	)
 	(rectangle
 		(start 226.06 49.53)
-		(end 247.015 58.42)
+		(end 247.015 55.245)
 		(stroke
 			(width 0)
 			(type dash)
