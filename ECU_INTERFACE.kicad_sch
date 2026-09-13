@@ -2936,13 +2936,13 @@
 	)
 	(rectangle
 		(start 173.99 86.36)
-		(end 184.15 86.995)
+		(end 184.15 90.805)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
-			(type hatch)
+			(type cross_hatch)
 			(color 0 0 0 0)
 		)
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
