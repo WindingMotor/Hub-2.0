@@ -5907,6 +5907,90 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
+		(at 97.79 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c181a50f-510e-4d2a-9592-28cc218e5706")
+		(property "Reference" "NT9"
+			(at 96.52 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 99.06 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed3ded48-ab3c-4276-bf6f-5949ee7e3ebf")
+		)
+		(pin "1"
+			(uuid "2af8af38-c2e0-44dc-8220-ff0480e752c6")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
 		(at 241.3 58.42 90)
 		(unit 1)
 		(body_style 1)
