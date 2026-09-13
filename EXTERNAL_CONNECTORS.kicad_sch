@@ -1381,16 +1381,6 @@
 		)
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
-	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 142.24 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "120905d8-4340-42d8-8b5b-f9313fe8a0ac")
-	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 191.77 102.87 0)
 		(effects
@@ -1672,7 +1662,7 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 129.54 72.39 0)
+		(at 142.24 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,7 +1672,7 @@
 		(uuid "ab6eec92-926b-4dd9-900d-f3c9438c6241")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 129.54 74.93 0)
+		(at 142.24 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1702,7 +1692,7 @@
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 129.54 69.85 0)
+		(at 142.24 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,16 +1721,6 @@
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
-	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 142.24 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1c070d2-f379-45ac-bdba-f05eb221cf90")
-	)
 	(label "EXT_OUT_SIG_IGNITION"
 		(at 92.71 82.55 0)
 		(effects
@@ -1750,16 +1730,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea01fad8-c8d8-4193-9b11-4ebe7087ff15")
-	)
-	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 142.24 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f458601a-0224-4d5b-9cee-5048e2170166")
 	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 191.77 105.41 0)
