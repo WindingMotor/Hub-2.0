@@ -3107,13 +3107,14 @@
 		)
 		(uuid "53cb60e3-93b1-486a-bf93-c62bf1f1483c")
 	)
-	(text "To choose which\nVR to use"
+	(text "To choose which\nVR to activate"
 		(exclude_from_sim no)
-		(at 233.172 52.832 0)
+		(at 226.568 52.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "6f53fa6d-1ae0-48fb-b794-e944f81daa4f")
 	)
