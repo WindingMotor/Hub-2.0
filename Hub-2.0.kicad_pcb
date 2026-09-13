@@ -90,7 +90,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "0030211f-d2c4-41d2-9d7b-1ece41b8f8e1")
-		(at 169.73 132.625)
+		(at 236.41 118.955)
 		(property "Reference" "C2"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -1515,7 +1515,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "05b61ca1-b349-4879-945c-31572dcde80b")
-		(at 162.09 138.325)
+		(at 228.77 124.655)
 		(property "Reference" "C3"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -1776,7 +1776,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 156.68 89.65)
+		(at 223.36 75.98)
 		(property "Reference" "CN5"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
@@ -2731,7 +2731,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "1990c02e-6f2a-415c-bc01-ff8da71384b5")
-		(at 120.56 89.65)
+		(at 187.24 75.98)
 		(property "Reference" "CN4"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
@@ -4453,7 +4453,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "2709f5cd-c68e-4bd4-a41e-03afd4870869")
-		(at 169.73 140.165)
+		(at 236.41 126.495)
 		(property "Reference" "C6"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -6495,7 +6495,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "6626c8a3-cb84-402c-8dc4-0d5956fc0c3d")
-		(at 162.09 143.375)
+		(at 228.77 129.705)
 		(property "Reference" "C5"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -7614,7 +7614,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "F.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 192.68 89.65)
+		(at 259.36 75.98)
 		(property "Reference" "CN6"
 			(at 0 -15.11 0)
 			(layer "F.SilkS")
@@ -9390,7 +9390,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "cc974d7f-5af5-483f-8220-cf4e61fb403b")
-		(at 169.73 136.395)
+		(at 236.41 122.725)
 		(property "Reference" "C4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -9651,7 +9651,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "ef3ffbac-59c9-4943-aaa5-40d6cb380605")
-		(at 162.09 133.275)
+		(at 228.77 119.605)
 		(property "Reference" "C1"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -9994,8 +9994,8 @@
 		(uuid "96463e17-9aa9-4076-a3fb-11232df48ead")
 	)
 	(gr_rect
-		(start 101.81 49.07)
-		(end 221.81 149.07)
+		(start 168.49 35.4)
+		(end 288.49 135.4)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -10005,16 +10005,16 @@
 		(uuid "ce636ca2-c02a-4a21-b43b-733ba15e49e3")
 	)
 	(segment
-		(start 152.12 78.54)
-		(end 152.08 78.5)
+		(start 218.8 64.87)
+		(end 218.76 64.83)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "EXT_IN_SIG_RPM+")
 		(uuid "ab400cd6-9a11-47c4-981f-d9bcf3914b28")
 	)
 	(segment
-		(start 152.08 78.5)
-		(end 137.5 78.5)
+		(start 218.76 64.83)
+		(end 204.18 64.83)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "EXT_IN_SIG_RPM+")
