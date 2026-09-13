@@ -364,7 +364,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 		(layer "F.Cu")
 		(uuid "015ebb35-d74d-4902-a18e-8517e68bf97a")
-		(at 2 69.5)
+		(at 35.825 214.1)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H1"
@@ -556,7 +556,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 		(layer "F.Cu")
 		(uuid "0386d864-1074-47d7-b558-1dc935b972bb")
-		(at 95 162.5)
+		(at 128.825 307.1)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H3"
@@ -748,7 +748,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "04f764f3-7594-4488-906a-d3413fa93a92")
-		(at 7.775 120.8 90)
+		(at 41.6 265.4 90)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-18A2, example for new mpn: 39-30-0180, 9 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
 		(property "Reference" "J5"
@@ -2325,7 +2325,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "16b8127f-39bd-4b61-9f2a-c94f51e44b84")
-		(at -29.5 148.599999 90)
+		(at 4.325 293.199999 90)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-06A2, example for new mpn: 39-30-0060, 3 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J3"
@@ -3280,7 +3280,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "21a1c090-d42d-4f90-a262-f01277097c1c")
-		(at 58.8 75.275)
+		(at 92.625 219.875)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-16A2, example for new mpn: 39-30-0160, 8 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
 		(property "Reference" "J10"
@@ -3995,7 +3995,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "259a37e2-465b-4867-9e24-943257876b23")
-		(at 7.8 140.199999 90)
+		(at 41.625 284.799999 90)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J4"
@@ -4714,7 +4714,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 		(layer "F.Cu")
 		(uuid "2eb12057-50b0-46c9-90c8-dbf6611b403e")
-		(at 2 162.5)
+		(at 35.825 307.1)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H2"
@@ -4906,7 +4906,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "45a54cc8-db85-44ac-8b9d-c134c9bbae87")
-		(at 9.1 75.275)
+		(at 42.925 219.875)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-20A2, example for new mpn: 39-30-0200, 10 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J2"
@@ -5676,7 +5676,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "50c539b2-077b-4423-a0fa-965a20b06662")
-		(at 9.1 75.275)
+		(at 42.925 219.875)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-20A2, example for new mpn: 39-30-0200, 10 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
 		(property "Reference" "J2"
@@ -6756,7 +6756,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 		(layer "F.Cu")
 		(uuid "66be392a-677d-46b3-a6cc-ed29811caed5")
-		(at 95 69.5)
+		(at 128.825 214.1)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H4"
@@ -6948,7 +6948,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6ab05b2e-f32c-466a-95a9-10ad29fd34c3")
-		(at 58.8 75.275)
+		(at 92.625 219.875)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-16A2, example for new mpn: 39-30-0160, 8 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J10"
@@ -8163,7 +8163,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5908eb9-a18a-4c6d-8a93-4f73f2458f80")
-		(at 7.8 120.8 90)
+		(at 41.625 265.4 90)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-18A2, example for new mpn: 39-30-0180, 9 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J5"
@@ -8883,7 +8883,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c5ef0f5a-e3f9-41a9-a040-6683c8030809")
-		(at 7.775 140.2 90)
+		(at 41.6 284.8 90)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
 		(property "Reference" "J4"
@@ -9910,8 +9910,8 @@
 		)
 	)
 	(gr_line
-		(start -1.5 69.5)
-		(end -1.5 162.5)
+		(start 32.325 214.1)
+		(end 32.325 307.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9920,9 +9920,9 @@
 		(uuid "93ec8042-4f15-482d-b138-cae8a5bc5546")
 	)
 	(gr_arc
-		(start -1.5 69.5)
-		(mid -0.474874 67.025126)
-		(end 2 66)
+		(start 32.325 214.1)
+		(mid 33.350126 211.625126)
+		(end 35.825 210.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9931,9 +9931,9 @@
 		(uuid "e1fb6964-e508-49c7-956e-e87a7af92549")
 	)
 	(gr_arc
-		(start 2 166)
-		(mid -0.474874 164.974874)
-		(end -1.5 162.5)
+		(start 35.825 310.6)
+		(mid 33.350126 309.574874)
+		(end 32.325 307.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9942,8 +9942,8 @@
 		(uuid "bf9b1023-ae51-4ccd-93ea-ee720c490212")
 	)
 	(gr_line
-		(start 2 166)
-		(end 95 166)
+		(start 35.825 310.6)
+		(end 128.825 310.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9952,8 +9952,8 @@
 		(uuid "c1d05755-e508-4e04-b448-583cb90191a5")
 	)
 	(gr_line
-		(start 95 66)
-		(end 2 66)
+		(start 128.825 210.6)
+		(end 35.825 210.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9962,9 +9962,9 @@
 		(uuid "b547f9c6-eaa3-4e7d-83af-88f495b623b6")
 	)
 	(gr_arc
-		(start 95 66)
-		(mid 97.474874 67.025126)
-		(end 98.5 69.5)
+		(start 128.825 210.6)
+		(mid 131.299874 211.625126)
+		(end 132.325 214.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9973,9 +9973,9 @@
 		(uuid "12563aa3-87ab-4823-becf-35b7863c6585")
 	)
 	(gr_arc
-		(start 98.5 162.5)
-		(mid 97.474874 164.974874)
-		(end 95 166)
+		(start 132.325 307.1)
+		(mid 131.299874 309.574874)
+		(end 128.825 310.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9984,8 +9984,8 @@
 		(uuid "11ca380a-0ef3-4170-ad9e-b7c956f8983c")
 	)
 	(gr_line
-		(start 98.5 162.5)
-		(end 98.5 69.5)
+		(start 132.325 307.1)
+		(end 132.325 214.1)
 		(stroke
 			(width 0.1)
 			(type default)
