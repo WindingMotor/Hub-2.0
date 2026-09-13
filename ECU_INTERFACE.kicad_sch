@@ -3620,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 41.91) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd94378-6215-4943-9927-af0bba865711")
+	)
+	(wire
+		(pts
 			(xy 220.98 63.5) (xy 220.98 67.31)
 		)
 		(stroke
@@ -4138,6 +4148,16 @@
 		)
 		(uuid "fc7f04c0-6583-4ef4-9d66-40b36abd17a5")
 	)
+	(wire
+		(pts
+			(xy 223.52 41.91) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed441c9-86de-48cd-aad8-befb7fd04131")
+	)
 	(label "ECU_2_WBO_Vm"
 		(at 180.34 110.49 0)
 		(effects
@@ -4539,7 +4559,7 @@
 		(uuid "9e6b3442-376f-4321-abca-7262948c0ee4")
 	)
 	(label "EXT_IN_SIG_RPM+"
-		(at 223.52 44.45 0)
+		(at 223.52 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
