@@ -3089,16 +3089,6 @@
 		)
 		(uuid "c461460d-1e99-4e6d-82e9-1f5f34ad21f9")
 	)
-	(text "(GNDA)"
-		(exclude_from_sim no)
-		(at 100.584 112.268 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "dbbff04f-a510-4e96-85d8-89a3c26ea93d")
-	)
 	(text "B"
 		(exclude_from_sim no)
 		(at 151.638 57.15 0)
