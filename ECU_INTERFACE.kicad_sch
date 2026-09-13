@@ -5813,7 +5813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
-		(property "Reference" "J3"
+		(property "Reference" "J3-PCB"
 			(at 84.074 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +5898,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
-					(reference "J3")
+					(reference "J3-PCB")
 					(unit 1)
 				)
 			)
