@@ -2812,7 +2812,7 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 151.765 107.95)
+		(start 147.955 107.95)
 		(end 165.1 115.57)
 		(stroke
 			(width 0.127)
@@ -4947,7 +4947,7 @@
 		)
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
-	(label "12V_RAW"
+	(label "ECU_12V_RAW"
 		(at 165.1 115.57 180)
 		(effects
 			(font
