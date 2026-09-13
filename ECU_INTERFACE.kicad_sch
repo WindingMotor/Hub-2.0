@@ -6291,7 +6291,7 @@
 		(dnp no)
 		(uuid "f90ac4ec-00c9-4f27-b170-112edc7f4e1c")
 		(property "Reference" "JP4"
-			(at 221.996 55.118 0)
+			(at 219.964 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
