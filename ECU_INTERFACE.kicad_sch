@@ -3109,7 +3109,7 @@
 	)
 	(text "To choose which\nVR to activate"
 		(exclude_from_sim no)
-		(at 224.155 50.8 0)
+		(at 224.282 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
