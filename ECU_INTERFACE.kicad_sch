@@ -3973,7 +3973,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 82.55) (xy 240.03 82.55)
+			(xy 234.95 82.55) (xy 240.03 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4592,7 +4592,7 @@
 		(uuid "64173da4-ff88-4306-8e8b-188a731cdfe5")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_FRONT"
-		(at 238.76 82.55 180)
+		(at 234.95 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
