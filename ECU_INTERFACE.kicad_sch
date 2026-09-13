@@ -4890,6 +4890,16 @@
 		)
 		(uuid "a3f4054b-0d9e-4dbf-9db5-7adead82b8cf")
 	)
+	(label "EXT_IN_SIG_DASH_BTN_STARTER"
+		(at 110.49 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab394af6-11d4-4189-9351-30bffe95463e")
+	)
 	(label "ECU_EGT-"
 		(at 266.7 64.77 0)
 		(effects
