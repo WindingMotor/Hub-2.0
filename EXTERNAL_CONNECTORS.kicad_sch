@@ -2019,6 +2019,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 82.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1d81e91-de02-4059-ba0b-4cb947c2d3df")
 		)
