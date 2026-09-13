@@ -4474,7 +4474,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "8462484b-5a3b-46e3-92cb-df0363ec4a90")
-		(at 119.45 53.25)
+		(at 128.2 87.8 180)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT9"
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4515,7 +4515,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4553,7 +4553,7 @@
 			(uuid "f16bda88-8d58-4c4a-9f65-af99c31bb4fd")
 		)
 		(pad "1" smd circle
-			(at -0.5 0)
+			(at -0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "EXT_IN_SIG_THROTTLE_POSITION")
@@ -4562,7 +4562,7 @@
 			(uuid "f479f2d8-73fc-4a60-8e34-8d8eee4ce4c0")
 		)
 		(pad "2" smd circle
-			(at 0.5 0)
+			(at 0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "/ECU_INTERFACE/ECU_IN_TPS1")
