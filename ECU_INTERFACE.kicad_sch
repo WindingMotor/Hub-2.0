@@ -3599,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527b3e3b-edb9-46f2-af3d-a0ba5918b97d")
+	)
+	(wire
+		(pts
 			(xy 74.93 111.76) (xy 74.93 114.3)
 		)
 		(stroke
@@ -4368,7 +4378,7 @@
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 177.8 57.15 0)
+		(at 172.72 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,7 +4648,7 @@
 		(uuid "4eff1255-167a-4fd9-836e-da8f3596a0e5")
 	)
 	(label "SIG_RELAY_REAR_LIGHTS"
-		(at 151.13 52.07 180)
+		(at 127 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
