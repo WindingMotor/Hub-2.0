@@ -3242,7 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 125.73 63.5)
+			(xy 124.46 71.12) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4112,16 +4112,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 63.5) (xy 125.73 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b2597a-ec29-4a3f-829b-bde907439ab3")
-	)
-	(wire
-		(pts
 			(xy 102.87 111.76) (xy 104.14 111.76)
 		)
 		(stroke
@@ -4481,7 +4471,7 @@
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 124.46 63.5 180)
+		(at 124.46 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6111,7 +6101,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 125.73 67.31 90)
+		(at 128.27 71.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6122,7 +6112,7 @@
 		(fields_autoplaced yes)
 		(uuid "e69934ac-c66d-4665-ab4a-c9d896978325")
 		(property "Reference" "NT7"
-			(at 127 66.04 90)
+			(at 127 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6124,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 127 68.58 90)
+			(at 129.54 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 67.31 0)
+			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 67.31 0)
+			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6158,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 125.73 67.31 0)
+			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
