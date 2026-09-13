@@ -27,12 +27,12 @@
 		(uuid "077bcec9-ce48-4bfc-a0b3-b12ccb240fb4")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 132.08 85.09 0)
+		(at 83.82 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1de64fc8-f220-47c7-b9eb-eee6469809fd")
 	)
@@ -47,7 +47,7 @@
 		(uuid "2a318f80-2bfa-4dc4-8b44-e35794373339")
 	)
 	(label "PWR_RADIATOR_FAN"
-		(at 151.13 54.61 180)
+		(at 83.82 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
