@@ -16,4 +16,44 @@
 		)
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
+	(label "SIG_RELAY_RADIATOR_FAN"
+		(at 132.08 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1de64fc8-f220-47c7-b9eb-eee6469809fd")
+	)
+	(label "SIG_RELAY_FUEL"
+		(at 82.55 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a318f80-2bfa-4dc4-8b44-e35794373339")
+	)
+	(label "SIG_RELAY_FRONT_LIGHTS"
+		(at 132.08 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3d1d529-a537-4663-b689-9d7ea1973377")
+	)
+	(label "SIG_RELAY_REAR_LIGHTS"
+		(at 83.82 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec2b9679-93b8-4d7f-b2d7-92b4520877b3")
+	)
 )
