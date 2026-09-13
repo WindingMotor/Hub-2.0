@@ -4777,16 +4777,6 @@
 		)
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 180.34 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "804d8b28-444c-4672-a72e-14a4b0ed26f1")
-	)
 	(label "ECU_IN_CLT"
 		(at 213.36 95.25 0)
 		(effects
@@ -5183,7 +5173,7 @@
 	)
 	(global_label "EXT_OUT_SIG_IGNITION"
 		(shape output)
-		(at 177.8 29.21 0)
+		(at 228.6 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5193,7 +5183,7 @@
 		)
 		(uuid "4c190bd9-3e03-4cfd-8a6b-33f69df0c1f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.756 29.21 0)
+			(at 251.556 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
