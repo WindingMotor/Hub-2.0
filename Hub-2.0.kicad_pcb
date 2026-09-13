@@ -465,7 +465,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "02ab7ec6-cfa2-4f4e-a826-39d2e123f835")
-		(at 119.45 59.25)
+		(at 128.100001 96.71 180)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT13"
@@ -493,7 +493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -506,7 +506,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -544,7 +544,7 @@
 			(uuid "8942de0d-fe09-47b5-ac83-5d76628bb87c")
 		)
 		(pad "1" smd circle
-			(at -0.5 0)
+			(at -0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "EXT_IN_SIG_INTAKE_TEMP")
@@ -553,7 +553,7 @@
 			(uuid "dbf556df-ca6c-4e6b-9d01-8ab57c9cfbfb")
 		)
 		(pad "2" smd circle
-			(at 0.5 0)
+			(at 0.499999 0 180)
 			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "/ECU_INTERFACE/ECU_IN_IAT")
