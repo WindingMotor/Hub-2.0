@@ -2948,6 +2948,19 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
+		(start 63.5 117.475)
+		(end 74.93 119.38)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "29d0e16e-2893-40ca-99f6-8c2551d70e28")
+	)
+	(rectangle
 		(start 160.02 71.755)
 		(end 173.355 83.82)
 		(stroke
