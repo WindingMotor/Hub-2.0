@@ -2843,10 +2843,22 @@
 		(uuid "87c21ad4-c163-428f-bba9-04b36b7922c6")
 	)
 	(junction
+		(at 76.2 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d590860-c820-4987-9c41-df3790304963")
+	)
+	(junction
 		(at 203.2 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c9828ef-094a-4684-bf7d-42425bc8cbc4")
+	)
+	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98a4fed-15db-455c-9e08-500d7a8a851e")
 	)
 	(wire
 		(pts
@@ -2887,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "12703bef-bc0a-4462-81d5-8e21ec242f5f")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cb1d47-8345-4921-9d80-bccdab9115d4")
 	)
 	(wire
 		(pts
@@ -3060,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 74.93 73.66)
+			(xy 77.47 73.66) (xy 76.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3137,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "4f999b78-a7e8-482e-8e3e-85b23e040616")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519e798d-5067-48d9-9a04-af3859c5d5b4")
 	)
 	(wire
 		(pts
@@ -3560,6 +3592,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7633a10-1037-45b5-a204-99c0a2cfe190")
+	)
+	(wire
+		(pts
 			(xy 203.2 67.31) (xy 201.93 67.31)
 		)
 		(stroke
@@ -3590,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 74.93 71.12)
+			(xy 77.47 71.12) (xy 76.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3721,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "ECU_12V_KEY"
-		(at 81.28 73.66 0)
+		(at 77.47 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
