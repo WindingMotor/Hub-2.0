@@ -2812,8 +2812,8 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 82.804 162.179)
-		(end 98.679 167.894)
+		(start 80.264 159.639)
+		(end 96.139 165.354)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2824,8 +2824,8 @@
 		(uuid "1c5be3cc-4216-4204-ab59-2af5b0903005")
 	)
 	(rectangle
-		(start 65.405 152.4)
-		(end 82.55 160.02)
+		(start 62.865 149.86)
+		(end 80.01 157.48)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2902,8 +2902,8 @@
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
 	)
 	(rectangle
-		(start 67.564 44.704)
-		(end 85.598 50.419)
+		(start 105.664 43.434)
+		(end 123.698 49.149)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2914,8 +2914,8 @@
 		(uuid "6b982eb5-77be-4825-b1b0-c64a0f81bd4a")
 	)
 	(rectangle
-		(start 29.845 53.975)
-		(end 43.18 58.42)
+		(start 67.945 52.705)
+		(end 81.28 57.15)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2927,8 +2927,8 @@
 		(uuid "6e0c3417-d0ce-42c1-b99d-f7a80a185632")
 	)
 	(rectangle
-		(start 58.42 53.975)
-		(end 72.39 58.42)
+		(start 96.52 52.705)
+		(end 110.49 57.15)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2991,8 +2991,8 @@
 		(uuid "b7c9e777-3f08-4d8e-a58c-db20073168d8")
 	)
 	(rectangle
-		(start 97.79 152.4)
-		(end 112.395 160.02)
+		(start 95.25 149.86)
+		(end 109.855 157.48)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -3005,7 +3005,7 @@
 	)
 	(text "Not used we have\nexternal WBO"
 		(exclude_from_sim no)
-		(at 83.82 165.735 0)
+		(at 81.28 163.195 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 50.292 44.196 0)
+		(at 88.392 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 89.916 148.336 0)
+		(at 87.376 145.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3060,7 +3060,7 @@
 	)
 	(text "Always on whenever\n12V is applied"
 		(exclude_from_sim no)
-		(at 68.58 48.26 0)
+		(at 106.68 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3134,7 +3134,7 @@
 		(uuid "77f3e09e-8281-433c-91d3-ccecc06af662")
 	)
 	(junction
-		(at 43.18 50.8)
+		(at 81.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c21ad4-c163-428f-bba9-04b36b7922c6")
@@ -3299,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 55.88) (xy 57.15 55.88)
+			(xy 96.52 54.61) (xy 95.25 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 160.02) (xy 96.52 160.02)
+			(xy 95.25 157.48) (xy 93.98 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 50.8) (xy 43.18 53.34)
+			(xy 81.28 49.53) (xy 81.28 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 44.45 53.34)
+			(xy 81.28 52.07) (xy 82.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 50.8) (xy 43.18 50.8)
+			(xy 80.01 49.53) (xy 81.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 154.94) (xy 83.82 154.94)
+			(xy 80.01 152.4) (xy 81.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 157.48) (xy 96.52 157.48)
+			(xy 95.25 154.94) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 157.48) (xy 83.82 157.48)
+			(xy 80.01 154.94) (xy 81.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 57.15 58.42)
+			(xy 96.52 57.15) (xy 95.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 154.94) (xy 96.52 154.94)
+			(xy 95.25 152.4) (xy 93.98 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3899,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 160.02) (xy 83.82 160.02)
+			(xy 80.01 157.48) (xy 81.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 44.45 58.42)
+			(xy 81.28 57.15) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3999,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 44.45 55.88)
+			(xy 81.28 54.61) (xy 82.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4009,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 68.58 53.34)
+			(xy 95.25 52.07) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4199,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 50.8) (xy 44.45 50.8)
+			(xy 81.28 49.53) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4209,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 74.93 53.34)
+			(xy 111.76 52.07) (xy 113.03 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 57.15 50.8)
+			(xy 96.52 49.53) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4348,7 +4348,7 @@
 		(uuid "fc7f04c0-6583-4ef4-9d66-40b36abd17a5")
 	)
 	(label "ECU_12V_KEY"
-		(at 58.42 53.34 0)
+		(at 96.52 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4358,7 +4358,7 @@
 		(uuid "00cb1ee0-4c3f-4d29-8fb2-218cd5a4676e")
 	)
 	(label "PWR_12V"
-		(at 74.93 53.34 0)
+		(at 113.03 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,7 +4388,7 @@
 		(uuid "051e8893-bbe6-4f35-9fd0-248aede76f15")
 	)
 	(label "ECU_2_WBO_Vm"
-		(at 97.79 154.94 0)
+		(at 95.25 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4548,7 +4548,7 @@
 		(uuid "320fce5d-ff5c-4f96-9949-17a06ecb5431")
 	)
 	(label "ECU_6_WBO_Un"
-		(at 97.79 160.02 0)
+		(at 95.25 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4558,7 +4558,7 @@
 		(uuid "34e3f71e-75c7-4898-9afe-b80f7fc2ff84")
 	)
 	(label "ECU_5_WBO_Rtrim"
-		(at 82.55 157.48 180)
+		(at 80.01 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4628,7 +4628,7 @@
 		(uuid "4ccdf1ca-5a2f-457b-8890-c6f7ba9a801c")
 	)
 	(label "ECU_OUT_DC1+"
-		(at 58.42 58.42 0)
+		(at 96.52 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 		(uuid "61a71e51-6af8-41db-8997-113676f478ef")
 	)
 	(label "PWR_12V"
-		(at 58.42 50.8 0)
+		(at 96.52 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4918,7 +4918,7 @@
 		(uuid "9836b3ea-75b1-4595-b470-d6a131a3152a")
 	)
 	(label "ECU_1_WBO_Ip"
-		(at 97.79 157.48 0)
+		(at 95.25 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4978,7 +4978,7 @@
 		(uuid "b6a3d282-3de1-4de3-8555-7c2c1d7c3b0b")
 	)
 	(label "GND"
-		(at 41.91 50.8 180)
+		(at 80.01 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5008,7 +5008,7 @@
 		(uuid "ba3f0a54-3d59-4c0e-93bc-d29a8b93637e")
 	)
 	(label "ECU_OUT_DC2+"
-		(at 58.42 55.88 0)
+		(at 96.52 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5038,7 +5038,7 @@
 		(uuid "c887eb0f-39c0-4697-8fe0-d8217f160c56")
 	)
 	(label "ECU_OUT_DC2-"
-		(at 43.18 55.88 180)
+		(at 81.28 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5098,7 +5098,7 @@
 		(uuid "da114835-60bb-4a0c-8bec-043bcf450792")
 	)
 	(label "ECU_3_WBO_Heater"
-		(at 82.55 154.94 180)
+		(at 80.01 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,7 +5108,7 @@
 		(uuid "e6c1c820-e45d-4e04-8e24-1ce4d6c39102")
 	)
 	(label "ECU_OUT_DC1-"
-		(at 43.18 58.42 180)
+		(at 81.28 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5158,7 +5158,7 @@
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
 	(label "ECU_12V_RAW"
-		(at 82.55 160.02 180)
+		(at 80.01 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5496,7 +5496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
-		(at 49.53 55.88 0)
+		(at 87.63 54.61 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5507,7 +5507,7 @@
 		(dnp no)
 		(uuid "3cea2cc4-767d-4861-a968-b0998f36ddac")
 		(property "Reference" "J4"
-			(at 50.8 45.212 0)
+			(at 88.9 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5517,7 +5517,7 @@
 			)
 		)
 		(property "Value" "5569-08A2"
-			(at 50.8 47.498 0)
+			(at 88.9 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5527,7 +5527,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
-			(at 49.53 55.88 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 55.88 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 55.88 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5560,7 @@
 			)
 		)
 		(property "LCSC" "C490533"
-			(at 49.53 55.88 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5765,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 88.9 157.48 0)
+		(at 86.36 154.94 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5776,7 +5776,7 @@
 		(dnp no)
 		(uuid "46776854-5746-40bf-96b5-041ed3e56e4a")
 		(property "Reference" "J3"
-			(at 90.424 149.098 0)
+			(at 87.884 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5786,7 +5786,7 @@
 			)
 		)
 		(property "Value" "5569-06A2"
-			(at 90.17 151.13 0)
+			(at 87.63 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5796,7 +5796,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
-			(at 88.9 157.48 0)
+			(at 86.36 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +5807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 157.48 0)
+			(at 86.36 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 157.48 0)
+			(at 86.36 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,7 +5829,7 @@
 			)
 		)
 		(property "LCSC" "C293509"
-			(at 88.9 157.48 0)
+			(at 86.36 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7822,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 71.12 53.34 180)
+		(at 109.22 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7833,7 +7833,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee4767c2-df79-4bf7-9fa9-0c6b8f7b8f43")
 		(property "Reference" "NT8"
-			(at 69.85 52.07 90)
+			(at 107.95 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7845,7 +7845,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 72.39 52.07 90)
+			(at 110.49 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7857,7 +7857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 53.34 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,7 +7868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 53.34 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7879,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 71.12 53.34 0)
+			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
