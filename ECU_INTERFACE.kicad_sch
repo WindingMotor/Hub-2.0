@@ -2935,8 +2935,8 @@
 		)
 	)
 	(rectangle
-		(start 165.1 86.36)
-		(end 175.26 90.805)
+		(start 132.08 71.755)
+		(end 149.86 85.09)
 		(stroke
 			(width 0.127)
 			(type dash)
