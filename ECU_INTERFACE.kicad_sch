@@ -3079,9 +3079,9 @@
 		)
 		(uuid "c461460d-1e99-4e6d-82e9-1f5f34ad21f9")
 	)
-	(text "Always on whenever\n12V is applied"
+	(text "Quite simple since\nwe only have 1CYL\n"
 		(exclude_from_sim no)
-		(at 128.016 57.531 0)
+		(at 128.524 57.404 0)
 		(effects
 			(font
 				(size 1.27 1.27)
