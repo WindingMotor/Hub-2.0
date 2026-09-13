@@ -5264,11 +5264,11 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 167.28 118.75 180)
+		(at 239.44 180.31 180)
 		(property "Reference" "CN5"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
-			(uuid "dcda6790-9bfe-4fd6-9527-9503edd56b12")
+			(uuid "8ef0ef03-f00f-4017-8576-0b4aa055968b")
 			(effects
 				(font
 					(size 1 1)
@@ -5280,7 +5280,7 @@
 		(property "Value" "DT15-12PA"
 			(at 0 -15.11 0)
 			(layer "B.Fab")
-			(uuid "fe377686-1f63-4271-bc18-1eaf48e427cf")
+			(uuid "541e7db1-5ec8-4dc6-a752-1efbe879c455")
 			(effects
 				(font
 					(size 1 1)
@@ -5293,7 +5293,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb5db1c2-9a7b-450a-bfe9-4852c8b9555c")
+			(uuid "99563269-671b-4d46-ac0f-d71b30c3947b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5305,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cc5458d6-e94a-4c8c-aa8a-24aae838f5aa")
+			(uuid "f8aed7d6-b2d0-4576-a9a5-f4ef4ef12ae2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "1990c02e-6f2a-415c-bc01-ff8da71384b5")
-		(at 203.4 118.75 180)
+		(at 275.56 180.31 180)
 		(property "Reference" "CN4"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
@@ -6380,11 +6380,11 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 131.28 118.75 180)
+		(at 203.44 180.31 180)
 		(property "Reference" "CN6"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
-			(uuid "3404191d-d57e-4a32-b146-b3b9898cd2ff")
+			(uuid "2031dbda-3094-4c0f-913e-174aa2a083cc")
 			(effects
 				(font
 					(size 1 1)
@@ -6396,7 +6396,7 @@
 		(property "Value" "DT15-12PA"
 			(at 0 -15.11 0)
 			(layer "B.Fab")
-			(uuid "1ffec6a6-6dd7-4757-9288-ff0f51aaa57f")
+			(uuid "fde5247f-1009-4cb3-9603-669767f4fb55")
 			(effects
 				(font
 					(size 1 1)
@@ -6409,7 +6409,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "408159c1-32b1-4003-8628-fda6e479a8b6")
+			(uuid "fe382867-09a1-484d-9fb0-7afe44121ff1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6421,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "561ca8e0-f64c-475d-8952-1dcb33f2f639")
+			(uuid "11eb30a4-469e-48b7-88d3-8621e0f50879")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,8 +7021,8 @@
 		(uuid "11ca380a-0ef3-4170-ad9e-b7c956f8983c")
 	)
 	(gr_line
-		(start 202.2 146.025)
-		(end 202.2 53.025)
+		(start 274.36 207.585)
+		(end 274.36 114.585)
 		(stroke
 			(width 0.1)
 			(type solid)
