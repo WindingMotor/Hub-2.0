@@ -5188,8 +5188,8 @@
 		(uuid "f540e106-09d6-425f-8190-603c73bd5d59")
 	)
 	(global_label "de"
-		(shape input)
-		(at 118.11 73.66 0)
+		(shape output)
+		(at 124.46 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5199,7 +5199,7 @@
 		)
 		(uuid "f5963aa1-18c7-4032-aa4b-f86ca45fd199")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.8058 73.66 0)
+			(at 129.1558 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
