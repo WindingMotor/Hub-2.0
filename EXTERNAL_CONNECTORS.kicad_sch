@@ -755,6 +755,16 @@
 		)
 		(uuid "b351358d-5037-4f64-9e39-6b75fa2e8a97")
 	)
+	(text "EXT_IN_SIG_RPM"
+		(exclude_from_sim no)
+		(at 156.972 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7cdc522-ffae-4d47-9677-5eb4de3ca187")
+	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 187.452 104.394 0)
