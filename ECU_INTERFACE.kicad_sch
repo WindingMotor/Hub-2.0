@@ -5187,6 +5187,30 @@
 		)
 		(uuid "f540e106-09d6-425f-8190-603c73bd5d59")
 	)
+	(global_label "de"
+		(shape input)
+		(at 118.11 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5963aa1-18c7-4032-aa4b-f86ca45fd199")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8058 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x09_Top_Bottom")
 		(at 204.47 59.69 0)

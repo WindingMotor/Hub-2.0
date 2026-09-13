@@ -7412,6 +7412,30 @@
 		)
 		(uuid "fb824698-1a9c-460e-a9a9-3185d8a324fe")
 	)
+	(global_label "de"
+		(shape input)
+		(at 204.47 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aa59664-d3cc-4957-9198-7bec4008a6c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.1658 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
 		(at 210.82 26.67 0)
