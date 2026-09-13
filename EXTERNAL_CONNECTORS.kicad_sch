@@ -1789,6 +1789,30 @@
 			)
 		)
 	)
+	(global_label "EXT_IN_SIG_RPM-"
+		(shape input)
+		(at 139.7 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d48dc25e-de55-4ff0-83e3-e4fb9ea88a58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2426 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 123.19 107.95 0)
