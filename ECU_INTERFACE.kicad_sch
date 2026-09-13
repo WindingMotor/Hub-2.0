@@ -2812,8 +2812,8 @@
 		(uuid "087c7841-ad8d-4241-8559-9c079f87362d")
 	)
 	(rectangle
-		(start 148.59 107.95)
-		(end 161.925 115.57)
+		(start 151.765 107.95)
+		(end 165.1 115.57)
 		(stroke
 			(width 0.127)
 			(type dash)
