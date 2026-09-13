@@ -1621,6 +1621,16 @@
 		)
 		(uuid "7f9d958b-27aa-413d-953a-077ad68daef2")
 	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
+		(at 92.71 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "810fd96f-58d7-4a6c-bfa2-de11b727ffbd")
+	)
 	(label "GND"
 		(at 87.63 127 0)
 		(effects
