@@ -2948,6 +2948,18 @@
 		(uuid "5eec1171-4049-46d8-935f-34d65048d2a9")
 	)
 	(rectangle
+		(start 83.82 54.61)
+		(end 98.425 60.325)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6b982eb5-77be-4825-b1b0-c64a0f81bd4a")
+	)
+	(rectangle
 		(start 223.901 47.244)
 		(end 238.506 52.959)
 		(stroke
@@ -3002,6 +3014,17 @@
 			(justify left bottom)
 		)
 		(uuid "9249fb12-ce4b-4523-9531-22c7887aea62")
+	)
+	(text "To choose which\nVR to activate"
+		(exclude_from_sim no)
+		(at 84.709 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b78a969e-0df0-48ff-a144-611c62bb9147")
 	)
 	(text "D"
 		(exclude_from_sim no)
