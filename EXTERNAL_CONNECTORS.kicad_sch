@@ -1451,16 +1451,6 @@
 		)
 		(uuid "2938a08f-6a81-4964-a9d9-0a2f1f3d9292")
 	)
-	(label "EXT_OUT_SIG_IGNITION"
-		(at 129.54 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "295a0363-a18b-47d7-8ef8-06eae57cdb1d")
-	)
 	(label "PWR_REAR_LIGHTS"
 		(at 80.01 85.09 0)
 		(effects
@@ -1721,16 +1711,6 @@
 		)
 		(uuid "dadc506f-fe15-4d29-9c59-4edd1351ec12")
 	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 129.54 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df544eea-50fe-4fcf-a694-212789a032d7")
-	)
 	(label "EXT_BI_SIG_CAN_LOW"
 		(at 179.07 92.71 0)
 		(effects
@@ -1743,7 +1723,7 @@
 	)
 	(global_label "EXT_OUT_SIG_INJECTOR"
 		(shape output)
-		(at 130.81 62.23 0)
+		(at 129.54 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +1733,7 @@
 		)
 		(uuid "31f077d0-567e-45e8-8047-582ea2e37849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.1085 62.23 0)
+			(at 152.8385 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1795,7 @@
 	)
 	(global_label "EXT_OUT_SIG_IGNITION"
 		(shape output)
-		(at 130.81 59.69 0)
+		(at 129.54 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1825,7 +1805,7 @@
 		)
 		(uuid "d48dc25e-de55-4ff0-83e3-e4fb9ea88a58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.766 59.69 0)
+			(at 152.496 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
