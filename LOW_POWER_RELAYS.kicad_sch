@@ -57,7 +57,7 @@
 		(uuid "665f1c17-7ea5-450e-a9ed-78d908d53f76")
 	)
 	(label "PWR_FRONT_LIGHTS"
-		(at 151.13 62.23 180)
+		(at 83.82 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,7 +77,7 @@
 		(uuid "b96ae907-8683-40c5-a5de-89a7972422ba")
 	)
 	(label "PWR_REAR_LIGHTS"
-		(at 151.13 59.69 180)
+		(at 83.82 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -87,12 +87,12 @@
 		(uuid "c9cbb50f-5357-429a-abba-cd57d9ac49e9")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 132.08 90.17 0)
+		(at 83.82 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e3d1d529-a537-4663-b689-9d7ea1973377")
 	)
