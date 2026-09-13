@@ -3078,7 +3078,7 @@
 		(end 247.015 58.42)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3109,7 +3109,7 @@
 	)
 	(text "To choose which\nVR to activate"
 		(exclude_from_sim no)
-		(at 226.568 52.578 0)
+		(at 226.822 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
