@@ -3073,6 +3073,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 226.06 49.53)
+		(end 247.015 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "acb64f7a-d8f5-47b4-905c-2a945cc10937")
+	)
 	(text "A"
 		(exclude_from_sim no)
 		(at 68.072 64.516 0)
@@ -3094,6 +3106,16 @@
 			(justify left bottom)
 		)
 		(uuid "53cb60e3-93b1-486a-bf93-c62bf1f1483c")
+	)
+	(text "To choose which\nVR to use"
+		(exclude_from_sim no)
+		(at 233.172 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f53fa6d-1ae0-48fb-b794-e944f81daa4f")
 	)
 	(text "E"
 		(exclude_from_sim no)
