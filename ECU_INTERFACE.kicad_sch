@@ -4840,6 +4840,16 @@
 		)
 		(uuid "919a425a-be51-451e-833a-2890907a7033")
 	)
+	(label "SIG_RELAY_FUEL"
+		(at 118.11 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91e28bfa-9631-48dc-b5a7-c11310855b0d")
+	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
 		(at 110.49 104.14 0)
 		(effects
@@ -4890,16 +4900,6 @@
 		)
 		(uuid "a3f4054b-0d9e-4dbf-9db5-7adead82b8cf")
 	)
-	(label "EXT_IN_SIG_DASH_BTN_STARTER"
-		(at 110.49 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab394af6-11d4-4189-9351-30bffe95463e")
-	)
 	(label "ECU_EGT-"
 		(at 266.7 64.77 0)
 		(effects
@@ -4920,7 +4920,7 @@
 		)
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
-	(label "EXT_OUT_SIG_INJECTOR"
+	(label "SIG_RELAY_FUEL"
 		(at 130.81 68.58 180)
 		(effects
 			(font
@@ -5019,6 +5019,16 @@
 			(justify left bottom)
 		)
 		(uuid "ccc2a559-5c1b-48db-bcd3-82d34d039a4e")
+	)
+	(label "SIG_RELAY_FUEL"
+		(at 106.68 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce6a1cf6-4c72-4ef6-b60f-4eac9efd2438")
 	)
 	(label "ECU_IN_BUTTON1"
 		(at 74.93 116.84 180)
