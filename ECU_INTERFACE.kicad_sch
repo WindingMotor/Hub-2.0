@@ -3269,7 +3269,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 132.08 71.12)
+			(xy 127 71.12) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 172.72 66.04)
+			(xy 171.45 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 68.58) (xy 133.35 68.58)
+			(xy 127 68.58) (xy 133.35 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 172.72 68.58)
+			(xy 171.45 68.58) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4388,7 @@
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 172.72 68.58 0)
+		(at 177.8 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4788,7 +4788,7 @@
 		(uuid "7b8435f0-baca-4537-97a1-e33e6a050dc9")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
-		(at 130.81 71.12 180)
+		(at 127 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,7 +4858,7 @@
 		(uuid "8778d0f0-0893-40c6-8c36-b4c4406610fe")
 	)
 	(label "PWR_BRAKE_LIGHT"
-		(at 172.72 66.04 0)
+		(at 177.8 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4978,7 +4978,7 @@
 		(uuid "b48466b2-7887-4d24-ad2c-b9fa49db5dd5")
 	)
 	(label "SIG_RELAY_FUEL"
-		(at 130.81 68.58 180)
+		(at 127 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
