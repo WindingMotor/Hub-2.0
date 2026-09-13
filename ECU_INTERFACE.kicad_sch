@@ -3382,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 116.84) (xy 88.9 116.84)
+			(xy 88.9 116.84) (xy 104.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3682,6 +3682,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 116.84) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705e9165-8d18-4a36-90a2-e7367a2501b8")
+	)
+	(wire
+		(pts
 			(xy 64.77 78.74) (xy 63.5 78.74)
 		)
 		(stroke
@@ -3719,6 +3729,16 @@
 			(type default)
 		)
 		(uuid "86ef6b00-7d01-439b-892c-0f0af77d8d87")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87537c87-b517-44b4-acd4-38f2da0f8c9c")
 	)
 	(wire
 		(pts
@@ -3822,16 +3842,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 116.84) (xy 76.2 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3b2973-b8dc-41bd-8de1-d96e405a5c0f")
-	)
-	(wire
-		(pts
 			(xy 228.6 67.31) (xy 245.11 67.31)
 		)
 		(stroke
@@ -3839,6 +3849,16 @@
 			(type default)
 		)
 		(uuid "a0696f11-3645-478a-aea7-7d27d29dcea8")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0da06e8-0c95-4aec-be25-0f4900538940")
 	)
 	(wire
 		(pts
@@ -4471,12 +4491,12 @@
 		(uuid "3f08748e-183e-4fcd-a975-8460097bfa2e")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_ONE"
-		(at 133.35 124.46 0)
+		(at 58.42 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "41678563-eca1-403b-aba9-3d00309c20bf")
 	)
@@ -4981,7 +5001,7 @@
 		(uuid "efaea295-0da8-4a2f-84a7-f08087c5c20f")
 	)
 	(label "EXT_IN_SIG_DASH_BTN_TWO"
-		(at 133.35 127 0)
+		(at 110.49 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,6 +6077,90 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
 					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 62.23 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e934c75-3001-4039-8c8b-1627a745de17")
+		(property "Reference" "NT17"
+			(at 60.96 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 63.5 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 62.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b3309ac-8741-4b9d-a68f-999bd5e51fee")
+		)
+		(pin "1"
+			(uuid "0293110d-7daa-42a7-b333-5dd36c120e80")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT17")
 					(unit 1)
 				)
 			)
