@@ -1721,6 +1721,30 @@
 		)
 		(uuid "f663b1a9-d0cd-425e-bc35-b2b335589ef6")
 	)
+	(global_label "EXT_IN_SIG_INTAKE_TEMP"
+		(shape input)
+		(at 129.54 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d0b9698-fa12-4557-b2c2-ccc3fca2b5f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3869 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXT_OUT_SIG_INJECTOR"
 		(shape output)
 		(at 129.54 72.39 0)
@@ -1769,6 +1793,30 @@
 			)
 		)
 	)
+	(global_label "EXT_IN_SIG_INTAKE_TEMP"
+		(shape input)
+		(at 129.54 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d077fb4-7c3a-456c-ac6b-c9ef808b0e79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3869 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXT_IN_SIG_RPM-"
 		(shape input)
 		(at 129.54 82.55 0)
@@ -1793,9 +1841,9 @@
 			)
 		)
 	)
-	(global_label "EXT_IN_SIG_RPM-"
+	(global_label "EXT_IN_SIG_INTAKE_TEMP"
 		(shape input)
-		(at 137.16 62.23 0)
+		(at 129.54 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1805,7 +1853,7 @@
 		)
 		(uuid "b7301bc8-d0a9-406c-88b0-3a7fb9debae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7026 62.23 0)
+			(at 154.3869 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
