@@ -2949,7 +2949,7 @@
 	)
 	(rectangle
 		(start 83.566 62.484)
-		(end 98.171 68.199)
+		(end 100.965 68.199)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3015,7 +3015,7 @@
 		)
 		(uuid "9249fb12-ce4b-4523-9531-22c7887aea62")
 	)
-	(text "To choose which\nVR to activate"
+	(text "Always on whenever\n12V is applied"
 		(exclude_from_sim no)
 		(at 84.455 66.04 0)
 		(effects
