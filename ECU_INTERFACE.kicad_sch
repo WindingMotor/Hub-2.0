@@ -4360,7 +4360,7 @@
 		)
 		(uuid "04cd1fa4-ca71-4240-b5fb-1e34e5d185d6")
 	)
-	(label "PWR_FRONT_LIGHTS"
+	(label "SIG_RELAY_FRONT_LIGHTS"
 		(at 110.49 59.69 180)
 		(effects
 			(font
