@@ -5188,7 +5188,7 @@
 		(uuid "f540e106-09d6-425f-8190-603c73bd5d59")
 	)
 	(global_label "de"
-		(shape output)
+		(shape input)
 		(at 124.46 73.66 0)
 		(fields_autoplaced yes)
 		(effects
