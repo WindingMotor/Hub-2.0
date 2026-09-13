@@ -535,16 +535,6 @@
 		)
 		(uuid "30fe91b9-b81d-48b3-9e50-929091e6e2db")
 	)
-	(text "22AWG\n"
-		(exclude_from_sim no)
-		(at 89.154 86.614 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "3aad162f-6835-4940-b3c4-c13c7bc6bc46")
-	)
 	(text "16AWG\n"
 		(exclude_from_sim no)
 		(at 88.8259 106.934 0)
@@ -687,16 +677,6 @@
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
-		(at 89.154 84.074 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "83620466-6285-4266-a646-2b31c02cc890")
-	)
-	(text "22AWG\n"
-		(exclude_from_sim no)
 		(at 138.176 99.314 0)
 		(effects
 			(font
@@ -764,6 +744,26 @@
 			)
 		)
 		(uuid "c18d551d-d4a6-4a86-bce9-4b7b0639fe6f")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 89.154 70.104 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "c7794042-1b80-4f86-aab3-c7ed81299cf0")
+	)
+	(text "22AWG\n"
+		(exclude_from_sim no)
+		(at 89.154 72.644 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "e3cd6d13-029e-4745-bcf7-7a6a33baf1b0")
 	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
@@ -1003,16 +1003,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 85.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dcbb4d1-f4ff-456a-9eba-6b030fa76ea1")
-	)
-	(wire
-		(pts
 			(xy 127 116.84) (xy 127 115.57)
 		)
 		(stroke
@@ -1030,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "6162c38e-acc9-4189-a695-fe393f8d9383")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620e5fe9-43e4-4dd7-a2ff-f844b3655414")
 	)
 	(wire
 		(pts
@@ -1263,6 +1263,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 68.58) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9636c75-2421-4f7c-9405-c41f5b2a8fa8")
+	)
+	(wire
+		(pts
 			(xy 135.89 127) (xy 127 127)
 		)
 		(stroke
@@ -1353,16 +1363,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 85.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03530ef-7e1c-4fbf-8635-699a2b76831b")
-	)
-	(wire
-		(pts
 			(xy 142.24 90.17) (xy 134.62 90.17)
 		)
 		(stroke
@@ -1372,7 +1372,7 @@
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
 	(label "EXT_IN_SIG_MAP"
-		(at 138.43 66.04 0)
+		(at 142.24 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 		(uuid "28175f58-e812-4dfb-982b-bc9e4a1c7da9")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 138.43 73.66 0)
+		(at 142.24 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1480,6 +1480,16 @@
 			(justify left bottom)
 		)
 		(uuid "3072e143-2d77-401a-8dc9-18fb0e95841e")
+	)
+	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
+		(at 92.71 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36aa9acd-4387-4727-ad96-eae2aa1e2119")
 	)
 	(label "EXT_IN_SIG_STARTER"
 		(at 190.5 85.09 0)
@@ -1632,7 +1642,7 @@
 		(uuid "96b4115f-a547-4ce4-8baa-40558e7e5efe")
 	)
 	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 138.43 68.58 0)
+		(at 142.24 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1651,16 +1661,6 @@
 		)
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
-	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
-		(at 92.71 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9569298-2752-412e-9ffa-deba10814054")
-	)
 	(label "EXT_IN_SIG_RPM-"
 		(at 142.24 95.25 0)
 		(effects
@@ -1670,6 +1670,16 @@
 			(justify left bottom)
 		)
 		(uuid "b452608b-46c8-4b23-8b1f-4aa56c441963")
+	)
+	(label "EXT_IN_SIG_NEUTRAL_SAFETY"
+		(at 92.71 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4ea5b3e-e1cb-4921-92b8-e97586f79178")
 	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
@@ -1681,15 +1691,15 @@
 		)
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
 	)
-	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 92.71 85.09 0)
+	(label "EXT_IN_SIG_MAP"
+		(at 107.95 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "be3e8a1d-d455-48c1-b8e5-8050c3ca9e7e")
+		(uuid "cf5fca00-cb4d-4731-a06a-5db850a74368")
 	)
 	(label "PWR_12V"
 		(at 142.24 107.95 0)
@@ -1712,7 +1722,7 @@
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 138.43 71.12 0)
+		(at 142.24 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
