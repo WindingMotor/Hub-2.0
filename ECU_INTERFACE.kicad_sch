@@ -3038,6 +3038,32 @@
 		(uuid "6b982eb5-77be-4825-b1b0-c64a0f81bd4a")
 	)
 	(rectangle
+		(start 35.56 74.295)
+		(end 49.53 78.74)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "6e0c3417-d0ce-42c1-b99d-f7a80a185632")
+	)
+	(rectangle
+		(start 64.77 74.295)
+		(end 78.74 78.74)
+		(stroke
+			(width 0.127)
+			(type dash)
+		)
+		(fill
+			(type cross_hatch)
+			(color 0 0 0 0)
+		)
+		(uuid "7dd14d27-febb-4fd5-96ab-5c4f30096a35")
+	)
+	(rectangle
 		(start 229.87 73.025)
 		(end 241.935 77.47)
 		(stroke
