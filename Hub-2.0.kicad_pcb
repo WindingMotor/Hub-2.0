@@ -90,7 +90,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "0030211f-d2c4-41d2-9d7b-1ece41b8f8e1")
-		(at 169.73 132.625)
+		(at 165.84 166.15)
 		(property "Reference" "C2"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -748,7 +748,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "05b61ca1-b349-4879-945c-31572dcde80b")
-		(at 162.09 138.325)
+		(at 158.2 171.85)
 		(property "Reference" "C3"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -1009,7 +1009,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "2709f5cd-c68e-4bd4-a41e-03afd4870869")
-		(at 169.73 140.165)
+		(at 165.84 173.69)
 		(property "Reference" "C6"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -1866,7 +1866,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "6626c8a3-cb84-402c-8dc4-0d5956fc0c3d")
-		(at 162.09 143.375)
+		(at 158.2 176.9)
 		(property "Reference" "C5"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -4934,7 +4934,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
 		(layer "F.Cu")
 		(uuid "cc974d7f-5af5-483f-8220-cf4e61fb403b")
-		(at 169.73 136.395)
+		(at 165.84 169.92)
 		(property "Reference" "C4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -5195,7 +5195,7 @@
 	(footprint "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
 		(layer "F.Cu")
 		(uuid "ef3ffbac-59c9-4943-aaa5-40d6cb380605")
-		(at 162.09 133.275)
+		(at 158.2 166.8)
 		(property "Reference" "C1"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -5456,7 +5456,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "12899e0a-bb55-4ae7-98e8-f1029b2f729d")
-		(at 168.76 95.38 180)
+		(at 166.96 95.29 180)
 		(property "Reference" "CN5"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
@@ -6014,7 +6014,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "1990c02e-6f2a-415c-bc01-ff8da71384b5")
-		(at 204.88 95.38 180)
+		(at 203.08 95.29 180)
 		(property "Reference" "CN4"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
@@ -6572,7 +6572,7 @@
 	(footprint "EasyEDA:CONN-TH_DT15-12PA"
 		(layer "B.Cu")
 		(uuid "85b47132-fe0b-4459-8504-140c83e8bc66")
-		(at 132.76 95.38 180)
+		(at 130.96 95.29 180)
 		(property "Reference" "CN6"
 			(at 0 15.11 0)
 			(layer "B.SilkS")
