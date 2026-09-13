@@ -3513,7 +3513,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 77.47) (xy 283.21 77.47)
+			(xy 281.94 77.47) (xy 285.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4372,7 +4372,7 @@
 		(uuid "14e0623d-ae45-4bcc-b253-a03a49c6a5b0")
 	)
 	(label "EXT_IN_SIG_BRAKE_PRESSURE_REAR"
-		(at 283.21 77.47 0)
+		(at 285.75 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
