@@ -3074,8 +3074,8 @@
 		)
 	)
 	(rectangle
-		(start 223.393 47.498)
-		(end 237.998 53.213)
+		(start 223.901 47.244)
+		(end 238.506 52.959)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3109,7 +3109,7 @@
 	)
 	(text "To choose which\nVR to activate"
 		(exclude_from_sim no)
-		(at 224.282 51.054 0)
+		(at 224.79 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
