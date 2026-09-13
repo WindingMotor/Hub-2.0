@@ -1381,6 +1381,16 @@
 		)
 		(uuid "f82b1e7d-9823-4b64-baac-f96f31a9933b")
 	)
+	(label "EXT_IN_SIG_INTAKE_TEMP"
+		(at 142.24 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16e2f6a7-36f8-41ff-b72d-2d32fd28afd8")
+	)
 	(label "EXT_BI_SIG_CAN_HIGH"
 		(at 191.77 102.87 0)
 		(effects
@@ -1482,7 +1492,7 @@
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
 	)
 	(label "EXT_IN_SIG_RPM-"
-		(at 147.32 82.55 0)
+		(at 142.24 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1512,7 +1522,7 @@
 		(uuid "5118c0be-f7dd-4cdb-aa2c-2c2bf5727ff7")
 	)
 	(label "EXT_IN_SIG_RPM+"
-		(at 147.32 85.09 0)
+		(at 142.24 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,34 +1672,24 @@
 		(uuid "a51e80b6-b306-4830-9a07-25d950928c26")
 	)
 	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 142.24 95.25 0)
+		(at 142.24 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ab6eec92-926b-4dd9-900d-f3c9438c6241")
+		(uuid "a6a4b9e7-f335-43b9-91c9-206ceec5742b")
 	)
 	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 142.24 97.79 0)
+		(at 142.24 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b6d253f3-12ad-4b9f-8272-fb62e28bdd1c")
-	)
-	(label "EXT_OUT_SIG_IGNITION"
-		(at 142.24 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc3f92df-f0ee-4482-ad7d-3c77fea5f8d5")
+		(uuid "b5c6105b-46f1-4c0c-9089-af5632d23885")
 	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
@@ -1700,16 +1700,6 @@
 			(justify left bottom)
 		)
 		(uuid "bc7c64e7-5806-4774-a97e-d6469b78bfb8")
-	)
-	(label "EXT_IN_SIG_INTAKE_TEMP"
-		(at 142.24 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c99416e5-12ca-4bcf-83f1-5f7b2900bc97")
 	)
 	(label "PWR_12V"
 		(at 142.24 107.95 0)
@@ -1730,16 +1720,6 @@
 			(justify left bottom)
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
-	)
-	(label "EXT_OUT_SIG_INJECTOR"
-		(at 142.24 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df441112-7510-4ec2-bb2e-2a592d83703b")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
 		(at 92.71 82.55 0)
