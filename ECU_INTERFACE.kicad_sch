@@ -4417,16 +4417,6 @@
 		)
 		(uuid "0daf921f-a4c8-4745-b0ec-63b0f30cb6e8")
 	)
-	(label "EXT_IN_SIG_COOLANT_TEMP"
-		(at 233.68 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f1124f4-a978-415f-9504-db313d28a8cf")
-	)
 	(label "ECU_OUT_INJ3"
 		(at 198.12 62.23 180)
 		(effects
@@ -4616,16 +4606,6 @@
 			(justify right bottom)
 		)
 		(uuid "41678563-eca1-403b-aba9-3d00309c20bf")
-	)
-	(label "EXT_IN_SIG_THROTTLE_POSITION"
-		(at 233.68 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ccdf1ca-5a2f-457b-8890-c6f7ba9a801c")
 	)
 	(label "ECU_OUT_DC1+"
 		(at 91.44 57.15 0)
@@ -5211,7 +5191,7 @@
 	)
 	(global_label "EXT_IN_SIG_THROTTLE_POSITION"
 		(shape input)
-		(at 146.05 82.55 0)
+		(at 233.68 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5221,7 +5201,7 @@
 		)
 		(uuid "8ca3d8ff-bd5c-40fe-94eb-a890f409a98c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.1081 82.55 0)
+			(at 264.7381 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5239,7 @@
 	)
 	(global_label "EXT_IN_SIG_COOLANT_TEMP"
 		(shape input)
-		(at 146.05 80.01 0)
+		(at 233.68 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5269,7 +5249,7 @@
 		)
 		(uuid "be15b066-58fc-421f-93ab-d76cf05305b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2419 80.01 0)
+			(at 260.8719 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
