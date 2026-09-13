@@ -16,6 +16,16 @@
 		)
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
+	(label "PWR_BRAKE_LIGHT"
+		(at 151.13 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "077bcec9-ce48-4bfc-a0b3-b12ccb240fb4")
+	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 132.08 85.09 0)
 		(effects
@@ -35,6 +45,46 @@
 			(justify right bottom)
 		)
 		(uuid "2a318f80-2bfa-4dc4-8b44-e35794373339")
+	)
+	(label "PWR_RADIATOR_FAN"
+		(at 151.13 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "665f1c17-7ea5-450e-a9ed-78d908d53f76")
+	)
+	(label "PWR_FRONT_LIGHTS"
+		(at 151.13 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "907d34b9-ef93-4d42-bdc5-184bd5b1304c")
+	)
+	(label "PWR_FUEL_PUMP"
+		(at 82.55 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b96ae907-8683-40c5-a5de-89a7972422ba")
+	)
+	(label "PWR_REAR_LIGHTS"
+		(at 151.13 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9cbb50f-5357-429a-abba-cd57d9ac49e9")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
 		(at 132.08 90.17 0)
