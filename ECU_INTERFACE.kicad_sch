@@ -3122,6 +3122,12 @@
 		(uuid "43b5452e-099a-486d-bd5d-de5262032ed2")
 	)
 	(junction
+		(at 106.68 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e7ca607-3c9e-4154-835a-fd05c8a2cae4")
+	)
+	(junction
 		(at 213.36 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3150,12 +3156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf23122f-4700-4770-bbb1-532315d12fe8")
-	)
-	(junction
-		(at 106.68 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd67c21b-fcb8-4703-a9f2-c4379ff7f872")
 	)
 	(wire
 		(pts
@@ -4029,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 106.68 81.28)
+			(xy 111.76 80.01) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4136,6 +4136,16 @@
 			(type default)
 		)
 		(uuid "d5117a91-1036-46b2-807a-04f474f0b7bd")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d580edcc-b3fb-42d2-8b0b-53ad2898276f")
 	)
 	(wire
 		(pts
@@ -4977,16 +4987,6 @@
 		)
 		(uuid "b770c6b6-b446-4b20-9224-01b07b76f209")
 	)
-	(label "EXT_IN_SIG_RPM-"
-		(at 111.76 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba2a01c9-2357-486e-96a7-5d5e51dba85d")
-	)
 	(label "ECU_IN_KNOCK_RAW"
 		(at 213.36 100.33 0)
 		(effects
@@ -5179,7 +5179,7 @@
 	)
 	(global_label "EXT_IN_SIG_RPM+"
 		(shape input)
-		(at 111.76 81.28 0)
+		(at 111.76 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5189,7 +5189,7 @@
 		)
 		(uuid "09d3a1f1-fc19-4836-98ef-311d93caad49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6736 81.28 0)
+			(at 129.6736 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +5201,7 @@
 			)
 		)
 	)
-	(global_label "EXT_IN_SIG_RPM+"
+	(global_label "EXT_IN_SIG_RPM-"
 		(shape input)
 		(at 113.03 73.66 0)
 		(fields_autoplaced yes)
@@ -5213,7 +5213,7 @@
 		)
 		(uuid "8dc39a67-bbfa-4810-b10b-0c94b54a2538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.9436 73.66 0)
+			(at 130.5726 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
