@@ -1681,6 +1681,16 @@
 		)
 		(uuid "b6d253f3-12ad-4b9f-8272-fb62e28bdd1c")
 	)
+	(label "EXT_OUT_SIG_IGNITION"
+		(at 142.24 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc3f92df-f0ee-4482-ad7d-3c77fea5f8d5")
+	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
 		(effects
@@ -1720,6 +1730,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9393963-8d0a-4631-8643-37e50f75cf0f")
+	)
+	(label "EXT_OUT_SIG_INJECTOR"
+		(at 142.24 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df441112-7510-4ec2-bb2e-2a592d83703b")
 	)
 	(label "EXT_OUT_SIG_IGNITION"
 		(at 92.71 82.55 0)
