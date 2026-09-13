@@ -1461,7 +1461,7 @@
 		)
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
 	)
-	(label "EXT_IN_SIG_RPM"
+	(label "EXT_IN_SIG_RPM+"
 		(at 142.24 97.79 0)
 		(effects
 			(font
@@ -1660,6 +1660,16 @@
 			(justify left bottom)
 		)
 		(uuid "a9569298-2752-412e-9ffa-deba10814054")
+	)
+	(label "EXT_IN_SIG_RPM-"
+		(at 142.24 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b452608b-46c8-4b23-8b1f-4aa56c441963")
 	)
 	(label "PWR_FUEL_PUMP"
 		(at 92.71 105.41 0)
