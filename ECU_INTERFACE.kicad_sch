@@ -2935,8 +2935,8 @@
 		)
 	)
 	(rectangle
-		(start 175.26 69.85)
-		(end 185.42 74.295)
+		(start 172.085 88.9)
+		(end 182.245 93.345)
 		(stroke
 			(width 0.127)
 			(type solid)
