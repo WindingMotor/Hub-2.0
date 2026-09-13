@@ -4906,7 +4906,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "45a54cc8-db85-44ac-8b9d-c134c9bbae87")
-		(at 11.1 55.25)
+		(at 10 71.5)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-20A2, example for new mpn: 39-30-0200, 10 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J2"
@@ -6948,7 +6948,7 @@
 	(footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6ab05b2e-f32c-466a-95a9-10ad29fd34c3")
-		(at -62.4 110.3)
+		(at 58.8 75.275)
 		(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-16A2, example for new mpn: 39-30-0160, 8 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf)")
 		(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
 		(property "Reference" "J10"
