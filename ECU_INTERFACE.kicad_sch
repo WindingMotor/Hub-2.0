@@ -5083,6 +5083,16 @@
 		)
 		(uuid "ef387df6-44f2-4652-b127-5c086dd1e4d3")
 	)
+	(label "12V_RAW"
+		(at 160.02 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efaea295-0da8-4a2f-84a7-f08087c5c20f")
+	)
 	(label "PWR_12V"
 		(at 157.48 119.38 180)
 		(effects
