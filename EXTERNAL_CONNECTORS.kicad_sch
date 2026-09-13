@@ -757,7 +757,7 @@
 	)
 	(text "EXT_IN_SIG_RPM"
 		(exclude_from_sim no)
-		(at 168.402 70.612 0)
+		(at 156.972 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1451,7 +1451,7 @@
 		)
 		(uuid "299d10d4-044d-470e-831d-877da51a6583")
 	)
-	(label "EXT_IN_SIG_RPM+"
+	(label "EXT_IN_SIG_RPM"
 		(at 142.24 97.79 0)
 		(effects
 			(font
@@ -1490,16 +1490,6 @@
 			(justify left bottom)
 		)
 		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
-	)
-	(label "EXT_IN_SIG_RPM-"
-		(at 134.62 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49ae2103-56b8-4b1a-927d-499d10f1e553")
 	)
 	(label "EXT_OUT_SIG_INJECTOR"
 		(at 142.24 85.09 0)
@@ -2273,7 +2263,7 @@
 				)
 			)
 		)
-		(property "Name" "POWER/ENGINE2"
+		(property "Name" "POWER"
 			(at 73.406 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
