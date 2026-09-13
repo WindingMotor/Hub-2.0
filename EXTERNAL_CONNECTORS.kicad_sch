@@ -1793,6 +1793,30 @@
 			)
 		)
 	)
+	(global_label "EXT_IN_SIG_RPM-"
+		(shape input)
+		(at 137.16 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7301bc8-d0a9-406c-88b0-3a7fb9debae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.7026 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXT_OUT_SIG_IGNITION"
 		(shape output)
 		(at 129.54 69.85 0)
