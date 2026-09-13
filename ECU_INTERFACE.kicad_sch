@@ -3008,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 201.93 74.93)
+			(xy 226.06 74.93) (xy 201.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3158,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 69.85) (xy 201.93 69.85)
+			(xy 226.06 69.85) (xy 201.93 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 67.31) (xy 201.93 67.31)
+			(xy 226.06 67.31) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 72.39) (xy 201.93 72.39)
+			(xy 226.06 72.39) (xy 201.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +3877,7 @@
 		(uuid "19e7d984-38a0-4819-b636-efced71b91a9")
 	)
 	(label "ECU_VR_MAX9924-"
-		(at 215.9 72.39 0)
+		(at 226.06 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4017,7 +4017,7 @@
 		(uuid "597b5457-dc85-4254-bc79-26eb7813f25b")
 	)
 	(label "ECU_VR_MAX9924+"
-		(at 215.9 74.93 0)
+		(at 226.06 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 		(uuid "87139405-a044-4b5b-827b-7b5887903207")
 	)
 	(label "ECU_VR_DISCRETE+"
-		(at 215.9 69.85 0)
+		(at 226.06 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4297,7 +4297,7 @@
 		(uuid "c8943690-bb97-46cd-9159-c8bc806ed488")
 	)
 	(label "ECU_VR_DISCRETE-"
-		(at 215.9 67.31 0)
+		(at 226.06 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5074,6 +5074,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 215.9 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e9ecb7-ed86-478a-ab83-8f28cbf48bbb")
+		(property "Reference" "NT3"
+			(at 217.17 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 217.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 215.9 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "921dacfc-5900-4052-b133-2e81cfbfb119")
+		)
+		(pin "1"
+			(uuid "22cabe5f-7784-412a-94b5-d4fcd6926fd2")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Top_Bottom")
 		(at 109.22 114.3 0)
 		(mirror x)
@@ -5278,6 +5362,90 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 218.44 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9c3819-1392-4733-864f-f94cf2157253")
+		(property "Reference" "NT4"
+			(at 219.71 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 219.71 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6224bf85-2a66-4242-8bf1-1d22bb6d717a")
+		)
+		(pin "1"
+			(uuid "170d9068-2bca-44ca-9329-02eb857f2a6d")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/92353b5a-0bb5-4764-8ad6-9a983b2830ec"
+					(reference "NT4")
 					(unit 1)
 				)
 			)
