@@ -2304,10 +2304,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3ee8a88-c331-45d8-ab92-dd8f5e812142")
 		(property "Reference" "R1"
-			(at 74.93 80.01 0)
+			(at 73.914 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2317,8 +2316,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 74.93 82.55 0)
+		(property "Value" "10k"
+			(at 73.914 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2353,6 +2352,16 @@
 		(property "Description" "Resistor, US symbol"
 			(at 72.39 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "100mW"
+			(at 77.216 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
