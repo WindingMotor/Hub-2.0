@@ -2838,10 +2838,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d67fb986-12ab-4881-8875-f9989bc87aee")
 		(property "Reference" "U1"
-			(at 92.71 60.96 90)
+			(at 92.71 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2850,7 @@
 			)
 		)
 		(property "Value" "YQ506-S-112 DM"
-			(at 92.71 63.5 90)
+			(at 92.71 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
