@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(uuid "5631d54f-773c-4089-9cdc-86bed415e0bf")
 		(property "Reference" "D1"
-			(at 76.708 79.502 90)
+			(at 76.708 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2195,7 +2195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "1N5399"
 			(at 76.708 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
