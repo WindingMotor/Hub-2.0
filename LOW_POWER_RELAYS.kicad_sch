@@ -2707,7 +2707,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 85.09 81.28 90)
+		(at 85.09 81.28 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2717,7 +2718,7 @@
 		(dnp no)
 		(uuid "7be55288-9931-4cb7-9055-f65956180fd7")
 		(property "Reference" "D2"
-			(at 87.884 80.01 90)
+			(at 83.312 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2728,7 +2729,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.884 82.042 90)
+			(at 83.312 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2783,7 +2784,7 @@
 			)
 		)
 		(property "VoltageF" "2.2Vf"
-			(at 90.17 83.82 90)
+			(at 81.026 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
