@@ -2715,10 +2715,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7be55288-9931-4cb7-9055-f65956180fd7")
 		(property "Reference" "D2"
-			(at 88.9 81.5975 90)
+			(at 87.122 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2729,7 +2728,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 88.9 84.1375 90)
+			(at 87.122 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +2783,7 @@
 			)
 		)
 		(property "VoltageF" "2.2Vf"
-			(at 85.09 81.28 90)
+			(at 90.17 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
