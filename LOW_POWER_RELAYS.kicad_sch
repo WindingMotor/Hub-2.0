@@ -2171,6 +2171,12 @@
 		(uuid "a24c22ca-667d-4539-b8a1-89fb40062c36")
 	)
 	(junction
+		(at 85.09 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef7f7f84-f684-4b32-9cf6-072b13fe44de")
+	)
+	(junction
 		(at 62.23 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2195,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "4d9376e2-825c-48c3-9496-1857ab0dead6")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd917d2-b862-4583-a425-3915ee6fa8d7")
 	)
 	(wire
 		(pts
@@ -2258,7 +2274,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 91.44 76.2)
+			(xy 85.09 76.2) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c4553f-8149-4693-b3a0-90b586803afb")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2305,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "eaa815e7-12f2-4da1-90e5-5811a2f6631d")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd97e2-e94c-427a-9f60-de94cc7c7f76")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 157.48 50.8 180)
@@ -2455,6 +2491,97 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 85.09 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "054970d7-3d98-4d6b-a8a3-fcbb3d2a0f46")
+		(property "Reference" "R2"
+			(at 86.614 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.614 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.106 90.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "100mW"
+			(at 89.916 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "512f83d0-44c9-43fe-b5fe-b03c73749921")
+		)
+		(pin "2"
+			(uuid "0411a268-794c-4cd4-a08d-1ec38a6d57a1")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/aea3bb0d-f9cd-46ce-9a77-d662b5a61299"
+					(reference "R2")
+					(unit 1)
+				)
 			)
 		)
 	)
