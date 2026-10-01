@@ -2159,16 +2159,16 @@
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
 	(junction
+		(at 73.66 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0844963e-568d-4427-b7be-a36ec183f9a1")
+	)
+	(junction
 		(at 73.66 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "679e4e13-4dd9-4ecc-9fa2-be46aa2454ca")
-	)
-	(junction
-		(at 73.66 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a24c22ca-667d-4539-b8a1-89fb40062c36")
 	)
 	(junction
 		(at 85.09 76.2)
@@ -2191,16 +2191,6 @@
 			(type default)
 		)
 		(uuid "472accf4-ec98-4f29-b5f0-f35d334dc7a0")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9376e2-825c-48c3-9496-1857ab0dead6")
 	)
 	(wire
 		(pts
@@ -2234,6 +2224,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 85.09) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99872721-dfa4-481c-94bb-0fb855cbbf97")
+	)
+	(wire
+		(pts
 			(xy 111.76 83.82) (xy 113.03 83.82)
 		)
 		(stroke
@@ -2244,23 +2244,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 73.66 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67bf4cd-74bb-4b3e-b820-53d663f92903")
-	)
-	(wire
-		(pts
-			(xy 62.23 86.36) (xy 73.66 86.36)
+			(xy 62.23 95.25) (xy 73.66 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa2d6f0f-02dd-43dc-8420-efefd7407201")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af77f2f4-5224-44d6-906f-79e9315add80")
 	)
 	(wire
 		(pts
@@ -2304,6 +2304,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 93.98) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd244eb-bd43-4f54-aca7-f109526c4024")
+	)
+	(wire
+		(pts
 			(xy 73.66 76.2) (xy 73.66 77.47)
 		)
 		(stroke
@@ -2314,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 62.23 86.36)
+			(xy 62.23 85.09) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2341,6 +2351,16 @@
 			(type default)
 		)
 		(uuid "f7fd97e2-e94c-427a-9f60-de94cc7c7f76")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff59d4d2-33b8-4106-a1a6-c8d3232a17fe")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 157.48 50.8 180)
@@ -2665,7 +2685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 87.63 0)
+		(at 73.66 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2675,7 +2695,7 @@
 		(dnp no)
 		(uuid "4a809623-fb02-48bb-86e3-d6c22d6a4e45")
 		(property "Reference" "#PWR02"
-			(at 73.66 93.98 0)
+			(at 73.66 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +2706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.692 91.44 0)
+			(at 75.692 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2697,7 +2717,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 73.66 87.63 0)
+			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 87.63 0)
+			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 87.63 0)
+			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
