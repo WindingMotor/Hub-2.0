@@ -2783,6 +2783,16 @@
 				)
 			)
 		)
+		(property "VoltageF" "2.2Vf"
+			(at 85.09 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1bd008bd-629a-4a37-a133-e28ee499cfe5")
 		)
