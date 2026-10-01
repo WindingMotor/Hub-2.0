@@ -2203,6 +2203,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 59.69 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9360b5bc-de79-4aad-b7b5-ba77f5354d7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.8096 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 113.03 76.2 90)
