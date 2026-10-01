@@ -2007,6 +2007,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d027abb-75e0-41a9-94e3-869f3e9dcccd")
+	)
+	(wire
+		(pts
 			(xy 86.36 85.09) (xy 86.36 86.36)
 		)
 		(stroke
@@ -2144,6 +2154,16 @@
 			(justify right bottom)
 		)
 		(uuid "e3d1d529-a537-4663-b689-9d7ea1973377")
+	)
+	(label "PWR_FUEL_PUMP"
+		(at 113.03 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac8d2aa-e58e-4f38-870b-28a0a44e7e34")
 	)
 	(label "SIG_RELAY_REAR_LIGHTS"
 		(at 157.48 34.29 180)
