@@ -2717,7 +2717,7 @@
 		(dnp no)
 		(uuid "7be55288-9931-4cb7-9055-f65956180fd7")
 		(property "Reference" "D2"
-			(at 87.122 80.01 90)
+			(at 87.884 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.122 82.042 90)
+			(at 87.884 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(property "VoltageF" "2.2Vf"
-			(at 90.17 83.566 90)
+			(at 90.17 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
