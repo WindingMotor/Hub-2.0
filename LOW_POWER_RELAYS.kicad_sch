@@ -2175,7 +2175,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 74.93 81.28 270)
+		(at 72.39 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(uuid "5631d54f-773c-4089-9cdc-86bed415e0bf")
 		(property "Reference" "D1"
-			(at 76.708 79.756 90)
+			(at 74.168 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Value" "1N5399"
-			(at 76.708 81.788 90)
+			(at 74.168 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
-			(at 74.93 81.28 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,7 +2218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 81.28 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2229,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 74.93 81.28 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Voltage" "0.7V"
-			(at 78.74 83.82 90)
+			(at 76.2 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
