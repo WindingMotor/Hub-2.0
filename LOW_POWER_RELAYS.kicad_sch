@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 86.868 90)
+			(at 75.692 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
