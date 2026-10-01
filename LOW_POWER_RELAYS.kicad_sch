@@ -1488,7 +1488,7 @@
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
-		(at 83.82 101.6 180)
+		(at 157.48 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1498,7 +1498,7 @@
 		(uuid "1de64fc8-f220-47c7-b9eb-eee6469809fd")
 	)
 	(label "SIG_RELAY_FUEL"
-		(at 82.55 76.2 180)
+		(at 156.21 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 		(uuid "2a318f80-2bfa-4dc4-8b44-e35794373339")
 	)
 	(label "PWR_RADIATOR_FAN"
-		(at 83.82 99.06 180)
+		(at 157.48 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1518,7 +1518,7 @@
 		(uuid "665f1c17-7ea5-450e-a9ed-78d908d53f76")
 	)
 	(label "PWR_FRONT_LIGHTS"
-		(at 83.82 92.71 180)
+		(at 157.48 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 		(uuid "907d34b9-ef93-4d42-bdc5-184bd5b1304c")
 	)
 	(label "PWR_FUEL_PUMP"
-		(at 82.55 73.66 180)
+		(at 156.21 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1538,7 +1538,7 @@
 		(uuid "b96ae907-8683-40c5-a5de-89a7972422ba")
 	)
 	(label "PWR_REAR_LIGHTS"
-		(at 83.82 82.55 180)
+		(at 157.48 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 		(uuid "c9cbb50f-5357-429a-abba-cd57d9ac49e9")
 	)
 	(label "SIG_RELAY_FRONT_LIGHTS"
-		(at 83.82 90.17 180)
+		(at 157.48 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1558,7 +1558,7 @@
 		(uuid "e3d1d529-a537-4663-b689-9d7ea1973377")
 	)
 	(label "SIG_RELAY_REAR_LIGHTS"
-		(at 83.82 85.09 180)
+		(at 157.48 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,7 +1856,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:YQ506-S-112DM")
-		(at 156.21 55.88 270)
+		(at 134.62 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1867,7 +1867,7 @@
 		(fields_autoplaced yes)
 		(uuid "d67fb986-12ab-4881-8875-f9989bc87aee")
 		(property "Reference" "U1"
-			(at 156.21 38.1 90)
+			(at 134.62 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +1877,7 @@
 			)
 		)
 		(property "Value" "YQ506-S-112 DM"
-			(at 156.21 40.64 90)
+			(at 134.62 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:RELAY-TH_YQ506-S-112DM"
-			(at 138.43 55.88 0)
+			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1898,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19193922.pdf"
-			(at 135.89 55.88 0)
+			(at 114.3 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 55.88 0)
+			(at 134.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGNENG(永能)"
-			(at 133.35 55.88 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(property "MPN" "YQ506-S-112DM"
-			(at 130.81 55.88 0)
+			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "LCSC Part" "C19193922"
-			(at 128.27 55.88 0)
+			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
