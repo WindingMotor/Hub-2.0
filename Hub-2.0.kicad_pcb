@@ -3299,7 +3299,7 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "f73cb128-a6c8-4d58-9656-f6be628daeef")
-		(at 67.1 49.55)
+		(at 71.1 48.05)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
