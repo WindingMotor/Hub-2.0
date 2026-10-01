@@ -90,7 +90,7 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "2c832a69-60f5-4584-b73f-0f9895087e49")
-		(at 155.1 49)
+		(at 137.4 44)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
@@ -2711,7 +2711,7 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "a07c117a-4f0e-4730-b64b-b3a4d81d3ff7")
-		(at 181.5 49.05)
+		(at 163.8 44.05)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
@@ -3005,7 +3005,7 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "d986db7e-1d7a-4ee5-a7d0-a63e93a3771a")
-		(at 128.6 49.05)
+		(at 110.9 44.05)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
@@ -3299,7 +3299,7 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "f73cb128-a6c8-4d58-9656-f6be628daeef")
-		(at 102.2 49.05)
+		(at 84.5 44.05)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
