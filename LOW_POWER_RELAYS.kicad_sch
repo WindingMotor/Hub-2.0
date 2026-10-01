@@ -2155,16 +2155,6 @@
 		)
 		(uuid "e3d1d529-a537-4663-b689-9d7ea1973377")
 	)
-	(label "PWR_FUEL_PUMP"
-		(at 113.03 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eac8d2aa-e58e-4f38-870b-28a0a44e7e34")
-	)
 	(label "SIG_RELAY_REAR_LIGHTS"
 		(at 157.48 34.29 180)
 		(effects
@@ -2249,7 +2239,7 @@
 	)
 	(global_label "PWR_FUEL_PUMP"
 		(shape bidirectional)
-		(at 107.95 64.77 0)
+		(at 113.03 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2259,7 +2249,7 @@
 		)
 		(uuid "fa257248-9129-4980-b3b6-30ae6b7fd57a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8173 64.77 0)
+			(at 131.8973 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
