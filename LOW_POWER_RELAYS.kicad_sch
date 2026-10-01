@@ -1958,7 +1958,7 @@
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
 	(junction
-		(at 73.66 82.55)
+		(at 77.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a24c22ca-667d-4539-b8a1-89fb40062c36")
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 82.55) (xy 73.66 83.82)
+			(xy 77.47 81.28) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 73.66 82.55)
+			(xy 77.47 80.01) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 82.55) (xy 73.66 82.55)
+			(xy 66.04 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 81.28) (xy 62.23 82.55)
+			(xy 66.04 80.01) (xy 66.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +2221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 83.82 0)
+		(at 77.47 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2231,7 +2231,7 @@
 		(dnp no)
 		(uuid "4a809623-fb02-48bb-86e3-d6c22d6a4e45")
 		(property "Reference" "#PWR02"
-			(at 73.66 90.17 0)
+			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.692 87.63 0)
+			(at 79.502 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 73.66 83.82 0)
+			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 83.82 0)
+			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 83.82 0)
+			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2299,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 73.66 77.47 270)
+		(at 77.47 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2309,7 +2309,7 @@
 		(dnp no)
 		(uuid "5631d54f-773c-4089-9cdc-86bed415e0bf")
 		(property "Reference" "D1"
-			(at 75.438 75.946 90)
+			(at 79.248 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2320,7 +2320,7 @@
 			)
 		)
 		(property "Value" "1N5399"
-			(at 75.438 77.978 90)
+			(at 79.248 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
-			(at 73.66 77.47 0)
+			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +2342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 77.47 0)
+			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 73.66 77.47 0)
+			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +2364,7 @@
 			)
 		)
 		(property "Voltage" "0.7V"
-			(at 77.47 80.01 90)
+			(at 81.28 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2677,7 +2677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 77.47 0)
+		(at 66.04 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2687,7 +2687,7 @@
 		(dnp no)
 		(uuid "d3ee8a88-c331-45d8-ab92-dd8f5e812142")
 		(property "Reference" "R1"
-			(at 63.754 75.946 0)
+			(at 67.564 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2698,7 +2698,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.754 77.978 0)
+			(at 67.564 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.246 77.724 90)
+			(at 67.056 76.454 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 77.47 0)
+			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 62.23 77.47 0)
+			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Wattage" "100mW"
-			(at 67.056 80.01 0)
+			(at 70.866 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
