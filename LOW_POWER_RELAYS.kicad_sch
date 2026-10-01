@@ -2320,6 +2320,12 @@
 		(uuid "0844963e-568d-4427-b7be-a36ec183f9a1")
 	)
 	(junction
+		(at 73.66 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1504a329-2c98-41bd-afcf-180527d156dd")
+	)
+	(junction
 		(at 73.66 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2332,7 +2338,7 @@
 		(uuid "a738d68c-5fd6-41de-ba89-9015edf42ba8")
 	)
 	(junction
-		(at 85.09 95.25)
+		(at 85.09 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddbbc60a-2ccb-4bfd-95c6-668e0a0ba4b0")
@@ -2377,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 106.68) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5007f8-55b5-4f70-9274-1ec950f74197")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -2404,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "6ff1256c-076a-4cfd-a0fd-04da78b533a5")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a6faac-7547-42cc-920c-377787f6417f")
 	)
 	(wire
 		(pts
@@ -2477,6 +2503,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 107.95) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a42983-dd63-40ff-9ce6-e5de6a1d9b2b")
+	)
+	(wire
+		(pts
 			(xy 110.49 97.79) (xy 110.49 99.06)
 		)
 		(stroke
@@ -2487,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 95.25) (xy 73.66 95.25)
+			(xy 60.96 107.95) (xy 72.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2497,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 107.95) (xy 85.09 95.25)
+			(xy 85.09 93.98) (xy 85.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 85.09 95.25)
+			(xy 73.66 107.95) (xy 85.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2537,6 +2573,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c794246e-b301-4e74-bffc-f11c90d0d76c")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58e036f-2a44-46da-91ed-e27dc7d5ea3a")
+	)
+	(wire
+		(pts
 			(xy 73.66 76.2) (xy 85.09 76.2)
 		)
 		(stroke
@@ -2557,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd244eb-bd43-4f54-aca7-f109526c4024")
-	)
-	(wire
-		(pts
 			(xy 73.66 76.2) (xy 73.66 77.47)
 		)
 		(stroke
@@ -2577,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 62.23 95.25)
+			(xy 60.96 106.68) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2604,16 +2650,6 @@
 			(type default)
 		)
 		(uuid "f7fd97e2-e94c-427a-9f60-de94cc7c7f76")
-	)
-	(wire
-		(pts
-			(xy 73.66 95.25) (xy 73.66 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff59d4d2-33b8-4106-a1a6-c8d3232a17fe")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 157.48 50.8 180)
@@ -3040,7 +3076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 96.52 0)
+		(at 73.66 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3050,7 +3086,7 @@
 		(dnp no)
 		(uuid "4a809623-fb02-48bb-86e3-d6c22d6a4e45")
 		(property "Reference" "#PWR02"
-			(at 73.66 102.87 0)
+			(at 73.66 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +3097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.692 100.33 0)
+			(at 75.692 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3072,7 +3108,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 73.66 96.52 0)
+			(at 73.66 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 96.52 0)
+			(at 73.66 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 96.52 0)
+			(at 73.66 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
