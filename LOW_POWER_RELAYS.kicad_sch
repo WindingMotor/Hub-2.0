@@ -2183,7 +2183,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5631d54f-773c-4089-9cdc-86bed415e0bf")
 		(property "Reference" "D1"
 			(at 77.47 80.01 90)
@@ -2232,6 +2231,16 @@
 		(property "Description" "Zener diode"
 			(at 74.93 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "0.7V"
+			(at 80.01 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
