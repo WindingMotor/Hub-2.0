@@ -2247,6 +2247,30 @@
 			)
 		)
 	)
+	(global_label "PWR_FUEL_PUMP"
+		(shape bidirectional)
+		(at 107.95 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa257248-9129-4980-b3b6-30ae6b7fd57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.8173 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 113.03 76.2 90)
