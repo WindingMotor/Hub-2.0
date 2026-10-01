@@ -1569,7 +1569,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:6437288-3")
-		(at 110.49 80.01 0)
+		(at 8.89 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1580,7 +1580,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3c50123-7d58-4d99-ba61-17b1c69e4ac5")
 		(property "Reference" "CN1"
-			(at 110.49 35.56 0)
+			(at 8.89 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1590,7 +1590,7 @@
 			)
 		)
 		(property "Value" "6437288-3"
-			(at 110.49 38.1 0)
+			(at 8.89 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1600,7 +1600,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 110.49 124.46 0)
+			(at 8.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C591769.pdf"
-			(at 110.49 127 0)
+			(at 8.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 80.01 0)
+			(at 8.89 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1633,7 +1633,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity(泰科电子)"
-			(at 110.49 129.54 0)
+			(at 8.89 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1644,7 +1644,7 @@
 			)
 		)
 		(property "MPN" "6437288-3"
-			(at 110.49 132.08 0)
+			(at 8.89 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1655,7 @@
 			)
 		)
 		(property "LCSC Part" "C591769"
-			(at 110.49 134.62 0)
+			(at 8.89 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1856,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:YQ506-S-112DM")
-		(at 149.86 71.12 0)
+		(at 156.21 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1867,7 +1867,7 @@
 		(fields_autoplaced yes)
 		(uuid "d67fb986-12ab-4881-8875-f9989bc87aee")
 		(property "Reference" "U1"
-			(at 135.89 69.85 0)
+			(at 142.24 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Value" "YQ506-S-112 DM"
-			(at 135.89 72.39 0)
+			(at 142.24 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1889,7 +1889,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:RELAY-TH_YQ506-S-112DM"
-			(at 149.86 88.9 0)
+			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19193922.pdf"
-			(at 149.86 91.44 0)
+			(at 156.21 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 71.12 0)
+			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +1922,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGNENG(永能)"
-			(at 149.86 93.98 0)
+			(at 156.21 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "MPN" "YQ506-S-112DM"
-			(at 149.86 96.52 0)
+			(at 156.21 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1944,7 +1944,7 @@
 			)
 		)
 		(property "LCSC Part" "C19193922"
-			(at 149.86 99.06 0)
+			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
