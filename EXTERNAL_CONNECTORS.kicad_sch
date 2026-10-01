@@ -1673,7 +1673,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 91.44 62.23 0)
+		(at 80.01 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1683,7 +1683,7 @@
 		)
 		(uuid "0d6b009c-b628-4254-9c90-96e8c9426538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3204 62.23 0)
+			(at 87.8904 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1865,7 +1865,7 @@
 	)
 	(global_label "PWR_12V"
 		(shape bidirectional)
-		(at 83.82 58.42 0)
+		(at 80.01 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1875,7 +1875,7 @@
 		)
 		(uuid "f0da17d6-eeac-49d7-aa84-3c9d0c726584")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7949 58.42 0)
+			(at 91.9849 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
