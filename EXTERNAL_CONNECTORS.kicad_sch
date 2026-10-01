@@ -1859,6 +1859,30 @@
 			)
 		)
 	)
+	(global_label "EXT_IN_SIG_COOLANT_TEMP"
+		(shape input)
+		(at 83.82 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0da17d6-eeac-49d7-aa84-3c9d0c726584")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0119 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 123.19 107.95 0)
