@@ -1482,16 +1482,6 @@
 		(uuid "36be9bc7-1427-4627-8114-a04af3ffeb06")
 	)
 	(label "GND"
-		(at 80.01 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "440ffae6-4ea9-4d40-bf48-ffe2558af877")
-	)
-	(label "GND"
 		(at 124.46 114.3 0)
 		(effects
 			(font
@@ -1590,16 +1580,6 @@
 			(justify left bottom)
 		)
 		(uuid "911cec00-4802-4f1b-8696-b5546146aa71")
-	)
-	(label "PWR_12V"
-		(at 80.01 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "953ba4fd-223a-468a-9c81-0b2201d6f094")
 	)
 	(label "GND"
 		(at 129.54 97.79 0)
@@ -1859,7 +1839,7 @@
 			)
 		)
 	)
-	(global_label "EXT_IN_SIG_COOLANT_TEMP"
+	(global_label "PWR_12V"
 		(shape input)
 		(at 83.82 58.42 0)
 		(fields_autoplaced yes)
@@ -1871,7 +1851,7 @@
 		)
 		(uuid "f0da17d6-eeac-49d7-aa84-3c9d0c726584")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0119 58.42 0)
+			(at 94.6836 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
