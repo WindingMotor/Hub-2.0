@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(uuid "5631d54f-773c-4089-9cdc-86bed415e0bf")
 		(property "Reference" "D1"
-			(at 77.47 80.01 90)
+			(at 76.708 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Value" "D_Zener"
-			(at 77.47 82.55 90)
+			(at 76.708 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Voltage" "0.7V"
-			(at 80.01 84.582 90)
+			(at 78.74 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
