@@ -1856,7 +1856,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:YQ506-S-112DM")
-		(at 134.62 77.47 270)
+		(at 92.71 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1867,7 +1867,7 @@
 		(fields_autoplaced yes)
 		(uuid "d67fb986-12ab-4881-8875-f9989bc87aee")
 		(property "Reference" "U1"
-			(at 134.62 59.69 90)
+			(at 92.71 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +1877,7 @@
 			)
 		)
 		(property "Value" "YQ506-S-112 DM"
-			(at 134.62 62.23 90)
+			(at 92.71 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:RELAY-TH_YQ506-S-112DM"
-			(at 116.84 77.47 0)
+			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1898,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19193922.pdf"
-			(at 114.3 77.47 0)
+			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 77.47 0)
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGNENG(永能)"
-			(at 111.76 77.47 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(property "MPN" "YQ506-S-112DM"
-			(at 109.22 77.47 0)
+			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "LCSC Part" "C19193922"
-			(at 106.68 77.47 0)
+			(at 64.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
