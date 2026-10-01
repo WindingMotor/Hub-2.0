@@ -2729,7 +2729,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 89.154 82.042 90)
+			(at 88.9 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "VoltageF" "2.2Vf"
-			(at 87.63 84.074 90)
+			(at 87.884 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
