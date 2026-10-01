@@ -1958,6 +1958,12 @@
 		(uuid "4e597168-7b63-4a34-a50b-35cf11c2bd1a")
 	)
 	(junction
+		(at 77.47 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "679e4e13-4dd9-4ecc-9fa2-be46aa2454ca")
+	)
+	(junction
 		(at 77.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1985,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 71.12) (xy 66.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885bae2f-f5b0-4962-a090-5dfc3326d9ce")
+	)
+	(wire
+		(pts
 			(xy 77.47 80.01) (xy 77.47 81.28)
 		)
 		(stroke
@@ -2005,6 +2021,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 71.12) (xy 77.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cdead8-e36e-47d3-ac41-b170d8c4ef2b")
+	)
+	(wire
+		(pts
+			(xy 77.47 71.12) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deef2673-49ed-43f5-9071-878a89425858")
+	)
+	(wire
+		(pts
 			(xy 66.04 80.01) (xy 66.04 81.28)
 		)
 		(stroke
@@ -2012,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "e5721a2f-ab08-4b6d-8312-85c104b51b74")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa815e7-12f2-4da1-90e5-5811a2f6631d")
 	)
 	(label "SIG_RELAY_RADIATOR_FAN"
 		(at 157.48 50.8 180)
