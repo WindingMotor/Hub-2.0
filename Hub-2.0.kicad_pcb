@@ -90,11 +90,11 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "2c832a69-60f5-4584-b73f-0f9895087e49")
-		(at 110.6 43.05)
+		(at 115.317502 12.7775)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
-			(uuid "6d448ac7-e156-45be-b1ce-dfc0c8198dd5")
+			(uuid "e45b1f4b-f170-46e5-b93d-9c34c8ca2949")
 			(effects
 				(font
 					(size 1 1)
@@ -105,7 +105,7 @@
 		(property "Value" "YQ506-S-112 DM"
 			(at 0 12.95 0)
 			(layer "F.Fab")
-			(uuid "453424c1-e15d-414a-803a-09a6a39269da")
+			(uuid "6b1bac00-a9b6-4226-b4be-f8f158ca8b60")
 			(effects
 				(font
 					(size 1 1)
@@ -117,7 +117,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48b21c67-d89e-46c2-aaf0-f22ccb1fbf70")
+			(uuid "3a1bfe42-866f-4941-a13b-d30aa62dba12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,7 +128,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09db4bfd-6bab-4a63-ad9f-71616d75832d")
+			(uuid "4fb38cdd-10a5-4297-b9ce-e9c1a1dc7816")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,11 +2713,11 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "a07c117a-4f0e-4730-b64b-b3a4d81d3ff7")
-		(at 84.199998 43.25)
+		(at 88.9175 12.9775)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
-			(uuid "623ecf7d-afcf-4ea7-b05f-3ec36c929e1f")
+			(uuid "b0502af5-47ae-49c8-b84e-9b14cc7311be")
 			(effects
 				(font
 					(size 1 1)
@@ -2728,7 +2728,7 @@
 		(property "Value" "YQ506-S-112 DM"
 			(at 0 12.95 0)
 			(layer "F.Fab")
-			(uuid "1dd21712-8e03-4725-93a5-5ab432926d31")
+			(uuid "039fd90f-9222-4c4a-b4e2-fa63b4452755")
 			(effects
 				(font
 					(size 1 1)
@@ -2740,7 +2740,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3565e3f-a183-4674-844a-f090cdc94c18")
+			(uuid "8dd6f6cf-bb01-422e-9367-77cb6e5ec93a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2751,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2348506-441e-4e92-8a9a-0d16c7421616")
+			(uuid "2e3cfa6f-6072-468e-92d0-1ccc37a73ed9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,11 +3008,11 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "d986db7e-1d7a-4ee5-a7d0-a63e93a3771a")
-		(at 137.099999 43.05)
+		(at 141.817501 12.7775)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
-			(uuid "a2acd45d-bfff-4cac-bd76-5ee5b6a1e94a")
+			(uuid "9e654889-4a03-48a8-9eca-406d6c300278")
 			(effects
 				(font
 					(size 1 1)
@@ -3023,7 +3023,7 @@
 		(property "Value" "YQ506-S-112 DM"
 			(at 0 12.95 0)
 			(layer "F.Fab")
-			(uuid "851e4544-2382-4381-a00d-b58b0a386c64")
+			(uuid "cea35465-6263-42f9-8e71-91e8f0c303e2")
 			(effects
 				(font
 					(size 1 1)
@@ -3035,7 +3035,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "984dc989-a2c0-4d49-a8ba-18bd5ea7683c")
+			(uuid "47910533-619f-457b-9275-cafc3f3836bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3046,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66e56635-5022-47e0-8b3c-eae2a8e570df")
+			(uuid "e897023f-151b-4b62-b01d-bc985676c04b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,11 +3303,11 @@
 	(footprint "EasyEDA:RELAY-TH_YQ506-S-112DM"
 		(layer "F.Cu")
 		(uuid "f73cb128-a6c8-4d58-9656-f6be628daeef")
-		(at 163.299998 42.85)
+		(at 168.0175 12.5775)
 		(property "Reference" "U1"
 			(at 0 -12.95 0)
 			(layer "F.SilkS")
-			(uuid "049f3568-1218-40cc-bd6a-57ad9fed02a8")
+			(uuid "c6631632-d2bf-452b-816f-a5282b040fce")
 			(effects
 				(font
 					(size 1 1)
@@ -3318,7 +3318,7 @@
 		(property "Value" "YQ506-S-112 DM"
 			(at 0 12.95 0)
 			(layer "F.Fab")
-			(uuid "e237e6cf-9e84-40b2-92bb-2e60253bb9c1")
+			(uuid "2db0aaee-25e7-4789-86c8-2ed60eece65c")
 			(effects
 				(font
 					(size 1 1)
@@ -3330,7 +3330,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "922202ad-d856-4897-8222-f9eef1f90d55")
+			(uuid "e45b67d1-1f41-4e68-b1ae-55b2a2a575fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3341,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ca89789-16ca-432e-b82f-d62a0a5d1670")
+			(uuid "389e6679-22e4-496c-a0a7-e5a12006e070")
 			(effects
 				(font
 					(size 1.27 1.27)
