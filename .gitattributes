@@ -1,0 +1,4 @@
+# Generated 3D model assets are not useful as line-oriented diffs.
+*.step binary
+*.stp binary
+*.wrl binary
