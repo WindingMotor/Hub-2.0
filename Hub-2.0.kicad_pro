@@ -661,7 +661,7 @@
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "J2-5,J10,R1-10,CN1-6,J5\\-PCB1,JP1-4,J4\\-PCB1,J3\\-PCB1,C1-12,U1-3,D1-8,J10\\-PCB1,J2\\-PCB1,#PWR1-11,#PWR117,#PWR124,SW1-2,NT1-26,LED1,BZ1,BUZ1,RJ1",
+    "used_designators": "J3\\-PCB1,J4\\-PCB1,JP1-4,J2\\-PCB1,#PWR1-11,#PWR117,#PWR124,J5\\-PCB1,J10\\-PCB1,U1,D1-2,C1-8,NT1-26,RJ1,SW1-2,J2-5,J10,CN1-6,R1-2",
     "variants": []
   },
   "sheets": [
