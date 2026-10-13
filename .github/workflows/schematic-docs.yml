@@ -1,0 +1,78 @@
+name: Schematic documentation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_sym"
+      - "Hub-2.0.kicad_pro"
+      - ".github/workflows/schematic-docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schematic-docs
+  cancel-in-progress: true
+
+env:
+  KICAD_IMAGE: kicad/kicad:10.0
+  ROOT_SCHEMATIC: Hub-2.0.kicad_sch
+  OUTPUT_DIR: documentation/images
+  PNG_DPI: "300"
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+
+      # The container starts with a clean KiCad config, so plots use the
+      # standard "KiCad Default" colour theme rather than anyone's local one.
+      - name: Export PDF and SVG with KiCad
+        run: |
+          rm -rf "$OUTPUT_DIR" build/svg
+          mkdir -p "$OUTPUT_DIR" build/svg
+          kicad() {
+            docker run --rm \
+              --user "$(id -u):$(id -g)" \
+              -e HOME=/tmp \
+              -v "$PWD:/project" -w /project \
+              "$KICAD_IMAGE" kicad-cli "$@"
+          }
+          kicad sch export pdf --output "$OUTPUT_DIR/Hub-2.0.pdf" "$ROOT_SCHEMATIC"
+          kicad sch export svg --output build/svg "$ROOT_SCHEMATIC"
+
+      - name: Convert each sheet to PNG
+        run: |
+          shopt -s nullglob
+          sheets=(build/svg/*.svg)
+          if [ "${#sheets[@]}" -eq 0 ]; then
+            echo "::error::KiCad produced no schematic sheets"
+            exit 1
+          fi
+          for svg in "${sheets[@]}"; do
+            png="$OUTPUT_DIR/$(basename "${svg%.svg}").png"
+            rsvg-convert --dpi-x "$PNG_DPI" --dpi-y "$PNG_DPI" --background-color white \
+              --output "$png" "$svg"
+            echo "Rendered $png"
+          done
+          test -s "$OUTPUT_DIR/Hub-2.0.pdf"
+
+      - name: Commit generated documentation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all "$OUTPUT_DIR"
+          if git diff --cached --quiet; then
+            echo "Schematic documentation is already up to date"
+            exit 0
+          fi
+          git commit -m "Update schematic documentation [skip ci]"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
