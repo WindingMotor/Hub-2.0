@@ -683,7 +683,7 @@
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "#PWR1-40,#PWR117,#PWR124,BUZ1,C1-15,CN1-6,D1-11,J2-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,NT1-26,R1-12,RJ1,SW1-2,U1-4",
+    "used_designators": "#PWR1-40,#PWR117,#PWR124,BUZ1,C1-15,CN1-6,D1-11,J2-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,NT1-26,R1-12,RJ1,SW1-3,U1-5",
     "variants": []
   },
   "sheets": [
@@ -706,6 +706,18 @@
     [
       "aea3bb0d-f9cd-46ce-9a77-d662b5a61299",
       "LOW_POWER_RELAYS"
+    ],
+    [
+      "399884b3-136d-40ca-bfde-e44c27866e82",
+      "WIRING"
+    ],
+    [
+      "7ef9dce7-3993-4edd-a9d9-f06a70a5339b",
+      "SAFETY"
+    ],
+    [
+      "3c10705f-3100-4698-8568-756e610b2103",
+      "DASH"
     ]
   ],
   "text_variables": {},
