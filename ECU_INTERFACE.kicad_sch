@@ -2396,7 +2396,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 118.872 114.3 90)
+			(at 119.126 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2474,7 +2474,7 @@
 			)
 		)
 		(property "Value" "+12V_MAIN"
-			(at 118.872 119.38 90)
+			(at 119.126 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Value" "+5V_A_MAIN"
-			(at 168.148 63.5 90)
+			(at 167.894 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2630,7 +2630,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 168.148 111.76 90)
+			(at 167.894 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2716,7 +2716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
+		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL_1"
 			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2994,7 +2994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.872 83.82 90)
+			(at 119.126 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3072,7 +3072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.148 83.82 90)
+			(at 167.894 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
