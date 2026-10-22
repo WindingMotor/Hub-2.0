@@ -97,4 +97,50 @@
 			)
 		)
 	)
+	(sheet
+		(at 59.69 102.87)
+		(size 34.925 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c802f09f-a8e4-429f-8430-2fc36c647e69")
+		(property "Sheetname" "ENGINE_WR450F"
+			(at 59.69 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ENGINE_WR450F.kicad_sch"
+			(at 59.69 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82"
+					(page "9")
+				)
+			)
+		)
+	)
 )

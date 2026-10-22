@@ -1,0 +1,288 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "af8ad92e-80c5-47c7-b528-865d82af0364")
+	(paper "A4")
+	(lib_symbols)
+	(text "Authors: \nLead: Isaac Subudhi\nContributors:\n- Brandon Estrada\n- Will Schindler\n- Jessie Vargas"
+		(exclude_from_sim no)
+		(at 177.8 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ca45c8b-4a36-49a6-be6d-f79436838c3d")
+	)
+	(text "RAM RACING: HUB V2: Status Indicators"
+		(exclude_from_sim no)
+		(at 185.166 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e6ccb9f-f901-492c-b7d1-fcaa073d4757")
+	)
+	(text "Mon, Oct, 12, 2026\n"
+		(exclude_from_sim no)
+		(at 205.486 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f3840b-e39f-4ff5-bacf-c65459c1b026")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 267.462 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edd14b6b-5482-4620-b09d-edcf44508841")
+	)
+	(sheet
+		(at 100.33 39.37)
+		(size 34.29 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "399884b3-136d-40ca-bfde-e44c27866e82")
+		(property "Sheetname" "WIRING"
+			(at 100.33 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WIRING.kicad_sch"
+			(at 100.33 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 80.01)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92353b5a-0bb5-4764-8ad6-9a983b2830ec")
+		(property "Sheetname" "ECU_INTERFACE"
+			(at 50.8 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ECU_INTERFACE.kicad_sch"
+			(at 50.8 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 100.33)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aea3bb0d-f9cd-46ce-9a77-d662b5a61299")
+		(property "Sheetname" "LOW_POWER_RELAYS"
+			(at 50.8 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOW_POWER_RELAYS.kicad_sch"
+			(at 50.8 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 59.69)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c1ceb228-2603-433a-a8a0-0403049da226")
+		(property "Sheetname" "STATUS_INDICATORS"
+			(at 50.8 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STATUS_INDICATORS.kicad_sch"
+			(at 50.8 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 39.37)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ca975f7a-7c41-4347-8d10-db60f60966f1")
+		(property "Sheetname" "EXTERNAL_CONNECTORS"
+			(at 50.8 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXTERNAL_CONNECTORS.kicad_sch"
+			(at 50.8 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

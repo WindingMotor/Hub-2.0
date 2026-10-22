@@ -1469,6 +1469,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "M1 Tune"
+		(exclude_from_sim no)
+		(at 82.55 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d698bd5-9192-4ef1-ba35-07f2234833a2")
+	)
 	(text "Mon, Oct, 12, 2026\n"
 		(exclude_from_sim no)
 		(at 205.74 193.802 0)
@@ -1479,6 +1489,56 @@
 			(justify left)
 		)
 		(uuid "1efac37f-185f-495f-b0e5-d278023dd0e1")
+	)
+	(text "Threshold: 6V"
+		(exclude_from_sim no)
+		(at 82.296 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22b7af95-fd00-4af0-be4c-f1e153ae809f")
+	)
+	(text "Drive: High Side"
+		(exclude_from_sim no)
+		(at 82.55 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2af80b9d-00ee-4f8b-98df-aff64127a412")
+	)
+	(text "(Driver Sw 1)\n"
+		(exclude_from_sim no)
+		(at 82.296 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a01deb1-2494-4cc7-b5ee-ab0379e80a1e")
+	)
+	(text "Type: Rising Edge"
+		(exclude_from_sim no)
+		(at 82.042 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bb74c03-b49e-4b0b-96f7-23ab97a3a78b")
+	)
+	(text "SW: B02_UDIG2"
+		(exclude_from_sim no)
+		(at 82.042 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2bf84ac-69f1-459f-8b8b-ecfa1db9ebc0")
 	)
 	(text "RAM RACING: HUB V2: ECU Interface"
 		(exclude_from_sim no)
@@ -1502,6 +1562,16 @@
 		)
 		(uuid "b0a8852f-b2d9-46d3-bfbe-fdea9feaf3c4")
 	)
+	(text "Resource: OUT_HB6\n"
+		(exclude_from_sim no)
+		(at 82.296 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc236bf5-0706-444a-9dda-f8a1cdee0157")
+	)
 	(text "Authors: \nLead: Isaac Subudhi\nMain Editor: Isaac Subudhi\nAssisted: Jessie Vargas"
 		(exclude_from_sim no)
 		(at 177.8 171.196 0)
@@ -1512,6 +1582,16 @@
 			(justify left)
 		)
 		(uuid "d2bd8ea4-183c-4638-891d-d3f3ddd8e9c8")
+	)
+	(text "(Aux Output 5)\n"
+		(exclude_from_sim no)
+		(at 82.55 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de81f88c-66ec-4509-a77c-73ddf394618c")
 	)
 	(no_connect
 		(at 123.19 99.06)
@@ -1530,6 +1610,16 @@
 			(type default)
 		)
 		(uuid "162d0736-a473-44e4-8976-f7afa3f3c9d9")
+	)
+	(polyline
+		(pts
+			(xy 103.505 129.54) (xy 104.775 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2150b7b0-f3cf-4a03-91e8-f3b3e3207263")
 	)
 	(wire
 		(pts
@@ -1621,6 +1711,16 @@
 		)
 		(uuid "7b0f7800-d83a-4a1e-8e7e-4c6b3bf617f8")
 	)
+	(polyline
+		(pts
+			(xy 90.17 132.08) (xy 104.775 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b4c352-e09c-465c-85e6-a679f8f4821b")
+	)
 	(wire
 		(pts
 			(xy 121.92 137.16) (xy 123.19 137.16)
@@ -1710,6 +1810,16 @@
 			(type default)
 		)
 		(uuid "b40d14fb-90d7-49bf-98bc-b96b9181a40e")
+	)
+	(polyline
+		(pts
+			(xy 103.505 131.445) (xy 104.775 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b859afdb-4183-4ecf-89f1-bb0def90a5cd")
 	)
 	(wire
 		(pts
@@ -2716,7 +2826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL_1"
+		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
 			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)

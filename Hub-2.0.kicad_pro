@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -250,6 +250,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -650,7 +654,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -671,6 +675,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -683,7 +695,7 @@
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "#PWR1-40,#PWR117,#PWR124,BUZ1,C1-15,CN1-6,D1-11,J2-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,NT1-26,R1-12,RJ1,SW1-3,U1-5",
+    "used_designators": "#PWR1-50,#PWR117,#PWR124,BUZ1,C1-15,CN1-7,D1-15,F1-4,J1-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-4,NT1-26,R1-12,RJ1,SW1-3,U1-10",
     "variants": []
   },
   "sheets": [
@@ -718,6 +730,10 @@
     [
       "3c10705f-3100-4698-8568-756e610b2103",
       "DASH"
+    ],
+    [
+      "c802f09f-a8e4-429f-8430-2fc36c647e69",
+      "ENGINE_WR450F"
     ]
   ],
   "text_variables": {},
