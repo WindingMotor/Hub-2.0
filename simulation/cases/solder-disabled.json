@@ -1,0 +1,6 @@
+{
+  "extends": "../config.json",
+  "solder_reinforcement": {
+    "enabled": false
+  }
+}

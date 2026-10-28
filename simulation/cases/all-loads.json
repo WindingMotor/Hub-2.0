@@ -1,0 +1,171 @@
+{
+  "extends": "../config.json",
+  "notes": [
+    "User-estimated simultaneous continuous loads: lights 5 A, radiator 13 A, fuel pump 7 A, main output at CN1 4 A; total 29 A. Ambient remains 25 C. Relay/fuse resistance remains ideal (0 ohms).",
+    "All relay contacts are modeled closed. Set a branch current to zero for an unused external load.",
+    "Relay/fuse resistances start at zero (ideal). Replace with measured or datasheet ohms to include their losses.",
+    "Battery source: 12 V, LUG1 pad 1 positive and LUG2 pad 1 return. Verify against the installed harness.",
+    "Cooling assumption: 25 C surrounding air, no forced airflow. This is a board model, without enclosure or mounting conduction.",
+    "External load_power is false: pump/fan/light delivered power is dissipated outside this PCB.",
+    "Only CN1 output loads are preconfigured. Add ECU/dash/other connector loads, relay coil heat, and starter-lug current as needed; this is not a complete vehicle operating case.",
+    "Stackup is read from the saved PCB on each launch. No hardcoded layer count, copper weights, or dielectric gaps override the physical KiCad stackup. Current board has 6 copper layers, 35 um outer and 17.5 um inner; the run report records actual values."
+  ],
+  "setup": {
+    "links": [
+      {
+        "name": "U1 closed contact",
+        "side_a": {
+          "ref": "U1",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F1 fuse",
+        "side_a": {
+          "ref": "F1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F1",
+          "net": "PWR_FUEL_PUMP",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "U2 closed contact",
+        "side_a": {
+          "ref": "U2",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F2 fuse",
+        "side_a": {
+          "ref": "F2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F2",
+          "net": "PWR_RADIATOR",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "U4 closed contact",
+        "side_a": {
+          "ref": "U4",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U4",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F3 fuse",
+        "side_a": {
+          "ref": "F3",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F3",
+          "net": "PWR_LIGHTS",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "U3 closed contact",
+        "side_a": {
+          "ref": "U3",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U3",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F0 fuse",
+        "side_a": {
+          "ref": "F0",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F0",
+          "net": "+12V_MAIN",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.0
+      }
+    ]
+  },
+  "thermal_model": {
+    "mode": "board_reference",
+    "status": "Copper-only reference; laminate k is an uncalibrated generic FR4 estimate"
+  },
+  "component_heat": [],
+  "connectors": [],
+  "solder_reinforcement": {
+    "enabled": false
+  },
+  "component_models": null
+}

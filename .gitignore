@@ -1,8 +1,34 @@
-# KiCad local history exclusions. Edit to add your own rules.
+# KiCad caches, UI state, locks, and automatic backups.
 fp-info-cache
 *-backups/
-
-# Machine-local KiCad state and transient files.
 *.kicad_prl
 *.lck
 *.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.sch-bak
+*.brd-bak
+~*.kicad_*
+_autosave-*
+_saved_*
+
+# Local editor history and manual recovery copies (keep source libraries tracked).
+/.history/
+/_restore_backup_*/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python environments and caches.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local export staging. Published documentation/images remains tracked.
+/build/

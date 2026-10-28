@@ -1679,7 +1679,7 @@
 		(uuid "fff884f6-4b59-48a0-b23c-4d6f69a6ce49")
 	)
 	(junction
-		(at 93.98 102.87)
+		(at 182.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15f8c589-40bd-4428-b6ba-ef27e4d1be14")
@@ -1703,16 +1703,16 @@
 		(uuid "78087a22-309c-4666-b0e5-35a8e61aebb3")
 	)
 	(junction
-		(at 85.09 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aefe602b-3d7e-471d-8839-38f950344252")
-	)
-	(junction
 		(at 199.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5a3eb30-f7ee-4086-83d1-373ca4468ebb")
+	)
+	(junction
+		(at 173.99 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e761d126-235d-46ca-b035-07a919623ec5")
 	)
 	(no_connect
 		(at 86.36 144.78)
@@ -1732,23 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 85.09 91.44)
+			(xy 172.72 130.81) (xy 173.99 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00a4f3af-1e98-4325-8f75-669359840057")
-	)
-	(wire
-		(pts
-			(xy 85.09 91.44) (xy 93.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02207de1-dca9-4821-b79b-50b2f6c1fa59")
 	)
 	(wire
 		(pts
@@ -1952,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 93.98 102.87)
+			(xy 189.23 142.24) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 102.87) (xy 85.09 102.87)
+			(xy 182.88 142.24) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 85.09 100.33)
+			(xy 173.99 142.24) (xy 173.99 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 93.98 92.71)
+			(xy 182.88 130.81) (xy 182.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2222,6 +2212,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 130.81) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d4286c-53cd-4ee2-9a26-53a1013ab96b")
+	)
+	(wire
+		(pts
 			(xy 199.39 104.14) (xy 199.39 102.87)
 		)
 		(stroke
@@ -2292,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 93.98 102.87)
+			(xy 182.88 139.7) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 85.09 91.44)
+			(xy 173.99 132.08) (xy 173.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 100.33 102.87)
+			(xy 189.23 143.51) (xy 189.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3612,7 +3612,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 96.52 0)
+		(at 173.99 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3622,7 +3622,7 @@
 		(dnp no)
 		(uuid "53987196-4eb8-455f-babe-6713d4682d7c")
 		(property "Reference" "C1"
-			(at 85.598 94.234 0)
+			(at 174.498 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3633,7 +3633,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 85.598 98.806 0)
+			(at 174.498 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3644,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CAP-TH_L5.5-W3.8-P5.08-D0.5"
-			(at 86.0552 100.33 0)
+			(at 174.9552 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 96.52 0)
+			(at 173.99 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3666,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 96.52 0)
+			(at 173.99 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3677,7 +3677,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 82.804 98.806 0)
+			(at 171.704 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "LCSC Part" "C2761740"
-			(at 85.09 96.52 0)
+			(at 173.99 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4510,7 +4510,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 83.82 91.44 90)
+		(at 172.72 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4520,7 +4520,7 @@
 		(dnp no)
 		(uuid "8506312c-89dd-47d5-9a95-979e24c7f515")
 		(property "Reference" "#PWR034"
-			(at 87.63 91.44 0)
+			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4531,7 @@
 			)
 		)
 		(property "Value" "+12V_BATT"
-			(at 80.772 91.44 90)
+			(at 169.672 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 91.44 0)
+			(at 172.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,7 +4553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 91.44 0)
+			(at 172.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,7 +4564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 91.44 0)
+			(at 172.72 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +4664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 104.14 0)
+		(at 189.23 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4674,7 +4674,7 @@
 		(dnp no)
 		(uuid "9d360efe-b63f-4c66-99e8-fc497f3c6927")
 		(property "Reference" "#PWR02"
-			(at 100.33 110.49 0)
+			(at 189.23 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.362 107.95 0)
+			(at 191.262 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 100.33 104.14 0)
+			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 104.14 0)
+			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 104.14 0)
+			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,7 +5366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 96.52 0)
+		(at 182.88 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5376,7 +5376,7 @@
 		(dnp no)
 		(uuid "d8e3ab3c-bc8c-4d17-aec8-3f3c1191ad13")
 		(property "Reference" "C2"
-			(at 94.488 94.234 0)
+			(at 183.388 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5387,7 +5387,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 94.488 98.806 0)
+			(at 183.388 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5398,7 +5398,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CAP-TH_L5.0-W2.5-P5.00-D1.0"
-			(at 94.9452 100.33 0)
+			(at 183.8452 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5409,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 96.52 0)
+			(at 182.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 96.52 0)
+			(at 182.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 91.694 98.806 0)
+			(at 180.594 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "LCSC Num" "C254085"
-			(at 93.98 96.52 0)
+			(at 182.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

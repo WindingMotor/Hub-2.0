@@ -1,0 +1,792 @@
+{
+  "config_version": 1,
+  "board": "Hub-2.0.kicad_pcb",
+  "notes": [
+    "User estimates: lights 5 A, radiator 13 A, pump 7 A, main 4 A; 29 A external total. Ambient 25 C.",
+    "Provisional standard MINI fuse selection uses Littelfuse 297 32V data: F0 7.5A, F1 10A, F2 20A, F3 7.5A. Confirm startup current and protection of actual wiring/connectors before hardware selection.",
+    "Fuse resistance uses manufacturer TYPICAL COLD resistance, constant in this model. Actual hot fuse and holder contact losses may be higher. No trip or melting simulation.",
+    "Relay contact resistance is UNKNOWN; zero-ohm contacts are a LOWER LOSS reference only. Compare the separate contact-max case at the family datasheet 50 milliohm maximum; that is not a typical value or an aged-contact guarantee.",
+    "Each enabled control circuit uses schematic 660-ohm resistor, 2.1 V LED estimate, and 10k pulldown at assumed constant 12 V control supply. Component identity mismatches are documented in simulation/docs/COMPONENT_REVIEW.md.",
+    "Component heat is fixed and does not add external control/coil current to the electrical solve. Do not interpret 29 A as the full battery current; controls are not electrically modeled.",
+    "All four relays are held energized. Capacitor DC losses, flyback pulses, connector and fuse-holder contact losses are omitted until appropriate data is available.",
+    "Thermal load_power must remain false: delivered pump/fan/light power is external to the PCB.",
+    "CN1 DT15-12PA is specified at 13 A maximum per contact. The radiator estimate already reaches that catalog maximum; earlier 15 A tests were a copper-only stress case, not connector qualification.",
+    "Thermal model uses finite outer-pad copper areas and coupled component nodes. Coil/contact heat is partitioned by a solved network, not an imposed fraction. Relay thermal resistances and connector thermal geometry are uncalibrated sensitivity inputs; do not claim a validated prediction.",
+    "Harness user estimate: a few feet. Model uses 3 ft per conductor with estimated 16 AWG wire geometry and exposed-wire cooling. Wire Joule heating is included in the thermal fin reference temperature; wire is not held at ambient.",
+    "Coil power decreases with modeled winding temperature using 90 ohms at 23 C and copper TCR. Native fuse/contact losses are distributed over finite outer-pad areas; fuse thermal-body cooling remains omitted.",
+    "Stackup is read from the saved PCB on each launch. No hardcoded layer count, copper weights, or dielectric gaps override the physical KiCad stackup. Current board has 6 copper layers, 35 um outer and 17.5 um inner; the run report records actual values."
+  ],
+  "copy_patterns": [
+    "*.kicad_pcb",
+    "*.kicad_pro",
+    "*.kicad_sch",
+    "*.kicad_sym",
+    "*.kicad_dru",
+    "fp-lib-table",
+    "sym-lib-table",
+    "*.pretty",
+    "*.3dshapes",
+    "*.step",
+    "*.stp",
+    "*.wrl"
+  ],
+  "setup": {
+    "format_version": 2,
+    "vrms": [
+      {
+        "name": "Battery input",
+        "kind": "source",
+        "output": {
+          "ref": "LUG1",
+          "net": "+12V_BATT",
+          "pins": [
+            "1"
+          ]
+        },
+        "ground": {
+          "ref": "LUG2",
+          "net": "GND",
+          "pins": [
+            "1"
+          ]
+        },
+        "voltage": 12.0
+      }
+    ],
+    "loads": [
+      {
+        "name": "Fuel pump",
+        "supply": {
+          "ref": "CN1",
+          "net": "PWR_FUEL_PUMP",
+          "pins": [
+            "5"
+          ]
+        },
+        "current": 7.0,
+        "ground": {
+          "ref": "CN1",
+          "net": "GND",
+          "pins": [
+            "6"
+          ]
+        }
+      },
+      {
+        "name": "Radiator",
+        "supply": {
+          "ref": "CN1",
+          "net": "PWR_RADIATOR",
+          "pins": [
+            "3"
+          ]
+        },
+        "current": 13.0,
+        "ground": {
+          "ref": "CN1",
+          "net": "GND",
+          "pins": [
+            "4"
+          ]
+        }
+      },
+      {
+        "name": "Lights",
+        "supply": {
+          "ref": "CN1",
+          "net": "PWR_LIGHTS",
+          "pins": [
+            "1"
+          ]
+        },
+        "current": 5.0,
+        "ground": {
+          "ref": "CN1",
+          "net": "GND",
+          "pins": [
+            "2"
+          ]
+        }
+      },
+      {
+        "name": "Main output at CN1",
+        "supply": {
+          "ref": "CN1",
+          "net": "+12V_MAIN",
+          "pins": [
+            "7"
+          ]
+        },
+        "current": 4.0,
+        "ground": {
+          "ref": "CN1",
+          "net": "GND",
+          "pins": [
+            "8"
+          ]
+        }
+      }
+    ],
+    "links": [
+      {
+        "name": "U1 closed contact",
+        "side_a": {
+          "ref": "U1",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F1 fuse",
+        "side_a": {
+          "ref": "F1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F1",
+          "net": "PWR_FUEL_PUMP",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.00742
+      },
+      {
+        "name": "U2 closed contact",
+        "side_a": {
+          "ref": "U2",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F2 fuse",
+        "side_a": {
+          "ref": "F2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F2",
+          "net": "PWR_RADIATOR",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.00321
+      },
+      {
+        "name": "U4 closed contact",
+        "side_a": {
+          "ref": "U4",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U4",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F3 fuse",
+        "side_a": {
+          "ref": "F3",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F3",
+          "net": "PWR_LIGHTS",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.01085
+      },
+      {
+        "name": "U3 closed contact",
+        "side_a": {
+          "ref": "U3",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U3",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.0
+      },
+      {
+        "name": "F0 fuse",
+        "side_a": {
+          "ref": "F0",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F0",
+          "net": "+12V_MAIN",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.01085
+      }
+    ],
+    "nets": [
+      "+12V_BATT",
+      "GND",
+      "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+      "PWR_FUEL_PUMP",
+      "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+      "PWR_RADIATOR",
+      "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+      "PWR_LIGHTS",
+      "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+      "+12V_MAIN"
+    ],
+    "excluded_nets": [],
+    "settings": {
+      "max_edge_mm": 0.5,
+      "plating_mm": 0.025
+    },
+    "thermal": {
+      "enabled": true,
+      "ambient_c": 25.0,
+      "iterations": 3,
+      "airflow_m_s": 0.0,
+      "grid_mm": 0.0,
+      "load_power": false,
+      "max_temp_c": null,
+      "max_rise_c": null
+    },
+    "via_current_limit_a": null,
+    "stackup": null,
+    "report_format": "html"
+  },
+  "component_models": {
+    "fuses": {
+      "F0": {
+        "load": "Main output",
+        "rating_a": 7.5,
+        "series": "Littelfuse 297 MINI 32 V",
+        "cold_resistance_ohm": 0.01085,
+        "nominal_loss_w": 0.1736,
+        "source": "https://www.littelfuse.com/assetdocs/littelfuse_datasheet_297_mini32v.pdf?assetguid=42c9dd21-a88e-4328-8e67-2f832444faf1"
+      },
+      "F1": {
+        "load": "Fuel pump",
+        "rating_a": 10,
+        "series": "Littelfuse 297 MINI 32 V",
+        "cold_resistance_ohm": 0.00742,
+        "nominal_loss_w": 0.36358,
+        "source": "https://www.littelfuse.com/assetdocs/littelfuse_datasheet_297_mini32v.pdf?assetguid=42c9dd21-a88e-4328-8e67-2f832444faf1"
+      },
+      "F2": {
+        "load": "Radiator",
+        "rating_a": 20,
+        "series": "Littelfuse 297 MINI 32 V",
+        "cold_resistance_ohm": 0.00321,
+        "nominal_loss_w": 0.54249,
+        "source": "https://www.littelfuse.com/assetdocs/littelfuse_datasheet_297_mini32v.pdf?assetguid=42c9dd21-a88e-4328-8e67-2f832444faf1"
+      },
+      "F3": {
+        "load": "Lights",
+        "rating_a": 7.5,
+        "series": "Littelfuse 297 MINI 32 V",
+        "cold_resistance_ohm": 0.01085,
+        "nominal_loss_w": 0.27125,
+        "source": "https://www.littelfuse.com/assetdocs/littelfuse_datasheet_297_mini32v.pdf?assetguid=42c9dd21-a88e-4328-8e67-2f832444faf1"
+      }
+    },
+    "relays": {
+      "refs": [
+        "U1",
+        "U2",
+        "U3",
+        "U4"
+      ],
+      "part": "YQ506-S-112DM",
+      "coil_cold_ohm": 90.0,
+      "coil_voltage_v": 12.0,
+      "contact_resistance_ohm": null,
+      "datasheet_contact_max_ohm": 0.05,
+      "source": "https://ynrelay.com/products/automotive-relay-yq506"
+    }
+  },
+  "component_heat": [
+    {
+      "name": "U1 energized coil",
+      "ref": "U1",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 100.0,
+        "r_air_k_w": 50.0,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U2 energized coil",
+      "ref": "U2",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 100.0,
+        "r_air_k_w": 50.0,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U3 energized coil",
+      "ref": "U3",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 100.0,
+        "r_air_k_w": 50.0,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U4 energized coil",
+      "ref": "U4",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 100.0,
+        "r_air_k_w": 50.0,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "R7 LED series resistor",
+      "ref": "R7",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R8 LED series resistor",
+      "ref": "R8",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R9 LED series resistor",
+      "ref": "R9",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R11 LED series resistor",
+      "ref": "R11",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R4 pulldown",
+      "ref": "R4",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R5 pulldown",
+      "ref": "R5",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R6 pulldown",
+      "ref": "R6",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R10 pulldown",
+      "ref": "R10",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "D7 indicator",
+      "ref": "D7",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D8 indicator",
+      "ref": "D8",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D9 indicator",
+      "ref": "D9",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D11 indicator",
+      "ref": "D11",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    }
+  ],
+  "connectors": [
+    {
+      "load": "Fuel pump",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 83.2454480881283,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 10.0,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Radiator",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 83.2454480881283,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 10.0,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Lights",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 83.2454480881283,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 10.0,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Main output at CN1",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 83.2454480881283,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 10.0,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    }
+  ],
+  "thermal_model": {
+    "mode": "compact",
+    "status": "UNCALIBRATED COMPACT-NETWORK SENSITIVITY CASE; not a validated temperature prediction",
+    "references": [
+      "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2020/Maerz/ZVEI_TLF_technischer_Leitfaden_0101_Thermosimulationsmodelle/ZVEI-TLF-0101-Thermosimulationsmodelle-Englisch-Juli-2020.pdf",
+      "https://journalcjast.com/index.php/CJAST/article/view/875",
+      "https://www.ti.com/lit/an/spra953d/spra953d.pdf"
+    ]
+  },
+  "stackup_source": "board",
+  "solder_reinforcement": {
+    "enabled": true,
+    "material": {
+      "name": "Sn63Pb37 (assumed standard leaded solder)",
+      "rho_ohm_mm_20c": 0.00014991304347826087,
+      "thermal_k_w_mk": 50.0,
+      "tcr_per_c": 0.0,
+      "basis": "Indium Sn63 reference: electrical conductivity 11.5% of copper; thermal conductivity 50 W/mK at 85 C held constant. Resistivity referenced to 20 C as an approximation; TCR=0 is an explicit constant-resistivity sensitivity assumption, not measured alloy data.",
+      "source": "https://www.indium.com/wp-content/uploads/2025/01/Solder-Ribbon-and-Foil-PDS-97621-A4-R9.pdf"
+    },
+    "regions": [
+      {
+        "layer": "B.Cu",
+        "nets": [
+          "+12V_BATT",
+          "PWR_RADIATOR",
+          "PWR_FUEL_PUMP",
+          "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE"
+        ],
+        "thickness_mm": 1.5,
+        "coverage_fraction": 1.0
+      }
+    ],
+    "assumptions": "Uniform perfectly bonded solder across selected saved copper, regardless of current mask openings. Coverage scales effective thickness uniformly, not a local bead. No extra plating, hole filling, terminal contact improvement, added cooling area, or 3D solder geometry."
+  },
+  "fabrication": {
+    "laminate": {
+      "name": "Nan Ya NP-155F",
+      "k_in_plane_w_mk": 0.8,
+      "k_through_w_mk": 0.3,
+      "status": "UNCALIBRATED generic FR4 thermal conductivity; NP-155F datasheet does not specify k",
+      "source": "https://rs.jlcpcb.com/static/file/nan-ya-np-155f-datasheet.pdf",
+      "basis": "User selected JLCPCB Nan Ya NP-155F. Keep KiPI generic FR4 k estimates until laminate/core/prepreg thermal data is available. Preserve saved thicknesses and permittivity; Tg is not thermal conductivity or an operating limit."
+    },
+    "vias": {
+      "epoxy_filled_capped": true,
+      "fill": "nonconductive",
+      "max_filled_drill_mm": 0.5,
+      "cap_minimum_mm": 0.005,
+      "via_in_pad_available": true,
+      "source": "https://jlcpcb.com/help/article/pcb-via-covering",
+      "basis": "Apply fill assumption to board vias <=0.5 mm only; component PTH holes excluded. Copper barrels remain conducting, epoxy core is not copper. JLCPCB minimum cap copper 5 um is recorded, not added to existing finished outer copper. Cap disk conduction and epoxy-core thermal correction are omitted; no exact resin k was published. Via-in-pad locations must exist on saved PCB."
+    }
+  }
+}

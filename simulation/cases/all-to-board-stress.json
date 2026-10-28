@@ -1,0 +1,10 @@
+{
+  "extends": "../config.json",
+  "thermal_model": {
+    "mode": "finite_area_stress",
+    "status": "ALL-TO-BOARD stress case; finite pad areas, all component/contact generation forced into board"
+  },
+  "solder_reinforcement": {
+    "enabled": false
+  }
+}

@@ -2,3 +2,11 @@
 *.step binary
 *.stp binary
 *.wrl binary
+
+# Predictable script/config line endings on Linux and Windows.
+*.py text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

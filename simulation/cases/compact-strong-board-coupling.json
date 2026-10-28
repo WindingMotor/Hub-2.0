@@ -1,0 +1,389 @@
+{
+  "extends": "../config.json",
+  "component_heat": [
+    {
+      "name": "U1 energized coil",
+      "ref": "U1",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 30,
+        "r_air_k_w": 100,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U2 energized coil",
+      "ref": "U2",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 30,
+        "r_air_k_w": 100,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U3 energized coil",
+      "ref": "U3",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 30,
+        "r_air_k_w": 100,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "U4 energized coil",
+      "ref": "U4",
+      "pins": [
+        "85",
+        "86"
+      ],
+      "power_w": 1.6,
+      "board_fraction": 1.0,
+      "category": "Relay coil heat",
+      "source": "https://ynrelay.com/products/automotive-relay-yq506",
+      "thermal": {
+        "r_board_k_w": 30,
+        "r_air_k_w": 100,
+        "status": "UNCALIBRATED sensitivity values; no part-specific relay thermal resistances found",
+        "basis": "Generic component/board/ambient network topology only. 100 K/W to board and 50 K/W to air are explicit test parameters, not manufacturer data; compare weak/strong coupling cases."
+      },
+      "coil": {
+        "cold_ohm": 90.0,
+        "reference_c": 23.0,
+        "tcr_per_c": 0.003883495145631068,
+        "voltage_v": 12.0
+      }
+    },
+    {
+      "name": "R7 LED series resistor",
+      "ref": "R7",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R8 LED series resistor",
+      "ref": "R8",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R9 LED series resistor",
+      "ref": "R9",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R11 LED series resistor",
+      "ref": "R11",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.14850000000000002,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 660 ohms and assumed LED Vf=2.1 V; see simulation/docs/COMPONENT_REVIEW.md"
+    },
+    {
+      "name": "R4 pulldown",
+      "ref": "R4",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R5 pulldown",
+      "ref": "R5",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R6 pulldown",
+      "ref": "R6",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "R10 pulldown",
+      "ref": "R10",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.0144,
+      "board_fraction": 1.0,
+      "category": "Control resistors (fixed heat)",
+      "source": "Schematic 10k at assumed 12 V control input"
+    },
+    {
+      "name": "D7 indicator",
+      "ref": "D7",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D8 indicator",
+      "ref": "D8",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D9 indicator",
+      "ref": "D9",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    },
+    {
+      "name": "D11 indicator",
+      "ref": "D11",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "power_w": 0.03150000000000001,
+      "board_fraction": 1.0,
+      "category": "Indicators (fixed heat)",
+      "source": "Schematic estimate Vf=2.1 V, all LED input power deposited as heat"
+    }
+  ],
+  "connectors": [
+    {
+      "load": "Fuel pump",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 41.62272404406415,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 5,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Radiator",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 41.62272404406415,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 5,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Lights",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 41.62272404406415,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 5,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    },
+    {
+      "load": "Main output at CN1",
+      "family": "DEUTSCH DT size 16",
+      "contact_type": "unknown; stamped-contact specification-limit proxy",
+      "wire_awg": 16,
+      "supply_contact_ohm": 0.007692307692307693,
+      "return_contact_ohm": 0.007692307692307693,
+      "board_fraction": 1.0,
+      "supply_wire_m": 0.9144,
+      "return_wire_m": 0.9144,
+      "wire_length_known": true,
+      "wire_ohm_per_m_20c": 0.01317,
+      "wire_temperature_c": 25.0,
+      "max_contact_a": 13.0,
+      "basis": "TE contact catalog: size 16 at 13 A, up to 100 mV stamped or 60 mV solid, excluding wire drop. Using 100 mV / 13 A as a CONSTANT-R sensitivity proxy, not typical or a full current-dependent contact law.",
+      "source": "https://www.te.com/content/dam/te-com/documents/channel/global/ts-ict-tccat-01-catalog.pdf",
+      "wire_length_basis": "User said a few feet. Assumed 3 ft per supply/return conductor; confirm actual length.",
+      "thermal": {
+        "r_board_k_w": 41.62272404406415,
+        "r_air_k_w": null,
+        "status": "UNCALIBRATED pin geometry and exposed-wire convection sensitivity estimate",
+        "basis": "20 mm effective pin length, 1.59 mm diameter, 121 W/mK brass proxy; not verified DT material/path. Direct housing cooling omitted. Wire parameters are estimates.",
+        "wire": {
+          "copper_area_mm2": 1.31,
+          "outer_diameter_mm": 2.5,
+          "insulation_k_w_mk": 0.2,
+          "surface_h_w_m2k": 5,
+          "copper_k_w_mk": 400.0,
+          "ohm_per_m_20c": 0.01317,
+          "tcr_per_c": 0.00393,
+          "basis": "16 AWG nominal copper; wire OD, insulation conductivity, and effective convection/radiation coefficient are unmeasured. Uniform current, adiabatic far end."
+        }
+      }
+    }
+  ],
+  "thermal_model": {
+    "status": "UNCALIBRATED thermal-coupling sensitivity scenario; not a confidence bound"
+  },
+  "solder_reinforcement": {
+    "enabled": false
+  }
+}

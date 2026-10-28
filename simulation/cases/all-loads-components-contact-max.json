@@ -1,0 +1,174 @@
+{
+  "extends": "../config.json",
+  "notes": [
+    "User estimates: lights 5 A, radiator 13 A, pump 7 A, main 4 A; 29 A external total. Ambient 25 C.",
+    "Provisional standard MINI fuse selection uses Littelfuse 297 32V data: F0 7.5A, F1 10A, F2 20A, F3 7.5A. Confirm startup current and protection of actual wiring/connectors before hardware selection.",
+    "Fuse resistance uses manufacturer TYPICAL COLD resistance, constant in this model. Actual hot fuse and holder contact losses may be higher. No trip or melting simulation.",
+    "Relay CONTACT-MAX SENSITIVITY case: each contact is a constant 0.05 ohm from the YQ506 family maximum specification, NOT typical measured contact resistance. Board heat deposition is approximate; this is not a package temperature prediction.",
+    "Each enabled control circuit uses schematic 660-ohm resistor, 2.1 V LED estimate, and 10k pulldown at assumed constant 12 V control supply. Component identity mismatches are documented in simulation/docs/COMPONENT_REVIEW.md.",
+    "Component heat is fixed and does not add external control/coil current to the electrical solve. Do not interpret 29 A as the full battery current; controls are not electrically modeled.",
+    "All four relays are held energized. Capacitor DC losses, flyback pulses, connector and fuse-holder contact losses are omitted until appropriate data is available.",
+    "Thermal load_power must remain false: delivered pump/fan/light power is external to the PCB.",
+    "CN1 DT15-12PA is specified at 13 A maximum per contact. The radiator estimate already reaches that catalog maximum; earlier 15 A tests were a copper-only stress case, not connector qualification.",
+    "Thermal model uses finite outer-pad copper areas and coupled component nodes. Coil/contact heat is partitioned by a solved network, not an imposed fraction. Relay thermal resistances and connector thermal geometry are uncalibrated sensitivity inputs; do not claim a validated prediction.",
+    "Harness user estimate: a few feet. Model uses 3 ft per conductor with estimated 16 AWG wire geometry and exposed-wire cooling. Wire Joule heating is included in the thermal fin reference temperature; wire is not held at ambient.",
+    "Coil power decreases with modeled winding temperature using 90 ohms at 23 C and copper TCR. Native fuse/contact losses are distributed over finite outer-pad areas; fuse thermal-body cooling remains omitted.",
+    "Stackup is read from the saved PCB on each launch. No hardcoded layer count, copper weights, or dielectric gaps override the physical KiCad stackup. Current board has 6 copper layers, 35 um outer and 17.5 um inner; the run report records actual values."
+  ],
+  "setup": {
+    "links": [
+      {
+        "name": "U1 closed contact",
+        "side_a": {
+          "ref": "U1",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.05
+      },
+      {
+        "name": "F1 fuse",
+        "side_a": {
+          "ref": "F1",
+          "net": "/LOW_POWER_RELAYS/PWR_FUEL_PUMP_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F1",
+          "net": "PWR_FUEL_PUMP",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.00742
+      },
+      {
+        "name": "U2 closed contact",
+        "side_a": {
+          "ref": "U2",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.05
+      },
+      {
+        "name": "F2 fuse",
+        "side_a": {
+          "ref": "F2",
+          "net": "/LOW_POWER_RELAYS/PWR_RADIATOR_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F2",
+          "net": "PWR_RADIATOR",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.00321
+      },
+      {
+        "name": "U4 closed contact",
+        "side_a": {
+          "ref": "U4",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U4",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.05
+      },
+      {
+        "name": "F3 fuse",
+        "side_a": {
+          "ref": "F3",
+          "net": "/LOW_POWER_RELAYS/PWR_LIGHTS_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F3",
+          "net": "PWR_LIGHTS",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.01085
+      },
+      {
+        "name": "U3 closed contact",
+        "side_a": {
+          "ref": "U3",
+          "net": "+12V_BATT",
+          "pins": [
+            "30"
+          ]
+        },
+        "side_b": {
+          "ref": "U3",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "87"
+          ]
+        },
+        "resistance": 0.05
+      },
+      {
+        "name": "F0 fuse",
+        "side_a": {
+          "ref": "F0",
+          "net": "/LOW_POWER_RELAYS/PWR_MAIN_BEFORE_FUSE",
+          "pins": [
+            "1"
+          ]
+        },
+        "side_b": {
+          "ref": "F0",
+          "net": "+12V_MAIN",
+          "pins": [
+            "2"
+          ]
+        },
+        "resistance": 0.01085
+      }
+    ]
+  },
+  "component_models": {
+    "relays": {
+      "contact_resistance_ohm": 0.05
+    }
+  },
+  "solder_reinforcement": {
+    "enabled": false
+  }
+}

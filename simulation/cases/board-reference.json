@@ -1,0 +1,10 @@
+{
+  "extends": "../config.json",
+  "thermal_model": {
+    "mode": "board_reference",
+    "status": "PCB COPPER + FUSE REFERENCE ONLY; component and DT interface heat excluded"
+  },
+  "solder_reinforcement": {
+    "enabled": false
+  }
+}

@@ -2974,6 +2974,46 @@
 		)
 		(uuid "ff8dbe8f-d792-4f70-9eb4-569008dc6bb5")
 	)
+	(label "PWR_LIGHTS_BEFORE_FUSE"
+		(at 215.9 96.52 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right bottom)
+		)
+		(uuid "038b26f0-76d7-4020-95b4-114ed3fc6308")
+	)
+	(label "PWR_RADIATOR_BEFORE_FUSE"
+		(at 111.76 153.67 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fee2ddc-3566-48b9-83e3-d2be3c1c217f")
+	)
+	(label "PWR_FUEL_PUMP_BEFORE_FUSE"
+		(at 109.22 96.52 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc2511d5-c76e-4602-9c92-cb56d67e2eb5")
+	)
+	(label "PWR_MAIN_BEFORE_FUSE"
+		(at 110.49 44.45 180)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify right bottom)
+		)
+		(uuid "d36a20ad-3e76-4663-9799-e8d41330a3e8")
+	)
 	(global_label "EN_HS_LIGHTS"
 		(shape input)
 		(at 160.02 88.9 180)
