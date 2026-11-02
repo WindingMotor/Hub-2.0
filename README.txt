@@ -82,3 +82,6 @@ The script downloads a pinned version of InteractiveHtmlBom into a temporary
 directory and generates a self-contained assembly page. Commit the updated
 HTML together with the PCB so both describe the same revision. These assembly
 outputs assist placement; they do not replace electrical/design review.
+
+See documentation/PRISM.md for revision reviews, automatic assembly/docs updates,
+KiCad Remote Symbols, simulation provenance and report sharing, and Release Studio.

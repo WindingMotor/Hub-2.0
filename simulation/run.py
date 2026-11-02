@@ -37,6 +37,24 @@ def digest(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def source_revision(project):
+    """Best-effort provenance; Git remains optional for local simulations."""
+    def git(*arguments):
+        return subprocess.run(
+            ["git", "-C", str(project), *arguments], check=True,
+            capture_output=True, text=True, timeout=5,
+        ).stdout.strip()
+
+    try:
+        return {
+            "commit": git("rev-parse", "--verify", "HEAD"),
+            "branch": git("branch", "--show-current") or None,
+            "dirty": bool(git("status", "--porcelain", "--untracked-files=normal", "--", ".")),
+        }
+    except (OSError, subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        return None
+
+
 def read_config(path, _parents=()):
     """Read a case, merging optional relative `extends` before its overrides.
 
@@ -228,6 +246,7 @@ def validate_setup(setup, tree):
 
 
 def snapshot(config, config_path):
+    revision = source_revision(PROJECT)
     board_rel = Path(config["board"])
     if board_rel.is_absolute() or ".." in board_rel.parts:
         raise ValueError("board must be a relative path inside the project")
@@ -326,6 +345,7 @@ def snapshot(config, config_path):
             json.dumps(config, indent=2, allow_nan=False) + "\n", encoding="utf-8")
         manifest = {
             "created_utc": label, "source_project": str(PROJECT),
+            "source_revision": revision,
             "config_source": str(config_path), "board": board_rel.as_posix(),
             "kipi_commit": KIPI_COMMIT, "kipi_archive_sha256": KIPI_SHA256,
             "warnings": warnings, "assumptions": config.get("notes", []),

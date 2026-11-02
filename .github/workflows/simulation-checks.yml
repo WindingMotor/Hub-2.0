@@ -1,0 +1,56 @@
+name: Simulation input checks
+
+on:
+  pull_request:
+    paths:
+      - "simulation/**"
+      - "**.kicad_pcb"
+      - "**.kicad_sch"
+      - "**.kicad_sym"
+      - "**.kicad_mod"
+      - "Hub-2.0.kicad_pro"
+      - ".github/workflows/simulation-checks.yml"
+  push:
+    branches: [main]
+    paths:
+      - "simulation/**"
+      - "**.kicad_pcb"
+      - "**.kicad_sch"
+      - "**.kicad_sym"
+      - "**.kicad_mod"
+      - "Hub-2.0.kicad_pro"
+      - ".github/workflows/simulation-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run launcher and model checks
+        run: python -m unittest discover -s simulation/tests -t . -v
+      - name: Validate every saved operating case
+        shell: bash
+        run: |
+          set -euo pipefail
+          python simulation/run.py --prepare-only
+          for preset in simulation/cases/*.json; do
+            python simulation/run.py --prepare-only --config "$preset"
+          done
+      - name: Save input manifests (no solver results)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulation-input-manifests
+          if-no-files-found: ignore
+          path: |
+            simulation/runs/**/manifest.json
+            simulation/runs/**/simulation-config.json
+            simulation/runs/**/*.kipi-setup.yml

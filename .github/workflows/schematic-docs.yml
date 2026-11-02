@@ -1,4 +1,4 @@
-name: Schematic documentation
+name: Prism design documentation
 
 on:
   push:
@@ -6,7 +6,10 @@ on:
     paths:
       - "**.kicad_sch"
       - "**.kicad_sym"
+      - "**.kicad_pcb"
+      - "**.kicad_mod"
       - "Hub-2.0.kicad_pro"
+      - "scripts/generate-assembly.sh"
       - ".github/workflows/schematic-docs.yml"
   workflow_dispatch:
 
@@ -64,15 +67,21 @@ jobs:
           done
           test -s "$OUTPUT_DIR/Hub-2.0.pdf"
 
+      - name: Generate Prism Assembly Assistant
+        env:
+          ASSEMBLY_USE_DOCKER: "1"
+        run: ./scripts/generate-assembly.sh
+
       - name: Commit generated documentation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all "$OUTPUT_DIR"
+          git add --all "$OUTPUT_DIR" Design-Outputs/ibom.html
           if git diff --cached --quiet; then
-            echo "Schematic documentation is already up to date"
+            echo "Prism design documentation is already up to date"
             exit 0
           fi
-          git commit -m "Update schematic documentation [skip ci]"
-          git pull --rebase origin "$GITHUB_REF_NAME"
+          git commit -m "Update Prism design documentation [skip ci]"
+          # A concurrent design push must reject this push, rather than rebase
+          # older generated output onto a newer PCB. Re-run the workflow if so.
           git push origin "HEAD:$GITHUB_REF_NAME"

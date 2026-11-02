@@ -6,6 +6,8 @@ import hashlib
 import importlib.util
 import io
 import json
+import shutil
+import subprocess
 from pathlib import Path
 import tempfile
 import unittest
@@ -21,6 +23,38 @@ BOOT_SPEC = importlib.util.spec_from_file_location(
     "simulation_bootstrap", Path(__file__).resolve().parents[1] / "launch_kipi.py")
 bootstrap = importlib.util.module_from_spec(BOOT_SPEC)
 BOOT_SPEC.loader.exec_module(bootstrap)
+
+
+class SourceRevisionTests(unittest.TestCase):
+    @unittest.skipUnless(shutil.which("git"), "Git is optional for simulation")
+    def test_clean_dirty_untracked_and_detached_sources(self):
+        with tempfile.TemporaryDirectory() as directory:
+            project = Path(directory)
+            def git(*args):
+                return subprocess.check_output(
+                    ["git", "-C", directory, *args], text=True, stderr=subprocess.DEVNULL).strip()
+            git("init", "-b", "main")
+            board = project / "board.txt"
+            board.write_text("saved board")
+            git("add", "board.txt")
+            git("-c", "user.name=Test", "-c", "user.email=test@example.invalid",
+                "commit", "-m", "Test input")
+            commit = git("rev-parse", "HEAD")
+            self.assertEqual(runner.source_revision(project),
+                             {"commit": commit, "branch": "main", "dirty": False})
+            board.write_text("changed board")
+            self.assertTrue(runner.source_revision(project)["dirty"])
+            git("checkout", "--", "board.txt")
+            (project / "new-config.json").write_text("{}")
+            self.assertTrue(runner.source_revision(project)["dirty"])
+            (project / "new-config.json").unlink()
+            git("checkout", "--detach", commit)
+            self.assertEqual(runner.source_revision(project),
+                             {"commit": commit, "branch": None, "dirty": False})
+
+    def test_git_unavailable_does_not_block_simulation(self):
+        with patch.object(runner.subprocess, "run", side_effect=FileNotFoundError):
+            self.assertIsNone(runner.source_revision(Path(".")))
 
 
 class LauncherTests(unittest.TestCase):
@@ -58,6 +92,7 @@ class LauncherTests(unittest.TestCase):
         self.assertEqual(model["fabrication"], self.config["fabrication"])
         manifest = json.loads((first.parent / "manifest.json").read_text())
         self.assertEqual(manifest["sha256"][first.name], self.original)
+        self.assertIn("source_revision", manifest)
         setup.write_text("edited in KiPI")
         first.write_text("edited snapshot")
         self.assertEqual(runner.digest(self.board), self.original)

@@ -270,3 +270,18 @@ to redownload KiPI or `.runtime/` to repeat dependency setup (close KiPI first).
 Sources for the integration: [KiPI launcher and installation](https://github.com/drewsum/KiPI#standalone),
 [setup schema](https://github.com/drewsum/KiPI/blob/177fa8e4f97d43f85cd06cb2f64a0235558f0819/kipi/dc/pi/model.py),
 and [thermal model](https://github.com/drewsum/KiPI/blob/177fa8e4f97d43f85cd06cb2f64a0235558f0819/kipi/dc/thermal/model.py).
+
+## Prism and CI
+
+New snapshots record optional Git commit/branch/dirty provenance in `manifest.json`,
+alongside the existing SHA-256 input hashes. Git is still optional. A dirty source
+cannot be reproduced from its commit alone; retain the snapshot and resolved config.
+
+The **Simulation input checks** GitHub workflow runs the available standard-library
+checks and prepares each saved case without downloading or launching KiPI. It
+uploads input manifests, not solved results. KiPI-dependent checks require the
+separate runtime and may be skipped in CI.
+
+See [Prism collaboration and report sharing](../documentation/PRISM.md) for comparing
+the source revision, sharing reviewed reports, and using Release Studio. Prism's
+experimental DC IR-drop tool does not replace this project's custom KiPI models.
