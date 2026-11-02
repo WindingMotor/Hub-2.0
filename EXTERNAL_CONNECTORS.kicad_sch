@@ -2438,6 +2438,30 @@
 			)
 		)
 	)
+	(global_label "SIG_BRAKE_R"
+		(shape input)
+		(at 100.33 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "149ce429-d2ca-4f66-a77a-5691d9685054")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2645 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SIG_CLN"
 		(shape input)
 		(at 149.86 66.04 0)
@@ -2462,30 +2486,6 @@
 			)
 		)
 	)
-	(global_label "PWR_RADIATOR"
-		(shape input)
-		(at 101.6 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "178cef33-ef2e-4667-be8b-b5c6633f4c86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9701 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BTN_DASH_TWO"
 		(shape input)
 		(at 198.12 63.5 0)
@@ -2499,6 +2499,30 @@
 		(uuid "185e7b72-056c-4a68-92ae-63a50d7b9542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.1787 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWR_RADIATOR"
+		(shape input)
+		(at 101.6 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "274958d7-0841-4313-9a9b-4175ccef10f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.9701 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,54 +2870,6 @@
 			)
 		)
 	)
-	(global_label "PWR_LIGHTS"
-		(shape input)
-		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9110952-d402-4d29-ae22-30bb94410d52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.2702 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SIG_BRAKE_R"
-		(shape input)
-		(at 101.6 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf959f2c-e135-4259-a8ec-14df1f935050")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5345 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "COMM_CAN_HIGH"
 		(shape input)
 		(at 199.39 81.28 0)
@@ -2955,6 +2931,30 @@
 		(uuid "d6d55077-c581-45c3-811a-ad5f864cff63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.8029 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PWR_LIGHTS"
+		(shape input)
+		(at 101.6 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e43148f7-ef6b-44d2-b7dc-406fd7b3c8a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.2702 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
