@@ -63,3 +63,22 @@ See simulation/README.md for instructions and model assumptions.
 
 Generated runs, downloaded tools, local environments, backups, and editor
 history are ignored by Git. Keep board files, libraries, and configs tracked.
+
+
+Prism Collaboration
+-------------------
+
+Project: https://ramracing-prism.larkspurindustries.com/project/prj_d483e5fd3cd7
+
+.prism.json maps this repository's schematic, PCB, README, and design outputs
+for Prism, including when browsing a specific Git revision.
+
+The Assembly Assistant reads Design-Outputs/ibom.html. After changing the PCB,
+regenerate it on Linux with KiCad installed:
+
+  ./scripts/generate-assembly.sh
+
+The script downloads a pinned version of InteractiveHtmlBom into a temporary
+directory and generates a self-contained assembly page. Commit the updated
+HTML together with the PCB so both describe the same revision. These assembly
+outputs assist placement; they do not replace electrical/design review.

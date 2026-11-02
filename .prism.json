@@ -1,0 +1,9 @@
+{
+  "schematic": "Hub-2.0.kicad_sch",
+  "pcb": "Hub-2.0.kicad_pcb",
+  "subsheets": ".",
+  "designOutputs": "Design-Outputs",
+  "documentation": "documentation",
+  "readme": "README.txt",
+  "project_name": "Hub 2.0 — Distribution Hub"
+}
