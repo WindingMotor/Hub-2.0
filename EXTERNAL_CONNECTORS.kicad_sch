@@ -1962,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 92.71 63.5)
+			(xy 92.71 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 100.33 78.74)
+			(xy 92.71 78.74) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2390,6 +2390,30 @@
 		)
 		(uuid "fb59d0c1-5c5d-4c69-a2bb-ddfc508456d0")
 	)
+	(global_label "EN_HS_BRAKE_LIGHT"
+		(shape input)
+		(at 59.69 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d4ddd6-d6ac-489b-a088-04c1c16a07c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3866 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "COMM_CAN_HIGH"
 		(shape input)
 		(at 149.86 81.28 0)
@@ -2440,7 +2464,7 @@
 	)
 	(global_label "SIG_BRAKE_R"
 		(shape input)
-		(at 100.33 45.72 0)
+		(at 59.69 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2450,7 +2474,7 @@
 		)
 		(uuid "149ce429-d2ca-4f66-a77a-5691d9685054")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.2645 45.72 0)
+			(at 73.6245 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +2824,7 @@
 	)
 	(global_label "EN_HS_STARTER"
 		(shape input)
-		(at 101.6 60.96 0)
+		(at 58.42 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2808,9 +2832,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8e81f316-ded2-4fe3-ad6e-ce845ef81963")
+		(uuid "aad07a07-4156-416b-9fe6-9ac2dc8d56d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0507 60.96 0)
+			(at 74.8707 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,30 +2907,6 @@
 		(uuid "c0e8b51b-f30f-4efe-ae3c-332fd82ebc65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.9277 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EN_HS_BRAKE_LIGHT"
-		(shape input)
-		(at 101.6 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5d57556-ff82-429c-b594-ff482f4c170e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2966 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3147,84 +3147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 100.33 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16e464ad-3518-44b3-b294-83563382d657")
-		(property "Reference" "#PWR029"
-			(at 106.68 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.378 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db67a2b6-648e-4766-ae50-4b1cfb2233f3")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 199.39 83.82 270)
 		(unit 1)
@@ -3304,6 +3226,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 101.6 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29f639c3-c87b-4a00-bf76-f42872fe8e2a")
+		(property "Reference" "#PWR043"
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.648 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d02fd3f-3fbc-4650-b450-5f713bd5fbdb")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 100.33 68.58 90)
 		(unit 1)
 		(body_style 1)
@@ -3375,84 +3375,6 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3103056a-409e-4372-8422-d4e84cf6377b")
-		(property "Reference" "#PWR042"
-			(at 106.68 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.378 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 100.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ab50085-75c8-432b-9e46-c06fe046f098")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
