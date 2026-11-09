@@ -336,7 +336,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
-		(at 67.31 71.12 0)
+		(at 52.07 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -346,7 +346,7 @@
 		(dnp no)
 		(uuid "071ca66f-a062-46a9-9abf-c058cbbcd3c2")
 		(property "Reference" "SW1"
-			(at 67.31 66.04 0)
+			(at 52.07 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "Value" "SW_ESTOP"
-			(at 67.31 68.58 0)
+			(at 52.07 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -366,7 +366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 66.04 0)
+			(at 52.07 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -377,7 +377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 66.04 0)
+			(at 52.07 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -388,7 +388,7 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 67.31 71.12 0)
+			(at 52.07 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -486,6 +486,85 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/7ef9dce7-3993-4edd-a9d9-f06a70a5339b"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 77.47 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9dabec0-42d8-458b-9e80-d4e14cc5ed36")
+		(property "Reference" "SW4"
+			(at 77.47 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SIDESTOP"
+			(at 77.47 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 77.47 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "613b5887-cd3c-4f60-8890-ae33fabb2086")
+		)
+		(pin "2"
+			(uuid "3ca32ea7-88c3-4915-ac22-b9ef88f740e7")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/7ef9dce7-3993-4edd-a9d9-f06a70a5339b"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
