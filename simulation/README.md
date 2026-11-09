@@ -12,7 +12,7 @@ Edit [config.json](config.json), save/refill the PCB in KiCad (**B**, then save)
 simulation\run.bat
 ```
 
-The default uses your **29 A all-loads component case**, the saved PCB's physical
+The default uses your **23 A all-loads component case**, the saved PCB's physical
 stackup (currently six layers), compact component/DT thermal networks, and selective
 **1.5 mm bottom-side solder reinforcement**. Source PCB files are not changed.
 Component thermal resistances and several material properties remain uncalibrated
@@ -68,7 +68,7 @@ run: KiPI allows only one running instance.
 ## Edit the operating case
 
 The saved `all-loads.json` case uses your simultaneous current estimates: lights
-5 A, radiator 13 A, fuel pump 7 A, and main output at CN1 4 A (29 A total), at
+5 A, radiator 7 A, fuel pump 7 A, and main output at CN1 4 A (23 A total), at
 25 °C ambient. Run it with `./simulation/run.sh --config simulation/cases/all-loads.json`
 from the project root, or on Windows:
 `simulation\run.bat --config simulation\cases\all-loads.json`.
@@ -181,7 +181,7 @@ record the initial assumptions. `setup` uses KiPI's native setup fields:
 
 | Setting | Meaning |
 | --- | --- |
-| `setup.loads[].current` | External load current in **A**: pump 7, radiator 13, lights 5, main 4 |
+| `setup.loads[].current` | External load current in **A**: pump 7, radiator 7, lights 5, main 4 |
 | `setup.loads[].supply` / `ground` | Connector reference, net, and string pad numbers |
 | `setup.links[].resistance` | Resistance in **ohms**; fuse cold values are populated, relay contacts remain unknown/ideal |
 | `setup.vrms[0].voltage` | Battery supply voltage |
@@ -200,9 +200,9 @@ The initial four external loads are:
 
 | Load | Closed contact → fuse | CN1 supply / return pads |
 | --- | --- | --- |
-| Fuel pump | U1 30→87 → F1 1→2 | 5 / 6 |
-| Radiator | U2 30→87 → F2 1→2 | 3 / 4 |
-| Lights | U4 30→87 → F3 1→2 | 1 / 2 |
+| Fuel pump | U1 30→87 → F1 1→2 | 6 / 5 |
+| Radiator | U2 30→87 → F2 1→2 | 1 / 2 |
+| Lights | U4 30→87 → F3 1→2 | 12 / 11 |
 | Main output at CN1 | U3 30→87 → F0 1→2 | 7 / 8 |
 
 For example, change the fuel-pump load's `current` from `7.0` to your measured

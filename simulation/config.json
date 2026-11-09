@@ -2,15 +2,15 @@
   "config_version": 1,
   "board": "Hub-2.0.kicad_pcb",
   "notes": [
-    "User estimates: lights 5 A, radiator 13 A, pump 7 A, main 4 A; 29 A external total. Ambient 25 C.",
+    "User estimates: lights 5 A, radiator 7 A, pump 7 A, main 4 A; 23 A external total. Ambient 25 C.",
     "Provisional standard MINI fuse selection uses Littelfuse 297 32V data: F0 7.5A, F1 10A, F2 20A, F3 7.5A. Confirm startup current and protection of actual wiring/connectors before hardware selection.",
     "Fuse resistance uses manufacturer TYPICAL COLD resistance, constant in this model. Actual hot fuse and holder contact losses may be higher. No trip or melting simulation.",
     "Relay contact resistance is UNKNOWN; zero-ohm contacts are a LOWER LOSS reference only. Compare the separate contact-max case at the family datasheet 50 milliohm maximum; that is not a typical value or an aged-contact guarantee.",
     "Each enabled control circuit uses schematic 660-ohm resistor, 2.1 V LED estimate, and 10k pulldown at assumed constant 12 V control supply. Component identity mismatches are documented in simulation/docs/COMPONENT_REVIEW.md.",
-    "Component heat is fixed and does not add external control/coil current to the electrical solve. Do not interpret 29 A as the full battery current; controls are not electrically modeled.",
+    "Component heat is fixed and does not add external control/coil current to the electrical solve. Do not interpret 23 A as the full battery current; controls are not electrically modeled.",
     "All four relays are held energized. Capacitor DC losses, flyback pulses, connector and fuse-holder contact losses are omitted until appropriate data is available.",
     "Thermal load_power must remain false: delivered pump/fan/light power is external to the PCB.",
-    "CN1 DT15-12PA is specified at 13 A maximum per contact. The radiator estimate already reaches that catalog maximum; earlier 15 A tests were a copper-only stress case, not connector qualification.",
+    "CN1 DT15-12PA is specified at 13 A maximum per contact. The radiator estimate is 7 A; earlier 15 A tests were a copper-only stress case, not connector qualification.",
     "Thermal model uses finite outer-pad copper areas and coupled component nodes. Coil/contact heat is partitioned by a solved network, not an imposed fraction. Relay thermal resistances and connector thermal geometry are uncalibrated sensitivity inputs; do not claim a validated prediction.",
     "Harness user estimate: a few feet. Model uses 3 ft per conductor with estimated 16 AWG wire geometry and exposed-wire cooling. Wire Joule heating is included in the thermal fin reference temperature; wire is not held at ambient.",
     "Coil power decreases with modeled winding temperature using 90 ohms at 23 C and copper TCR. Native fuse/contact losses are distributed over finite outer-pad areas; fuse thermal-body cooling remains omitted.",
@@ -60,7 +60,7 @@
           "ref": "CN1",
           "net": "PWR_FUEL_PUMP",
           "pins": [
-            "5"
+            "6"
           ]
         },
         "current": 7.0,
@@ -68,7 +68,7 @@
           "ref": "CN1",
           "net": "GND",
           "pins": [
-            "6"
+            "5"
           ]
         }
       },
@@ -78,15 +78,15 @@
           "ref": "CN1",
           "net": "PWR_RADIATOR",
           "pins": [
-            "3"
+            "1"
           ]
         },
-        "current": 13.0,
+        "current": 7.0,
         "ground": {
           "ref": "CN1",
           "net": "GND",
           "pins": [
-            "4"
+            "2"
           ]
         }
       },
@@ -96,7 +96,7 @@
           "ref": "CN1",
           "net": "PWR_LIGHTS",
           "pins": [
-            "1"
+            "12"
           ]
         },
         "current": 5.0,
@@ -104,7 +104,7 @@
           "ref": "CN1",
           "net": "GND",
           "pins": [
-            "2"
+            "11"
           ]
         }
       },
