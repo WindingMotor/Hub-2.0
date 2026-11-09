@@ -768,7 +768,7 @@
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "D1-15,#PWR1-50,#PWR117,#PWR124,BUZ1,J3\\-PCB1,C1-15,J10\\-PCB1,CN1-7,F1-4,J1-5,J10,J2\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-4,NT1-26,R1-12,RJ1,SW1-3,U1-10",
+    "used_designators": "D1-15,#PWR1-51,#PWR117,#PWR124,BUZ1,J3\\-PCB1,C1-15,J10\\-PCB1,CN1-7,F1-4,J1-5,J10,J2\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-8,NT1-26,R1-12,RJ1,SW1-3,U1-15",
     "variants": []
   },
   "sheets": [
@@ -807,6 +807,10 @@
     [
       "c802f09f-a8e4-429f-8430-2fc36c647e69",
       "ENGINE_WR450F"
+    ],
+    [
+      "ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017",
+      "POWER"
     ]
   ],
   "text_variables": {},
