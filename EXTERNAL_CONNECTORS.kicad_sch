@@ -1685,6 +1685,12 @@
 		(uuid "15f8c589-40bd-4428-b6ba-ef27e4d1be14")
 	)
 	(junction
+		(at 100.33 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2345013d-bc93-4219-b2e1-a39cf7c6a2fc")
+	)
+	(junction
 		(at 93.98 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1842,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 101.6 66.04)
+			(xy 92.71 66.04) (xy 100.33 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2182,6 +2188,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecd39ba-2223-40ab-a34f-34a71978dbc8")
+	)
+	(wire
+		(pts
 			(xy 191.77 81.28) (xy 199.39 81.28)
 		)
 		(stroke
@@ -2392,7 +2408,7 @@
 	)
 	(global_label "EN_HS_BRAKE_LIGHT"
 		(shape input)
-		(at 101.6 78.74 0)
+		(at 101.6 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2400,9 +2416,9 @@
 			)
 			(justify left)
 		)
-		(uuid "06d4ddd6-d6ac-489b-a088-04c1c16a07c1")
+		(uuid "060214e6-2673-4fc0-bd61-96de99f64700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2966 78.74 0)
+			(at 122.2966 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3147,84 +3163,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 100.33 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ab4ede7-7762-48c0-a1c0-5963c7b4ec05")
-		(property "Reference" "#PWR029"
-			(at 106.68 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.378 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
-			(at 100.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbd76259-8c8e-47b1-aded-5ff7a491ff84")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 199.39 83.82 270)
 		(unit 1)
@@ -3297,6 +3235,84 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "246d9cd0-5598-44da-937e-ee10e519de5b")
+		(property "Reference" "#PWR042"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.378 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:DSUB-60P_SUPERSEAL"
+			(at 100.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a7ba427-89f1-443a-ac09-1c413f86881c")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/ca975f7a-7c41-4347-8d10-db60f60966f1"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
