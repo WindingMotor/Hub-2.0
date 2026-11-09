@@ -60,16 +60,22 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.18,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -478,6 +491,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -768,7 +782,7 @@
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "D1-15,#PWR1-51,#PWR117,#PWR124,BUZ1,J3\\-PCB1,C1-15,J10\\-PCB1,CN1-7,F1-4,J1-5,J10,J2\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-8,NT1-26,R1-12,RJ1,SW1-5,U1-15,Inertia Switch1",
+    "used_designators": "#PWR1-51,#PWR117,#PWR124,D1-15,BUZ1,J3\\-PCB1,C1-15,STARTER1,CN1-7,J10\\-PCB1,F1-4,J1-5,J10,J2\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-8,NT1-26,R1-12,RJ1,SW1-3,U1-16",
     "variants": []
   },
   "sheets": [

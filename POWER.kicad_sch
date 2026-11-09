@@ -5,6 +5,143 @@
 	(uuid "926c50e4-017f-4046-8c74-79829d25abda")
 	(paper "A4")
 	(lib_symbols
+		(symbol "ALTERNATOR_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "STATOR"
+				(at -3.556 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ALTERNATOR_1_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "\n"
+					(at -1.27 5.334 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -134,133 +271,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:ALTERNATOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U13"
-				(at 7.62 -1.3941 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ALTERNATOR_1_1"
-				(rectangle
-					(start -3.81 1.27)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "ALTERNATOR\n"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -8.89 90)
-					(length 2.54)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:BATTERY"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -0.254 8.382 0)
+			(property "Reference" "BATTERY"
+				(at 0.254 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -324,7 +342,7 @@
 						(type background)
 					)
 				)
-				(text "BATTERY\n"
+				(text "\n\n"
 					(at 0 6.35 0)
 					(effects
 						(font
@@ -407,14 +425,348 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:ENGINE_GND"
+		(symbol "EasyEDA:DT15-12PA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -0.254 4.572 0)
+			(property "Reference" "CN"
+				(at 0 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DT15-12PA"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CONN-TH_DT15-12PA"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5341788.pdf"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity(泰科电子)"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "DT15-12PA"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5341788"
+				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DT15-12PA_0_1"
+				(rectangle
+					(start -1.27 16.51)
+					(end 3.81 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 15.24)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 13.97 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 11.43 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 8.89 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -8.89 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -11.43 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -13.97 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:RECTIFIER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RECTIFIER"
+				(at 0.254 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -466,10 +818,10 @@
 					)
 				)
 			)
-			(symbol "ENGINE_GND_1_1"
+			(symbol "RECTIFIER_1_1"
 				(rectangle
-					(start -6.35 1.27)
-					(end 6.35 -6.35)
+					(start -5.08 5.08)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -478,8 +830,8 @@
 						(type background)
 					)
 				)
-				(text "ENGINE_GND\n"
-					(at 0 2.54 0)
+				(text "\n\n\n\n"
+					(at -0.254 4.318 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -487,9 +839,9 @@
 					)
 				)
 				(pin input line
-					(at -8.89 -2.54 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "ENG_GND"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -497,6 +849,78 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -513,14 +937,15 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -0.254 4.572 0)
+			(property "Reference" "ENGINE"
+				(at -5.588 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -568,8 +993,8 @@
 			)
 			(symbol "STARTER_1_1"
 				(rectangle
-					(start -3.81 1.27)
-					(end 3.81 -6.35)
+					(start -6.35 5.08)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
@@ -578,18 +1003,10 @@
 						(type background)
 					)
 				)
-				(text "STARTER"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
-					(at 0 -8.89 90)
+					(at -8.89 -3.81 0)
 					(length 2.54)
-					(name "12V"
+					(name "ENG_GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -597,6 +1014,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "12V_STARTER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -613,8 +1048,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U12"
-				(at -0.4887 10.16 0)
+			(property "Reference" "STARTER_SOLENOID"
+				(at -0.254 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -633,7 +1068,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -678,7 +1113,7 @@
 						(type background)
 					)
 				)
-				(text "STARTER SOLENOID\n"
+				(text "\n"
 					(at 0 6.35 0)
 					(effects
 						(font
@@ -723,7 +1158,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "EN_12V"
 						(effects
@@ -741,7 +1176,7 @@
 					)
 				)
 				(pin output line
-					(at 11.43 -1.27 180)
+					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "EN_GND"
 						(effects
@@ -762,97 +1197,171 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Starter solenoid ground connects\ndirectly to engine ground lug"
+		(exclude_from_sim no)
+		(at 171.45 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5980d88-2c12-4e68-9136-cf4a946d0338")
+	)
+	(text "See External Connector page to view\nthe other pin connections"
+		(exclude_from_sim no)
+		(at 33.02 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae33196f-0a2d-44c2-b628-a05da73923c5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 31.75 104.14 0)
+		(size 38.1 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "12566ac8-d983-4b08-9b97-2f4890d69c71")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 170.434 116.332 0)
+		(size 34.29 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3818648b-a200-48ae-bef5-4d2996a1a4ee")
+	)
 	(junction
-		(at 101.6 93.98)
+		(at 167.64 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "995a3083-587d-40fc-86a2-c6386a5782e7")
+		(uuid "3a7f6ff2-2793-43a2-be99-eb12d956bba4")
 	)
-	(junction
-		(at 92.71 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a09ed1c5-b874-4858-be28-8566db3c6552")
+	(no_connect
+		(at 80.01 123.19)
+		(uuid "3628c615-b779-486f-afe3-a928a0b32348")
 	)
-	(junction
-		(at 119.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af422bfc-7edc-43b5-87a4-b661d63c940a")
+	(no_connect
+		(at 80.01 128.27)
+		(uuid "3e261e08-bf6b-45d0-9c68-ffb1475cd3ec")
 	)
-	(wire
+	(no_connect
+		(at 80.01 125.73)
+		(uuid "5137d52b-b58b-4858-9c59-40e11c127ad8")
+	)
+	(no_connect
+		(at 80.01 115.57)
+		(uuid "54f911d8-c8ea-49dc-b99c-3a2fafea4485")
+	)
+	(no_connect
+		(at 80.01 130.81)
+		(uuid "557d246d-fdde-4556-b936-8c5cc90fd718")
+	)
+	(no_connect
+		(at 80.01 102.87)
+		(uuid "599e944b-b870-431e-87d3-8e3e531180cd")
+	)
+	(no_connect
+		(at 80.01 120.65)
+		(uuid "64c9b2de-3a72-4cfa-bd04-11a966d3c84a")
+	)
+	(no_connect
+		(at 80.01 118.11)
+		(uuid "6f9bd66f-0c07-40a2-a861-5cfbb543f555")
+	)
+	(no_connect
+		(at 80.01 113.03)
+		(uuid "78ab4e43-0a3d-409a-8be1-b415d28a4b82")
+	)
+	(no_connect
+		(at 80.01 107.95)
+		(uuid "b9af0f62-756e-4898-b2b8-10737bc69394")
+	)
+	(no_connect
+		(at 80.01 105.41)
+		(uuid "c0f56112-6cbc-48b6-82b3-fbc832348e7c")
+	)
+	(polyline
 		(pts
-			(xy 116.84 119.38) (xy 140.97 119.38)
+			(xy 168.91 111.76) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "025eb7f8-cf47-452c-805c-c4c40ae144c7")
+		(uuid "198505e8-4b57-4490-837c-4a14ffbd10f5")
 	)
 	(wire
 		(pts
-			(xy 68.58 128.27) (xy 68.58 130.81)
+			(xy 180.34 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07e91c20-9769-40b5-92a0-4c27a695cfba")
+		(uuid "32b92b78-f334-40f5-b48f-83c28f651075")
 	)
 	(wire
 		(pts
-			(xy 54.61 118.11) (xy 68.58 118.11)
+			(xy 163.83 110.49) (xy 171.45 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b0c1ddd-0664-4f9e-b8fc-21078622b379")
+		(uuid "3a06dbcf-ce9d-41b0-a740-f907abf329b7")
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 90.17 119.38)
+			(xy 160.02 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "443d8d59-4341-46a0-8578-37006fcf8ea5")
+		(uuid "53562cde-bd43-4c7d-bcd5-d5122cc4bc21")
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 101.6 93.98)
+			(xy 180.34 87.63) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5051e555-eac9-40bd-8242-e41bb4cd9cf2")
+		(uuid "5cff9fd8-328f-4ff5-b702-cc49aaf8cefa")
 	)
 	(wire
 		(pts
-			(xy 140.97 116.84) (xy 140.97 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5560bb06-91ce-4af9-b965-4b207b1b8873")
-	)
-	(wire
-		(pts
-			(xy 113.03 102.87) (xy 115.57 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a89746e-f798-4112-8eef-d59160c1c291")
-	)
-	(wire
-		(pts
-			(xy 82.55 111.76) (xy 82.55 107.95)
+			(xy 129.54 88.9) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -862,17 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770ac0b0-7bf0-476b-9a2e-f9a25e0d5623")
-	)
-	(wire
-		(pts
-			(xy 82.55 111.76) (xy 53.34 111.76)
+			(xy 129.54 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -882,77 +1381,47 @@
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 127 107.95)
+			(xy 160.02 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8546bd8e-cbc1-4df9-a0c7-d716a289b894")
+		(uuid "7cd77bd3-5664-44e8-9b3a-040893309ff1")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 68.58 123.19) (xy 92.71 123.19)
+			(xy 168.91 111.76) (xy 170.18 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a93a6a3-f3b2-414e-b5a3-3edce229bde1")
+		(uuid "7f0ab8bb-8bd3-415f-bc1f-0da9946c53ac")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 92.71 93.98) (xy 92.71 102.87)
+			(xy 168.91 111.76) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b1fe3e0-d1b7-478a-9cf6-4c38761224c8")
+		(uuid "893cc728-732a-4017-958a-5a615d828c76")
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 53.34 93.98)
+			(xy 80.01 110.49) (xy 139.7 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ccdbbc4-594c-4e24-98b5-5210614b9a0d")
+		(uuid "9b061c3a-c3f8-4770-8bd3-0fe7b264671a")
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 119.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0a4655-ec43-49b4-b21b-91be0c070623")
-	)
-	(wire
-		(pts
-			(xy 119.38 107.95) (xy 113.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6712f3-f72b-4106-bb19-eda034d1d571")
-	)
-	(wire
-		(pts
-			(xy 116.84 123.19) (xy 127 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c905340-4fb0-4007-b3b4-2df0623d1480")
-	)
-	(wire
-		(pts
-			(xy 53.34 128.27) (xy 68.58 128.27)
+			(xy 100.33 120.65) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 102.87) (xy 90.17 102.87)
+			(xy 100.33 104.14) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -972,17 +1441,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 102.87) (xy 95.25 102.87)
+			(xy 167.64 120.65) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6dcc218-a47c-4911-a1c0-c7fdcf2771e9")
+		(uuid "a4caca69-a6a0-4445-afe5-97c85b0c3eca")
 	)
 	(wire
 		(pts
-			(xy 82.55 107.95) (xy 95.25 107.95)
+			(xy 129.54 88.9) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
@@ -992,111 +1461,47 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 106.68 91.44)
+			(xy 180.34 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abc54bc3-aef5-440e-89e5-0a4d44bdabcb")
+		(uuid "abe7c82f-0669-48fa-bb88-ae615d0f2acb")
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 119.38 93.98)
+			(xy 100.33 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c53722ec-51f5-41a5-8276-f1e15804ebd0")
+		(uuid "be549260-82f9-4bc3-bdf8-d3fc56ad29af")
+	)
+	(polyline
+		(pts
+			(xy 168.91 111.76) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe9ee77-4b82-4952-bbee-49e110ba2792")
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 115.57 96.52)
+			(xy 163.83 104.14) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2bdbb5b-8b74-4e60-944d-eca7fa78f7b7")
-	)
-	(wire
-		(pts
-			(xy 68.58 130.81) (xy 73.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42bbea2-2c1c-41db-a3c7-257b264fd84b")
-	)
-	(wire
-		(pts
-			(xy 68.58 118.11) (xy 68.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e729010b-3b54-482f-8aff-78459bf35348")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 101.6 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9eebe9b-3c32-4929-9632-041b2c157bd7")
-	)
-	(wire
-		(pts
-			(xy 90.17 119.38) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e5d18f-3370-4815-98a4-dafe7745a28f")
-	)
-	(wire
-		(pts
-			(xy 115.57 96.52) (xy 101.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f9e496-2b0e-41cf-82d1-1ce443f19832")
-	)
-	(global_label "EN_HS_STARTER"
-		(shape input)
-		(at 54.61 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28312c01-3b10-4410-b331-841126529ebf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7478 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "c68fd3ff-d3bf-4a44-877e-5638ca9e521a")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 102.87 180)
+		(at 95.25 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1106,7 +1511,7 @@
 		(dnp no)
 		(uuid "4093871b-7d28-4d96-adc7-02794c69e1ec")
 		(property "Reference" "LUG7"
-			(at 48.26 97.536 0)
+			(at 95.25 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1116,7 +1521,7 @@
 			)
 		)
 		(property "Value" "+12V_STARTER_RELAY"
-			(at 48.26 99.822 0)
+			(at 95.25 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1126,7 +1531,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 48.26 102.87 0)
+			(at 95.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1137,7 +1542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 102.87 0)
+			(at 95.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,7 +1553,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 102.87 0)
+			(at 95.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1172,7 +1577,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:STARTER SOLENOID")
-		(at 105.41 121.92 0)
+		(at 152.4 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1180,10 +1585,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "441b81a1-d615-471c-bb76-2109521c2102")
-		(property "Reference" "U12"
-			(at 104.9213 111.76 0)
+		(property "Reference" "STARTER_SOLENOID"
+			(at 152.146 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,7 +1597,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 105.41 121.92 0)
+			(at 152.4 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1202,8 +1606,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 105.41 121.92 0)
+		(property "Footprint" ""
+			(at 152.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,7 +1618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 121.92 0)
+			(at 152.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +1629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 121.92 0)
+			(at 152.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1654,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "U12")
+					(reference "STARTER_SOLENOID")
 					(unit 1)
 				)
 			)
@@ -1258,7 +1662,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:BATTERY")
-		(at 104.14 105.41 0)
+		(at 151.13 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1268,8 +1672,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ed7fb6-53f9-49d9-a1e6-39e3c5af0379")
-		(property "Reference" "U11"
-			(at 104.14 95.25 0)
+		(property "Reference" "BATTERY"
+			(at 151.384 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1279,7 +1683,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 104.14 105.41 0)
+			(at 151.13 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1288,8 +1692,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
-			(at 104.14 105.41 0)
+		(property "Footprint" ""
+			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1300,7 +1704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 105.41 0)
+			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,7 +1715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 105.41 0)
+			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1336,15 +1740,16 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "U11")
+					(reference "BATTERY")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 93.98 180)
+		(lib_name "ALTERNATOR_1")
+		(lib_id "EasyEDA:ALTERNATOR")
+		(at 198.12 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1352,9 +1757,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6d907ac8-b1a2-4720-95f6-f431ffb54065")
-		(property "Reference" "LUG5"
-			(at 48.26 88.646 0)
+		(fields_autoplaced yes)
+		(uuid "646cb371-add9-4ddd-ba0c-ce1cb525e6df")
+		(property "Reference" "STATOR"
+			(at 194.564 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 198.12 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1363,18 +1780,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V_BATT_LUG"
-			(at 48.26 90.932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 48.26 93.98 0)
+		(property "Footprint" ""
+			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +1792,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 93.98 0)
+			(at 198.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3b7fd67-8d6d-4d67-b551-981e54831051")
+		)
+		(pin "1"
+			(uuid "89bde418-e9f8-4f86-a1ee-f472098c3097")
+		)
+		(pin "3"
+			(uuid "d017d9f1-1db5-4074-b81f-58e24acb2fb5")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "STATOR")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 95.25 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d907ac8-b1a2-4720-95f6-f431ffb54065")
+		(property "Reference" "LUG5"
+			(at 95.25 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V_BATT_LUG"
+			(at 95.25 80.772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:1_4_Lug"
+			(at 95.25 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,7 +1885,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 93.98 0)
+			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1419,8 +1908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 111.76 180)
+		(lib_id "EasyEDA:STARTER")
+		(at 180.34 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1428,9 +1917,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8f7f5745-4c4f-49c7-8fc8-63c6fcc72c2f")
-		(property "Reference" "LUG6"
-			(at 48.26 106.426 0)
+		(uuid "7f3464be-c6d8-4540-9669-8513054e40c5")
+		(property "Reference" "ENGINE"
+			(at 177.292 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 180.34 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1439,18 +1939,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_LUG"
-			(at 48.26 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 48.26 111.76 0)
+		(property "Footprint" ""
+			(at 180.34 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1461,7 +1951,238 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 111.76 0)
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a05d3b-0553-43f2-a53d-22da95e80352")
+		)
+		(pin "2"
+			(uuid "686cea86-cc90-4fb7-bad3-3a03dfe87a3e")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "ENGINE")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:DT15-12PA")
+		(at 76.2 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "858632f9-1124-4469-8a3f-11f80c0275c8")
+		(property "Reference" "CN6"
+			(at 68.58 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DT15-12PA"
+			(at 65.786 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_DT15-12PA"
+			(at 76.2 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5341788.pdf"
+			(at 76.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity(泰科电子)"
+			(at 76.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DT15-12PA"
+			(at 76.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5341788"
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "POWER"
+			(at 67.056 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "2a0fbaa7-129b-44b8-aef1-f24b9c3479b1")
+		)
+		(pin "8"
+			(uuid "007dc583-7649-4c87-8e0d-3f2680e140c4")
+		)
+		(pin "12"
+			(uuid "8921902a-0a6c-46e1-a5ac-c960a987ea42")
+		)
+		(pin "9"
+			(uuid "20727e23-36a7-40d7-9ee6-1f6c6114a28e")
+		)
+		(pin "11"
+			(uuid "b9e572d1-136f-41e1-acef-8a6e5543b3cf")
+		)
+		(pin "5"
+			(uuid "15877ef5-048e-4b4b-a4a0-1e917abe66aa")
+		)
+		(pin "7"
+			(uuid "ba04a36b-8a26-4876-a3ad-30542a08609a")
+		)
+		(pin "6"
+			(uuid "3635cfa3-11fe-4efc-997d-76562bba7d16")
+		)
+		(pin "3"
+			(uuid "16e9f6fd-6bde-495c-bcff-a7b6c0f8c068")
+		)
+		(pin "2"
+			(uuid "458bab77-4b05-4bbf-8f80-c46796e32450")
+		)
+		(pin "4"
+			(uuid "3169eace-62a5-4a77-9a58-443a343b53dd")
+		)
+		(pin "1"
+			(uuid "9922aca8-a57d-4caf-9058-40f536f10214")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 95.25 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f7f5745-4c4f-49c7-8fc8-63c6fcc72c2f")
+		(property "Reference" "LUG6"
+			(at 95.25 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_LUG"
+			(at 95.25 90.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:1_4_Lug"
+			(at 95.25 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1472,7 +2193,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 111.76 0)
+			(at 95.25 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,88 +2216,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:ALTERNATOR")
-		(at 104.14 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c88e139f-3536-4460-82a4-e993bb2978ad")
-		(property "Reference" "U13"
-			(at 108.966 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 104.14 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70d2122b-1468-41e0-b1a8-cb54839e2876")
-		)
-		(pin "2"
-			(uuid "5fd22ed7-5b69-4c89-8c32-72135e10c20c")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:STARTER")
-		(at 140.97 107.95 0)
+		(lib_id "EasyEDA:RECTIFIER")
+		(at 172.72 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1585,20 +2226,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da8b8ac2-83de-4b31-825f-73738051d5f9")
-		(property "Reference" "U14"
-			(at 146.05 109.3441 0)
+		(uuid "e400c1fb-dca5-4610-885e-995ea2fe3f1b")
+		(property "Reference" "RECTIFIER"
+			(at 172.974 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" ""
-			(at 140.97 107.95 0)
+			(at 172.72 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1608,7 +2248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 107.95 0)
+			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1619,7 +2259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 107.95 0)
+			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,7 +2270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 107.95 0)
+			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,13 +2280,25 @@
 				)
 			)
 		)
+		(pin "2"
+			(uuid "573a12ac-7a4c-4206-a2c4-481bcdd7fb1f")
+		)
 		(pin "1"
-			(uuid "cd50136b-db6a-42a5-9366-bb3e086f2cad")
+			(uuid "47b74069-9c0e-40cd-b15b-a90d5accebe2")
+		)
+		(pin "1"
+			(uuid "3e96aacb-c134-4492-8d72-d0750a9b15b8")
+		)
+		(pin "3"
+			(uuid "301ec583-e94a-4daf-a4fa-5ce9337b8542")
+		)
+		(pin "2"
+			(uuid "4becaab6-2dce-473c-8d2d-3758b46d63c6")
 		)
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "U14")
+					(reference "RECTIFIER")
 					(unit 1)
 				)
 			)
@@ -1654,7 +2306,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 48.26 128.27 180)
+		(at 95.25 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1664,7 +2316,7 @@
 		(dnp no)
 		(uuid "e522e544-e5c3-4e99-b2da-b685952805fd")
 		(property "Reference" "LUG8"
-			(at 48.26 122.936 0)
+			(at 95.25 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1674,7 +2326,7 @@
 			)
 		)
 		(property "Value" "GND_ENGINE_CHASSIS_LUG"
-			(at 48.26 125.222 0)
+			(at 95.25 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1684,7 +2336,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 48.26 128.27 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +2347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 128.27 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,7 +2358,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 128.27 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,84 +2375,6 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
 					(reference "LUG8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:ENGINE_GND")
-		(at 82.55 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8fdfb71-43a4-4a2a-bb8c-c57dad592f9d")
-		(property "Reference" "U15"
-			(at 90.17 129.6641 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 82.55 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 82.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c39df41e-f06e-41b3-a735-f0833e404d36")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "U15")
 					(unit 1)
 				)
 			)
