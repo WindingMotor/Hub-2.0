@@ -581,14 +581,15 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -0.254 4.572 0)
+			(property "Reference" "ASHCROFT_PRESSURE_SENSOR"
+				(at -12.7 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -636,8 +637,8 @@
 			)
 			(symbol "LAMBDA_O2_1_1"
 				(rectangle
-					(start -3.81 1.27)
-					(end 3.81 -11.43)
+					(start -5.08 5.08)
+					(end 6.35 -5.08)
 					(stroke
 						(width 0)
 						(type solid)
@@ -646,16 +647,8 @@
 						(type background)
 					)
 				)
-				(text "LAMBDA_O2"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
-					(at -6.35 -1.27 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -673,9 +666,9 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -3.81 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "+12V"
+					(name "12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -690,10 +683,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -6.35 -6.35 0)
+				(pin output line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "CANH"
+					(name "PRESSURE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -701,24 +694,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -8.89 0)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2258,7 +2233,7 @@
 		(dnp no)
 		(uuid "e8094f24-4e43-413e-963b-b4204c14ec36")
 		(property "Reference" "U6"
-			(at 185.42 94.234 0)
+			(at 173.99 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2314,9 +2289,6 @@
 		(pin "3"
 			(uuid "b2be1406-f2bc-493d-8903-c8abbb16e25e")
 		)
-		(pin "4"
-			(uuid "182e85d7-8574-4c15-96ae-7c0d5358a656")
-		)
 		(pin "2"
 			(uuid "0c2a950a-ba98-4ea9-b97c-124c1495a7e0")
 		)
@@ -2325,6 +2297,10 @@
 		)
 		(instances
 			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/3c10705f-3100-4698-8568-756e610b2103"
+					(reference "ASHCROFT_PRESSURE_SENSOR")
+					(unit 1)
+				)
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
 					(reference "U6")
 					(unit 1)
