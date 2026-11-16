@@ -1537,9 +1537,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4093871b-7d28-4d96-adc7-02794c69e1ec")
 		(property "Reference" "LUG7"
@@ -1613,12 +1613,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "441b81a1-d615-471c-bb76-2109521c2102")
-		(property "Reference" "STARTER_SOLENOID"
+		(property "Reference" "STARTER_SOLENOID1"
 			(at 152.146 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1686,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "STARTER_SOLENOID")
+					(reference "STARTER_SOLENOID1")
 					(unit 1)
 				)
 			)
@@ -1698,13 +1698,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ed7fb6-53f9-49d9-a1e6-39e3c5af0379")
-		(property "Reference" "BATTERY"
+		(property "Reference" "BATTERY1"
 			(at 151.384 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1772,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "BATTERY")
+					(reference "BATTERY1")
 					(unit 1)
 				)
 			)
@@ -1785,13 +1785,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "646cb371-add9-4ddd-ba0c-ce1cb525e6df")
-		(property "Reference" "STATOR"
+		(property "Reference" "STATOR1"
 			(at 240.284 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "STATOR")
+					(reference "STATOR1")
 					(unit 1)
 				)
 			)
@@ -1869,9 +1869,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6d907ac8-b1a2-4720-95f6-f431ffb54065")
 		(property "Reference" "LUG5"
@@ -1945,12 +1945,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7f3464be-c6d8-4540-9669-8513054e40c5")
-		(property "Reference" "ENGINE"
+		(property "Reference" "ENGINE1"
 			(at 177.292 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,7 +2013,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "ENGINE")
+					(reference "ENGINE1")
 					(unit 1)
 				)
 			)
@@ -2025,9 +2025,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "858632f9-1124-4469-8a3f-11f80c0275c8")
 		(property "Reference" "CN6"
@@ -2177,9 +2177,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8f7f5745-4c4f-49c7-8fc8-63c6fcc72c2f")
 		(property "Reference" "LUG6"
@@ -2253,13 +2253,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e400c1fb-dca5-4610-885e-995ea2fe3f1b")
-		(property "Reference" "RECTIFIER"
+		(property "Reference" "RECTIFIER1"
 			(at 192.024 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2330,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
-					(reference "RECTIFIER")
+					(reference "RECTIFIER1")
 					(unit 1)
 				)
 			)
@@ -2342,9 +2342,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e522e544-e5c3-4e99-b2da-b685952805fd")
 		(property "Reference" "LUG8"

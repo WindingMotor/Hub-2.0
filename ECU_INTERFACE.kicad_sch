@@ -1471,7 +1471,7 @@
 	)
 	(text "M1 Tune"
 		(exclude_from_sim no)
-		(at 82.55 124.206 0)
+		(at 80.645 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 	)
 	(text "Threshold: 6V"
 		(exclude_from_sim no)
-		(at 82.296 142.494 0)
+		(at 80.391 141.224 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 	)
 	(text "Drive: High Side"
 		(exclude_from_sim no)
-		(at 82.55 131.826 0)
+		(at 80.645 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 	)
 	(text "(Driver Sw 1)\n"
 		(exclude_from_sim no)
-		(at 82.296 135.128 0)
+		(at 80.391 133.858 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,7 +1522,7 @@
 	)
 	(text "Type: Rising Edge"
 		(exclude_from_sim no)
-		(at 82.042 140.208 0)
+		(at 80.137 138.938 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1532,7 +1532,7 @@
 	)
 	(text "SW: B02_UDIG2"
 		(exclude_from_sim no)
-		(at 82.042 137.922 0)
+		(at 80.137 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1564,7 +1564,7 @@
 	)
 	(text "Resource: OUT_HB6\n"
 		(exclude_from_sim no)
-		(at 82.296 129.286 0)
+		(at 80.391 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,7 +1585,7 @@
 	)
 	(text "(Aux Output 5)\n"
 		(exclude_from_sim no)
-		(at 82.55 126.746 0)
+		(at 80.645 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.505 129.54) (xy 104.775 130.175)
+			(xy 101.6 128.27) (xy 102.87 128.905)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1713,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 132.08) (xy 104.775 130.175)
+			(xy 88.265 130.81) (xy 102.87 128.905)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1813,7 @@
 	)
 	(polyline
 		(pts
-			(xy 103.505 131.445) (xy 104.775 130.175)
+			(xy 101.6 130.175) (xy 102.87 128.905)
 		)
 		(stroke
 			(width 0)
