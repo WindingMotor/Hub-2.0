@@ -425,6 +425,116 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:BRAKE LIGHT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BRAKE_LIGHT"
+				(at -0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BRAKE LIGHT_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:DT15-12PA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -749,6 +859,226 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:FUEL PUMP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FUEL_PUMP"
+				(at -0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FUEL PUMP_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:LIGHTS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LIGHTS"
+				(at -0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LIGHTS_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1196,6 +1526,116 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RADIATOR_FAN_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RADIATOR_FAN"
+				(at -0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RADIATOR_FAN_1_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 200.66 81.28)
@@ -1232,7 +1672,7 @@
 	)
 	(text "See External Connector page to view\nthe other pin connections"
 		(exclude_from_sim no)
-		(at 33.02 107.442 0)
+		(at 75.946 90.932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1253,7 +1693,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 31.75 104.14 0)
+		(at 74.93 87.63 0)
 		(size 38.1 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1298,36 +1738,8 @@
 		(uuid "3a7f6ff2-2793-43a2-be99-eb12d956bba4")
 	)
 	(no_connect
-		(at 80.01 123.19)
-		(uuid "3628c615-b779-486f-afe3-a928a0b32348")
-	)
-	(no_connect
-		(at 80.01 128.27)
-		(uuid "3e261e08-bf6b-45d0-9c68-ffb1475cd3ec")
-	)
-	(no_connect
-		(at 80.01 125.73)
-		(uuid "5137d52b-b58b-4858-9c59-40e11c127ad8")
-	)
-	(no_connect
 		(at 80.01 115.57)
 		(uuid "54f911d8-c8ea-49dc-b99c-3a2fafea4485")
-	)
-	(no_connect
-		(at 80.01 130.81)
-		(uuid "557d246d-fdde-4556-b936-8c5cc90fd718")
-	)
-	(no_connect
-		(at 80.01 102.87)
-		(uuid "599e944b-b870-431e-87d3-8e3e531180cd")
-	)
-	(no_connect
-		(at 80.01 120.65)
-		(uuid "64c9b2de-3a72-4cfa-bd04-11a966d3c84a")
-	)
-	(no_connect
-		(at 80.01 118.11)
-		(uuid "6f9bd66f-0c07-40a2-a861-5cfbb543f555")
 	)
 	(no_connect
 		(at 80.01 113.03)
@@ -1337,9 +1749,15 @@
 		(at 80.01 107.95)
 		(uuid "b9af0f62-756e-4898-b2b8-10737bc69394")
 	)
-	(no_connect
-		(at 80.01 105.41)
-		(uuid "c0f56112-6cbc-48b6-82b3-fbc832348e7c")
+	(wire
+		(pts
+			(xy 85.09 125.73) (xy 85.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03df2380-e491-45c6-9a3a-3f138a685e57")
 	)
 	(polyline
 		(pts
@@ -1350,6 +1768,46 @@
 			(type default)
 		)
 		(uuid "198505e8-4b57-4490-837c-4a14ffbd10f5")
+	)
+	(polyline
+		(pts
+			(xy 76.2 97.79) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26777398-4bd0-46cb-b46f-caf9f2daa585")
+	)
+	(polyline
+		(pts
+			(xy 76.2 97.79) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2910100f-be11-415d-827f-d08b467d0bf0")
+	)
+	(wire
+		(pts
+			(xy 80.01 123.19) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c35cf92-a28e-4935-a43d-18ef82099d69")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 97.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da7383f-1341-4aa2-8aa0-455fa0f7c007")
 	)
 	(wire
 		(pts
@@ -1363,6 +1821,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 120.65) (xy 97.79 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a0a4c0-634e-4963-8adb-8fafae3b8cc4")
+	)
+	(wire
+		(pts
 			(xy 163.83 110.49) (xy 171.45 110.49)
 		)
 		(stroke
@@ -1370,6 +1838,26 @@
 			(type default)
 		)
 		(uuid "3a06dbcf-ce9d-41b0-a740-f907abf329b7")
+	)
+	(wire
+		(pts
+			(xy 81.28 143.51) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c024e83-a9cc-4fb6-ad63-fb84ad7988ed")
+	)
+	(wire
+		(pts
+			(xy 81.28 143.51) (xy 97.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d79645a-2177-4dd2-a8c6-6502bd40a538")
 	)
 	(wire
 		(pts
@@ -1391,6 +1879,16 @@
 		)
 		(uuid "5cff9fd8-328f-4ff5-b702-cc49aaf8cefa")
 	)
+	(polyline
+		(pts
+			(xy 76.2 99.06) (xy 77.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d89d44f-cae5-44ae-a94a-2cc8490a2ee5")
+	)
 	(wire
 		(pts
 			(xy 129.54 88.9) (xy 129.54 93.98)
@@ -1403,13 +1901,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 100.33 93.98)
+			(xy 82.55 140.97) (xy 82.55 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77ac7025-00e6-48c1-bdf5-6ce165feb145")
+		(uuid "6c4e5a16-5b83-40ae-9d78-d9853f69f7e0")
 	)
 	(wire
 		(pts
@@ -1420,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "7cd77bd3-5664-44e8-9b3a-040893309ff1")
+	)
+	(wire
+		(pts
+			(xy 86.36 123.19) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d98c78c-4b7b-46d7-a6dc-2d094a2cc681")
 	)
 	(polyline
 		(pts
@@ -1443,6 +1951,36 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dcfe600-279f-4718-b39f-ddc2b62558e0")
+	)
+	(wire
+		(pts
+			(xy 82.55 128.27) (xy 80.01 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94488e3d-7d87-4706-aed3-24c7ef76340f")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d0b044-5c9c-4359-9823-c63a0861cfe0")
+	)
+	(wire
+		(pts
 			(xy 80.01 110.49) (xy 139.7 110.49)
 		)
 		(stroke
@@ -1453,7 +1991,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 167.64 120.65)
+			(xy 85.09 132.08) (xy 97.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8d2952-4941-4b07-9228-5571003ea74b")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 167.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 139.7 104.14)
+			(xy 129.54 104.14) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 120.65) (xy 167.64 110.49)
+			(xy 167.64 119.38) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +2051,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 142.24 83.82)
+			(xy 86.36 129.54) (xy 97.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baecd2dd-6077-4bbd-bd7c-cb53c8b683c4")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1531,9 +2089,49 @@
 		)
 		(uuid "c68fd3ff-d3bf-4a44-877e-5638ca9e521a")
 	)
+	(wire
+		(pts
+			(xy 82.55 140.97) (xy 97.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5ea2ef-b24e-4318-a069-71afe2f0668e")
+	)
+	(polyline
+		(pts
+			(xy 80.01 95.25) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6a6b91-c15c-40ec-bb08-6bc6dfad028e")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d2dbf9-2570-4020-be7c-6ae1c8d1ba73")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 80.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa99975a-e3f7-4bf8-92ed-286c9e3aac46")
+	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 104.14 180)
+		(lib_id "EasyEDA:FUEL PUMP")
+		(at 105.41 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1541,9 +2139,20 @@
 		(on_board no)
 		(in_pos_files no)
 		(dnp no)
-		(uuid "4093871b-7d28-4d96-adc7-02794c69e1ec")
-		(property "Reference" "LUG7"
-			(at 95.25 98.806 0)
+		(uuid "3c36bcc9-5908-416d-95b7-2c1520d5b4b0")
+		(property "Reference" "FUEL_PUMP1"
+			(at 99.822 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1552,18 +2161,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V_STARTER_RELAY"
-			(at 95.25 101.092 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 95.25 104.14 0)
+		(property "Footprint" ""
+			(at 105.41 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +2173,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 104.14 0)
+			(at 105.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "433cfed7-f500-4c00-b11d-be1b5566dc09")
+		)
+		(pin "2"
+			(uuid "3f7c2796-d600-4d21-b9c1-d99708736b17")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "FUEL_PUMP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 124.46 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4093871b-7d28-4d96-adc7-02794c69e1ec")
+		(property "Reference" "LUG7"
+			(at 124.46 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V_STARTER_RELAY"
+			(at 124.46 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:1_4_Lug"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +2263,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 104.14 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,6 +2365,86 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
 					(reference "STARTER_SOLENOID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:LIGHTS")
+		(at 105.41 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4a0b8f03-f384-4f40-b2f5-ee5e5b92647c")
+		(property "Reference" "LIGHTS1"
+			(at 101.854 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d413423f-edfc-4cbf-bad5-f491abec531a")
+		)
+		(pin "1"
+			(uuid "d11906f2-59b5-4b0a-ba03-de1176ef91c1")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "LIGHTS1")
 					(unit 1)
 				)
 			)
@@ -1865,7 +2623,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 83.82 180)
+		(at 124.46 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1875,7 +2633,7 @@
 		(dnp no)
 		(uuid "6d907ac8-b1a2-4720-95f6-f431ffb54065")
 		(property "Reference" "LUG5"
-			(at 95.25 78.486 0)
+			(at 124.46 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1885,7 +2643,7 @@
 			)
 		)
 		(property "Value" "+12V_BATT_LUG"
-			(at 95.25 80.772 0)
+			(at 124.46 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1895,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 95.25 83.82 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,7 +2664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 83.82 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1917,7 +2675,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 83.82 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,6 +2772,87 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
 					(reference "ENGINE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RADIATOR_FAN_1")
+		(lib_id "EasyEDA:RADIATOR_FAN")
+		(at 105.41 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "84fe14cd-f604-435e-a249-206d5c62a728")
+		(property "Reference" "RADIATOR_FAN1"
+			(at 98.552 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b910faa-6317-40a4-9bd4-e065b869a817")
+		)
+		(pin "2"
+			(uuid "662b6553-773e-410a-bb14-f3951afb8f8b")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "RADIATOR_FAN1")
 					(unit 1)
 				)
 			)
@@ -2173,7 +3012,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 93.98 180)
+		(at 124.46 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2183,7 +3022,7 @@
 		(dnp no)
 		(uuid "8f7f5745-4c4f-49c7-8fc8-63c6fcc72c2f")
 		(property "Reference" "LUG6"
-			(at 95.25 88.646 0)
+			(at 124.46 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2193,7 +3032,7 @@
 			)
 		)
 		(property "Value" "GND_LUG"
-			(at 95.25 90.932 0)
+			(at 124.46 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2203,7 +3042,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 95.25 93.98 0)
+			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,7 +3053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 93.98 0)
+			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +3064,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 93.98 0)
+			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,6 +3081,86 @@
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
 					(reference "LUG6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:BRAKE LIGHT")
+		(at 105.41 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b238d819-c997-4e55-96a8-2f4279bf725b")
+		(property "Reference" "BRAKE_LIGHT1"
+			(at 99.06 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a84f708-c877-43c3-9170-1e796185123c")
+		)
+		(pin "2"
+			(uuid "4901e725-070b-4d32-a3ad-191b51b06f21")
+		)
+		(instances
+			(project "Hub-2.0"
+				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017"
+					(reference "BRAKE_LIGHT1")
 					(unit 1)
 				)
 			)
@@ -2338,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 95.25 120.65 180)
+		(at 124.46 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2348,7 +3267,7 @@
 		(dnp no)
 		(uuid "e522e544-e5c3-4e99-b2da-b685952805fd")
 		(property "Reference" "LUG8"
-			(at 95.25 115.316 0)
+			(at 124.46 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2358,7 +3277,7 @@
 			)
 		)
 		(property "Value" "GND_ENGINE_CHASSIS_LUG"
-			(at 95.25 117.602 0)
+			(at 124.46 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2368,7 +3287,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:1_4_Lug"
-			(at 95.25 120.65 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +3298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 120.65 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +3309,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 120.65 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
