@@ -31,7 +31,9 @@ class ComponentInputTests(unittest.TestCase):
     def test_cases_preserve_external_loads_and_separate_contact_assumptions(self):
         normal = read_config(HERE / "cases" / "all-loads-components.json")
         stress = read_config(HERE / "cases" / "all-loads-components-contact-max.json")
-        self.assertEqual(sum(l["current"] for l in normal["setup"]["loads"]), 29)
+        self.assertEqual({l["name"]: l["current"] for l in normal["setup"]["loads"]},
+                         {"Fuel pump": 7, "Radiator": 7, "Lights": 5, "Main output at CN1": 4})
+        self.assertEqual(sum(l["current"] for l in normal["setup"]["loads"]), 23)
         self.assertFalse(normal["setup"]["thermal"]["load_power"])
         self.assertEqual(normal["setup"]["loads"], stress["setup"]["loads"])
         for link in normal["setup"]["links"]:
@@ -94,10 +96,11 @@ class KiPiHeatIntegrationTests(unittest.TestCase):
                 tree.loads = [SimpleNamespace(name=l.name, current=l.current, v_effective=11.9)
                               for l in setup.loads]
                 all_heat = cosim.heat_sources(tree, snap, setup)
-                self.assertAlmostEqual(float(all_heat[1].sum()), 11.162215384615386)
+                contact_w = 2 * .1 / 13 * (7**2 + 7**2 + 5**2 + 4**2)
+                self.assertAlmostEqual(float(all_heat[1].sum()), 7.1776 + contact_w)
                 self.assertAlmostEqual(all_heat[3]["Relay coil heat"], 6.4)
                 self.assertAlmostEqual(all_heat[3]["DT contacts (board-deposited estimate)"],
-                                       3.9846153846153847)
+                                       contact_w)
                 reduced = copy.deepcopy(sources)
                 for source in reduced:
                     source["board_fraction"] = 0.5
@@ -117,11 +120,12 @@ class KiPiHeatIntegrationTests(unittest.TestCase):
                                     v_effective=11.9) for l in setup.loads], thermal=None)
         data = {"sources": config["component_heat"], "connectors": config["connectors"]}
         rows = connector_rows(tree, setup, data)
-        self.assertAlmostEqual(sum(s["power_w"] for s in heat_inputs(rows)), 2 * .1 / 13 * 259)
+        self.assertAlmostEqual(sum(s["power_w"] for s in heat_inputs(rows)),
+                               2 * .1 / 13 * (7**2 + 7**2 + 5**2 + 4**2))
         radiator = next(row for row in rows if row["load"] == "Radiator")
         self.assertAlmostEqual(radiator["estimated_harness_voltage_v"],
-                               11.7 - radiator["external_wire_w"] / 13)
-        self.assertAlmostEqual(radiator["supply_contact_w"], 1.3)
+                               11.9 - 7 * 2 * .1 / 13 - radiator["external_wire_w"] / 7)
+        self.assertAlmostEqual(radiator["supply_contact_w"], 7**2 * .1 / 13)
         tree.loads[1].current = 0
         zero = connector_rows(tree, setup, data)[1]
         self.assertEqual(zero["supply_contact_w"], 0)
@@ -161,7 +165,7 @@ class KiPiHeatIntegrationTests(unittest.TestCase):
                 self.assertEqual(len(audit["connector_estimates"]), 4)
                 radiator = audit["connector_estimates"][1]
                 self.assertAlmostEqual(radiator["additional_drop_v"],
-                                       .2 + radiator["external_wire_w"] / 13)
+                                       7 * 2 * .1 / 13 + radiator["external_wire_w"] / 7)
 
 
 if __name__ == "__main__":

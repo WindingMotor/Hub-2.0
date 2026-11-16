@@ -1,7 +1,7 @@
 {
   "extends": "../config.json",
   "notes": [
-    "User-estimated simultaneous continuous loads: lights 5 A, radiator 13 A, fuel pump 7 A, main output at CN1 4 A; total 29 A. Ambient remains 25 C. Relay/fuse resistance remains ideal (0 ohms).",
+    "User-estimated simultaneous continuous loads: lights 5 A, radiator 7 A, fuel pump 7 A, main output at CN1 4 A; total 23 A. Ambient remains 25 C. Relay/fuse resistance remains ideal (0 ohms).",
     "All relay contacts are modeled closed. Set a branch current to zero for an unused external load.",
     "Relay/fuse resistances start at zero (ideal). Replace with measured or datasheet ohms to include their losses.",
     "Battery source: 12 V, LUG1 pad 1 positive and LUG2 pad 1 return. Verify against the installed harness.",

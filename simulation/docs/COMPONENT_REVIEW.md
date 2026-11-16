@@ -5,6 +5,8 @@ descriptions below have been superseded by the saved six-layer stackup, compact
 component networks, and selective solder model. Use the [current simulation guide](../README.md)
 and [`config.json`](../config.json) for active behavior. Datasheet values below
 remain reference inputs; older temperature examples do not describe the current case.
+The historical calculations below use a 13 A radiator and 29 A external total;
+the active case uses a 7 A radiator and 23 A external total.
 
 Reviewed 2026-10-28. Source PCB/schematics were not edited. Original simulation
 cases and the running KiPI process are preserved. The new cases use the current
@@ -12,7 +14,7 @@ named `PWR_*_BEFORE_FUSE` nets.
 
 ## Historical four-layer model and fixes
 
-The default `config.json` now contains the populated 29 A component case.
+At the time of this review, `config.json` contained the populated 29 A component case.
 All current case configs use the user-specified **35 / 17.5 / 17.5 / 35 µm**
 copper stack (1 oz outer, 0.5 oz inner). The saved PCB currently still says
 35 µm for both inner layers; the simulation explicitly overrides it and says so
