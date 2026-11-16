@@ -1197,6 +1197,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 200.66 81.28)
+		(end 203.2 93.345)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a2ccf826-4703-4bbd-ae4e-e388a159be9e")
+	)
+	(text "CN13-08-S"
+		(exclude_from_sim no)
+		(at 201.676 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a56b3e0a-6c47-41db-a764-fbfffd6f061b")
+	)
 	(text "Starter solenoid ground connects\ndirectly to engine ground lug"
 		(exclude_from_sim no)
 		(at 171.45 119.38 0)
@@ -1218,6 +1240,16 @@
 			(justify left)
 		)
 		(uuid "ae33196f-0a2d-44c2-b628-a05da73923c5")
+	)
+	(text "CN13-00-R"
+		(exclude_from_sim no)
+		(at 201.676 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dac40742-e59c-406b-aaa9-0dafee766057")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -1321,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 190.5 91.44)
+			(xy 199.39 91.44) (xy 236.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1341,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 165.1 88.9)
+			(xy 160.02 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 190.5 87.63)
+			(xy 199.39 87.63) (xy 236.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 165.1 83.82)
+			(xy 160.02 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 190.5 83.82)
+			(xy 199.39 83.82) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +1781,7 @@
 	(symbol
 		(lib_name "ALTERNATOR_1")
 		(lib_id "EasyEDA:ALTERNATOR")
-		(at 198.12 86.36 0)
+		(at 243.84 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1760,7 +1792,7 @@
 		(fields_autoplaced yes)
 		(uuid "646cb371-add9-4ddd-ba0c-ce1cb525e6df")
 		(property "Reference" "STATOR"
-			(at 194.564 80.01 0)
+			(at 240.284 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1771,7 +1803,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 86.36 0)
+			(at 243.84 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1781,7 +1813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 86.36 0)
+			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1792,7 +1824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 86.36 0)
+			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1803,7 +1835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 86.36 0)
+			(at 243.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2217,7 +2249,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:RECTIFIER")
-		(at 172.72 86.36 0)
+		(at 191.77 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2228,7 +2260,7 @@
 		(fields_autoplaced yes)
 		(uuid "e400c1fb-dca5-4610-885e-995ea2fe3f1b")
 		(property "Reference" "RECTIFIER"
-			(at 172.974 80.01 0)
+			(at 192.024 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2238,7 +2270,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 86.36 0)
+			(at 191.77 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2248,7 +2280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 86.36 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 86.36 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,7 +2302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 86.36 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

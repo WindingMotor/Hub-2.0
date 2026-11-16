@@ -1089,8 +1089,8 @@
 		)
 	)
 	(rectangle
-		(start 171.831 57.912)
-		(end 199.136 65.532)
+		(start 239.141 47.752)
+		(end 266.446 55.372)
 		(stroke
 			(width 0)
 			(type default)
@@ -1101,8 +1101,8 @@
 		(uuid "4056c3cb-f346-48cc-ade3-297b27b39e15")
 	)
 	(rectangle
-		(start 171.958 67.945)
-		(end 199.263 75.565)
+		(start 239.268 57.785)
+		(end 266.573 65.405)
 		(stroke
 			(width 0)
 			(type default)
@@ -1125,8 +1125,8 @@
 		(uuid "920d9810-050c-4746-8837-8c8a71f169d3")
 	)
 	(rectangle
-		(start 177.165 67.945)
-		(end 182.245 75.565)
+		(start 244.475 57.785)
+		(end 249.555 65.405)
 		(stroke
 			(width 0)
 			(type default)
@@ -1137,8 +1137,8 @@
 		(uuid "9b67ebbc-4ec8-48ed-a33f-ff942f3e6b81")
 	)
 	(rectangle
-		(start 171.958 78.232)
-		(end 199.263 85.852)
+		(start 239.268 68.072)
+		(end 266.573 75.692)
 		(stroke
 			(width 0)
 			(type default)
@@ -1161,8 +1161,8 @@
 		(uuid "c70ede8b-74ce-4100-bb13-27c9801f1755")
 	)
 	(rectangle
-		(start 177.165 78.232)
-		(end 182.245 85.852)
+		(start 244.475 68.072)
+		(end 249.555 75.692)
 		(stroke
 			(width 0)
 			(type default)
@@ -1185,8 +1185,8 @@
 		(uuid "deda547d-405f-4fd4-8a5c-336770d02caa")
 	)
 	(rectangle
-		(start 177.038 57.912)
-		(end 182.118 65.532)
+		(start 244.348 47.752)
+		(end 249.428 55.372)
 		(stroke
 			(width 0)
 			(type default)
@@ -1198,7 +1198,7 @@
 	)
 	(text "NET"
 		(exclude_from_sim no)
-		(at 184.15 69.85 0)
+		(at 251.46 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 	)
 	(text "SAFETY_MAIN_MD"
 		(exclude_from_sim no)
-		(at 190.627 64.389 0)
+		(at 257.937 54.229 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 	)
 	(text "NET"
 		(exclude_from_sim no)
-		(at 184.023 59.817 0)
+		(at 251.333 49.657 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 	)
 	(text "AWG"
 		(exclude_from_sim no)
-		(at 179.578 80.137 0)
+		(at 246.888 69.977 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1302,7 @@
 	)
 	(text "NC"
 		(exclude_from_sim no)
-		(at 182.88 81.915 0)
+		(at 250.19 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 	)
 	(text "SAFETY_MAIN_MD"
 		(exclude_from_sim no)
-		(at 190.754 84.709 0)
+		(at 258.064 74.549 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 	)
 	(text "PIN#"
 		(exclude_from_sim no)
-		(at 174.498 69.85 0)
+		(at 241.808 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1398,7 +1398,7 @@
 	)
 	(text "AWG"
 		(exclude_from_sim no)
-		(at 179.578 69.85 0)
+		(at 246.888 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 	)
 	(text "1\n2"
 		(exclude_from_sim no)
-		(at 173.99 81.915 0)
+		(at 241.3 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1430,7 @@
 	)
 	(text "SAFETY_MAIN_MD"
 		(exclude_from_sim no)
-		(at 190.754 74.422 0)
+		(at 258.064 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1448,6 +1448,16 @@
 			)
 		)
 		(uuid "5d24d338-2f09-48f4-a0b5-135eab7a4db6")
+	)
+	(text "CN01-00-S"
+		(exclude_from_sim no)
+		(at 137.668 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62b69d52-9978-4eb6-9d1b-d6d5a16e45f5")
 	)
 	(text "BTN_TWO"
 		(exclude_from_sim no)
@@ -1555,7 +1565,7 @@
 	)
 	(text "22\n22"
 		(exclude_from_sim no)
-		(at 178.562 71.628 0)
+		(at 245.872 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +1597,7 @@
 	)
 	(text "1\n2"
 		(exclude_from_sim no)
-		(at 173.863 61.595 0)
+		(at 241.173 51.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,9 +1606,19 @@
 		)
 		(uuid "a939e800-6fa8-4852-b93f-eb8850ad8b21")
 	)
+	(text "CN01-00-R"
+		(exclude_from_sim no)
+		(at 137.668 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b21ad9f5-dc37-450b-875f-ec4ec39e3ff3")
+	)
 	(text "22\n22"
 		(exclude_from_sim no)
-		(at 178.562 81.915 0)
+		(at 245.872 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1650,7 @@
 	)
 	(text "NC"
 		(exclude_from_sim no)
-		(at 182.753 61.595 0)
+		(at 250.063 51.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1651,7 +1671,7 @@
 	)
 	(text "AWG"
 		(exclude_from_sim no)
-		(at 179.451 59.817 0)
+		(at 246.761 49.657 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1661,7 +1681,7 @@
 	)
 	(text "1\n2"
 		(exclude_from_sim no)
-		(at 173.99 71.628 0)
+		(at 241.3 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,9 +1700,19 @@
 		)
 		(uuid "ca29b5c6-3f95-4ab0-ba56-61d0b938d903")
 	)
+	(text "CN01-01-R"
+		(exclude_from_sim no)
+		(at 156.718 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb898e5c-ea6f-4064-a11c-b339d0833fdb")
+	)
 	(text "NET"
 		(exclude_from_sim no)
-		(at 184.15 80.137 0)
+		(at 251.46 69.977 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,7 +1722,7 @@
 	)
 	(text "PIN#"
 		(exclude_from_sim no)
-		(at 174.371 59.817 0)
+		(at 241.681 49.657 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1702,7 +1732,7 @@
 	)
 	(text "22\n22"
 		(exclude_from_sim no)
-		(at 178.435 61.595 0)
+		(at 245.745 51.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1753,7 @@
 	)
 	(text "NC"
 		(exclude_from_sim no)
-		(at 182.88 71.628 0)
+		(at 250.19 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,6 +1802,16 @@
 		)
 		(uuid "ef364ba7-87d4-4f1e-a54c-7f862624d5b4")
 	)
+	(text "CN01-01-S"
+		(exclude_from_sim no)
+		(at 156.718 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f554e73e-8f3a-4d7c-ad6d-173bd8b62f24")
+	)
 	(text "PIN#"
 		(exclude_from_sim no)
 		(at 52.578 86.487 0)
@@ -1784,7 +1824,7 @@
 	)
 	(text "PIN#"
 		(exclude_from_sim no)
-		(at 174.498 80.137 0)
+		(at 241.808 69.977 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1904,7 @@
 	)
 	(polyline
 		(pts
-			(xy 171.958 80.645) (xy 199.263 80.645)
+			(xy 239.268 70.485) (xy 266.573 70.485)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 132.08)
+			(xy 165.1 85.09) (xy 165.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1974,7 @@
 	)
 	(polyline
 		(pts
-			(xy 171.831 60.325) (xy 199.136 60.325)
+			(xy 239.141 50.165) (xy 266.446 50.165)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2044,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 72.39) (xy 167.64 133.35)
+			(xy 167.64 73.66) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 116.84 87.63)
+			(xy 116.84 73.66) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2074,7 +2114,7 @@
 	)
 	(polyline
 		(pts
-			(xy 171.958 70.358) (xy 199.263 70.358)
+			(xy 239.268 60.198) (xy 266.573 60.198)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 142.24 82.55)
+			(xy 119.38 85.09) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 119.38 82.55)
+			(xy 119.38 90.17) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2214,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 142.24 72.39)
+			(xy 116.84 73.66) (xy 142.24 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2264,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 72.39) (xy 152.4 72.39)
+			(xy 167.64 73.66) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 165.1 82.55)
+			(xy 152.4 85.09) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +3022,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 147.32 72.39 0)
+		(at 147.32 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2992,7 +3032,7 @@
 		(dnp no)
 		(uuid "2a224bfd-91f8-4bae-8bf6-4b8c1d2a098d")
 		(property "Reference" "BTN_STARTER_SW2"
-			(at 147.32 69.088 0)
+			(at 147.32 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3002,7 +3042,7 @@
 			)
 		)
 		(property "Value" "SPST_NO"
-			(at 147.32 74.422 0)
+			(at 147.32 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3012,7 +3052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 72.39 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 72.39 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 147.32 72.39 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3180,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 147.32 82.55 0)
+		(at 147.32 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3150,7 +3190,7 @@
 		(dnp no)
 		(uuid "681267da-b849-4c3a-a87f-1ab4a9f58d77")
 		(property "Reference" "BTN_STARTER_SW3"
-			(at 147.32 79.248 0)
+			(at 147.32 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3160,7 +3200,7 @@
 			)
 		)
 		(property "Value" "SPST_NO"
-			(at 147.32 84.582 0)
+			(at 147.32 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3170,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 82.55 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3181,7 +3221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 82.55 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +3232,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 147.32 82.55 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
