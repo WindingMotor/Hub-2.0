@@ -1538,6 +1538,7 @@
 		(effects
 			(font
 				(size 1.143 1.143)
+				(color 255 113 36 1)
 			)
 		)
 		(uuid "8a90c699-ea62-47a2-bc46-928c4e7691df")
@@ -2523,6 +2524,30 @@
 		(uuid "185e7b72-056c-4a68-92ae-63a50d7b9542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.1787 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SAFETY_MAIN"
+		(shape input)
+		(at 198.12 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bf7bfa6-0253-4696-b13b-6f45fb133715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.14 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
