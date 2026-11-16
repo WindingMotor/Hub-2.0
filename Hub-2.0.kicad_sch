@@ -65,7 +65,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "399884b3-136d-40ca-bfde-e44c27866e82")
-		(property "Sheetname" "WIRING"
+		(property "Sheetname" "04-WIRING"
 			(at 100.33 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)

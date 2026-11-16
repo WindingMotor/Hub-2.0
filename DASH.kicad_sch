@@ -1842,16 +1842,6 @@
 		)
 		(uuid "0596928c-b198-4001-accc-15bd791cdc68")
 	)
-	(polyline
-		(pts
-			(xy 186.055 97.155) (xy 186.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071c11fc-5f6a-4bba-8f49-b75a4b5713ce")
-	)
 	(wire
 		(pts
 			(xy 114.3 62.23) (xy 142.24 62.23)
@@ -1994,16 +1984,6 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 97.155) (xy 186.055 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e171e9b-2642-4a87-a727-20854b8194dc")
-	)
-	(polyline
-		(pts
 			(xy 92.71 137.795) (xy 92.71 143.51)
 		)
 		(stroke
@@ -2094,16 +2074,6 @@
 	)
 	(polyline
 		(pts
-			(xy 186.055 96.52) (xy 187.325 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fe1ea8-fe31-450a-b7aa-ad4cc541ae8a")
-	)
-	(polyline
-		(pts
 			(xy 171.958 70.358) (xy 199.263 70.358)
 		)
 		(stroke
@@ -2111,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "68c27630-3de6-4c74-88cb-7e94548109a2")
-	)
-	(polyline
-		(pts
-			(xy 186.69 97.79) (xy 186.055 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b06e9d1-9dbe-4ea5-a7f2-441dfc68a906")
 	)
 	(wire
 		(pts
@@ -2151,16 +2111,6 @@
 			(type default)
 		)
 		(uuid "7196007f-dff4-4cbb-a3c3-9df78be3e8be")
-	)
-	(polyline
-		(pts
-			(xy 187.96 97.155) (xy 188.595 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7305069e-85cd-41fb-a88b-c13b72af8e07")
 	)
 	(wire
 		(pts
@@ -2292,16 +2242,6 @@
 		)
 		(uuid "93e778b7-d595-4a73-b602-7a3f2ef4a5d2")
 	)
-	(polyline
-		(pts
-			(xy 186.69 97.155) (xy 187.96 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a18145b-808d-49af-a414-9db3e3c49301")
-	)
 	(wire
 		(pts
 			(xy 85.09 139.7) (xy 123.19 139.7)
@@ -2351,26 +2291,6 @@
 			(type default)
 		)
 		(uuid "9f5bd535-f942-4f2d-869d-2c1b45146719")
-	)
-	(polyline
-		(pts
-			(xy 187.325 97.79) (xy 187.96 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2571e8d-913f-47e0-9016-24277b7a5e39")
-	)
-	(polyline
-		(pts
-			(xy 186.69 95.25) (xy 187.325 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ea864e-1f9a-4d91-ab36-2cc0395408fc")
 	)
 	(polyline
 		(pts
@@ -2452,26 +2372,6 @@
 		)
 		(uuid "cc2821ff-7d73-4786-9174-6a2a4bd5d37a")
 	)
-	(polyline
-		(pts
-			(xy 187.96 96.52) (xy 189.23 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf5937d0-f171-4ac9-a39a-5018dd18b458")
-	)
-	(polyline
-		(pts
-			(xy 187.96 95.885) (xy 187.96 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d305a0a0-55e1-4c2a-8b2d-7d4b4837afc6")
-	)
 	(wire
 		(pts
 			(xy 88.9 92.71) (xy 88.9 48.26)
@@ -2522,16 +2422,6 @@
 		)
 		(uuid "e82aa5c4-601f-4445-b2c5-1d9fb4159fb7")
 	)
-	(polyline
-		(pts
-			(xy 184.785 97.155) (xy 185.42 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1676bb-cea5-428e-bab7-01fd70e819d5")
-	)
 	(wire
 		(pts
 			(xy 83.82 87.63) (xy 116.84 87.63)
@@ -2562,16 +2452,6 @@
 		)
 		(uuid "f2adca2c-da90-4059-8728-a5960a79d354")
 	)
-	(polyline
-		(pts
-			(xy 187.96 96.52) (xy 188.595 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5cb087b-e834-4da5-aa92-e143023f1316")
-	)
 	(wire
 		(pts
 			(xy 83.82 105.41) (xy 92.71 105.41)
@@ -2581,16 +2461,6 @@
 			(type default)
 		)
 		(uuid "f77117f3-8e9c-4703-99b1-46c04d9eacb0")
-	)
-	(polyline
-		(pts
-			(xy 187.325 96.52) (xy 187.325 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f972d9f0-6d1d-494a-96c6-981109a94aa1")
 	)
 	(wire
 		(pts
@@ -3660,17 +3530,6 @@
 		(members "176de292-555e-4226-b59a-0d48ae311bfd" "27b7965f-84d0-4252-ae20-bbcb193d7e3f"
 			"6db6bc3f-8f19-49d2-8334-6a9c43fa684d" "a7c8e995-ed46-4954-abcd-25fd42eff481"
 			"bfa9bc87-c480-44b6-947e-735c43c64cfc"
-		)
-	)
-	(group ""
-		(uuid "c0cf1d72-458d-42d7-91c9-fa711042630e")
-		(members "071c11fc-5f6a-4bba-8f49-b75a4b5713ce" "3e171e9b-2642-4a87-a727-20854b8194dc"
-			"65fe1ea8-fe31-450a-b7aa-ad4cc541ae8a" "6b06e9d1-9dbe-4ea5-a7f2-441dfc68a906"
-			"7305069e-85cd-41fb-a88b-c13b72af8e07" "9a18145b-808d-49af-a414-9db3e3c49301"
-			"a2571e8d-913f-47e0-9016-24277b7a5e39" "a5ea864e-1f9a-4d91-ab36-2cc0395408fc"
-			"cf5937d0-f171-4ac9-a39a-5018dd18b458" "d305a0a0-55e1-4c2a-8b2d-7d4b4837afc6"
-			"eb1676bb-cea5-428e-bab7-01fd70e819d5" "f5cb087b-e834-4da5-aa92-e143023f1316"
-			"f972d9f0-6d1d-494a-96c6-981109a94aa1"
 		)
 	)
 )

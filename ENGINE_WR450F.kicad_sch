@@ -2223,7 +2223,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:LAMBDA_O2")
-		(at 186.69 99.06 0)
+		(at 198.12 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2233,7 +2233,7 @@
 		(dnp no)
 		(uuid "e8094f24-4e43-413e-963b-b4204c14ec36")
 		(property "Reference" "U6"
-			(at 173.99 92.456 0)
+			(at 185.42 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 186.69 99.06 0)
+			(at 198.12 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 99.06 0)
+			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 99.06 0)
+			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 99.06 0)
+			(at 198.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,10 +2297,6 @@
 		)
 		(instances
 			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/3c10705f-3100-4698-8568-756e610b2103"
-					(reference "ASHCROFT_PRESSURE_SENSOR")
-					(unit 1)
-				)
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
 					(reference "U6")
 					(unit 1)

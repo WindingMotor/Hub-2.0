@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 59.055 74.295)
-		(size 36.195 20.32)
+		(at 50.8 15.24)
+		(size 34.925 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "3c10705f-3100-4698-8568-756e610b2103")
 		(property "Sheetname" "DASH"
-			(at 59.055 73.5834 0)
+			(at 50.8 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DASH.kicad_sch"
-			(at 59.055 95.1996 0)
+			(at 50.8 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,54 +52,8 @@
 		)
 	)
 	(sheet
-		(at 59.055 41.91)
-		(size 34.29 18.415)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7ef9dce7-3993-4edd-a9d9-f06a70a5339b")
-		(property "Sheetname" "SAFETY"
-			(at 59.055 41.1984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SAFETY.kicad_sch"
-			(at 59.055 60.9096 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 59.69 135.89)
-		(size 35.56 20.32)
+		(at 13.97 15.24)
+		(size 34.925 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +68,7 @@
 		)
 		(uuid "ad4b06f7-e4ec-48ac-a5c6-7d1e0ddf9017")
 		(property "Sheetname" "POWER"
-			(at 59.69 135.1784 0)
+			(at 13.97 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 59.69 156.7946 0)
+			(at 13.97 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 102.87)
+		(at 87.63 15.24)
 		(size 34.925 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +114,7 @@
 		)
 		(uuid "c802f09f-a8e4-429f-8430-2fc36c647e69")
 		(property "Sheetname" "ENGINE_WR450F"
-			(at 59.69 102.1584 0)
+			(at 87.63 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "ENGINE_WR450F.kicad_sch"
-			(at 59.69 123.7746 0)
+			(at 87.63 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

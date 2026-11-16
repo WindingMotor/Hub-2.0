@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.18,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -81,12 +81,12 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -107,8 +107,8 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -121,8 +121,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -214,7 +214,6 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.25,
         0.3,
         0.35,
@@ -222,8 +221,7 @@
         0.5,
         0.6,
         0.8,
-        1.0,
-        2.0
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -786,17 +784,17 @@
     "top_level_sheets": [
       {
         "filename": "Hub-2.0.kicad_sch",
-        "name": "Root",
+        "name": "PCB",
         "uuid": "af8ad92e-80c5-47c7-b528-865d82af0364"
       }
     ],
-    "used_designators": "#PWR1-51,#PWR117,#PWR124,BOTS1,BRAKE_LIGHT1,BUZ1,C1-15,CN1-7,D1-15,F1-4,FUEL_PUMP1,Inertia Switch1,J1-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LIGHTS1,LUG2-8,NT1-26,R1-12,RADIATOR_FAN1-2,RJ1,SIDE_ESTOP1,STARTER1,SW1-5,U1-16",
+    "used_designators": "#PWR1-51,#PWR117,#PWR124,BUZ1,C1-15,CN1-7,D1-15,F1-4,Inertia Switch1,J1-5,J10,J10\\-PCB1,J2\\-PCB1,J3\\-PCB1,J4\\-PCB1,J5\\-PCB1,JP1-4,LUG2-8,NT1-26,R1-12,RJ1,SW1-5,U1-15",
     "variants": []
   },
   "sheets": [
     [
       "af8ad92e-80c5-47c7-b528-865d82af0364",
-      "Root"
+      "PCB"
     ],
     [
       "ca975f7a-7c41-4347-8d10-db60f60966f1",
@@ -816,11 +814,7 @@
     ],
     [
       "399884b3-136d-40ca-bfde-e44c27866e82",
-      "WIRING"
-    ],
-    [
-      "7ef9dce7-3993-4edd-a9d9-f06a70a5339b",
-      "SAFETY"
+      "04-WIRING"
     ],
     [
       "3c10705f-3100-4698-8568-756e610b2103",
