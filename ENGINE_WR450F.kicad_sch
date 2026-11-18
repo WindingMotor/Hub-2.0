@@ -575,135 +575,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:LAMBDA_O2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ASHCROFT_PRESSURE_SENSOR"
-				(at -12.7 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LAMBDA_O2_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "PRESSURE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:MAP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -958,21 +829,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "LAMBDA_O2_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at -0.254 4.572 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -981,8 +845,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_Push_Open"
-				(at 0 -1.905 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -992,7 +856,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1003,17 +867,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, push-to-open, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1024,7 +877,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-closed pushbutton push-button"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1035,57 +888,30 @@
 					)
 				)
 			)
-			(symbol "SW_Push_Open_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy 2.54 -0.635)
-					)
+			(symbol "LAMBDA_O2_1_1_1"
+				(rectangle
+					(start -3.81 1.27)
+					(end 3.81 -11.43)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "LAMBDA_O2"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
+				(pin input line
+					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "A"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,12 +926,10 @@
 						)
 					)
 				)
-			)
-			(symbol "SW_Push_Open_1_1"
-				(pin passive line
-					(at 5.08 0 180)
+				(pin input line
+					(at -6.35 -3.81 0)
 					(length 2.54)
-					(name "B"
+					(name "+12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1113,6 +937,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1138,7 +998,7 @@
 	)
 	(text "CN13-00-R"
 		(exclude_from_sim no)
-		(at 178.562 33.274 0)
+		(at 173.228 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1157,16 +1017,6 @@
 		)
 		(uuid "04c9231a-0d1a-43e3-87f2-85a7d4317ee4")
 	)
-	(text "CN01 - STARTER BUTTON"
-		(exclude_from_sim no)
-		(at 266.954 44.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0b72782b-bf28-44ba-9f71-39a2732dd151")
-	)
 	(text "CRIMP\n"
 		(exclude_from_sim no)
 		(at 116.078 149.098 0)
@@ -1179,13 +1029,23 @@
 	)
 	(text "CN13-03-S"
 		(exclude_from_sim no)
-		(at 178.562 120.65 0)
+		(at 196.342 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "28da6779-1308-4a0a-86ef-d8f99fda6ae4")
+	)
+	(text "CN13-04-R"
+		(exclude_from_sim no)
+		(at 195.58 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e741a1-bdf8-4045-a4de-e0f3fcac431c")
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
@@ -1198,16 +1058,6 @@
 		)
 		(uuid "347c4a9c-6832-4d0d-82af-380260fdc41d")
 	)
-	(text "CN00-00-S"
-		(exclude_from_sim no)
-		(at 271.78 36.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f96a9bf-f64b-4d9a-ae14-7aa321e68cd3")
-	)
 	(text "22AWG\n"
 		(exclude_from_sim no)
 		(at 89.916 109.474 0)
@@ -1218,19 +1068,9 @@
 		)
 		(uuid "4f0647e5-070e-42e9-a2fa-63a493701adc")
 	)
-	(text "CN00-00-S"
-		(exclude_from_sim no)
-		(at 239.522 37.338 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "59edc229-38bf-4680-bbeb-42d49248b990")
-	)
 	(text "CN13-03-R"
 		(exclude_from_sim no)
-		(at 178.562 118.364 0)
+		(at 196.342 110.744 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1251,7 +1091,7 @@
 	)
 	(text "CN13-02-S"
 		(exclude_from_sim no)
-		(at 178.308 78.74 0)
+		(at 193.548 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1261,7 +1101,7 @@
 	)
 	(text "CN13-01-S"
 		(exclude_from_sim no)
-		(at 178.562 57.15 0)
+		(at 184.658 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1269,15 +1109,15 @@
 		)
 		(uuid "6dd71aca-7c0d-4268-9791-ebd94b3a0539")
 	)
-	(text "CN00-00-R"
+	(text "CN13-04-S"
 		(exclude_from_sim no)
-		(at 271.78 34.036 0)
+		(at 195.58 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8abec576-512a-4663-9a9d-64748ab50ff1")
+		(uuid "74aa6ca2-6e8a-4c44-8fea-e12a6b132ad6")
 	)
 	(text "22AWG"
 		(exclude_from_sim no)
@@ -1292,7 +1132,7 @@
 	)
 	(text "CN13-02-R"
 		(exclude_from_sim no)
-		(at 178.308 76.454 0)
+		(at 193.548 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1312,7 +1152,7 @@
 	)
 	(text "CN13-00-S"
 		(exclude_from_sim no)
-		(at 178.562 35.56 0)
+		(at 173.228 35.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1332,7 +1172,7 @@
 	)
 	(text "CN13-01-R"
 		(exclude_from_sim no)
-		(at 178.562 54.864 0)
+		(at 184.658 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,16 +1231,6 @@
 		)
 		(uuid "dc6893dd-3843-4921-a487-e2f980742c1c")
 	)
-	(text "CN00-01-R"
-		(exclude_from_sim no)
-		(at 239.522 35.052 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f3b700d1-4765-4d4d-baa7-7d2e0a770afe")
-	)
 	(junction
 		(at 115.57 157.48)
 		(diameter 0)
@@ -1421,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 184.15 80.01)
+			(xy 187.96 80.01) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 85.09) (xy 184.15 85.09)
+			(xy 186.69 85.09) (xy 199.39 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 154.94) (xy 179.07 58.42)
+			(xy 185.42 154.94) (xy 185.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 138.43) (xy 184.15 138.43)
+			(xy 115.57 138.43) (xy 201.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 110.49) (xy 86.36 110.49)
+			(xy 186.69 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 115.57) (xy 173.99 115.57)
+			(xy 86.36 115.57) (xy 175.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1391,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 39.37) (xy 184.15 39.37)
+			(xy 165.1 39.37) (xy 179.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 143.51) (xy 184.15 143.51)
+			(xy 158.75 143.51) (xy 201.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 58.42) (xy 184.15 58.42)
+			(xy 185.42 58.42) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 184.15 60.96)
+			(xy 167.64 60.96) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 82.55) (xy 184.15 82.55)
+			(xy 175.26 82.55) (xy 199.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1661,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 31.75) (xy 278.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3b6c24-49e1-4c00-8e4d-bfb61912dd4b")
-	)
-	(wire
-		(pts
 			(xy 115.57 158.75) (xy 116.84 160.02)
 		)
 		(stroke
@@ -1691,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 115.57) (xy 173.99 82.55)
+			(xy 175.26 115.57) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 184.15 135.89)
+			(xy 182.88 135.89) (xy 201.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 140.97) (xy 184.15 140.97)
+			(xy 156.21 140.97) (xy 201.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 184.15 124.46)
+			(xy 168.91 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 85.09) (xy 182.88 96.52)
+			(xy 186.69 85.09) (xy 186.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 157.48) (xy 181.61 121.92)
+			(xy 181.61 157.48) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 156.21) (xy 180.34 156.21)
+			(xy 115.57 156.21) (xy 187.96 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 113.03) (xy 168.91 124.46)
+			(xy 168.91 113.03) (xy 168.91 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 36.83) (xy 184.15 36.83)
+			(xy 177.8 36.83) (xy 179.07 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 121.92) (xy 184.15 121.92)
+			(xy 181.61 114.3) (xy 203.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 179.07 154.94)
+			(xy 116.84 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1971,23 +1791,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 156.21) (xy 180.34 80.01)
+			(xy 187.96 156.21) (xy 187.96 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eff59997-2154-4a04-8d94-e8935de0818f")
-	)
-	(wire
-		(pts
-			(xy 181.61 96.52) (xy 181.61 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42fbc81-6203-4d04-82a0-3ed0e432c8ae")
 	)
 	(wire
 		(pts
@@ -2008,16 +1818,6 @@
 			(type default)
 		)
 		(uuid "f5121eb4-ccfb-4418-85d8-f8b2206596c1")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 181.61 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c13491-d422-4dbf-93d8-e4ef5b06e939")
 	)
 	(table
 		(column_count 3)
@@ -2708,234 +2508,6 @@
 			)
 		)
 	)
-	(table
-		(column_count 3)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 6.35 6.35 16.51)
-		(row_heights 2.54 2.54 2.54 0)
-		(uuid "99b6d820-9235-4404-be34-ad0fde8caa07")
-		(cells
-			(table_cell "PIN#"
-				(exclude_from_sim no)
-				(at 251.206 45.72 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "47e2346a-8e93-41ce-abe5-c8ac57fcfcea")
-			)
-			(table_cell "AWG"
-				(exclude_from_sim no)
-				(at 257.556 45.72 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fa0ed269-edd1-42ec-af9d-632891aa6fe8")
-			)
-			(table_cell "NET"
-				(exclude_from_sim no)
-				(at 263.906 45.72 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "cb2d47fe-e596-4f5b-98d4-c97e5d533fd3")
-			)
-			(table_cell "1"
-				(exclude_from_sim no)
-				(at 251.206 48.26 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5dd3ff65-9b0e-46e0-9d22-9c8a2cf8b0cc")
-			)
-			(table_cell "22"
-				(exclude_from_sim no)
-				(at 257.556 48.26 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "8859c9c5-4815-4195-8b79-099bd9c19293")
-			)
-			(table_cell "NC"
-				(exclude_from_sim no)
-				(at 263.906 48.26 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ffd818b5-c48c-44a5-ade1-3faba49e6a6b")
-			)
-			(table_cell "2"
-				(exclude_from_sim no)
-				(at 251.206 50.8 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "39755561-d1c9-4555-84b8-915cb1d1c330")
-			)
-			(table_cell "22"
-				(exclude_from_sim no)
-				(at 257.556 50.8 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "51601180-39e4-410c-8e84-73e2940ac41d")
-			)
-			(table_cell "BTN_STARTER"
-				(exclude_from_sim no)
-				(at 263.906 50.8 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "bb502cb3-d7fa-4827-97ca-c0e0b2c1fa06")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 251.206 53.34 0)
-				(size 6.35 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "e0a400c3-430a-454c-9734-27f8cca9d0de")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 257.556 53.34 0)
-				(size 6.35 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b9b42327-8565-49db-ae13-0f966fdbb333")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 263.906 53.34 0)
-				(size 16.51 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "02383a18-b2cd-4546-8068-1ae963305bf0")
-			)
-		)
-	)
 	(global_label "SIG_IGN"
 		(shape input)
 		(at 93.98 100.33 0)
@@ -3162,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:IAT")
-		(at 190.5 57.15 0)
+		(at 196.85 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3171,8 +2743,8 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4103dbef-9cc2-4d3e-8c77-0a6e98ed6338")
-		(property "Reference" "U8"
-			(at 189.23 46.228 0)
+		(property "Reference" "ENGINE_INTAKE_TEMPERATURE_SIGNAL"
+			(at 181.864 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3183,7 +2755,7 @@
 			)
 		)
 		(property "Value" "CN. DT04-2P"
-			(at 191.008 48.26 0)
+			(at 197.612 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3193,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 57.15 0)
+			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +2776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 57.15 0)
+			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,9 +2787,9 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 57.15 0)
+			(at 196.85 57.15 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -3225,8 +2797,8 @@
 				)
 			)
 		)
-		(property "Location" "ENGINE INTAKE TEMPERATURE SIGNAL"
-			(at 191.262 52.324 0)
+		(property "Location" "Intake"
+			(at 197.612 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3236,7 +2808,7 @@
 			)
 		)
 		(property "MPN" "PN. UNKNOWN"
-			(at 190.5 50.292 0)
+			(at 197.104 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3254,7 +2826,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
-					(reference "U8")
+					(reference "ENGINE_INTAKE_TEMPERATURE_SIGNAL")
 					(unit 1)
 				)
 			)
@@ -3262,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:MAP")
-		(at 190.5 78.74 0)
+		(at 205.74 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3271,8 +2843,8 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "6b8ac829-1c6b-465f-b3ce-61bbefba9067")
-		(property "Reference" "U9"
-			(at 189.484 67.564 0)
+		(property "Reference" "MANIFOLD_ABSOLUTE_PRESSURE_SENSOR"
+			(at 189.23 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3283,7 +2855,7 @@
 			)
 		)
 		(property "Value" "CN. DT04-3P"
-			(at 191.262 69.596 0)
+			(at 206.502 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3293,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 78.74 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 78.74 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +2887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 78.74 0)
+			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,8 +2897,8 @@
 				)
 			)
 		)
-		(property "Location" "Manifold Absolute Pressure Sensor"
-			(at 192.532 73.914 0)
+		(property "Location" "Intake"
+			(at 205.994 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3336,7 +2908,7 @@
 			)
 		)
 		(property "MPN" "PN. UNKNOWN"
-			(at 191.516 71.882 0)
+			(at 206.756 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +2929,7 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
-					(reference "U9")
+					(reference "MANIFOLD_ABSOLUTE_PRESSURE_SENSOR")
 					(unit 1)
 				)
 			)
@@ -3365,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:RPM")
-		(at 190.5 120.65 0)
+		(at 209.55 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3375,7 +2947,7 @@
 		(dnp no)
 		(uuid "a76a2576-8f1f-44b3-a4a8-743e6edea033")
 		(property "Reference" "U7"
-			(at 189.23 108.712 0)
+			(at 208.28 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3386,7 +2958,7 @@
 			)
 		)
 		(property "Value" "CN. DT04-2P"
-			(at 190.5 110.744 0)
+			(at 209.55 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3396,7 +2968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 120.65 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 120.65 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,7 +2990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 120.65 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,8 +3000,8 @@
 				)
 			)
 		)
-		(property "Location" "RPM SIGNAL"
-			(at 190.5 115.57 0)
+		(property "Location" "Engine"
+			(at 209.55 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3439,7 +3011,7 @@
 			)
 		)
 		(property "MPN" "PN. UNKNOWN"
-			(at 190.754 113.03 0)
+			(at 209.804 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3465,7 +3037,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CLN")
-		(at 190.5 35.56 0)
+		(at 185.42 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3474,8 +3046,8 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "b05fb91a-da8c-4cde-b68c-206dbbc2aebe")
-		(property "Reference" "U10"
-			(at 188.214 23.876 0)
+		(property "Reference" "COOLANT_SIGNAL"
+			(at 178.054 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3486,7 +3058,7 @@
 			)
 		)
 		(property "Value" "CN. DT04-2P"
-			(at 190.754 26.162 0)
+			(at 185.674 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,7 +3068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 35.56 0)
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 35.56 0)
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 35.56 0)
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,8 +3100,8 @@
 				)
 			)
 		)
-		(property "Location" "COOLANT SIGNAL"
-			(at 190.5 30.988 0)
+		(property "Location" "Engine"
+			(at 185.42 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3539,7 +3111,7 @@
 			)
 		)
 		(property "MPN" "PN. UNKNOWN"
-			(at 191.008 28.702 0)
+			(at 185.928 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3557,25 +3129,26 @@
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
-					(reference "U10")
+					(reference "COOLANT_SIGNAL")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "LAMBDA_O2_1")
 		(lib_id "EasyEDA:LAMBDA_O2")
-		(at 207.01 138.43 0)
+		(at 208.28 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8094f24-4e43-413e-963b-b4204c14ec36")
-		(property "Reference" "U6"
-			(at 206.502 130.81 0)
+		(uuid "e9205d7a-4439-46d4-8565-c3f99f496770")
+		(property "Reference" "+12V_MAIN"
+			(at 202.692 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3585,8 +3158,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 207.01 138.43 0)
+		(property "Value" "CN. DT04-4P"
+			(at 208.28 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3596,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 138.43 0)
+			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 138.43 0)
+			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3191,28 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 138.43 0)
+			(at 208.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Location" "Unknown"
+			(at 208.28 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN. UNKNOWN"
+			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,126 +3223,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "b2be1406-f2bc-493d-8903-c8abbb16e25e")
+			(uuid "17c323dd-32c8-403a-aa0c-18417f17f23f")
 		)
-		(pin "2"
-			(uuid "0c2a950a-ba98-4ea9-b97c-124c1495a7e0")
+		(pin "4"
+			(uuid "89b00dc0-cec0-48a5-837c-06c96a301641")
 		)
 		(pin "1"
-			(uuid "8e02fac9-b091-4313-9015-3b0b1cfa7972")
+			(uuid "c807dcf6-ec3c-4a71-a522-b04a25702c69")
+		)
+		(pin "2"
+			(uuid "98fee26a-11db-4631-a206-62947a750a6f")
 		)
 		(instances
 			(project "Hub-2.0"
 				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
-					(reference "U6")
+					(reference "+12V_MAIN")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Open")
-		(at 262.89 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "f83f656d-f5c0-4f55-b6e9-242f3b6826f5")
-		(property "Reference" "DRIVER_ESTOP2"
-			(at 262.89 22.098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CN. 2x DT04-2P"
-			(at 262.89 24.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPST_NC"
-			(at 262.89 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Location" "L. RIGHT DASH PANEL"
-			(at 262.89 28.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PN. UNKNOWN"
-			(at 262.89 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a773271-8135-4f51-9079-a572eb5c2d94")
-		)
-		(pin "2"
-			(uuid "df17d065-cad8-42e4-86da-2acca565e3bf")
-		)
-		(instances
-			(project "Hub-2.0"
-				(path "/af8ad92e-80c5-47c7-b528-865d82af0364/399884b3-136d-40ca-bfde-e44c27866e82/c802f09f-a8e4-429f-8430-2fc36c647e69"
-					(reference "DRIVER_ESTOP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(group ""
-		(uuid "fc383bfb-56c8-4fc9-ae39-071e2dc16062")
-		(members "3f96a9bf-f64b-4d9a-ae14-7aa321e68cd3" "59edc229-38bf-4680-bbeb-42d49248b990"
-			"8abec576-512a-4663-9a9d-64748ab50ff1" "f3b700d1-4765-4d4d-baa7-7d2e0a770afe"
-			"f83f656d-f5c0-4f55-b6e9-242f3b6826f5"
 		)
 	)
 )
